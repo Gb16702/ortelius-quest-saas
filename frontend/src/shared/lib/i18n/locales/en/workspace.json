@@ -1,0 +1,68 @@
+{
+    "sidebar": {
+        "searchPlaceholder": "Find...",
+        "searchEmpty": "No results found.",
+        "subtitlePage": "Page",
+        "subtitleAction": "Action",
+        "subtitleNavigation": "Navigation",
+        "requests": "Requests",
+        "chats": "Chats",
+        "chat": "Chat",
+        "account": "Account",
+        "accountSettings": "Account Settings",
+        "dashboard": "Dashboard",
+        "team": "Team",
+        "members": "Members",
+        "membersSection": "Team members",
+        "favoriteRequesterChat": "Request chat with {{name}}",
+        "favoriteRequesterChatWithRequest": "Request chat #{{requestNumber}} with {{name}}",
+        "invitations": "Invitations",
+        "activity": "Activity",
+        "settings": "Settings",
+        "branding": "Branding",
+        "business": "Business",
+        "billing": "Billing",
+        "invoices": "Invoices",
+        "legals": "Legals",
+        "try": "Try",
+        "shareCompanyPage": "Share Company Page",
+        "inviteMembers": "Invite Members",
+        "setupChecklist": {
+            "title": "Getting started",
+            "open": "Open getting started checklist",
+            "close": "Close getting started checklist",
+            "progress": "{{percent}}% complete",
+            "stepsCompleted": "{{completed}}/{{total}} steps completed",
+            "continue": "Continue setup"
+        },
+        "openNotifications": "Open Notifications",
+        "memberCount_one": "{{count}} member",
+        "memberCount_other": "{{count}} members",
+        "homePage": "Home Page",
+        "signOut": "Sign Out",
+        "backToOrg": "Back to {{org}}"
+    },
+    "topbar": {
+        "openNotifications": "Open notifications",
+        "openAccountMenu": "Open account menu",
+        "viewProfile": "View profile",
+        "homePage": "Home Page",
+        "accountSettings": "Account Settings",
+        "signOut": "Sign out",
+        "unknownUser": "User"
+    },
+    "userMenu": {
+        "language": "Language"
+    },
+    "header": {
+        "signIn": "Sign in",
+        "getStarted": "Get started",
+        "unknownUser": "Unknown User",
+        "dashboard": "Dashboard",
+        "requests": "Requests",
+        "chat": "Chat",
+        "members": "Members",
+        "accountSettings": "Account Settings",
+        "signOut": "Sign Out"
+    }
+}

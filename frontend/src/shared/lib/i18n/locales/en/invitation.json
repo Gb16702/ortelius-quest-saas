@@ -1,0 +1,39 @@
+{
+    "loading": "Loading invitation...",
+    "expired": {
+        "title": "Invitation Expired",
+        "description": "This invitation has expired and is no longer valid.",
+        "details": "Please contact your organization administrator for a new invitation."
+    },
+    "invalid": {
+        "title": "Invitation Not Found",
+        "description": "This invitation is invalid or has been removed."
+    },
+    "card": {
+        "logoAlt": "{{organizationName}} logo",
+        "joinTitle": "Join {{organizationName}}",
+        "inviterDescription_admin": "<inviter>{{inviterName}}</inviter> invited you to join the team. Start managing requests together as an <role>{{roleLabel}}</role>.",
+        "inviterDescription_member": "<inviter>{{inviterName}}</inviter> invited you to join the team. Start managing requests together as a <role>{{roleLabel}}</role>.",
+        "anonymousDescription_admin": "Join the team and start managing requests together. Click below to join as an <role>{{roleLabel}}</role>.",
+        "anonymousDescription_member": "Join the team and start managing requests together. Click below to join as a <role>{{roleLabel}}</role>.",
+        "signInToAccept": "Sign in to accept",
+        "useDifferentAccount": "Use a different account",
+        "alreadyHaveAccount": "Already have an account? Sign in",
+        "joinAction": "Join {{organizationName}}"
+    },
+    "status": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "canceled": "Canceled"
+    },
+    "error": {
+        "notFound": "Invitation not found.",
+        "wrongEmail": "This invitation was sent to a different email address. Sign in with the correct account to accept it.",
+        "alreadyMember": "You are already a member of this organization.",
+        "notPending": "This invitation can no longer be accepted.",
+        "expired": "This invitation has expired.",
+        "acceptFailed": "Failed to accept invitation.",
+        "invalidLink": "Invalid invitation link",
+        "unexpected": "An unexpected error occurred"
+    }
+}

@@ -1,0 +1,404 @@
+[
+  {
+    "_id": {
+      "$oid": "660bf3b666188cf9bc63a707"
+    },
+    "id": "ship-repair",
+    "order": 5,
+    "lang": {
+      "en": "Ship repair",
+      "nl": "Schip reparatie"
+    },
+    "type": "port"
+  },
+  {
+    "_id": {
+      "$oid": "660bf3b666188cf9bc63a708"
+    },
+    "id": "pilotage",
+    "order": 6,
+    "lang": {
+      "en": "Pilotage",
+      "nl": "Pilotage"
+    },
+    "type": "port"
+  },
+  {
+    "_id": {
+      "$oid": "660bf3b666188cf9bc63a709"
+    },
+    "id": "fumigation",
+    "order": 1,
+    "lang": {
+      "en": "Fumigation",
+      "nl": "Verluchting"
+    },
+    "type": "port"
+  },
+  {
+    "_id": {
+      "$oid": "660bf3b666188cf9bc63a70a"
+    },
+    "id": "towage",
+    "order": 2,
+    "lang": {
+      "en": "Towage",
+      "nl": "Trek"
+    },
+    "type": "port"
+  },
+  {
+    "_id": {
+      "$oid": "660bf3b666188cf9bc63a70b"
+    },
+    "id": "bunkering",
+    "order": 3,
+    "lang": {
+      "en": "Bunkering",
+      "nl": "Bunkering"
+    },
+    "type": "port"
+  },
+  {
+    "_id": {
+      "$oid": "660bf3b666188cf9bc63a70c"
+    },
+    "id": "underwater-cleaning",
+    "order": 4,
+    "lang": {
+      "en": "Underwater cleaning",
+      "nl": "Onderwater schoonmaak"
+    },
+    "type": "port"
+  },
+  {
+    "_id": {
+      "$oid": "6633f61a0fbf5ba2a56a3772"
+    },
+    "id": "general-cargo-handling",
+    "order": 7,
+    "lang": {
+      "en": "General Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f6700fbf5ba2a56a3773"
+    },
+    "id": "bulk-cargo-handling",
+    "order": 8,
+    "lang": {
+      "en": "Bulk Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f6820fbf5ba2a56a3774"
+    },
+    "id": "liquid-bulk-handling",
+    "order": 9,
+    "lang": {
+      "en": "Liquid Bulk Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f69c0fbf5ba2a56a3775"
+    },
+    "id": "breakbulk-cargo-handling",
+    "order": 10,
+    "lang": {
+      "en": "Breakbulk Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f6c20fbf5ba2a56a3776"
+    },
+    "id": "ro-ro-handling",
+    "order": 11,
+    "lang": {
+      "en": "Ro-Ro (Roll-on/Roll-off) Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f6d90fbf5ba2a56a3777"
+    },
+    "id": "containerized-cargo-handling",
+    "order": 12,
+    "lang": {
+      "en": "Containerized Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f6f10fbf5ba2a56a3778"
+    },
+    "id": "transshipment-handling",
+    "order": 13,
+    "lang": {
+      "en": "Transshipment Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7030fbf5ba2a56a3779"
+    },
+    "id": "specialized-cargo-handling",
+    "order": 14,
+    "lang": {
+      "en": "Specialized Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7110fbf5ba2a56a377a"
+    },
+    "id": "project-cargo-handling",
+    "order": 15,
+    "lang": {
+      "en": "Project Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7290fbf5ba2a56a377b"
+    },
+    "id": "cross-docking-services",
+    "order": 16,
+    "lang": {
+      "en": "Cross-Docking Services"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7420fbf5ba2a56a377c"
+    },
+    "id": "cold-chain-cargo-handling",
+    "order": 17,
+    "lang": {
+      "en": "Cold Chain Cargo Handling"
+    },
+    "type": "cargo"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7a30fbf5ba2a56a3780"
+    },
+    "id": "warehousing",
+    "order": 18,
+    "lang": {
+      "en": "Warehousing"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7af0fbf5ba2a56a3781"
+    },
+    "id": "container-yards",
+    "order": 19,
+    "lang": {
+      "en": "Container Yards"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7c40fbf5ba2a56a3782"
+    },
+    "id": "open-storage-yards",
+    "order": 20,
+    "lang": {
+      "en": "Open Storage Yards"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7de0fbf5ba2a56a3783"
+    },
+    "id": "refrigerated-storage",
+    "order": 21,
+    "lang": {
+      "en": "Refrigerated Storage"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f7f80fbf5ba2a56a3784"
+    },
+    "id": "bonded-warehousing",
+    "order": 22,
+    "lang": {
+      "en": "Bonded Warehousing"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f80d0fbf5ba2a56a3785"
+    },
+    "id": "value-added-services",
+    "order": 23,
+    "lang": {
+      "en": "Value-Added Services"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8350fbf5ba2a56a3786"
+    },
+    "id": "jit-inventory",
+    "order": 24,
+    "lang": {
+      "en": "Just-in-Time Inventory"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f84d0fbf5ba2a56a3787"
+    },
+    "id": "cross-docking-facilities",
+    "order": 25,
+    "lang": {
+      "en": "Cross-Docking Facilities"
+    },
+    "type": "storage"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8960fbf5ba2a56a3788"
+    },
+    "id": "freight-forwarding",
+    "order": 26,
+    "lang": {
+      "en": "Freight Forwarding"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8a60fbf5ba2a56a3789"
+    },
+    "id": "customs-clearance",
+    "order": 27,
+    "lang": {
+      "en": "Customs Clearance"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8b80fbf5ba2a56a378a"
+    },
+    "id": "intermodal-transportation",
+    "order": 28,
+    "lang": {
+      "en": "Intermodal Transportation"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8ca0fbf5ba2a56a378b"
+    },
+    "id": "supply-chain-management",
+    "order": 29,
+    "lang": {
+      "en": "Supply Chain Management"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8e30fbf5ba2a56a378c"
+    },
+    "id": "ecommerce-fulfillment",
+    "order": 30,
+    "lang": {
+      "en": "E-commerce Fulfillment"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f8f70fbf5ba2a56a378d"
+    },
+    "id": "reverse-logistics",
+    "order": 31,
+    "lang": {
+      "en": "Reverse Logistics"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f9110fbf5ba2a56a378e"
+    },
+    "id": "supply-chain-visibility",
+    "order": 32,
+    "lang": {
+      "en": "Supply Chain Visibility"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f92b0fbf5ba2a56a3790"
+    },
+    "id": "value-added-logistics-services",
+    "order": 34,
+    "lang": {
+      "en": "Value-Added Logistics Services"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f9450fbf5ba2a56a3791"
+    },
+    "id": "last-mile-delivery",
+    "order": 35,
+    "lang": {
+      "en": "Last-Mile Delivery"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f95e0fbf5ba2a56a3792"
+    },
+    "id": "cold-chain-logistics",
+    "order": 36,
+    "lang": {
+      "en": "Cold Chain Logistics"
+    },
+    "type": "logistics"
+  },
+  {
+    "_id": {
+      "$oid": "6633f9720fbf5ba2a56a3793"
+    },
+    "id": "hazardous-materials-handling",
+    "order": 37,
+    "lang": {
+      "en": "Hazardous Materials Handling"
+    },
+    "type": "logistics"
+  }
+]

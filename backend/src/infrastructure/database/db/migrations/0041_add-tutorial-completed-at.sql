@@ -1,0 +1,1 @@
+ALTER TABLE "member" ADD COLUMN "tutorial_completed_at" timestamp;

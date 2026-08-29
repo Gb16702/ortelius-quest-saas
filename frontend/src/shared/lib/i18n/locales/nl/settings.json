@@ -1,0 +1,499 @@
+{
+    "nav": {
+        "settings": "Instellingen",
+        "branding": "Branding",
+        "business": "Bedrijf",
+        "billing": "Facturatie",
+        "invoices": "Facturen",
+        "legals": "Juridische documenten"
+    },
+    "branding": {
+        "title": "Branding",
+        "subtitle": "Beheer hoe uw organisatie publiek verschijnt.",
+        "loadError": "Organisatie-instellingen konden niet worden geladen.",
+        "publicProfile": {
+            "heading": "Openbaar profiel",
+            "description": "Te zien op uw publieke organisatiepagina en klantgerichte documenten."
+        },
+        "visualIdentity": {
+            "heading": "Visuele identiteit",
+            "description": "Wordt gebruikt voor merkoppervlakken en oproepen tot actie."
+        },
+        "logo": {
+            "title": "Organisatielogo",
+            "description": "Klik op het logo om een aangepast logo te uploaden.",
+            "uploadAriaLabel": "Organisatielogo uploaden"
+        },
+        "tagline": {
+            "title": "Slogan",
+            "description": "Een korte zin die weergeeft wat uw organisatie doet.",
+            "placeholder": "bijv. Vracht zonder wrijving"
+        },
+        "website": {
+            "title": "Website",
+            "description": "De URL van de website van uw organisatie.",
+            "placeholder": "voorbeeld.com"
+        },
+        "overview": {
+            "title": "Overzicht",
+            "description": "Een gedetailleerde beschrijving van uw organisatie.",
+            "editAction": "Overzicht bewerken",
+            "dialogTitle": "Overzicht bewerken",
+            "placeholder": "Beschrijf uw organisatie..."
+        },
+        "brandColor": {
+            "title": "Merkkleur",
+            "description": "Selecteer de accentkleur voor knoppen en oproepen tot actie.",
+            "ariaLabel": "Merkkleur van de organisatie"
+        },
+        "font": {
+            "title": "Lettertype",
+            "description": "Selecteer het lettertype van de interface van uw organisatie.",
+            "ariaLabel": "Lettertype van de organisatie"
+        },
+        "toast": {
+            "taglineUpdated": "Slogan van organisatie bijgewerkt",
+            "overviewSaving": "Overzicht opslaan…",
+            "overviewUpdated": "Overzicht van organisatie bijgewerkt",
+            "overviewFailed": "Kon overzicht niet opslaan",
+            "websiteUpdated": "Website van organisatie bijgewerkt",
+            "brandColorSaving": "Merkkleur opslaan...",
+            "brandColorUpdated": "Merkkleur bijgewerkt",
+            "brandColorFailed": "Kon merkkleur niet bijwerken",
+            "fontSaving": "Lettertype opslaan...",
+            "fontUpdated": "Lettertype bijgewerkt",
+            "fontFailed": "Kon lettertype niet bijwerken",
+            "logoUploading": "Logo uploaden...",
+            "logoUpdated": "Organisatielogo bijgewerkt",
+            "logoUpdateFailed": "Kon logo niet bijwerken",
+            "logoRemoving": "Logo verwijderen...",
+            "logoRemoved": "Organisatielogo verwijderd",
+            "logoRemoveFailed": "Kon logo niet verwijderen",
+            "viewHomePage": "Bekijk startpagina"
+        }
+    },
+    "business": {
+        "title": "Bedrijf",
+        "loadError": "Bedrijfsinstellingen konden niet worden geladen.",
+        "catalog": {
+            "heading": "Catalogus",
+            "description": "Bepaal wat klanten kunnen aanvragen en wat uw team kan offreren",
+            "cargoTypes": {
+                "title": "Vrachtsoorten",
+                "empty": "Geen actieve vrachtsoorten"
+            },
+            "services": {
+                "title": "Diensten",
+                "empty": "Geen actieve diensten"
+            }
+        },
+        "intelligence": {
+            "heading": "Intelligentie",
+            "description": "Invoer om offertes en prijsvoorstellen te automatiseren",
+            "pricingData": {
+                "title": "Prijsdata",
+                "description": "Importeer eerdere transacties voor AI-prijsadvies"
+            },
+            "emailIntake": {
+                "title": "E-mailontvangst",
+                "descriptionPrefix": "Stuur klant-e-mails door naar ",
+                "descriptionSuffix": " zodat AI aanvragen ter beoordeling kan opstellen",
+                "fallbackAddress": "uw inkomende adres"
+            }
+        },
+        "cargoSheet": {
+            "title": "Vrachtsoorten beheren",
+            "description": "Selecteer welke vrachtcategorieën uw organisatie kan verwerken.",
+            "saveLabel": "Categorieën opslaan"
+        },
+        "servicesSheet": {
+            "title": "Diensten beheren",
+            "description": "Bepaal welke logistieke en vrachtdiensten u aan klanten levert.",
+            "saveLabel": "Diensten opslaan"
+        },
+        "pricingDialog": {
+            "title": "Prijsdata",
+            "description": "Importeer eerdere transacties voor AI-prijsadvies"
+        },
+        "others_one": "{{count}} andere",
+        "others_other": "{{count}} andere",
+        "toast": {
+            "noChanges": "Geen wijzigingen om op te slaan",
+            "cargoSaving": "Vrachtsoorten opslaan...",
+            "cargoUpdated": "Vrachtsoorten bijgewerkt",
+            "cargoFailed": "Kon vrachtsoorten niet bijwerken",
+            "servicesSaving": "Diensten opslaan...",
+            "servicesUpdated": "Diensten bijgewerkt",
+            "servicesFailed": "Kon diensten niet bijwerken",
+            "categoriesLoadFailed": "Kon categorieën niet laden",
+            "servicesLoadFailed": "Kon diensten niet laden",
+            "emailIntakeEnabling": "E-mailontvangst inschakelen...",
+            "emailIntakeDisabling": "E-mailontvangst uitschakelen...",
+            "emailIntakeEnabled": "E-mailontvangst ingeschakeld",
+            "emailIntakeDisabled": "E-mailontvangst uitgeschakeld",
+            "emailIntakeFailed": "Kon e-mailontvangst niet bijwerken"
+        }
+    },
+    "billing": {
+        "title": "Facturatie",
+        "sections": {
+            "details": {
+                "title": "Facturatiegegevens"
+            },
+            "invoice": {
+                "title": "Factuurvoorkeuren"
+            },
+            "danger": {
+                "title": "Gevarenzone"
+            }
+        }
+    },
+    "invoices": {
+        "title": "Facturen",
+        "list": {
+            "totalDue": "Te betalen",
+            "invoiced": "Gefactureerd op {{date}}",
+            "viewInvoice": "Factuur bekijken",
+            "downloadPdf": "PDF downloaden",
+            "loadMore": "Meer laden",
+            "emptyTitle": "Nog geen facturen",
+            "emptyDescription": "Facturen verschijnen hier zodra uw abonnement ze genereert.",
+            "errorTitle": "Kan facturen niet laden.",
+            "errorDescription": "We konden uw facturen niet ophalen. Probeer het opnieuw voordat u aanneemt dat er geen facturen zijn.",
+            "noFilteredFound": "Geen {{filter}} facturen gevonden.",
+            "loadFailed": "Kon factuur niet laden."
+        },
+        "filter": {
+            "all": "Alle facturen",
+            "paid": "Betaald",
+            "open": "Open",
+            "draft": "Concept"
+        },
+        "sheet": {
+            "title": "Factuurdetails",
+            "totalDue": "Te betalen",
+            "invoiceNumber": "Factuurnummer",
+            "product": "Product",
+            "qty": "Aantal",
+            "totalCost": "Totale kosten",
+            "subtotal": "Subtotaal",
+            "total": "Totaal",
+            "download": "Downloaden",
+            "contactSupport": "Contact opnemen"
+        }
+    },
+    "legalDocuments": {
+        "title": "Juridische documenten",
+        "upload": {
+            "title": "Documenten toevoegen",
+            "description": "Herbruikbaar in uw offertes en facturen.",
+            "dropzoneTitle": "Bestanden uploaden",
+            "dropzoneDescription": "Klik hier of sleep bestanden hierheen om te uploaden",
+            "dropzoneActive": "Laat de bestanden hier los",
+            "queued": "In wachtrij",
+            "labelFor": "Weergavelabel voor {{filename}}",
+            "labelPlaceholder": "Documentlabel",
+            "removeFile": "{{filename}} verwijderen",
+            "limit": "Tot {{count}} PDF-bestanden, {{size}} per stuk",
+            "upload": "Uploaden",
+            "uploading": "Uploaden...",
+            "uploadFiles_one": "{{count}} bestand uploaden",
+            "uploadFiles_other": "{{count}} bestanden uploaden"
+        },
+        "table": {
+            "library": "Bibliotheek",
+            "uploaded": "Geüpload {{date}}",
+            "downloadAria": "{{label}} downloaden",
+            "actionsAria": "Acties voor {{label}}",
+            "download": "Downloaden",
+            "rename": "Hernoemen",
+            "delete": "Verwijderen"
+        },
+        "rename": {
+            "title": "Document hernoemen",
+            "required": "Label is verplicht."
+        },
+        "delete": {
+            "title": "Juridisch document verwijderen?",
+            "description": "Dit document wordt permanent verwijderd.",
+            "descriptionWithLabel": "\"{{label}}\" wordt permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt."
+        },
+        "dialog": {
+            "cancel": "Annuleren",
+            "save": "Opslaan"
+        },
+        "error": {
+            "oversize": "Elk bestand mag maximaal 25 MB zijn.",
+            "wrongFormat": "Alleen PDF-bestanden worden geaccepteerd.",
+            "tooMany": "U kunt maximaal {{count}} bestanden tegelijk uploaden.",
+            "noOrganization": "Geen organisatie geselecteerd.",
+            "emptyUpload": "Voeg minstens één document toe om te uploaden.",
+            "missingLabels": "Voeg een label toe voor elk document voordat u uploadt.",
+            "quotaExceeded": "Upload zou de organisatielimiet van {{size}} MB overschrijden.",
+            "quotaWithCurrent": "Deze upload zou de organisatielimiet van {{quota}} overschrijden. Huidig gebruik: {{current}}.",
+            "network": "Netwerkfout tijdens uploaden. Probeer opnieuw.",
+            "uploadFailed": "Upload mislukt"
+        },
+        "toast": {
+            "loadFailed": "Juridische documenten konden niet worden geladen",
+            "added_one": "{{count}} document toegevoegd.",
+            "added_other": "{{count}} documenten toegevoegd.",
+            "uploaded_one": "{{count}} document geüpload.",
+            "uploaded_other": "{{count}} documenten geüpload.",
+            "undo_one": "Ongedaan maken",
+            "undo_other": "Alles ongedaan maken",
+            "uploadUndone_one": "Upload ongedaan gemaakt.",
+            "uploadUndone_other": "Uploads ongedaan gemaakt.",
+            "retrying_one": "Upload opnieuw proberen...",
+            "retrying_other": "{{count}} uploads opnieuw proberen...",
+            "uploadFailed_one": "{{count}} upload mislukt.",
+            "uploadFailed_other": "{{count}} uploads mislukt.",
+            "uploading_one": "{{count}} document uploaden...",
+            "uploading_other": "{{count}} documenten uploaden...",
+            "renaming": "Document hernoemen...",
+            "renamed": "Document hernoemd.",
+            "renameFailed": "Hernoemen mislukt",
+            "deleting": "Document verwijderen...",
+            "deleted": "Document verwijderd.",
+            "deleteFailed": "Verwijderen mislukt",
+            "preparingDownload": "Download voorbereiden...",
+            "downloadStarted": "Download gestart.",
+            "downloadFailed": "Download mislukt"
+        }
+    },
+    "subscription": {
+        "card": {
+            "freeTrial": "Proefperiode",
+            "currentPlan": "Huidig abonnement",
+            "manage": "Abonnement beheren",
+            "invoices": "Facturen",
+            "subscriptionFallback": "Abonnement",
+            "loadError": "Abonnementsgegevens konden niet worden geladen.",
+            "afterTrial": "na proefperiode",
+            "trialDaysLeft_one": "Nog {{count}} dag. Voeg facturatie toe vóór {{date}} om uw abonnement te behouden.",
+            "trialDaysLeft_other": "Nog {{count}} dagen. Voeg facturatie toe vóór {{date}} om uw abonnement te behouden.",
+            "trialEndsToday": "Proefperiode eindigt vandaag. Voeg facturatie toe om uw abonnement te behouden.",
+            "resuming": "Abonnement hervatten...",
+            "endsOn": "Uw abonnement eindigt op {{date}}.",
+            "nextBillingDateFallback": "uw volgende factuurdatum",
+            "resumePlan": "Abonnement hervatten",
+            "keepingPlan": "{{planName}} behouden...",
+            "planChangesTo": "Uw abonnement verandert in {{newPlan}} op {{date}}.",
+            "keepPlan": "{{planName}} behouden",
+            "planIncludes": "Uw abonnement omvat",
+            "noFeatures": "Geen functies vermeld voor dit abonnement.",
+            "trialEnded": "Proefperiode beëindigd",
+            "noActivePlan": "Geen actief abonnement",
+            "subscribeToContinue": "Abonneer u om door te gaan",
+            "pickPlan": "Kies een abonnement om te beginnen",
+            "subscribe": "Abonneren",
+            "choosePlan": "Kies abonnement",
+            "planFrom": "{{planName}} vanaf {{price}}/maand · upgrade of downgrade wanneer u wilt.",
+            "anytime": "Upgrade of downgrade wanneer u wilt."
+        },
+        "status": {
+            "active": "Actief",
+            "trialing": "Proefperiode",
+            "cancelled": "Geannuleerd",
+            "expired": "Verlopen"
+        },
+        "toast": {
+            "resumed": "Abonnement hervat",
+            "pendingCanceled": "Lopende wijziging geannuleerd",
+            "planUpdated": "Abonnement bijgewerkt",
+            "subscribed": "Welkom bij {{planName}}",
+            "canceled": "Abonnement geannuleerd"
+        },
+        "cancel": {
+            "cardTitle": "Abonnement opzeggen",
+            "cardDescription": "Stop terugkerende facturatie aan het einde van uw huidige periode. U kunt op elk moment opnieuw abonneren.",
+            "cancel": "Annuleren",
+            "dialogTitle": "Abonnement opzeggen",
+            "loseFeaturesWithDate": "U verliest alle {{planName}}-functies na {{date}}.",
+            "loseFeaturesEnd": "U verliest alle {{planName}}-functies aan het einde van uw huidige factuurperiode.",
+            "reasonLegend": "Wat is uw belangrijkste reden om op te zeggen?",
+            "feedbackLabel": "Aanvullende feedback?",
+            "optional": "(optioneel)",
+            "feedbackPlaceholder": "Deel alles wat ons kan helpen verbeteren",
+            "keepPlan": "Behoud uw {{planName}}-abonnement",
+            "confirmAction": "Abonnement opzeggen",
+            "canceling": "Opzeggen...",
+            "reason": {
+                "too_expensive": "De abonnementskosten zijn te hoog voor mij",
+                "temporary_break": "Ik neem tijdelijk pauze",
+                "missing_features": "Quest heeft niet de functies die ik nodig heb",
+                "switching_to_competitor": "Een andere tool past beter bij mijn behoeften",
+                "low_usage": "Ik gebruik het niet genoeg om de kosten te rechtvaardigen",
+                "bugs_or_errors": "Ik liep steeds tegen fouten of bugs aan",
+                "other": "Mijn reden staat niet in deze lijst"
+            }
+        },
+        "planSelection": {
+            "title": "Uw abonnement beheren",
+            "close": "Sluiten",
+            "perUserMonth": "per gebruiker /",
+            "month": "maand",
+            "billedYearly": "Jaarlijks gefactureerd",
+            "billedMonthly": "Maandelijks gefactureerd",
+            "savePerUser": "Bespaar € {{amount}} per gebruiker",
+            "everythingIn": "Alles in {{planName}}, en:",
+            "current": "Huidig",
+            "recommended": "Aanbevolen"
+        },
+        "planChange": {
+            "title": "Abonnementswijzigingen bevestigen",
+            "description": "Bekijk hoe deze wijziging de facturatie beïnvloedt voordat u bevestigt.",
+            "changePmTitle": "Betaalmethode bijwerken",
+            "changePmDescription": "Werk de betaalmethode bij die voor het abonnement van deze organisatie wordt gebruikt.",
+            "loadError": "We konden de details van de abonnementswijziging niet laden",
+            "tryAgainHint": "Probeer het zo opnieuw.",
+            "tryAgain": "Opnieuw proberen",
+            "retrying": "Opnieuw proberen...",
+            "close": "Sluiten",
+            "cancel": "Annuleren",
+            "processing": "Verwerken...",
+            "confirming": "Bevestigen...",
+            "confirm": "Bevestigen",
+            "payNow": "Nu betalen",
+            "proratedNew": "Pro rata {{planName}}-abonnement",
+            "proratedCredit": "Pro rata krediet voor ongebruikte {{planName}}-tijd",
+            "dueToday": "Vandaag verschuldigd",
+            "thenAmount": "Daarna {{amount}} / {{interval}} vanaf {{date}}.",
+            "newPlan": "Nieuw {{planName}}-abonnement",
+            "effectiveFrom": "Van kracht vanaf",
+            "currentStaysActive": "Uw {{planName}}-abonnement blijft tot dan actief. Vandaag geen kosten.",
+            "featuresRemoved": "Verwijderde functies",
+            "intervalMonth": "maand",
+            "intervalYear": "jaar",
+            "change": "Wijzigen",
+            "expires": "vervalt"
+        },
+        "subscribe": {
+            "title": "Abonneren op {{planName}}",
+            "cancel": "Annuleren",
+            "processing": "Verwerken...",
+            "subscribeAction": "Abonneren op {{planName}}",
+            "errorPaymentDetails": "Controleer uw betaalgegevens.",
+            "errorStartFailed": "Kon uw abonnement niet starten.",
+            "errorPaymentFailed": "Betaling mislukt. Probeer het opnieuw."
+        }
+    },
+    "paymentMethod": {
+        "title": "Betaalmethode",
+        "description": "Wordt gebruikt voor uw terugkerende abonnementsincasso's.",
+        "loadError": "Gegevens van betaalmethode konden niet worden geladen.",
+        "addAction": "Betaalmethode toevoegen",
+        "updateAction": "Bijwerken",
+        "updateNowAction": "Nu bijwerken",
+        "emptyShortTitle": "Geen betaalmethode",
+        "emptyTitle": "Geen betaalmethoden toegevoegd.",
+        "expires": "Vervalt {{date}}",
+        "sepa": "SEPA-incasso",
+        "dialog": {
+            "addTitle": "Betaalmethode toevoegen",
+            "updateTitle": "Betaalmethode bijwerken",
+            "loading": "Betaalformulier laden...",
+            "primaryAddress": "Gebruik dit factuuradres als het hoofdadres van mijn organisatie",
+            "cancel": "Annuleren",
+            "back": "Terug",
+            "add": "Toevoegen",
+            "save": "Opslaan",
+            "saving": "Opslaan...",
+            "errorPaymentDetails": "Controleer uw betaalgegevens.",
+            "errorBillingAddress": "Voltooi uw factuuradres.",
+            "errorSetupStart": "Kon betaalconfiguratie niet starten. Probeer het opnieuw.",
+            "errorSaveFailed": "We konden uw betaalmethode niet opslaan.",
+            "errorRetrieveFailed": "We konden uw betaalmethode niet ophalen. Probeer het opnieuw.",
+            "errorUpdateFailed": "Bijwerken mislukt",
+            "errorAddressSavedNoBilling": "Betaalmethode opgeslagen, maar het bijwerken van het factuuradres is mislukt.",
+            "errorAddressSavedNoBillingWithMessage": "Betaalmethode opgeslagen, maar het bijwerken van het factuuradres is mislukt: {{message}}"
+        },
+        "toast": {
+            "added": "Betaalmethode toegevoegd",
+            "updated": "Betaalmethode bijgewerkt",
+            "addressSavedBillingFailed": "Betaalmethode opgeslagen, maar het bijwerken van het factuuradres is mislukt"
+        }
+    },
+    "billingAddress": {
+        "title": "Factuuradres",
+        "description": "Adres dat wordt weergegeven op facturen en belastingdocumenten.",
+        "descriptionLong": "Te zien op uw facturen en gebruikt om de toepasselijke belastingen te bepalen.",
+        "loadError": "Factuuradres kon niet worden geladen.",
+        "current": "Huidig adres:",
+        "country": "Land",
+        "selectCountry": "Selecteer een land",
+        "addressLabel": "Factuuradres",
+        "addressLine1": "Adresregel 1",
+        "addressLine1Placeholder": "Straat en huisnummer",
+        "addressLine2": "Adresregel 2",
+        "addressLine2Placeholder": "Appartement, suite, eenheid, etc.",
+        "optional": "(optioneel)",
+        "postalCode": "Postcode",
+        "city": "Plaats",
+        "stateRegion": "Provincie / regio",
+        "add": "Factuuradres toevoegen",
+        "edit": "Factuuradres bewerken",
+        "save": "Opslaan",
+        "saving": "Opslaan...",
+        "places": {
+            "placeholder": "Begin met typen van uw adres...",
+            "unavailable": "Autocomplete niet beschikbaar",
+            "loading": "Autocomplete laden...",
+            "manualEntry": "Adres handmatig invoeren",
+            "loadFailed": "Google Maps kon niet worden geladen.",
+            "apiNotEnabled": "Google Places API (New) is niet ingeschakeld voor deze API-sleutel. Voer het adres handmatig in.",
+            "temporarilyUnavailable": "Adres-autocomplete is tijdelijk niet beschikbaar. Voer het adres handmatig in."
+        },
+        "toast": {
+            "updated": "Factuuradres bijgewerkt",
+            "failed": "Kon factuuradres niet bijwerken"
+        }
+    },
+    "invoiceEmail": {
+        "title": "Ontvanger van facturen",
+        "description": "Standaard worden facturen naar de eigenaar van de organisatie gestuurd.",
+        "descriptionLong": "Waar facturen naartoe worden gestuurd.",
+        "loadError": "Instelling voor factuur-e-mail kon niet worden geladen.",
+        "footer": "Dit adres verschijnt op facturen en ontvangt betalingsmeldingen.",
+        "placeholder": "billing@company.com",
+        "save": "Opslaan",
+        "saving": "Opslaan...",
+        "toast": {
+            "updated": "Factuur e-mail bijgewerkt",
+            "failed": "Kon factuur-e-mail niet bijwerken"
+        }
+    },
+    "invoiceLanguage": {
+        "title": "Factuurtaal",
+        "description": "Dit veld bepaalt de taal van uw factuur.",
+        "descriptionLong": "Als uw facturatie-afdeling een andere taal gebruikt, selecteer deze hier.",
+        "loadError": "Instelling voor factuurtaal kon niet worden geladen.",
+        "ariaLabel": "Factuurtaal",
+        "footer": "Dit veld bepaalt de taal van uw factuur.",
+        "save": "Opslaan",
+        "saving": "Opslaan...",
+        "toast": {
+            "updated": "Factuurtaal bijgewerkt",
+            "failed": "Kon factuurtaal niet bijwerken"
+        }
+    },
+    "taxInformation": {
+        "title": "Belastinginformatie",
+        "description": "Gebruikt voor fiscale facturen.",
+        "add": "Gegevens toevoegen",
+        "edit": "Gegevens bewerken",
+        "dialogTitle": "Belastinginformatie bewerken",
+        "dialogDescription": "Selecteer het type btw-nummer en voer daarna het bijbehorende nummer in.",
+        "footer": "Uw btw-nummer wordt opgenomen op facturen en gebruikt voor belastingberekeningen.",
+        "typeLabel": "Type btw-nummer",
+        "typePlaceholder": "Selecteer type",
+        "numberLabel": "Btw-nummer",
+        "numberPlaceholder": "Voer uw btw-nummer in",
+        "save": "Opslaan",
+        "saving": "Opslaan...",
+        "toast": {
+            "updated": "Btw-nummer bijgewerkt",
+            "failed": "Kon btw-nummer niet bijwerken"
+        }
+    }
+}

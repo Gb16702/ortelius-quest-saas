@@ -1,0 +1,132 @@
+{
+    "breadcrumb": "Dashboard",
+    "page": {
+        "title": "Dashboard",
+        "subtitle": {
+            "admin": "Volg je bijdragen en de prestaties van de organisatie.",
+            "member": "Volg je persoonlijke prestaties."
+        }
+    },
+    "sections": {
+        "myContributions": {
+            "title": "Mijn activiteit",
+            "subtitle": "Volg je persoonlijke prestaties."
+        },
+        "organizationOverview": {
+            "title": "Organisatieoverzicht",
+            "subtitle": "Volg de statistieken van je organisatie."
+        }
+    },
+    "timePeriod": {
+        "last7Days": "Laatste 7 dagen",
+        "last14Days": "Laatste 14 dagen",
+        "last30Days": "Laatste 30 dagen",
+        "last3Months": "Laatste 3 maanden",
+        "last12Months": "Laatste 12 maanden"
+    },
+    "comparison": {
+        "previous7Days": "Vergeleken met de vorige 7 dagen",
+        "previous14Days": "Vergeleken met de vorige 14 dagen",
+        "previous30Days": "Vergeleken met de vorige 30 dagen",
+        "previous3Months": "Vergeleken met de vorige 3 maanden",
+        "previous12Months": "Vergeleken met de vorige 12 maanden",
+        "previousDays": "Vergeleken met de vorige {{count}} dagen",
+        "previousPeriod": "Vergeleken met de vorige periode"
+    },
+    "personalMetrics": {
+        "requestsHandled": {
+            "title": "Behandelde aanvragen",
+            "chartLabel": "behandelde aanvragen"
+        },
+        "quotesCreated": {
+            "title": "Gemaakte offertes",
+            "chartLabel": "gemaakte offertes"
+        },
+        "revenueGenerated": {
+            "title": "Gegenereerde omzet",
+            "chartLabel": "omzet"
+        },
+        "messagesSent": {
+            "title": "Verzonden berichten",
+            "chartLabel": "berichten"
+        },
+        "activityScore": {
+            "title": "Activiteitsscore"
+        }
+    },
+    "organizationMetrics": {
+        "totalRequests": {
+            "title": "Totaal aanvragen",
+            "chartLabel": "aanvragen"
+        },
+        "newVisitors": {
+            "title": "Nieuwe bezoekers",
+            "chartLabel": "nieuwe bezoekers"
+        },
+        "viewToRequestConversion": {
+            "title": "Conversie weergaven-aanvragen",
+            "chartLabel": "conversie"
+        },
+        "acceptedQuotes": {
+            "title": "Geaccepteerde offertes",
+            "chartLabel": "geaccepteerde offertes"
+        },
+        "totalRevenue": {
+            "title": "Totale omzet",
+            "chartLabel": "omzet"
+        }
+    },
+    "recentActivity": {
+        "title": "Recente activiteit",
+        "rightLabel": "TIJD",
+        "empty": "Nog geen activiteit.",
+        "systemActor": "Systeem"
+    },
+    "requestPipeline": {
+        "title": "Aanvragenpijplijn",
+        "empty": "Nog geen aanvragen.",
+        "error": "Aanvragen konden niet worden geladen.",
+        "table": {
+            "status": "Status",
+            "share": "Aandeel",
+            "total": "Totaal"
+        }
+    },
+    "recentRequests": {
+        "title": "Recente aanvragen",
+        "rightLabel": "RECENT",
+        "empty": "Nog geen recente aanvragen.",
+        "error": "Aanvragen konden niet worden geladen."
+    },
+    "topMembers": {
+        "title": "Behandelde aanvragen per lid",
+        "rightLabel": "BEHANDELD",
+        "empty": "Nog geen behandelde aanvragen.",
+        "error": "Bijdragers konden niet worden geladen.",
+        "handledCount": "{{count}} behandelde aanvragen",
+        "revenueSuffix": "behandeld"
+    },
+    "servicesCargo": {
+        "tabs": {
+            "cargo": "Vrachttypes",
+            "services": "Diensten"
+        },
+        "rightLabel": "AANVRAGEN",
+        "emptyServices": "Geen dienstgegevens beschikbaar.",
+        "emptyCargo": "Geen gegevens over vrachttypes beschikbaar.",
+        "error": "Gegevens over diensten en vrachttypes konden niet worden geladen."
+    },
+    "metricsError": {
+        "loadFailed": "Statistieken konden niet worden geladen."
+    },
+    "toasts": {
+        "organizationJoined": "Organisatie gekoppeld"
+    },
+    "actions": {
+        "viewAll": "Alles bekijken",
+        "moreOptions": "Meer opties"
+    },
+    "common": {
+        "retry": "Opnieuw proberen"
+    }
+}

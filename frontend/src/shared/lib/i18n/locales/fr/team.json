@@ -1,0 +1,357 @@
+{
+    "breadcrumb": {
+        "team": "Équipe",
+        "members": "Membres",
+        "invitations": "Invitations",
+        "activity": "Activité"
+    },
+    "members": {
+        "title": "Membres",
+        "subtitleAdmin": "Gérez les membres de votre organisation et leurs rôles.",
+        "subtitleMember": "Consultez les membres de votre organisation.",
+        "inviteAction": "Inviter des membres",
+        "table": {
+            "memberHeader": "Membre",
+            "roleHeader": "Rôle",
+            "twoFactorHeader": "2FA",
+            "joinedOnHeader": "Inscrit le",
+            "lastSeenHeader": "Dernière connexion",
+            "youBadge": "Vous",
+            "online": "En ligne",
+            "twoFactorEnabled": "Activée",
+            "twoFactorDisabled": "Désactivée",
+            "tableActionsLabel": "Actions du tableau",
+            "openMenuLabel": "Ouvrir le menu",
+            "viewProfile": "Voir le profil",
+            "messageMember": "Envoyer un message",
+            "chatWithMember": "Discuter avec {{name}}",
+            "editRole": "Modifier le rôle",
+            "removeMember": "Retirer le membre",
+            "exportCsv": "Exporter en CSV",
+            "exporting": "Exportation...",
+            "pageInfoLabel": "membres",
+            "emptyTitle": "Aucun membre ne correspond aux filtres actuels.",
+            "clearFilters": "Effacer les filtres"
+        },
+        "toast": {
+            "loadFailed": "Échec du chargement des membres",
+            "removeSuccess": "Membre retiré",
+            "removeFailed": "Échec du retrait du membre",
+            "startChatFailed": "Échec du démarrage du chat avec le membre",
+            "roleUpdated": "Rôle mis à jour",
+            "roleUpdateFailed": "Échec de la mise à jour du rôle"
+        }
+    },
+    "invitations": {
+        "title": "Invitations",
+        "subtitle": "Suivez et gérez les invitations envoyées.",
+        "table": {
+            "emailHeader": "E-mail",
+            "roleHeader": "Rôle",
+            "statusHeader": "Statut",
+            "invitedByHeader": "Invité par",
+            "expiresAtHeader": "Expire le",
+            "selectAllAriaLabel": "Tout sélectionner",
+            "selectRowAriaLabel": "Sélectionner la ligne",
+            "openMenuLabel": "Ouvrir le menu",
+            "tableActionsLabel": "Actions du tableau",
+            "resend": "Renvoyer l'invitation",
+            "editRole": "Modifier le rôle",
+            "cancel": "Annuler l'invitation",
+            "addToArchive": "Ajouter aux archives",
+            "removeFromArchive": "Retirer des archives",
+            "addingToArchive": "Ajout aux archives...",
+            "removingFromArchive": "Retrait des archives...",
+            "exportCsv": "Exporter en CSV",
+            "exporting": "Exportation...",
+            "pageInfoLabel": "invitations",
+            "emptyTitle": "Aucune invitation ne correspond aux filtres actuels.",
+            "clearFilters": "Effacer les filtres"
+        },
+        "toast": {
+            "loadFailed": "Échec du chargement des invitations"
+        }
+    },
+    "invitationStatus": {
+        "pending": "En attente",
+        "accepted": "Acceptée",
+        "canceled": "Annulée",
+        "expired": "Expirée",
+        "archived": "Archivée"
+    },
+    "memberStatus": {
+        "accepted": "Actif",
+        "pending": "En attente",
+        "canceled": "Annulé"
+    },
+    "filters": {
+        "rolesLabel": "Rôles",
+        "invitationsLabel": "Invitations",
+        "searchMembersPlaceholder": "Rechercher par nom ou e-mail",
+        "searchEmailPlaceholder": "Rechercher par e-mail"
+    },
+    "inviteDialog": {
+        "title": "Inviter des membres",
+        "description": "Invitez des coéquipiers à collaborer dans votre organisation.",
+        "emailPlaceholder": "collegue@entreprise.com",
+        "rolePlaceholder": "Rôle",
+        "validationHint": "Appuyez sur Entrée ou Tab pour valider.",
+        "seatPricingNote": "Chaque nouveau membre ajoute {{price}} €/mois, au prorata.",
+        "send": "Envoyer les invitations",
+        "sending": "Envoi...",
+        "close": "Fermer",
+        "errors": {
+            "invalidEmail": "Veuillez saisir une adresse e-mail valide",
+            "cannotInviteSelf": "Vous ne pouvez pas vous inviter vous-même",
+            "duplicateEmail": "Cet e-mail est déjà dans la liste",
+            "atLeastOneEmail": "Veuillez saisir au moins une adresse e-mail"
+        }
+    },
+    "inviteBreadcrumb": {
+        "ariaLabel": "Inviter des membres",
+        "tooltip": "Inviter des membres"
+    },
+    "editRoleDialog": {
+        "title": "Modifier le rôle",
+        "description": "Modifier le rôle de <strong>{{name}}</strong>",
+        "update": "Mettre à jour le rôle",
+        "updating": "Mise à jour...",
+        "close": "Fermer",
+        "legend": "Rôle"
+    },
+    "editInvitationRoleDialog": {
+        "title": "Modifier le rôle de l'invitation",
+        "description": "Modifier le rôle de l'invitation pour <strong>{{email}}</strong>",
+        "update": "Mettre à jour le rôle",
+        "updating": "Mise à jour...",
+        "close": "Fermer",
+        "errors": {
+            "selectRole": "Veuillez sélectionner un rôle."
+        }
+    },
+    "removeMemberDialog": {
+        "title": "Retirer le membre",
+        "description": "Êtes-vous sûr de vouloir retirer <strong>{{name}}</strong> de l'organisation ? Cette action est irréversible.",
+        "seatReleaseNote": "Le retrait d'un membre crédite {{price}} €/mois, au prorata.",
+        "confirm": "Confirmer le retrait",
+        "removing": "Retrait...",
+        "close": "Fermer"
+    },
+    "cancelInvitationDialog": {
+        "titleOne": "Annuler l'invitation",
+        "titleMany": "Annuler les invitations",
+        "descriptionOne": "Êtes-vous sûr de vouloir annuler l'invitation pour <strong>{{email}}</strong> ? Cette action est irréversible.",
+        "descriptionMany_one": "Êtes-vous sûr de vouloir annuler <strong>{{count}} invitation</strong> ? Seules les invitations en attente seront annulées. Cette action est irréversible.",
+        "descriptionMany_other": "Êtes-vous sûr de vouloir annuler <strong>{{count}} invitations</strong> ? Seules les invitations en attente seront annulées. Cette action est irréversible.",
+        "confirmOne": "Annuler l'invitation",
+        "confirmMany": "Annuler les invitations",
+        "canceling": "Annulation...",
+        "close": "Fermer"
+    },
+    "profile": {
+        "dialogTitle": "Profil du membre",
+        "memberActionsLabel": "Actions du membre",
+        "addFavorite": "Ajouter aux favoris",
+        "removeFavorite": "Retirer des favoris",
+        "chatWithMember": "Discuter avec {{name}}",
+        "editRole": "Modifier le rôle",
+        "removeMember": "Retirer le membre",
+        "loadFailedTitle": "Échec du chargement du profil",
+        "loadFailedDescription": "Une erreur est survenue lors du chargement du profil du membre.",
+        "joinedAgo": "Inscrit il y a {{duration}}",
+        "recentActivity": "Activité récente",
+        "viewDetails": "Voir les détails",
+        "noRecentActivity": "Aucune activité récente.",
+        "assignedRequests": "Demandes assignées",
+        "noAssignedRequests": "Aucune demande assignée.",
+        "requestCreated": "Créée {{distance}}"
+    },
+    "activity": {
+        "title": "Activité",
+        "actorAll": "Tous les utilisateurs",
+        "actorSelected": "Utilisateur sélectionné",
+        "actorSearchPlaceholder": "Rechercher un membre...",
+        "actorEmpty": "Aucun membre trouvé.",
+        "datePresetSelectLabel": "Période",
+        "emptyTitle": "Aucune activité pour l'instant.",
+        "emptyFilteredTitle": "Aucune activité ne correspond à vos filtres.",
+        "clearFilters": "Effacer les filtres",
+        "loadMore": "Charger plus",
+        "actorYou": "Vous",
+        "actorSystem": "Système",
+        "filterSheetTitle": "Filtrer par événement",
+        "filterTrigger": {
+            "ariaLabel": "Filtrer par événement",
+            "tooltip": "Filtrer par événement"
+        },
+        "eventFilter": {
+            "searchPlaceholder": "Rechercher des événements...",
+            "selectAll": "Tout sélectionner",
+            "clearAll": "Tout effacer",
+            "selectedCount": "{{selected}} sur {{total}} sélectionnés",
+            "noMatch": "Aucun événement correspondant"
+        },
+        "event": {
+            "request-created": {
+                "label": "Demande créée",
+                "description": "Une nouvelle demande a été créée"
+            },
+            "request-updated": {
+                "label": "Demande mise à jour",
+                "description": "Les détails de la demande ont été mis à jour"
+            },
+            "request-rejected": {
+                "label": "Demande rejetée",
+                "description": "Une demande a été rejetée"
+            },
+            "request-validated": {
+                "label": "Demande validée",
+                "description": "Une demande a été validée"
+            },
+            "request-deleted": {
+                "label": "Demande supprimée",
+                "description": "Une demande a été supprimée"
+            },
+            "request-cancelled": {
+                "label": "Demande annulée",
+                "description": "Une demande a été annulée"
+            },
+            "request-document-removed": {
+                "label": "Document retiré",
+                "description": "Un document a été retiré d'une demande"
+            },
+            "request-linked-to-user": {
+                "label": "Demande liée",
+                "description": "Une demande a été liée à un utilisateur"
+            },
+            "request-assigned": {
+                "label": "Demande assignée",
+                "description": "Une demande a été assignée à un membre"
+            },
+            "request-reassigned": {
+                "label": "Demande réassignée",
+                "description": "Une demande a été réassignée à un autre membre"
+            },
+            "request-unassigned": {
+                "label": "Assignation retirée",
+                "description": "L'assignation d'une demande a été retirée"
+            },
+            "request-shared-to-team-chat": {
+                "label": "Demande partagée",
+                "description": "Une demande a été partagée dans le chat d'équipe"
+            },
+            "quote-created": {
+                "label": "Devis créé",
+                "description": "Un nouveau devis a été créé"
+            },
+            "quote-updated": {
+                "label": "Devis mis à jour",
+                "description": "Les détails du devis ont été mis à jour"
+            },
+            "quote-accepted": { "label": "Devis accepté", "description": "Un devis a été accepté" },
+            "quote-rejected": { "label": "Devis rejeté", "description": "Un devis a été rejeté" },
+            "invoice-created": {
+                "label": "Facture créée",
+                "description": "Une nouvelle facture a été créée"
+            },
+            "invoice-sent": {
+                "label": "Facture envoyée",
+                "description": "Une facture a été envoyée"
+            },
+            "member-invited": {
+                "label": "Membre invité",
+                "description": "Un nouveau membre a été invité dans l'organisation"
+            },
+            "invitation-resent": {
+                "label": "Invitation renvoyée",
+                "description": "Un e-mail d'invitation a été renvoyé"
+            },
+            "invitation-role-updated": {
+                "label": "Rôle de l'invitation modifié",
+                "description": "Le rôle d'une invitation en attente a été modifié"
+            },
+            "invitation-cancelled": {
+                "label": "Invitation annulée",
+                "description": "Une invitation en attente a été annulée"
+            },
+            "member-role-updated": {
+                "label": "Rôle mis à jour",
+                "description": "Le rôle d'un membre a été modifié"
+            },
+            "member-removed": {
+                "label": "Membre retiré",
+                "description": "Un membre a été retiré de l'organisation"
+            },
+            "member-left": {
+                "label": "Membre parti",
+                "description": "Un membre a quitté l'organisation"
+            },
+            "invitations-cancelled-bulk": {
+                "label": "Invitations annulées",
+                "description": "Plusieurs invitations ont été annulées en une fois"
+            },
+            "organization-updated": {
+                "label": "Organisation mise à jour",
+                "description": "Les détails de l'organisation ont été mis à jour"
+            },
+            "organization-categories-updated": {
+                "label": "Catégories mises à jour",
+                "description": "Les catégories de l'organisation ont été mises à jour"
+            },
+            "organization-services-updated": {
+                "label": "Services mis à jour",
+                "description": "Les services de l'organisation ont été mis à jour"
+            },
+            "organization-tax-id-updated": {
+                "label": "Numéro fiscal mis à jour",
+                "description": "Le numéro fiscal de l'organisation a été mis à jour"
+            },
+            "organization-logo-updated": {
+                "label": "Logo mis à jour",
+                "description": "Le logo de l'organisation a été mis à jour"
+            },
+            "organization-logo-removed": {
+                "label": "Logo retiré",
+                "description": "Le logo de l'organisation a été retiré"
+            },
+            "showcase-invitations-sent": {
+                "label": "Invitations vitrine envoyées",
+                "description": "Des invitations vitrine ont été envoyées à des prospects"
+            },
+            "email-intake-updated": {
+                "label": "Réception e-mail mise à jour",
+                "description": "Les paramètres de réception e-mail ont été mis à jour"
+            },
+            "service-pricing-updated": {
+                "label": "Tarification des services mise à jour",
+                "description": "Les paramètres de tarification des services ont été mis à jour"
+            },
+            "call-started": { "label": "Appel démarré", "description": "Un appel a été démarré" },
+            "call-ended": { "label": "Appel terminé", "description": "Un appel a été terminé" },
+            "subscription-created": {
+                "label": "Abonnement créé",
+                "description": "Un abonnement a été créé"
+            },
+            "subscription-confirmed": {
+                "label": "Abonnement confirmé",
+                "description": "Un abonnement a été confirmé"
+            },
+            "subscription-seats-reconciled": {
+                "label": "Sièges d'abonnement réconciliés",
+                "description": "Les sièges d'abonnement ont été réconciliés avec l'effectif actuel"
+            },
+            "user-name-updated": {
+                "label": "Nom mis à jour",
+                "description": "Un membre a mis à jour son nom d'affichage"
+            },
+            "two-factor-enabled": {
+                "label": "2FA activée",
+                "description": "L'authentification à deux facteurs a été activée"
+            },
+            "two-factor-disabled": {
+                "label": "2FA désactivée",
+                "description": "L'authentification à deux facteurs a été désactivée"
+            }
+        }
+    }
+}

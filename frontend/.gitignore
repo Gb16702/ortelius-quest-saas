@@ -1,0 +1,31 @@
+.DS_Store
+node_modules/
+
+# Build output
+/build/
+/.start-build/
+/.output/
+/.nitro/
+
+.env
+
+# Claude Code — push project config, keep local user state ignored
+.claude/settings.local.json
+.claude/launch.json
+.claude/worktrees/
+.codex/environments/
+.codex/worktrees/
+
+*.md
+!AGENTS.md
+!**/AGENTS.md
+!CLAUDE.md
+!README.md
+!docs/
+!docs/frontend-state-ownership.md
+!.claude/commands/*.md
+
+# Playwright
+test-results/
+playwright-report/
+tests/e2e/.auth/

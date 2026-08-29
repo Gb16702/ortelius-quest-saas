@@ -1,0 +1,1 @@
+ALTER TABLE "transcripts" ALTER COLUMN "call_id" SET DATA TYPE text;

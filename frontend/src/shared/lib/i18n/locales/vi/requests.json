@@ -1,0 +1,158 @@
+{
+    "page": {
+        "breadcrumb": "Yêu cầu",
+        "incomingTitle": "Yêu cầu đến",
+        "outgoingTitle": "Yêu cầu đi",
+        "incomingSubtitle": "Quản lý các yêu cầu mà tổ chức của bạn nhận được.",
+        "outgoingSubtitle": "Xem và quản lý các yêu cầu bạn đã gửi."
+    },
+    "table": {
+        "searchPlaceholder": "Tìm kiếm yêu cầu",
+        "pageInfoLabel": "yêu cầu",
+        "column": {
+            "request": "Yêu cầu",
+            "requester": "Người yêu cầu",
+            "organization": "Tổ chức",
+            "assignedTo": "Được giao cho",
+            "status": "Trạng thái",
+            "period": "Thời gian",
+            "priority": "Mức độ ưu tiên"
+        },
+        "actions": {
+            "tableActions": "Hành động bảng",
+            "openMenu": "Mở menu",
+            "openRequest": "Mở yêu cầu",
+            "openQuote": "Mở báo giá",
+            "assignRequest": "Giao yêu cầu",
+            "reassignRequest": "Giao lại yêu cầu",
+            "chatWith": "Trò chuyện với {{name}}",
+            "shareToTeamChat": "Chia sẻ vào chat nhóm",
+            "download": "Tải xuống",
+            "exportCsv": "Xuất CSV",
+            "exporting": "Đang xuất..."
+        },
+        "empty": {
+            "errorTitle": "Không thể tải yêu cầu.",
+            "filteredTitle": "Không có yêu cầu nào phù hợp với bộ lọc hiện tại.",
+            "clearFilters": "Xóa bộ lọc",
+            "incomingTitle": "Chưa nhận được yêu cầu nào.",
+            "outgoingTitle": "Chưa gửi yêu cầu nào."
+        }
+    },
+    "filters": {
+        "datePlaceholder": "Chọn thời gian",
+        "assigneePlaceholder": "Tất cả người được giao",
+        "priorityPlaceholder": "Tất cả mức độ ưu tiên",
+        "statusLabel": "Trạng thái",
+        "searchMember": "Tìm thành viên...",
+        "selectedCount": "Đã chọn {{count}}",
+        "noPrioritiesFound": "Không tìm thấy mức độ ưu tiên.",
+        "noMembersFound": "Không tìm thấy thành viên."
+    },
+    "status": {
+        "draft": "Bản nháp",
+        "open": "Đang mở",
+        "closed": "Đã đóng",
+        "pending": "Đang chờ",
+        "quoted": "Đã báo giá",
+        "rejected": "Bị từ chối",
+        "canceled": "Đã hủy",
+        "cancelled": "Đã hủy",
+        "quote_rejected": "Báo giá bị từ chối",
+        "invoiced": "Đã lập hóa đơn",
+        "expired": "Đã hết hạn"
+    },
+    "priority": {
+        "high": "Cao",
+        "medium": "Trung bình",
+        "low": "Thấp",
+        "none": "—"
+    },
+    "assign": {
+        "titleAssign": "Giao yêu cầu",
+        "titleReassign": "Giao lại yêu cầu",
+        "descriptionAssign": "Chọn một người dùng để giao yêu cầu này.",
+        "descriptionReassign": "Chọn một người dùng để giao lại yêu cầu này.",
+        "searchPlaceholder": "Tìm người dùng",
+        "noMembersFound": "Không tìm thấy thành viên.",
+        "noMembersAvailable": "Không có thành viên nào.",
+        "assigneeLegend": "Người được giao",
+        "youBadge": "Bạn",
+        "validationRequired": "Vui lòng chọn một thành viên để giao.",
+        "assign": "Giao",
+        "reassign": "Giao lại",
+        "unassign": "Hủy giao",
+        "assigning": "Đang giao...",
+        "unassigning": "Đang hủy giao..."
+    },
+    "cancelDialog": {
+        "cancel": {
+            "trigger": "Hủy yêu cầu",
+            "title": "Hủy yêu cầu",
+            "verb": "hủy",
+            "action": "Có, hủy yêu cầu",
+            "loading": "Đang hủy..."
+        },
+        "reject": {
+            "trigger": "Từ chối yêu cầu",
+            "title": "Từ chối yêu cầu",
+            "verb": "từ chối",
+            "action": "Xác nhận từ chối",
+            "loading": "Đang từ chối..."
+        },
+        "discard": {
+            "trigger": "Xóa bản nháp",
+            "title": "Xóa bản nháp",
+            "verb": "xóa",
+            "action": "Có, xóa bản nháp",
+            "loading": "Đang xóa..."
+        },
+        "description": "Bạn có chắc muốn {{verb}} <strong>{{requestNumber}}</strong> không? Hành động này không thể hoàn tác."
+    },
+    "rejectionDialog": {
+        "title": "Từ chối yêu cầu",
+        "description": "Vui lòng cung cấp lý do từ chối yêu cầu này. Người yêu cầu sẽ được thông báo về quyết định của bạn.",
+        "requestNumberLabel": "Số yêu cầu",
+        "reasonLabel": "Lý do từ chối",
+        "reasonPlaceholder": "Vui lòng giải thích lý do bạn từ chối yêu cầu này",
+        "reasonRequired": "Vui lòng cung cấp lý do từ chối.",
+        "submit": "Từ chối yêu cầu",
+        "submitting": "Đang từ chối..."
+    },
+    "modalFooter": {
+        "submitQuote": "Gửi báo giá",
+        "submittingQuote": "Đang gửi...",
+        "cancelEdit": "Hủy chỉnh sửa",
+        "answerWithQuote": "Trả lời bằng báo giá",
+        "legalsRequired": "Tải lên ít nhất một tài liệu pháp lý trước khi gửi báo giá.",
+        "goToLegals": "Đến tài liệu pháp lý",
+        "validateDraft": "Xác thực bản nháp",
+        "validatingDraft": "Đang xác thực..."
+    },
+    "toast": {
+        "requestCanceled": "Đã hủy yêu cầu",
+        "failedToCancel": "Hủy yêu cầu thất bại",
+        "requestRejected": "Đã từ chối yêu cầu",
+        "failedToReject": "Từ chối yêu cầu thất bại",
+        "draftValidated": "Đã xác thực bản nháp",
+        "failedToValidate": "Xác thực bản nháp thất bại",
+        "draftDiscarded": "Đã xóa bản nháp",
+        "failedToDiscard": "Xóa bản nháp thất bại",
+        "failedToLoadRequests": "Tải yêu cầu thất bại"
+    },
+    "sharedRequest": {
+        "dateRange": "{{from}} đến {{to}}",
+        "notFound": "Không tìm thấy yêu cầu"
+    },
+    "error": {
+        "notFound": "Không tìm thấy yêu cầu",
+        "cancelForbidden": "Bạn không có quyền hủy yêu cầu này",
+        "organizationForbidden": "Bạn không có quyền truy cập yêu cầu của tổ chức này",
+        "shareForbidden": "Bạn không có quyền chia sẻ yêu cầu này",
+        "invalidAssignment": "Phân công không hợp lệ",
+        "invalidState": "Yêu cầu đang ở trạng thái không hợp lệ cho hành động này",
+        "teamChatNotFound": "Không tìm thấy chat nhóm",
+        "loadFailed": "Tải yêu cầu thất bại.",
+        "responseShape": "Phản hồi API yêu cầu không khớp với cấu trúc mong đợi."
+    }
+}

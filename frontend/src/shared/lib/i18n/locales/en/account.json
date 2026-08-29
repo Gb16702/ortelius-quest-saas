@@ -1,0 +1,30 @@
+{
+    "breadcrumb": "Account Settings",
+    "head": {
+        "title": "Account Settings",
+        "subtitle": "Manage your personal preferences."
+    },
+    "profile": {
+        "title": "Profile",
+        "description": "Your name and avatar are shared across all Ortelius products. Edit them once in the central account portal and the changes propagate everywhere.",
+        "openPortal": "Open account portal"
+    },
+    "leaveOrganization": {
+        "title": "Leave organization",
+        "description": "Leaving {{organizationName}} will revoke your access to its data, members, and messages. Any requests assigned to you will be unassigned. This action cannot be undone.",
+        "action": "Leave organization",
+        "dialog": {
+            "title": "Leave {{organizationName}}?",
+            "description": "You will lose access to this organization, its members, requests, and messages. Any requests currently assigned to you will be unassigned. This action cannot be undone.",
+            "confirmLabelPrefix": "To confirm, type",
+            "confirmLabelSuffix": "below:",
+            "cancel": "Cancel",
+            "submitting": "Leaving...",
+            "confirm": "Leave organization"
+        },
+        "toast": {
+            "success": "You left {{organizationName}}",
+            "error": "Failed to leave organization"
+        }
+    }
+}

@@ -1,0 +1,404 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "pricing": "Precios",
+        "contact": "Contacto",
+        "signUp": "Registrarse",
+        "signIn": "Iniciar sesión",
+        "tryForFree": "Prueba gratis",
+        "openApp": "Abrir app"
+    },
+    "footer": {
+        "tagline1": "Gestión de solicitudes de flete",
+        "tagline2": "para empresas de logística",
+        "company": "Empresa",
+        "legal": "Legal",
+        "socials": "Redes sociales",
+        "discoverMarketplace": "Descubrir Marketplace",
+        "termsOfService": "Términos de servicio",
+        "privacyPolicy": "Política de privacidad",
+        "cookiePolicy": "Política de cookies",
+        "copyright": "© {{year}} Ortelius Quest. Todos los derechos reservados."
+    },
+    "home": {
+        "hero": {
+            "title": "Convierte solicitudes en ingresos",
+            "subtitle": "Captura todas las solicitudes de transporte en un único portal con tu marca. Responde más rápido y cierra más acuerdos.",
+            "bookDemo": "Reservar demo",
+            "tryForFree": "Prueba gratis",
+            "heroImageAlt": "Panel de Ortelius Quest - Solicitudes entrantes"
+        },
+        "howItWorks": {
+            "label": "Cómo funciona",
+            "title": "La forma más inteligente de gestionar el transporte.",
+            "subtitle": "Tres pasos simples. Cero oportunidades perdidas.",
+            "step1": {
+                "number": "01",
+                "title": "Centraliza las solicitudes",
+                "description": "Los clientes envían sus solicitudes a través de tu portal personalizado. Visualiza, ordena y responde todo desde un solo lugar con chat y llamadas integradas."
+            },
+            "step2": {
+                "number": "02",
+                "title": "Asigna y enruta",
+                "description": "Asigna cada solicitud al miembro del equipo adecuado y colabora con notas internas en cada proceso."
+            },
+            "step3": {
+                "number": "03",
+                "title": "Responde más rápido",
+                "description": "Controla y responde cada solicitud desde un solo panel. Sin tener que alternar entre emails, llamadas y hojas de cálculo."
+            }
+        },
+        "features": {
+            "builtForBusiness": {
+                "label": "Diseñado para tu negocio",
+                "title": "Configura cada detalle para que se adapte a tu forma de trabajar",
+                "description": "Tu logotipo, tus colores, tu subdominio. Tus clientes ven tu marca, no la nuestra.",
+                "portal": {
+                    "title": "Portal de cliente con tu marca",
+                    "description": "Tus clientes envían solicitudes desde empresa.ortelius.app. Profesional, personalizado y siempre disponible."
+                },
+                "setup": {
+                    "title": "Configuración de negocio",
+                    "description": "Configura una vez y trabaja a tu manera para siempre. La plataforma se adapta a tus operaciones, no al revés."
+                }
+            },
+            "respondInstantly": {
+                "label": "Responde al instante",
+                "title": "Chat y llamadas integradas",
+                "description": "Deja de hacer malabarismos entre correos, llamadas y hojas de cálculo. Comunícate con tus clientes directamente desde la plataforma.",
+                "chat": {
+                    "title": "Chat en tiempo real",
+                    "description": "Envía mensajes al instante. Todo el historial queda vinculado a cada solicitud, sin más hilos de correo perdidos."
+                },
+                "calling": {
+                    "title": "Llamadas con un clic",
+                    "description": "Llama a tus clientes directamente desde la plataforma. Todas las llamadas quedan registradas y trazadas automáticamente."
+                }
+            },
+            "trackEverything": {
+                "label": "Ten todo bajo control",
+                "title": "Del presupuesto a la factura. Nada se pierde.",
+                "description": "Conoce en todo momento en qué punto está cada operación. Desde la primera solicitud hasta la entrega final, gestiona todo en un solo lugar.",
+                "pipeline": {
+                    "title": "Embudo visual",
+                    "description": "Observa de un vistazo en qué fase se encuentra cada trato, desde la solicitud hasta la entrega."
+                },
+                "filters": {
+                    "title": "Filtros inteligentes",
+                    "description": "Ordena por estado, cliente, fecha, ruta o urgencia. Encuentra cualquier solicitud en segundos."
+                }
+            },
+            "tryForFree": "Probar gratis"
+        }
+    },
+    "pricing": {
+        "title": "Precios que crecen contigo",
+        "subtitle": {
+            "currentPlan": "Actualmente estás en el plan {{plan}}.",
+            "choosePlan": "Elige el plan que se adapte a tu equipo.",
+            "withTrial": "Todos los planes incluyen una prueba gratuita de 14 días. Elige el que se adapte a tu equipo. Prueba gratis, sin tarjeta de crédito."
+        },
+        "comparePlans": "Compara los planes",
+        "plans": {
+            "starter": "Starter",
+            "professional": "Profesional",
+            "enterprise": "Empresa"
+        },
+        "perUserMonth": "por usuario / mes",
+        "contactUs": "Contáctanos",
+        "getPlan": "Obtener {{plan}}",
+        "recommended": "Recomendado",
+        "billedYearly": "Facturación anual",
+        "billedMonthly": "Facturación mensual",
+        "savePerUser": "(ahorra {{amount}}€ por usuario)",
+        "everythingInStarterPlus": "Todo en Starter, más:",
+        "everythingInProfessionalPlus": "Todo en Profesional, más:",
+        "manageSubscription": "Gestionar suscripción",
+        "faq": {
+            "title": "Preguntas frecuentes",
+            "freeTrial": {
+                "question": "¿Hay una prueba gratuita?",
+                "answer": "¡Sí! Todos los planes incluyen una prueba gratuita de 14 días. No se requiere tarjeta de crédito."
+            },
+            "changePlan": {
+                "question": "¿Puedo cambiar de plan más tarde?",
+                "answer": "Por supuesto. Puedes mejorar o reducir tu plan en cualquier momento. Los cambios se aplican de inmediato y prorratearemos cualquier diferencia de facturación."
+            },
+            "paymentMethods": {
+                "question": "¿Qué métodos de pago aceptan?",
+                "answer": "Usamos Stripe para pagos seguros y aceptamos Visa, Mastercard, American Express y débito directo SEPA."
+            },
+            "trialEnds": {
+                "question": "¿Qué pasa cuando termina mi prueba?",
+                "answer": "Te notificaremos antes de que termine tu prueba. Si no agregas un método de pago, tu cuenta pasará a modo de solo lectura hasta que te suscribas."
+            },
+            "annualDiscount": {
+                "question": "¿Ofrecéis descuentos por pago anual?",
+                "answer": "Sí. Al elegir facturación anual aplicamos un 20 % de descuento. Para conocer precios enterprise y opciones personalizadas, contacta con nuestro equipo comercial."
+            }
+        },
+        "comparison": {
+            "categories": {
+                "coreFeatures": "Funcionalidades principales",
+                "communication": "Comunicación",
+                "customization": "Personalización",
+                "analytics": "Analíticas",
+                "intelligence": "Inteligencia"
+            },
+            "features": {
+                "unlimitedRequests": "Solicitudes ilimitadas",
+                "quoteManagement": "Cotizaciones y facturas",
+                "clientChat": "Chat con clientes",
+                "teamChat": "Chat interno de equipo",
+                "voipCalls": "Llamadas de voz",
+                "callTranscription": "Transcripción de llamadas",
+                "branding": "Marca personalizada",
+                "colorThemes": "Temas predefinidos",
+                "basicDashboard": "Panel de analíticas",
+                "advancedAnalytics": "Analíticas avanzada e informes",
+                "activityLog": "Registro de actividad",
+                "pricingIntelligence": "Inteligencia de precios"
+            }
+        }
+    },
+    "contact": {
+        "title": "Habla con nuestro equipo comercial",
+        "subtitle": "Nos encantaría conocer los retos de tu equipo y enseñarte cómo Ortelius Quest puede ayudarte.",
+        "features": {
+            "demo": "Obtén una demo personalizada",
+            "trial": "Configura tu prueba Enterprise",
+            "onboarding": "Recibe ayuda en la puesta en marcha"
+        },
+        "form": {
+            "workEmail": "Correo corporativo",
+            "workEmailPlaceholder": "tu@empresa.com",
+            "fullName": "Nombre completo",
+            "fullNamePlaceholder": "Juan García",
+            "country": "País",
+            "selectCountry": "Selecciona tu país",
+            "companyWebsite": "Sitio web de la empresa",
+            "companyWebsitePlaceholder": "https://empresa.com",
+            "companySize": "Tamaño de la empresa",
+            "selectValue": "Selecciona una opción",
+            "employees": "empleados",
+            "message": "¿Cómo podemos ayudarte?",
+            "messagePlaceholder": "Cuéntanos sobre las necesidades de tu empresa...",
+            "submit": "Enviar mensaje",
+            "submitting": "Enviando...",
+            "defaultMessage": "Hola, me gustaría saber más sobre su producto y programar una demostración.",
+            "optional": "Opcional",
+            "validation": {
+                "emailRequired": "El correo electrónico es obligatorio",
+                "emailInvalid": "Por favor, introduce una dirección de correo válida",
+                "fullNameRequired": "El nombre completo es obligatorio",
+                "fullNameMin": "El nombre completo debe tener al menos 2 caracteres",
+                "countryRequired": "Por favor, selecciona un país",
+                "websiteInvalid": "Por favor, introduce una URL válida",
+                "messageRequired": "El mensaje es obligatorio"
+            }
+        }
+    },
+    "cta": {
+        "startYour": "Comienza tu",
+        "freeTrial": "prueba gratuita hoy."
+    },
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Todo lo que necesitas saber sobre Ortelius Quest.",
+        "questions": {
+            "freeTrial": {
+                "question": "¿Hay una prueba gratuita?",
+                "answer": "¡Sí! Tienes 14 días para probar Ortelius Quest gratis."
+            },
+            "getStarted": {
+                "question": "¿Cuánto tiempo lleva empezar?",
+                "answer": "Tu organización puede estar completamente configurada y lista para recibir clientes en 5-10 minutos."
+            },
+            "customDomain": {
+                "question": "¿Puedo usar mi propio dominio?",
+                "answer": "Tu portal personalizado está alojado en empresa.ortelius.app con tu logo y marca."
+            },
+            "closeDeals": {
+                "question": "¿Cómo me ayuda Ortelius Quest a cerrar más negocios?",
+                "answer": "Al centralizar todas las solicitudes de flete en un solo lugar, nunca pierdes una oportunidad. Responde 3 veces más rápido con herramientas de comunicación integradas y mantén a todo tu equipo alineado con funciones de colaboración en tiempo real."
+            },
+            "teamUse": {
+                "question": "¿Puede todo mi equipo usar Ortelius Quest?",
+                "answer": "¡Sí! Añade miembros de equipo ilimitados, asigna solicitudes a personas específicas y colabora con notas internas en cada negocio."
+            },
+            "security": {
+                "question": "¿Están seguros mis datos?",
+                "answer": "Todos los mensajes de chat están encriptados para mantener tus comunicaciones seguras y privadas."
+            },
+            "onboarding": {
+                "question": "¿Proporcionan soporte de incorporación?",
+                "answer": "¡Sí! Proporcionamos videos de incorporación durante la configuración de la plataforma para ayudarte a configurar todo correctamente."
+            }
+        }
+    },
+    "checkout": {
+        "stepLabel": "Paso {{current}} de {{total}}",
+        "step1Title": "Nombra tu organización",
+        "step1Subtitle": "Este será el nombre de tu espacio de trabajo y subdominio",
+        "step2Title": "Agregar método de pago",
+        "step2Subtitle": "Completa el pago de tu suscripción",
+        "step2SubtitleTrial": "Tu tarjeta se guardará para pagos futuros después de que termine la prueba",
+        "organizationName": "Nombre de la organización",
+        "organizationNamePlaceholder": "Acme Inc",
+        "continue": "Continuar",
+        "skipStep": "Invitaré a mi equipo más tarde",
+        "back": "Volver",
+        "startTrial": "Iniciar prueba gratis",
+        "tryForFree": "Prueba gratis, sin tarjeta de crédito.",
+        "subscribe": "Suscribirse",
+        "trialCardInfo": "Tu tarjeta se guardará para pagos futuros después de que termine la prueba.",
+        "sessionExpired": "Tu sesión ha expirado. Por favor, comienza de nuevo.",
+        "startOver": "Comenzar de nuevo",
+        "plan": "plan",
+        "viewAllPlans": "Ver todos los planes",
+        "month": "mes",
+        "trialTimeline": {
+            "title": "Cómo funciona tu prueba gratuita",
+            "today": "Hoy",
+            "todayDesc": "Acceso completo a todas las funciones",
+            "reminderDesc": "Recibe un recordatorio antes de que termine la prueba",
+            "endDesc": "Tu suscripción comienza"
+        },
+        "recurringDisclaimer": "Al iniciar tu prueba, aceptas que se te cobrará automáticamente después del período de prueba, a menos que canceles antes de que termine.",
+        "upgrade": "Mejorar plan",
+        "emailPlaceholder": "colega@empresa.com",
+        "rolePlaceholder": "Rol",
+        "addMore": "Añadir miembro",
+        "inviteMoreLater": "Puedes invitar más miembros desde tu panel después de la configuración.",
+        "roles": {
+            "member": "Miembro",
+            "admin": "Admin"
+        },
+        "roleDescriptions": {
+            "member": "Gestionar solicitudes, conversaciones y presupuestos",
+            "admin": "Acceso completo a la configuración de la organización"
+        },
+        "invitationExpiry": "Las invitaciones expiran en 7 días. Aún puedes reenviarlas más tarde.",
+        "validation": {
+            "organizationNameRequired": "El nombre de la organización es obligatorio",
+            "organizationNameMin": "El nombre debe tener al menos 2 caracteres",
+            "organizationNameMax": "El nombre debe tener como máximo 32 caracteres",
+            "emailInvalid": "Por favor, introduce una dirección de correo válida",
+            "emailDuplicate": "Este correo ya está en la lista",
+            "emailSelfInvite": "No puedes invitarte a ti mismo",
+            "emailAlreadyHasOrganization": "Este usuario ya forma parte de una organización"
+        },
+        "errors": {
+            "SUBDOMAIN_TAKEN": "Este nombre de organización ya está en uso.",
+            "SUBDOMAIN_RESERVED": "Este nombre está reservado y no se puede usar.",
+            "SUBDOMAIN_INVALID_LENGTH": "El nombre debe tener entre 3 y 50 caracteres.",
+            "INVALID_FORMAT": "Este nombre de organización no es válido.",
+            "fixEmailErrors": "Por favor, corrige los errores de correo antes de continuar."
+        },
+        "topFeatures": "Características principales",
+        "features": {
+            "unlimitedRequests": "Solicitudes ilimitadas",
+            "quoteManagement": "Gestión de cotizaciones",
+            "clientChat": "Chat con clientes",
+            "teamChat": "Chat interno de equipo",
+            "voipCalls": "Llamadas de voz",
+            "callTranscription": "Transcripción de llamadas",
+            "branding": "Marca personalizada",
+            "colorThemes": "Temas predefinidos",
+            "basicDashboard": "Panel de analítica",
+            "advancedAnalytics": "Analítica avanzada e informes",
+            "activityLog": "Registro de actividad",
+            "pricingIntelligence": "Inteligencia de precios"
+        },
+        "billing": {
+            "dueToday": "A pagar hoy",
+            "perMonth": "/mes",
+            "perYear": "/año",
+            "afterTrial": "{{price}}{{interval}} después de {{days}} días de prueba"
+        },
+        "billingDisclaimer": "Al suscribirte, autorizas a The Space Behind BV a cobrarte según los términos hasta que canceles. También aceptas los",
+        "termsOfService": "Términos de servicio",
+        "privacyPolicy": "Política de privacidad"
+    },
+    "common": {
+        "learnMore": "Saber más",
+        "getStarted": "Empezar",
+        "other": "Otro",
+        "optional": "Opcional",
+        "and": "y"
+    },
+    "auth": {
+        "footer": {
+            "support": "Soporte",
+            "terms": "Términos",
+            "privacy": "Privacidad"
+        },
+        "signIn": {
+            "title": "Bienvenido de nuevo",
+            "email": "Correo electrónico",
+            "password": "Contraseña",
+            "submit": "Iniciar sesión",
+            "noAccount": "¿No tienes una cuenta?",
+            "signUp": "Registrarse",
+            "error": {
+                "failed": "Error al iniciar sesión"
+            }
+        },
+        "signUp": {
+            "title": "Crea tu cuenta",
+            "email": "Correo electrónico",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "password": "Contraseña",
+            "passwordHint": "Debe tener al menos 8 caracteres",
+            "continue": "Continuar",
+            "submit": "Crear cuenta",
+            "hasAccount": "¿Ya tienes una cuenta?",
+            "signIn": "Iniciar sesión",
+            "error": {
+                "checkEmail": "No se pudo verificar el correo. Por favor, inténtalo de nuevo.",
+                "failed": "Error al registrarse"
+            },
+            "validation": {
+                "emailRequired": "El correo electrónico es obligatorio",
+                "emailInvalid": "Por favor, introduce un correo válido",
+                "firstNameRequired": "El nombre es obligatorio",
+                "lastNameRequired": "El apellido es obligatorio",
+                "passwordMin": "La contraseña debe tener al menos 8 caracteres"
+            }
+        }
+    },
+    "meta": {
+        "organizationDescription": "Ortelius Quest ayuda a las empresas de logística a convertir las solicitudes de transporte en ingresos. Centraliza las solicitudes, encamínalas de forma inteligente y responde más rápido desde un único portal con tu marca.",
+        "generic": {
+            "title": "Ortelius Quest",
+            "description": "El hub inteligente para gestionar solicitudes de transporte. Centraliza, encamina y responde más rápido."
+        },
+        "home": {
+            "title": "Ortelius Quest — Gestión de solicitudes de transporte para empresas logísticas",
+            "description": "Captura cada oportunidad de transporte en un portal con tu marca. Responde más rápido y cierra más acuerdos."
+        },
+        "pricing": {
+            "title": "Precios — Ortelius Quest",
+            "description": "Precios simples y transparentes para empresas logísticas de cualquier tamaño. Empieza gratis."
+        },
+        "contact": {
+            "title": "Contacto — Ortelius Quest",
+            "description": "Habla con nuestro equipo o reserva una demo. Te enseñamos cómo Ortelius Quest encaja en tu flujo de transporte."
+        },
+        "legals": {
+            "privacy": {
+                "title": "Política de privacidad — Ortelius Quest",
+                "description": "Cómo Ortelius Quest recopila, usa y protege tus datos personales, en línea con GDPR, CCPA y LGPD."
+            },
+            "terms": {
+                "title": "Términos del servicio — Ortelius Quest",
+                "description": "Los términos que rigen tu uso de Ortelius Quest, incluyendo cuenta, facturación y uso aceptable."
+            },
+            "cookies": {
+                "title": "Política de cookies — Ortelius Quest",
+                "description": "Cómo y por qué Ortelius Quest usa cookies y tecnologías similares, y cómo gestionar tus preferencias."
+            }
+        }
+    }
+}

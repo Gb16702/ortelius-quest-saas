@@ -1,0 +1,158 @@
+{
+    "page": {
+        "breadcrumb": "Requests",
+        "incomingTitle": "Incoming Requests",
+        "outgoingTitle": "Outgoing Requests",
+        "incomingSubtitle": "Manage requests received by your organization.",
+        "outgoingSubtitle": "View and manage your submitted requests."
+    },
+    "table": {
+        "searchPlaceholder": "Search requests",
+        "pageInfoLabel": "requests",
+        "column": {
+            "request": "Request",
+            "requester": "Requester",
+            "organization": "Organization",
+            "assignedTo": "Assigned to",
+            "status": "Status",
+            "period": "Period",
+            "priority": "Priority"
+        },
+        "actions": {
+            "tableActions": "Table actions",
+            "openMenu": "Open menu",
+            "openRequest": "Open request",
+            "openQuote": "Open quote",
+            "assignRequest": "Assign request",
+            "reassignRequest": "Reassign request",
+            "chatWith": "Chat with {{name}}",
+            "shareToTeamChat": "Share to team chat",
+            "download": "Download",
+            "exportCsv": "Export as CSV",
+            "exporting": "Exporting..."
+        },
+        "empty": {
+            "errorTitle": "Unable to load requests.",
+            "filteredTitle": "No requests match the current filters.",
+            "clearFilters": "Clear filters",
+            "incomingTitle": "No requests received.",
+            "outgoingTitle": "No requests sent."
+        }
+    },
+    "filters": {
+        "datePlaceholder": "Select Period",
+        "assigneePlaceholder": "All assignee",
+        "priorityPlaceholder": "All priorities",
+        "statusLabel": "Status",
+        "searchMember": "Search member...",
+        "selectedCount": "{{count}} selected",
+        "noPrioritiesFound": "No priorities found.",
+        "noMembersFound": "No members found."
+    },
+    "status": {
+        "draft": "Draft",
+        "open": "Open",
+        "closed": "Closed",
+        "pending": "Pending",
+        "quoted": "Quoted",
+        "rejected": "Rejected",
+        "canceled": "Cancelled",
+        "cancelled": "Cancelled",
+        "quote_rejected": "Quote Rejected",
+        "invoiced": "Invoiced",
+        "expired": "Expired"
+    },
+    "priority": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low",
+        "none": "—"
+    },
+    "assign": {
+        "titleAssign": "Assign Request",
+        "titleReassign": "Reassign Request",
+        "descriptionAssign": "Choose a user to assign this request to.",
+        "descriptionReassign": "Choose a user to reassign this request to.",
+        "searchPlaceholder": "Search user",
+        "noMembersFound": "No members found.",
+        "noMembersAvailable": "No members available.",
+        "assigneeLegend": "Assignee",
+        "youBadge": "You",
+        "validationRequired": "Please select a member to assign.",
+        "assign": "Assign",
+        "reassign": "Reassign",
+        "unassign": "Unassign",
+        "assigning": "Assigning...",
+        "unassigning": "Unassigning..."
+    },
+    "cancelDialog": {
+        "cancel": {
+            "trigger": "Cancel request",
+            "title": "Cancel Request",
+            "verb": "cancel",
+            "action": "Yes, cancel request",
+            "loading": "Canceling..."
+        },
+        "reject": {
+            "trigger": "Reject request",
+            "title": "Reject Request",
+            "verb": "reject",
+            "action": "Confirm Rejection",
+            "loading": "Rejecting..."
+        },
+        "discard": {
+            "trigger": "Discard draft",
+            "title": "Discard Draft",
+            "verb": "discard",
+            "action": "Yes, discard draft",
+            "loading": "Discarding..."
+        },
+        "description": "Are you sure you want to {{verb}} <strong>{{requestNumber}}</strong> ? This action cannot be undone."
+    },
+    "rejectionDialog": {
+        "title": "Reject Request",
+        "description": "Please provide a reason for rejecting this request. The requester will be notified of your decision.",
+        "requestNumberLabel": "Request Number",
+        "reasonLabel": "Reason for rejection",
+        "reasonPlaceholder": "Please explain why you're rejecting this request",
+        "reasonRequired": "Please provide a reason for rejection.",
+        "submit": "Reject Request",
+        "submitting": "Rejecting..."
+    },
+    "modalFooter": {
+        "submitQuote": "Submit quote",
+        "submittingQuote": "Submitting...",
+        "cancelEdit": "Cancel edit",
+        "answerWithQuote": "Answer with quote",
+        "legalsRequired": "Upload at least one legal document before sending a quote.",
+        "goToLegals": "Go to legal documents",
+        "validateDraft": "Validate draft",
+        "validatingDraft": "Validating..."
+    },
+    "toast": {
+        "requestCanceled": "Request canceled",
+        "failedToCancel": "Failed to cancel request",
+        "requestRejected": "Request rejected",
+        "failedToReject": "Failed to reject request",
+        "draftValidated": "Draft validated",
+        "failedToValidate": "Failed to validate draft",
+        "draftDiscarded": "Draft discarded",
+        "failedToDiscard": "Failed to discard draft",
+        "failedToLoadRequests": "Failed to load requests"
+    },
+    "sharedRequest": {
+        "dateRange": "{{from}} to {{to}}",
+        "notFound": "Request not found"
+    },
+    "error": {
+        "notFound": "Request not found",
+        "cancelForbidden": "You don't have permission to cancel this request",
+        "organizationForbidden": "You don't have permission to access this organization's requests",
+        "shareForbidden": "You don't have permission to share this request",
+        "invalidAssignment": "Invalid assignment",
+        "invalidState": "Request is in an invalid state for this action",
+        "teamChatNotFound": "Team chat not found",
+        "loadFailed": "Failed to load requests.",
+        "responseShape": "The requests API response did not match the expected shape."
+    }
+}

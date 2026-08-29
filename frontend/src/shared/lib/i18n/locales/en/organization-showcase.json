@@ -1,0 +1,49 @@
+{
+    "header": {
+        "contactSupport": "Contact support",
+        "sendRequest": "Send request",
+        "share": "Share",
+        "copySuccess": "Page link copied. Share it with your prospects.",
+        "copyError": "Failed to copy link",
+        "noTagline": "No tagline yet.",
+        "addTagline": "Add one"
+    },
+    "overview": {
+        "title": "Overview",
+        "emptyTitle": "No overview yet.",
+        "addOverview": "Add an overview"
+    },
+    "services": {
+        "title": "What we offer"
+    },
+    "cargoTypes": {
+        "title": "What we handle"
+    },
+    "details": {
+        "title": "Details",
+        "organization": "Organization",
+        "members": "Members",
+        "activeSince": "Active since",
+        "website": "Website"
+    },
+    "sheet": {
+        "title": "Send a request",
+        "subtitle": "Fill in the details below to submit your shipping request.",
+        "close": "Close",
+        "steps": {
+            "contactInformation": "Contact Information",
+            "cargoType": "Cargo type",
+            "services": "Services",
+            "details": "Details"
+        }
+    },
+    "error": {
+        "notFoundTitle": "Company page not found",
+        "notFoundMessage": "No public company page is available for this address. The link may be outdated, or the page may not be published yet.",
+        "unavailableTitle": "Company page temporarily unavailable",
+        "unavailableMessage": "This page may still exist, but something failed while loading its details. Please retry in a moment.",
+        "retry": "Retry",
+        "returnHome": "Return home",
+        "headNotFound": "Organization not found — Ortelius Quest"
+    }
+}

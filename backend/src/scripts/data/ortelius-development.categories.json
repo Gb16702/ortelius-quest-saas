@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a716"
+    },
+    "id": "refrigerated-cargo-reefer",
+    "order": 5,
+    "lang": {
+      "en": "Refrigerated Cargo (Reefer)"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a717"
+    },
+    "id": "paper-printing-products",
+    "order": 13,
+    "lang": {
+      "en": "Paper and Printing Products"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a718"
+    },
+    "id": "pharmaceuticals-medical-supplies",
+    "order": 14,
+    "lang": {
+      "en": "Pharma & Medical Supplies"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a719"
+    },
+    "id": "perishable-goods",
+    "order": 24,
+    "lang": {
+      "en": "Perishable Goods"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a71a"
+    },
+    "id": "specialized-cargo",
+    "order": 25,
+    "lang": {
+      "en": "Specialized Cargo"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a71b"
+    },
+    "id": "containerized-cargo",
+    "order": 4,
+    "lang": {
+      "en": "Containerized Cargo"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a71c"
+    },
+    "id": "hazardous-materials-hazmat",
+    "order": 6,
+    "lang": {
+      "en": "Hazardous Materials (Hazmat)"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a71d"
+    },
+    "id": "agricultural-products",
+    "order": 9,
+    "lang": {
+      "en": "Agricultural Products"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a71e"
+    },
+    "id": "electronics-high-tech-goods",
+    "order": 11,
+    "lang": {
+      "en": "Electronics and High-Tech Goods"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a71f"
+    },
+    "id": "furniture-home-goods",
+    "order": 12,
+    "lang": {
+      "en": "Furniture and Home Goods"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a720"
+    },
+    "id": "construction-materials",
+    "order": 15,
+    "lang": {
+      "en": "Construction Materials"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a721"
+    },
+    "id": "chemicals-petrochemicals",
+    "order": 16,
+    "lang": {
+      "en": "Chemicals and Petrochemicals"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a722"
+    },
+    "id": "minerals-ores",
+    "order": 20,
+    "lang": {
+      "en": "Minerals and Ores"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a723"
+    },
+    "id": "retail-goods",
+    "order": 21,
+    "lang": {
+      "en": "Retail Goods"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a724"
+    },
+    "id": "artwork-collectibles",
+    "order": 22,
+    "lang": {
+      "en": "Artwork and Collectibles"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a725"
+    },
+    "id": "oversized-heavy-cargo",
+    "order": 7,
+    "lang": {
+      "en": "Oversized and Heavy Cargo"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a726"
+    },
+    "id": "general-cargo",
+    "order": 1,
+    "lang": {
+      "en": "General Cargo"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a727"
+    },
+    "id": "bulk-cargo",
+    "order": 2,
+    "lang": {
+      "en": "Bulk Cargo"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a728"
+    },
+    "id": "liquid-cargo",
+    "order": 3,
+    "lang": {
+      "en": "Liquid Cargo"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a729"
+    },
+    "id": "automobiles-vehicles",
+    "order": 8,
+    "lang": {
+      "en": "Automobiles and Vehicles"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a72a"
+    },
+    "id": "textiles-apparel",
+    "order": 10,
+    "lang": {
+      "en": "Textiles and Apparel"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a72b"
+    },
+    "id": "food-beverages",
+    "order": 17,
+    "lang": {
+      "en": "Food and Beverages"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a72c"
+    },
+    "id": "aerospace-parts-equipment",
+    "order": 19,
+    "lang": {
+      "en": "Aerospace Parts"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660bf4c466188cf9bc63a72d"
+    },
+    "id": "livestock-animals",
+    "order": 23,
+    "lang": {
+      "en": "Livestock and Animals"
+    }
+  }
+]

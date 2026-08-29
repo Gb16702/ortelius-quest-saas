@@ -1,0 +1,58 @@
+{
+    "action": {
+        "confirm": "Xác nhận",
+        "cancel": "Hủy",
+        "close": "Đóng",
+        "save": "Lưu",
+        "delete": "Xóa",
+        "next": "Tiếp",
+        "back": "Quay lại",
+        "retry": "Thử lại",
+        "tryAgain": "Thử lại",
+        "undo": "Hoàn tác",
+        "copy": "Sao chép",
+        "openNavigation": "Mở thanh bên",
+        "closeNavigation": "Đóng thanh bên"
+    },
+    "state": {
+        "loading": "Đang tải...",
+        "empty": "Không có gì để hiển thị",
+        "error": "Đã xảy ra lỗi"
+    },
+    "role": {
+        "owner": "Chủ sở hữu",
+        "admin": "Quản trị viên",
+        "member": "Thành viên"
+    },
+    "errorBoundary": {
+        "title": "Không thể tải khối này",
+        "copySuccess": "Đã sao chép chi tiết lỗi vào bộ nhớ tạm",
+        "copyError": "Không thể sao chép vào bộ nhớ tạm"
+    },
+    "error": {
+        "BAD_REQUEST": "Yêu cầu không hợp lệ",
+        "VALIDATION_ERROR": "Xác thực thất bại",
+        "UNAUTHORIZED": "Cần xác thực",
+        "FORBIDDEN": "Không đủ quyền",
+        "NOT_FOUND": "Không tìm thấy tài nguyên",
+        "METHOD_NOT_ALLOWED": "Phương thức không được phép",
+        "CONFLICT": "Xung đột tài nguyên",
+        "PAYLOAD_TOO_LARGE": "Dữ liệu quá lớn",
+        "RATE_LIMITED": "Quá nhiều yêu cầu",
+        "INTERNAL_SERVER_ERROR": "Đã xảy ra lỗi máy chủ nội bộ",
+        "UPSTREAM_UNAVAILABLE": "API thượng nguồn không khả dụng",
+        "unknown": "Đã xảy ra lỗi"
+    },
+    "date": {
+        "today": "Hôm nay",
+        "yesterday": "Hôm qua",
+        "never": "Chưa bao giờ"
+    },
+    "guestBadge": {
+        "label": "Khách",
+        "tooltip": {
+            "account": "Người dùng này chưa tạo tài khoản.",
+            "notifications": "Thông báo sẽ được gửi qua email."
+        }
+    }
+}

@@ -1,0 +1,113 @@
+name: Deploy Production
+
+on:
+  push:
+    tags:
+      - "v*"
+
+env:
+  AWS_REGION: eu-west-3
+  ECR_REPOSITORY: ortelius-quest-web
+  ECR_REGISTRY: 042762504789.dkr.ecr.eu-west-3.amazonaws.com
+  K_BASE_REPO: cocom-engineering/k-base
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: TypeScript check
+        run: bun run typecheck
+
+      - name: Biome check
+        run: bun run ci:check
+
+  build-and-push:
+    needs: [ci]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      id-token: write
+      contents: read
+    outputs:
+      version: ${{ steps.tag.outputs.VERSION }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::042762504789:role/github-actions-role-ortelius-quest
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Extract tag version
+        id: tag
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          push: true
+          build-args: |
+            VITE_API_URL=https://api-quest.ortelius.app
+            VITE_WS_URL=wss://api-quest.ortelius.app
+            VITE_PORTAL_ACCOUNT_URL=https://ortelius.app/account
+            AUTH_URL=https://auth.ortelius.app
+            API_URL=https://api-quest.ortelius.app
+            WS_URL=wss://api-quest.ortelius.app
+            LOGIN_URL=https://ortelius.app/auth
+            VITE_UMAMI_URL=https://analytics.ortelius.app/script.js
+            VITE_UMAMI_WEBSITE_ID=6fc56637-a154-4c86-b47d-e4a726a057ef
+            VITE_GMAPS_KEY=AIzaSyCUfikFrbntF-RNvsUPWC82ROjU89SPDV8
+          tags: |
+            ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}:${{ steps.tag.outputs.VERSION }}
+            ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  update-k-base:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout k-base
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ env.K_BASE_REPO }}
+          token: ${{ secrets.K_BASE_TOKEN }}
+          path: k-base
+
+      - name: Update image tag and push
+        run: |
+          cd k-base
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          sed -i "s|image: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:.*|image: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ needs.build-and-push.outputs.version }}|" \
+            templates/apps/main/ortelius-quest-web/manifests/rollout.yaml
+          git add .
+          git diff --staged --quiet || git commit -m "chore(quest): deploy ${{ needs.build-and-push.outputs.version }}"
+          git push || echo "Nothing to push"

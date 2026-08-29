@@ -1,0 +1,132 @@
+{
+    "breadcrumb": "Bảng điều khiển",
+    "page": {
+        "title": "Bảng điều khiển",
+        "subtitle": {
+            "admin": "Theo dõi đóng góp của bạn và hiệu suất của tổ chức.",
+            "member": "Theo dõi hiệu suất cá nhân của bạn."
+        }
+    },
+    "sections": {
+        "myContributions": {
+            "title": "Hoạt động của tôi",
+            "subtitle": "Theo dõi hiệu suất cá nhân của bạn."
+        },
+        "organizationOverview": {
+            "title": "Tổng quan tổ chức",
+            "subtitle": "Theo dõi các chỉ số của tổ chức."
+        }
+    },
+    "timePeriod": {
+        "last7Days": "7 ngày qua",
+        "last14Days": "14 ngày qua",
+        "last30Days": "30 ngày qua",
+        "last3Months": "3 tháng qua",
+        "last12Months": "12 tháng qua"
+    },
+    "comparison": {
+        "previous7Days": "So với 7 ngày trước",
+        "previous14Days": "So với 14 ngày trước",
+        "previous30Days": "So với 30 ngày trước",
+        "previous3Months": "So với 3 tháng trước",
+        "previous12Months": "So với 12 tháng trước",
+        "previousDays": "So với {{count}} ngày trước",
+        "previousPeriod": "So với kỳ trước"
+    },
+    "personalMetrics": {
+        "requestsHandled": {
+            "title": "Yêu cầu đã xử lý",
+            "chartLabel": "yêu cầu đã xử lý"
+        },
+        "quotesCreated": {
+            "title": "Báo giá đã tạo",
+            "chartLabel": "báo giá đã tạo"
+        },
+        "revenueGenerated": {
+            "title": "Doanh thu tạo ra",
+            "chartLabel": "doanh thu"
+        },
+        "messagesSent": {
+            "title": "Tin nhắn đã gửi",
+            "chartLabel": "tin nhắn"
+        },
+        "activityScore": {
+            "title": "Điểm hoạt động"
+        }
+    },
+    "organizationMetrics": {
+        "totalRequests": {
+            "title": "Tổng số yêu cầu",
+            "chartLabel": "yêu cầu"
+        },
+        "newVisitors": {
+            "title": "Khách truy cập mới",
+            "chartLabel": "khách truy cập mới"
+        },
+        "viewToRequestConversion": {
+            "title": "Chuyển đổi lượt xem-yêu cầu",
+            "chartLabel": "chuyển đổi"
+        },
+        "acceptedQuotes": {
+            "title": "Báo giá đã chấp nhận",
+            "chartLabel": "báo giá đã chấp nhận"
+        },
+        "totalRevenue": {
+            "title": "Tổng doanh thu",
+            "chartLabel": "doanh thu"
+        }
+    },
+    "recentActivity": {
+        "title": "Hoạt động gần đây",
+        "rightLabel": "THỜI GIAN",
+        "empty": "Chưa có hoạt động nào.",
+        "systemActor": "Hệ thống"
+    },
+    "requestPipeline": {
+        "title": "Quy trình yêu cầu",
+        "empty": "Chưa có yêu cầu nào.",
+        "error": "Không thể tải yêu cầu.",
+        "table": {
+            "status": "Trạng thái",
+            "share": "Tỷ lệ",
+            "total": "Tổng"
+        }
+    },
+    "recentRequests": {
+        "title": "Yêu cầu gần đây",
+        "rightLabel": "MỚI NHẤT",
+        "empty": "Chưa có yêu cầu gần đây.",
+        "error": "Không thể tải yêu cầu."
+    },
+    "topMembers": {
+        "title": "Yêu cầu đã xử lý theo thành viên",
+        "rightLabel": "ĐÃ XỬ LÝ",
+        "empty": "Chưa có yêu cầu nào được xử lý.",
+        "error": "Không thể tải người đóng góp.",
+        "handledCount": "{{count}} yêu cầu đã xử lý",
+        "revenueSuffix": "đã xử lý"
+    },
+    "servicesCargo": {
+        "tabs": {
+            "cargo": "Loại hàng hóa",
+            "services": "Dịch vụ"
+        },
+        "rightLabel": "YÊU CẦU",
+        "emptyServices": "Không có dữ liệu dịch vụ.",
+        "emptyCargo": "Không có dữ liệu loại hàng hóa.",
+        "error": "Không thể tải dữ liệu dịch vụ và loại hàng hóa."
+    },
+    "metricsError": {
+        "loadFailed": "Không thể tải các chỉ số."
+    },
+    "toasts": {
+        "organizationJoined": "Đã tham gia tổ chức"
+    },
+    "actions": {
+        "viewAll": "Xem tất cả",
+        "moreOptions": "Tùy chọn khác"
+    },
+    "common": {
+        "retry": "Thử lại"
+    }
+}

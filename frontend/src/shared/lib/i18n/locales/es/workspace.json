@@ -1,0 +1,68 @@
+{
+    "sidebar": {
+        "searchPlaceholder": "Buscar...",
+        "searchEmpty": "Sin resultados.",
+        "subtitlePage": "Página",
+        "subtitleAction": "Acción",
+        "subtitleNavigation": "Navegación",
+        "requests": "Solicitudes",
+        "chats": "Conversaciones",
+        "chat": "Conversación",
+        "account": "Cuenta",
+        "accountSettings": "Ajustes de la cuenta",
+        "dashboard": "Panel",
+        "team": "Equipo",
+        "members": "Miembros",
+        "membersSection": "Miembros del equipo",
+        "favoriteRequesterChat": "Chat de solicitud con {{name}}",
+        "favoriteRequesterChatWithRequest": "Chat de solicitud #{{requestNumber}} con {{name}}",
+        "invitations": "Invitaciones",
+        "activity": "Actividad",
+        "settings": "Configuración",
+        "branding": "Marca",
+        "business": "Empresa",
+        "billing": "Facturación",
+        "invoices": "Facturas",
+        "legals": "Avisos legales",
+        "try": "Probar",
+        "shareCompanyPage": "Compartir página de la empresa",
+        "inviteMembers": "Invitar miembros",
+        "setupChecklist": {
+            "title": "Getting started",
+            "open": "Abrir checklist de inicio",
+            "close": "Cerrar checklist de inicio",
+            "progress": "{{percent}}% completado",
+            "stepsCompleted": "{{completed}}/{{total}} pasos completados",
+            "continue": "Continuar configuración"
+        },
+        "openNotifications": "Abrir notificaciones",
+        "memberCount_one": "{{count}} miembro",
+        "memberCount_other": "{{count}} miembros",
+        "homePage": "Inicio",
+        "signOut": "Cerrar sesión",
+        "backToOrg": "Volver a {{org}}"
+    },
+    "topbar": {
+        "openNotifications": "Abrir notificaciones",
+        "openAccountMenu": "Abrir menú de la cuenta",
+        "viewProfile": "Ver perfil",
+        "homePage": "Inicio",
+        "accountSettings": "Ajustes de la cuenta",
+        "signOut": "Cerrar sesión",
+        "unknownUser": "Usuario"
+    },
+    "userMenu": {
+        "language": "Idioma"
+    },
+    "header": {
+        "signIn": "Iniciar sesión",
+        "getStarted": "Empezar",
+        "unknownUser": "Usuario desconocido",
+        "dashboard": "Panel",
+        "requests": "Solicitudes",
+        "chat": "Conversación",
+        "members": "Miembros",
+        "accountSettings": "Ajustes de la cuenta",
+        "signOut": "Cerrar sesión"
+    }
+}

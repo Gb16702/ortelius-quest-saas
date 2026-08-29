@@ -1,0 +1,30 @@
+{
+    "breadcrumb": "Configuración de la cuenta",
+    "head": {
+        "title": "Configuración de la cuenta",
+        "subtitle": "Gestiona tus preferencias personales."
+    },
+    "profile": {
+        "title": "Perfil",
+        "description": "Tu nombre y avatar se comparten entre todos los productos de Ortelius. Edítalos una sola vez en el portal de cuenta central y los cambios se propagarán a todas partes.",
+        "openPortal": "Abrir el portal de cuenta"
+    },
+    "leaveOrganization": {
+        "title": "Abandonar la organización",
+        "description": "Abandonar {{organizationName}} revocará tu acceso a sus datos, miembros y mensajes. Cualquier solicitud asignada a ti quedará sin asignar. Esta acción no se puede deshacer.",
+        "action": "Abandonar la organización",
+        "dialog": {
+            "title": "¿Abandonar {{organizationName}}?",
+            "description": "Perderás el acceso a esta organización, a sus miembros, solicitudes y mensajes. Cualquier solicitud actualmente asignada a ti quedará sin asignar. Esta acción no se puede deshacer.",
+            "confirmLabelPrefix": "Para confirmar, escribe",
+            "confirmLabelSuffix": "a continuación:",
+            "cancel": "Cancelar",
+            "submitting": "Saliendo...",
+            "confirm": "Abandonar la organización"
+        },
+        "toast": {
+            "success": "Has abandonado {{organizationName}}",
+            "error": "No se pudo abandonar la organización"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "sidebar": {
+        "searchPlaceholder": "Zoeken...",
+        "searchEmpty": "Geen resultaten gevonden.",
+        "subtitlePage": "Pagina",
+        "subtitleAction": "Actie",
+        "subtitleNavigation": "Navigatie",
+        "requests": "Aanvragen",
+        "chats": "Gesprekken",
+        "chat": "Gesprek",
+        "account": "Account",
+        "accountSettings": "Accountinstellingen",
+        "dashboard": "Dashboard",
+        "team": "Team",
+        "members": "Leden",
+        "membersSection": "Teamleden",
+        "favoriteRequesterChat": "Aanvraagchat met {{name}}",
+        "favoriteRequesterChatWithRequest": "Aanvraagchat #{{requestNumber}} met {{name}}",
+        "invitations": "Uitnodigingen",
+        "activity": "Activiteit",
+        "settings": "Instellingen",
+        "branding": "Huisstijl",
+        "business": "Bedrijf",
+        "billing": "Facturatie",
+        "invoices": "Facturen",
+        "legals": "Juridisch",
+        "try": "Proberen",
+        "shareCompanyPage": "Bedrijfspagina delen",
+        "inviteMembers": "Leden uitnodigen",
+        "setupChecklist": {
+            "title": "Getting started",
+            "open": "Checklist voor starten openen",
+            "close": "Checklist voor starten sluiten",
+            "progress": "{{percent}}% voltooid",
+            "stepsCompleted": "{{completed}}/{{total}} stappen voltooid",
+            "continue": "Setup hervatten"
+        },
+        "openNotifications": "Meldingen openen",
+        "memberCount_one": "{{count}} lid",
+        "memberCount_other": "{{count}} leden",
+        "homePage": "Startpagina",
+        "signOut": "Afmelden",
+        "backToOrg": "Terug naar {{org}}"
+    },
+    "topbar": {
+        "openNotifications": "Meldingen openen",
+        "openAccountMenu": "Accountmenu openen",
+        "viewProfile": "Profiel bekijken",
+        "homePage": "Startpagina",
+        "accountSettings": "Accountinstellingen",
+        "signOut": "Afmelden",
+        "unknownUser": "Gebruiker"
+    },
+    "userMenu": {
+        "language": "Taal"
+    },
+    "header": {
+        "signIn": "Inloggen",
+        "getStarted": "Aan de slag",
+        "unknownUser": "Onbekende gebruiker",
+        "dashboard": "Dashboard",
+        "requests": "Aanvragen",
+        "chat": "Gesprek",
+        "members": "Leden",
+        "accountSettings": "Accountinstellingen",
+        "signOut": "Afmelden"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "breadcrumb": "Accountinstellingen",
+    "head": {
+        "title": "Accountinstellingen",
+        "subtitle": "Beheer je persoonlijke voorkeuren."
+    },
+    "profile": {
+        "title": "Profiel",
+        "description": "Je naam en avatar worden gedeeld met alle Ortelius-producten. Bewerk ze één keer in het centrale accountportaal en de wijzigingen worden overal doorgevoerd.",
+        "openPortal": "Accountportaal openen"
+    },
+    "leaveOrganization": {
+        "title": "Organisatie verlaten",
+        "description": "Door {{organizationName}} te verlaten verlies je toegang tot de gegevens, leden en berichten. Aanvragen die aan jou zijn toegewezen worden ontkoppeld. Deze actie kan niet ongedaan worden gemaakt.",
+        "action": "Organisatie verlaten",
+        "dialog": {
+            "title": "{{organizationName}} verlaten?",
+            "description": "Je verliest de toegang tot deze organisatie, haar leden, aanvragen en berichten. Aanvragen die momenteel aan jou zijn toegewezen worden ontkoppeld. Deze actie kan niet ongedaan worden gemaakt.",
+            "confirmLabelPrefix": "Typ ter bevestiging",
+            "confirmLabelSuffix": "hieronder:",
+            "cancel": "Annuleren",
+            "submitting": "Bezig met verlaten...",
+            "confirm": "Organisatie verlaten"
+        },
+        "toast": {
+            "success": "Je hebt {{organizationName}} verlaten",
+            "error": "Verlaten van de organisatie is mislukt"
+        }
+    }
+}

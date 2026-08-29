@@ -1,0 +1,363 @@
+{
+    "breadcrumb": {
+        "team": "Equipo",
+        "members": "Miembros",
+        "invitations": "Invitaciones",
+        "activity": "Actividad"
+    },
+    "members": {
+        "title": "Miembros",
+        "subtitleAdmin": "Gestiona los miembros de tu organización y sus roles.",
+        "subtitleMember": "Consulta los miembros de tu organización.",
+        "inviteAction": "Invitar miembros",
+        "table": {
+            "memberHeader": "Miembro",
+            "roleHeader": "Rol",
+            "twoFactorHeader": "2FA",
+            "joinedOnHeader": "Se unió el",
+            "lastSeenHeader": "Última conexión",
+            "youBadge": "Tú",
+            "online": "En línea",
+            "twoFactorEnabled": "Habilitada",
+            "twoFactorDisabled": "Deshabilitada",
+            "tableActionsLabel": "Acciones de la tabla",
+            "openMenuLabel": "Abrir menú",
+            "viewProfile": "Ver perfil",
+            "messageMember": "Enviar mensaje",
+            "chatWithMember": "Chatear con {{name}}",
+            "editRole": "Editar rol",
+            "removeMember": "Eliminar miembro",
+            "exportCsv": "Exportar como CSV",
+            "exporting": "Exportando...",
+            "pageInfoLabel": "miembros",
+            "emptyTitle": "Ningún miembro coincide con los filtros actuales.",
+            "clearFilters": "Borrar filtros"
+        },
+        "toast": {
+            "loadFailed": "Error al cargar los miembros",
+            "removeSuccess": "Miembro eliminado",
+            "removeFailed": "Error al eliminar el miembro",
+            "startChatFailed": "Error al iniciar el chat con el miembro",
+            "roleUpdated": "Rol actualizado",
+            "roleUpdateFailed": "Error al actualizar el rol"
+        }
+    },
+    "invitations": {
+        "title": "Invitaciones",
+        "subtitle": "Sigue y gestiona las invitaciones enviadas.",
+        "table": {
+            "emailHeader": "Correo electrónico",
+            "roleHeader": "Rol",
+            "statusHeader": "Estado",
+            "invitedByHeader": "Invitado por",
+            "expiresAtHeader": "Expira el",
+            "selectAllAriaLabel": "Seleccionar todo",
+            "selectRowAriaLabel": "Seleccionar fila",
+            "openMenuLabel": "Abrir menú",
+            "tableActionsLabel": "Acciones de la tabla",
+            "resend": "Reenviar invitación",
+            "editRole": "Editar rol",
+            "cancel": "Cancelar invitación",
+            "addToArchive": "Añadir al archivo",
+            "removeFromArchive": "Quitar del archivo",
+            "addingToArchive": "Añadiendo al archivo...",
+            "removingFromArchive": "Quitando del archivo...",
+            "exportCsv": "Exportar como CSV",
+            "exporting": "Exportando...",
+            "pageInfoLabel": "invitaciones",
+            "emptyTitle": "Ninguna invitación coincide con los filtros actuales.",
+            "clearFilters": "Borrar filtros"
+        },
+        "toast": {
+            "loadFailed": "Error al cargar las invitaciones"
+        }
+    },
+    "invitationStatus": {
+        "pending": "Pendiente",
+        "accepted": "Aceptada",
+        "canceled": "Cancelada",
+        "expired": "Caducada",
+        "archived": "Archivada"
+    },
+    "memberStatus": {
+        "accepted": "Activo",
+        "pending": "Pendiente",
+        "canceled": "Cancelado"
+    },
+    "filters": {
+        "rolesLabel": "Roles",
+        "invitationsLabel": "Invitaciones",
+        "searchMembersPlaceholder": "Buscar por nombre o correo electrónico",
+        "searchEmailPlaceholder": "Buscar por correo electrónico"
+    },
+    "inviteDialog": {
+        "title": "Invitar miembros",
+        "description": "Invita a compañeros a colaborar en tu organización.",
+        "emailPlaceholder": "colega@empresa.com",
+        "rolePlaceholder": "Rol",
+        "validationHint": "Pulsa Intro o Tab para validar.",
+        "seatPricingNote": "Cada nuevo miembro añade {{price}} €/mes, prorrateado.",
+        "send": "Enviar invitaciones",
+        "sending": "Enviando...",
+        "close": "Cerrar",
+        "errors": {
+            "invalidEmail": "Por favor, introduce un correo electrónico válido",
+            "cannotInviteSelf": "No puedes invitarte a ti mismo",
+            "duplicateEmail": "Este correo electrónico ya está en la lista",
+            "atLeastOneEmail": "Por favor, introduce al menos un correo electrónico"
+        }
+    },
+    "inviteBreadcrumb": {
+        "ariaLabel": "Invitar miembros",
+        "tooltip": "Invitar miembros"
+    },
+    "editRoleDialog": {
+        "title": "Editar rol",
+        "description": "Cambiar el rol de <strong>{{name}}</strong>",
+        "update": "Actualizar rol",
+        "updating": "Actualizando...",
+        "close": "Cerrar",
+        "legend": "Rol"
+    },
+    "editInvitationRoleDialog": {
+        "title": "Editar rol de la invitación",
+        "description": "Cambiar el rol de la invitación para <strong>{{email}}</strong>",
+        "update": "Actualizar rol",
+        "updating": "Actualizando...",
+        "close": "Cerrar",
+        "errors": {
+            "selectRole": "Por favor, selecciona un rol."
+        }
+    },
+    "removeMemberDialog": {
+        "title": "Eliminar miembro",
+        "description": "¿Seguro que quieres eliminar a <strong>{{name}}</strong> de la organización? Esta acción no se puede deshacer.",
+        "seatReleaseNote": "Eliminar un miembro acredita {{price}} €/mes, prorrateado.",
+        "confirm": "Confirmar eliminación",
+        "removing": "Eliminando...",
+        "close": "Cerrar"
+    },
+    "cancelInvitationDialog": {
+        "titleOne": "Cancelar invitación",
+        "titleMany": "Cancelar invitaciones",
+        "descriptionOne": "¿Seguro que quieres cancelar la invitación para <strong>{{email}}</strong>? Esta acción no se puede deshacer.",
+        "descriptionMany_one": "¿Seguro que quieres cancelar <strong>{{count}} invitación</strong>? Solo se cancelarán las invitaciones pendientes. Esta acción no se puede deshacer.",
+        "descriptionMany_other": "¿Seguro que quieres cancelar <strong>{{count}} invitaciones</strong>? Solo se cancelarán las invitaciones pendientes. Esta acción no se puede deshacer.",
+        "confirmOne": "Cancelar invitación",
+        "confirmMany": "Cancelar invitaciones",
+        "canceling": "Cancelando...",
+        "close": "Cerrar"
+    },
+    "profile": {
+        "dialogTitle": "Perfil del miembro",
+        "memberActionsLabel": "Acciones del miembro",
+        "addFavorite": "Agregar a favoritos",
+        "removeFavorite": "Quitar de favoritos",
+        "chatWithMember": "Chatear con {{name}}",
+        "editRole": "Editar rol",
+        "removeMember": "Eliminar miembro",
+        "loadFailedTitle": "Error al cargar el perfil",
+        "loadFailedDescription": "Ocurrió un error al cargar el perfil del miembro.",
+        "joinedAgo": "Se unió hace {{duration}}",
+        "recentActivity": "Actividad reciente",
+        "viewDetails": "Ver detalles",
+        "noRecentActivity": "Sin actividad reciente.",
+        "assignedRequests": "Solicitudes asignadas",
+        "noAssignedRequests": "Sin solicitudes asignadas.",
+        "requestCreated": "Creada {{distance}}"
+    },
+    "activity": {
+        "title": "Actividad",
+        "actorAll": "Todos los usuarios",
+        "actorSelected": "Usuario seleccionado",
+        "actorSearchPlaceholder": "Buscar miembro...",
+        "actorEmpty": "No se encontraron miembros.",
+        "datePresetSelectLabel": "Periodo",
+        "emptyTitle": "Aún no hay actividad.",
+        "emptyFilteredTitle": "Ninguna actividad coincide con tus filtros.",
+        "clearFilters": "Borrar filtros",
+        "loadMore": "Cargar más",
+        "actorYou": "Tú",
+        "actorSystem": "Sistema",
+        "filterSheetTitle": "Filtrar por evento",
+        "filterTrigger": {
+            "ariaLabel": "Filtrar por evento",
+            "tooltip": "Filtrar por evento"
+        },
+        "eventFilter": {
+            "searchPlaceholder": "Buscar eventos...",
+            "selectAll": "Seleccionar todo",
+            "clearAll": "Limpiar todo",
+            "selectedCount": "{{selected}} de {{total}} seleccionados",
+            "noMatch": "No hay eventos coincidentes"
+        },
+        "event": {
+            "request-created": {
+                "label": "Solicitud creada",
+                "description": "Se creó una nueva solicitud"
+            },
+            "request-updated": {
+                "label": "Solicitud actualizada",
+                "description": "Se actualizaron los detalles de la solicitud"
+            },
+            "request-rejected": {
+                "label": "Solicitud rechazada",
+                "description": "Se rechazó una solicitud"
+            },
+            "request-validated": {
+                "label": "Solicitud validada",
+                "description": "Se validó una solicitud"
+            },
+            "request-deleted": {
+                "label": "Solicitud eliminada",
+                "description": "Se eliminó una solicitud"
+            },
+            "request-cancelled": {
+                "label": "Solicitud cancelada",
+                "description": "Se canceló una solicitud"
+            },
+            "request-document-removed": {
+                "label": "Documento eliminado",
+                "description": "Se eliminó un documento de una solicitud"
+            },
+            "request-linked-to-user": {
+                "label": "Solicitud vinculada",
+                "description": "Se vinculó una solicitud a un usuario"
+            },
+            "request-assigned": {
+                "label": "Solicitud asignada",
+                "description": "Se asignó una solicitud a un miembro"
+            },
+            "request-reassigned": {
+                "label": "Solicitud reasignada",
+                "description": "Se reasignó una solicitud a otro miembro"
+            },
+            "request-unassigned": {
+                "label": "Asignación retirada",
+                "description": "Se retiró la asignación de una solicitud"
+            },
+            "request-shared-to-team-chat": {
+                "label": "Solicitud compartida",
+                "description": "Se compartió una solicitud en el chat del equipo"
+            },
+            "quote-created": {
+                "label": "Presupuesto creado",
+                "description": "Se creó un nuevo presupuesto"
+            },
+            "quote-updated": {
+                "label": "Presupuesto actualizado",
+                "description": "Se actualizaron los detalles del presupuesto"
+            },
+            "quote-accepted": {
+                "label": "Presupuesto aceptado",
+                "description": "Se aceptó un presupuesto"
+            },
+            "quote-rejected": {
+                "label": "Presupuesto rechazado",
+                "description": "Se rechazó un presupuesto"
+            },
+            "invoice-created": {
+                "label": "Factura creada",
+                "description": "Se creó una nueva factura"
+            },
+            "invoice-sent": { "label": "Factura enviada", "description": "Se envió una factura" },
+            "member-invited": {
+                "label": "Miembro invitado",
+                "description": "Se invitó a un nuevo miembro a la organización"
+            },
+            "invitation-resent": {
+                "label": "Invitación reenviada",
+                "description": "Se reenvió un correo de invitación"
+            },
+            "invitation-role-updated": {
+                "label": "Rol de invitación actualizado",
+                "description": "Se cambió el rol de una invitación pendiente"
+            },
+            "invitation-cancelled": {
+                "label": "Invitación cancelada",
+                "description": "Se canceló una invitación pendiente"
+            },
+            "member-role-updated": {
+                "label": "Rol actualizado",
+                "description": "Se cambió el rol de un miembro"
+            },
+            "member-removed": {
+                "label": "Miembro eliminado",
+                "description": "Se eliminó a un miembro de la organización"
+            },
+            "member-left": {
+                "label": "Miembro salió",
+                "description": "Un miembro abandonó la organización"
+            },
+            "invitations-cancelled-bulk": {
+                "label": "Invitaciones canceladas",
+                "description": "Se cancelaron varias invitaciones a la vez"
+            },
+            "organization-updated": {
+                "label": "Organización actualizada",
+                "description": "Se actualizaron los detalles de la organización"
+            },
+            "organization-categories-updated": {
+                "label": "Categorías actualizadas",
+                "description": "Se actualizaron las categorías de la organización"
+            },
+            "organization-services-updated": {
+                "label": "Servicios actualizados",
+                "description": "Se actualizaron los servicios de la organización"
+            },
+            "organization-tax-id-updated": {
+                "label": "Identificador fiscal actualizado",
+                "description": "Se actualizó el identificador fiscal de la organización"
+            },
+            "organization-logo-updated": {
+                "label": "Logo actualizado",
+                "description": "Se actualizó el logo de la organización"
+            },
+            "organization-logo-removed": {
+                "label": "Logo eliminado",
+                "description": "Se eliminó el logo de la organización"
+            },
+            "showcase-invitations-sent": {
+                "label": "Invitaciones de escaparate enviadas",
+                "description": "Se enviaron invitaciones de escaparate a prospectos"
+            },
+            "email-intake-updated": {
+                "label": "Recepción de correo actualizada",
+                "description": "Se actualizaron los ajustes de recepción de correo"
+            },
+            "service-pricing-updated": {
+                "label": "Tarifas de servicios actualizadas",
+                "description": "Se actualizaron los ajustes de tarifas de servicios"
+            },
+            "call-started": { "label": "Llamada iniciada", "description": "Se inició una llamada" },
+            "call-ended": {
+                "label": "Llamada finalizada",
+                "description": "Se finalizó una llamada"
+            },
+            "subscription-created": {
+                "label": "Suscripción creada",
+                "description": "Se creó una suscripción"
+            },
+            "subscription-confirmed": {
+                "label": "Suscripción confirmada",
+                "description": "Se confirmó una suscripción"
+            },
+            "subscription-seats-reconciled": {
+                "label": "Plazas de suscripción reconciliadas",
+                "description": "Se reconciliaron las plazas de suscripción con la membresía actual"
+            },
+            "user-name-updated": {
+                "label": "Nombre actualizado",
+                "description": "Un miembro actualizó su nombre visible"
+            },
+            "two-factor-enabled": {
+                "label": "2FA habilitada",
+                "description": "Se habilitó la autenticación de dos factores"
+            },
+            "two-factor-disabled": {
+                "label": "2FA deshabilitada",
+                "description": "Se deshabilitó la autenticación de dos factores"
+            }
+        }
+    }
+}

@@ -1,0 +1,499 @@
+{
+    "nav": {
+        "settings": "Configuración",
+        "branding": "Marca",
+        "business": "Negocio",
+        "billing": "Facturación",
+        "invoices": "Facturas",
+        "legals": "Documentos legales"
+    },
+    "branding": {
+        "title": "Marca",
+        "subtitle": "Gestiona cómo aparece tu organización públicamente.",
+        "loadError": "No se pudo cargar la configuración de la organización.",
+        "publicProfile": {
+            "heading": "Perfil público",
+            "description": "Se muestra en tu página pública y en los documentos para clientes."
+        },
+        "visualIdentity": {
+            "heading": "Identidad visual",
+            "description": "Se usa en superficies de marca y llamadas a la acción."
+        },
+        "logo": {
+            "title": "Logotipo de la organización",
+            "description": "Haz clic en el logotipo para subir uno personalizado.",
+            "uploadAriaLabel": "Subir logotipo de la organización"
+        },
+        "tagline": {
+            "title": "Lema",
+            "description": "Una frase corta que describe la actividad de tu organización.",
+            "placeholder": "p. ej. Carga sin fricciones"
+        },
+        "website": {
+            "title": "Sitio web",
+            "description": "La URL del sitio web de tu organización.",
+            "placeholder": "ejemplo.com"
+        },
+        "overview": {
+            "title": "Descripción",
+            "description": "Una descripción detallada de tu organización.",
+            "editAction": "Editar descripción",
+            "dialogTitle": "Editar descripción",
+            "placeholder": "Describe tu organización..."
+        },
+        "brandColor": {
+            "title": "Color de marca",
+            "description": "Selecciona el color de acento utilizado por los controles y llamadas a la acción.",
+            "ariaLabel": "Color de marca de la organización"
+        },
+        "font": {
+            "title": "Tipografía",
+            "description": "Selecciona la tipografía de la interfaz de tu organización.",
+            "ariaLabel": "Tipografía de la organización"
+        },
+        "toast": {
+            "taglineUpdated": "Lema de la organización actualizado",
+            "overviewSaving": "Guardando descripción…",
+            "overviewUpdated": "Descripción de la organización actualizada",
+            "overviewFailed": "No se pudo guardar la descripción",
+            "websiteUpdated": "Sitio web de la organización actualizado",
+            "brandColorSaving": "Guardando color de marca...",
+            "brandColorUpdated": "Color de marca actualizado",
+            "brandColorFailed": "No se pudo actualizar el color de marca",
+            "fontSaving": "Guardando tipografía...",
+            "fontUpdated": "Tipografía actualizada",
+            "fontFailed": "No se pudo actualizar la tipografía",
+            "logoUploading": "Subiendo logotipo...",
+            "logoUpdated": "Logotipo de la organización actualizado",
+            "logoUpdateFailed": "No se pudo actualizar el logotipo",
+            "logoRemoving": "Eliminando logotipo...",
+            "logoRemoved": "Logotipo de la organización eliminado",
+            "logoRemoveFailed": "No se pudo eliminar el logotipo",
+            "viewHomePage": "Ver página de inicio"
+        }
+    },
+    "business": {
+        "title": "Negocio",
+        "loadError": "No se pudo cargar la configuración de negocio.",
+        "catalog": {
+            "heading": "Catálogo",
+            "description": "Define lo que los clientes pueden solicitar y lo que tu equipo puede cotizar",
+            "cargoTypes": {
+                "title": "Tipos de carga",
+                "empty": "Sin tipos de carga activos"
+            },
+            "services": {
+                "title": "Servicios",
+                "empty": "Sin servicios activos"
+            }
+        },
+        "intelligence": {
+            "heading": "Inteligencia",
+            "description": "Datos usados para automatizar la preparación de cotizaciones y sugerencias de precios",
+            "pricingData": {
+                "title": "Datos de precios",
+                "description": "Importa transacciones pasadas usadas para sugerencias de precios con IA"
+            },
+            "emailIntake": {
+                "title": "Recepción por correo",
+                "descriptionPrefix": "Reenvía los correos de clientes a ",
+                "descriptionSuffix": " para que la IA prepare solicitudes para revisión",
+                "fallbackAddress": "tu dirección de recepción"
+            }
+        },
+        "cargoSheet": {
+            "title": "Gestionar tipos de carga",
+            "description": "Selecciona qué categorías de carga puede gestionar tu organización.",
+            "saveLabel": "Guardar categorías"
+        },
+        "servicesSheet": {
+            "title": "Gestionar servicios",
+            "description": "Define qué servicios logísticos y de carga ofreces a tus clientes.",
+            "saveLabel": "Guardar servicios"
+        },
+        "pricingDialog": {
+            "title": "Datos de precios",
+            "description": "Importa transacciones pasadas usadas para sugerencias de precios con IA"
+        },
+        "others_one": "{{count}} más",
+        "others_other": "{{count}} más",
+        "toast": {
+            "noChanges": "No hay cambios para guardar",
+            "cargoSaving": "Guardando tipos de carga...",
+            "cargoUpdated": "Tipos de carga actualizados",
+            "cargoFailed": "No se pudieron actualizar los tipos de carga",
+            "servicesSaving": "Guardando servicios...",
+            "servicesUpdated": "Servicios actualizados",
+            "servicesFailed": "No se pudieron actualizar los servicios",
+            "categoriesLoadFailed": "No se pudieron cargar las categorías",
+            "servicesLoadFailed": "No se pudieron cargar los servicios",
+            "emailIntakeEnabling": "Activando recepción por correo...",
+            "emailIntakeDisabling": "Desactivando recepción por correo...",
+            "emailIntakeEnabled": "Recepción por correo activada",
+            "emailIntakeDisabled": "Recepción por correo desactivada",
+            "emailIntakeFailed": "No se pudo actualizar la recepción por correo"
+        }
+    },
+    "billing": {
+        "title": "Facturación",
+        "sections": {
+            "details": {
+                "title": "Detalles de facturación"
+            },
+            "invoice": {
+                "title": "Preferencias de factura"
+            },
+            "danger": {
+                "title": "Zona peligrosa"
+            }
+        }
+    },
+    "invoices": {
+        "title": "Facturas",
+        "list": {
+            "totalDue": "Total a pagar",
+            "invoiced": "Facturado el {{date}}",
+            "viewInvoice": "Ver factura",
+            "downloadPdf": "Descargar PDF",
+            "loadMore": "Cargar más",
+            "emptyTitle": "Aún no hay facturas",
+            "emptyDescription": "Las facturas aparecerán aquí cuando tu suscripción las genere.",
+            "errorTitle": "No se pueden cargar las facturas.",
+            "errorDescription": "No pudimos obtener tus facturas. Vuelve a intentarlo antes de suponer que no hay facturas.",
+            "noFilteredFound": "No se encontraron facturas {{filter}}.",
+            "loadFailed": "No se pudo cargar la factura."
+        },
+        "filter": {
+            "all": "Todas las facturas",
+            "paid": "Pagada",
+            "open": "Abierta",
+            "draft": "Borrador"
+        },
+        "sheet": {
+            "title": "Detalles de la factura",
+            "totalDue": "Total a pagar",
+            "invoiceNumber": "Número de factura",
+            "product": "Producto",
+            "qty": "Cant.",
+            "totalCost": "Coste total",
+            "subtotal": "Subtotal",
+            "total": "Total",
+            "download": "Descargar",
+            "contactSupport": "Contactar con soporte"
+        }
+    },
+    "legalDocuments": {
+        "title": "Documentos legales",
+        "upload": {
+            "title": "Añadir documentos",
+            "description": "Reutilizables en tus presupuestos y facturas.",
+            "dropzoneTitle": "Subir archivos",
+            "dropzoneDescription": "Haz clic aquí o arrastra y suelta para subir",
+            "dropzoneActive": "Suelta los archivos aquí",
+            "queued": "En cola",
+            "labelFor": "Etiqueta visible para {{filename}}",
+            "labelPlaceholder": "Etiqueta del documento",
+            "removeFile": "Quitar {{filename}}",
+            "limit": "Hasta {{count}} archivos PDF, {{size}} cada uno",
+            "upload": "Subir",
+            "uploading": "Subiendo...",
+            "uploadFiles_one": "Subir {{count}} archivo",
+            "uploadFiles_other": "Subir {{count}} archivos"
+        },
+        "table": {
+            "library": "Biblioteca",
+            "uploaded": "Subido {{date}}",
+            "downloadAria": "Descargar {{label}}",
+            "actionsAria": "Acciones para {{label}}",
+            "download": "Descargar",
+            "rename": "Renombrar",
+            "delete": "Eliminar"
+        },
+        "rename": {
+            "title": "Renombrar documento",
+            "required": "La etiqueta es obligatoria."
+        },
+        "delete": {
+            "title": "¿Eliminar documento legal?",
+            "description": "Este documento se eliminará permanentemente.",
+            "descriptionWithLabel": "\"{{label}}\" se eliminará permanentemente. Esta acción no se puede deshacer."
+        },
+        "dialog": {
+            "cancel": "Cancelar",
+            "save": "Guardar"
+        },
+        "error": {
+            "oversize": "Cada archivo debe tener 25 MB o menos.",
+            "wrongFormat": "Solo se aceptan archivos PDF.",
+            "tooMany": "Puedes subir hasta {{count}} archivos a la vez.",
+            "noOrganization": "No hay ninguna organización seleccionada.",
+            "emptyUpload": "Añade al menos un documento para subir.",
+            "missingLabels": "Añade una etiqueta para cada documento antes de subir.",
+            "quotaExceeded": "La subida superaría el límite de {{size}} MB de la organización.",
+            "quotaWithCurrent": "Esta subida superaría el límite de {{quota}} de la organización. Uso actual: {{current}}.",
+            "network": "Error de red durante la subida. Inténtalo de nuevo.",
+            "uploadFailed": "Error al subir"
+        },
+        "toast": {
+            "loadFailed": "No se pudieron cargar los documentos legales",
+            "added_one": "{{count}} documento añadido.",
+            "added_other": "{{count}} documentos añadidos.",
+            "uploaded_one": "{{count}} documento subido.",
+            "uploaded_other": "{{count}} documentos subidos.",
+            "undo_one": "Deshacer",
+            "undo_other": "Deshacer todo",
+            "uploadUndone_one": "Subida deshecha.",
+            "uploadUndone_other": "Subidas deshechas.",
+            "retrying_one": "Reintentando subida...",
+            "retrying_other": "Reintentando {{count}} subidas...",
+            "uploadFailed_one": "{{count}} subida falló.",
+            "uploadFailed_other": "{{count}} subidas fallaron.",
+            "uploading_one": "Subiendo {{count}} documento...",
+            "uploading_other": "Subiendo {{count}} documentos...",
+            "renaming": "Renombrando documento...",
+            "renamed": "Documento renombrado.",
+            "renameFailed": "Error al renombrar",
+            "deleting": "Eliminando documento...",
+            "deleted": "Documento eliminado.",
+            "deleteFailed": "Error al eliminar",
+            "preparingDownload": "Preparando descarga...",
+            "downloadStarted": "Descarga iniciada.",
+            "downloadFailed": "Error al descargar"
+        }
+    },
+    "subscription": {
+        "card": {
+            "freeTrial": "Periodo de prueba",
+            "currentPlan": "Plan actual",
+            "manage": "Gestionar plan",
+            "invoices": "Facturas",
+            "subscriptionFallback": "Suscripción",
+            "loadError": "No se pudieron cargar los datos de la suscripción.",
+            "afterTrial": "después de la prueba",
+            "trialDaysLeft_one": "{{count}} día restante. Añade la facturación antes del {{date}} para conservar tu plan.",
+            "trialDaysLeft_other": "{{count}} días restantes. Añade la facturación antes del {{date}} para conservar tu plan.",
+            "trialEndsToday": "La prueba termina hoy. Añade la facturación para conservar tu plan.",
+            "resuming": "Reanudando plan...",
+            "endsOn": "Tu plan termina el {{date}}.",
+            "nextBillingDateFallback": "tu próxima fecha de facturación",
+            "resumePlan": "Reanudar plan",
+            "keepingPlan": "Manteniendo {{planName}}...",
+            "planChangesTo": "Tu plan cambia a {{newPlan}} el {{date}}.",
+            "keepPlan": "Mantener {{planName}}",
+            "planIncludes": "Tu plan incluye",
+            "noFeatures": "No hay funciones listadas para este plan.",
+            "trialEnded": "Prueba finalizada",
+            "noActivePlan": "Sin plan activo",
+            "subscribeToContinue": "Suscríbete para continuar",
+            "pickPlan": "Elige un plan para comenzar",
+            "subscribe": "Suscribirse",
+            "choosePlan": "Elegir plan",
+            "planFrom": "{{planName}} desde {{price}}/mes · cambia de plan en cualquier momento.",
+            "anytime": "Cambia de plan en cualquier momento."
+        },
+        "status": {
+            "active": "Activo",
+            "trialing": "En prueba",
+            "cancelled": "Cancelado",
+            "expired": "Caducado"
+        },
+        "toast": {
+            "resumed": "Suscripción reanudada",
+            "pendingCanceled": "Cambio pendiente cancelado",
+            "planUpdated": "Plan actualizado",
+            "subscribed": "Bienvenido a {{planName}}",
+            "canceled": "Suscripción cancelada"
+        },
+        "cancel": {
+            "cardTitle": "Cancelar suscripción",
+            "cardDescription": "Detén la facturación recurrente al final de tu periodo actual. Puedes volver a suscribirte en cualquier momento.",
+            "cancel": "Cancelar",
+            "dialogTitle": "Cancelar plan",
+            "loseFeaturesWithDate": "Perderás todas las funciones de {{planName}} después del {{date}}.",
+            "loseFeaturesEnd": "Perderás todas las funciones de {{planName}} al final de tu periodo de facturación actual.",
+            "reasonLegend": "¿Cuál es tu motivo principal para cancelar?",
+            "feedbackLabel": "¿Algún comentario adicional?",
+            "optional": "(opcional)",
+            "feedbackPlaceholder": "Comparte cualquier cosa que pueda ayudarnos a mejorar",
+            "keepPlan": "Conserva tu plan {{planName}}",
+            "confirmAction": "Cancelar plan",
+            "canceling": "Cancelando...",
+            "reason": {
+                "too_expensive": "El coste de la suscripción es demasiado alto para mí",
+                "temporary_break": "Estoy haciendo una pausa temporal",
+                "missing_features": "Quest no tiene las funciones que necesito",
+                "switching_to_competitor": "Otra herramienta se adapta mejor a mis necesidades",
+                "low_usage": "No lo uso lo suficiente para justificar el coste",
+                "bugs_or_errors": "Tuve demasiados errores o fallos",
+                "other": "Mi motivo no está en la lista"
+            }
+        },
+        "planSelection": {
+            "title": "Gestionar tu plan",
+            "close": "Cerrar",
+            "perUserMonth": "por usuario /",
+            "month": "mes",
+            "billedYearly": "Facturación anual",
+            "billedMonthly": "Facturación mensual",
+            "savePerUser": "Ahorra {{amount}} € por usuario",
+            "everythingIn": "Todo lo incluido en {{planName}}, y:",
+            "current": "Actual",
+            "recommended": "Recomendado"
+        },
+        "planChange": {
+            "title": "Confirmar cambios de plan",
+            "description": "Revisa cómo afecta este cambio a la facturación antes de confirmar.",
+            "changePmTitle": "Actualizar método de pago",
+            "changePmDescription": "Actualiza el método de pago utilizado para la suscripción de esta organización.",
+            "loadError": "No pudimos cargar los detalles del cambio de plan",
+            "tryAgainHint": "Inténtalo de nuevo en un momento.",
+            "tryAgain": "Reintentar",
+            "retrying": "Reintentando...",
+            "close": "Cerrar",
+            "cancel": "Cancelar",
+            "processing": "Procesando...",
+            "confirming": "Confirmando...",
+            "confirm": "Confirmar",
+            "payNow": "Pagar ahora",
+            "proratedNew": "Plan {{planName}} prorrateado",
+            "proratedCredit": "Crédito prorrateado por tiempo no usado de {{planName}}",
+            "dueToday": "A pagar hoy",
+            "thenAmount": "Después {{amount}} / {{interval}} desde el {{date}}.",
+            "newPlan": "Nuevo plan {{planName}}",
+            "effectiveFrom": "Efectivo desde",
+            "currentStaysActive": "Tu plan {{planName}} sigue activo hasta entonces. Sin cargo hoy.",
+            "featuresRemoved": "Funciones eliminadas",
+            "intervalMonth": "mes",
+            "intervalYear": "año",
+            "change": "Cambiar",
+            "expires": "caduca"
+        },
+        "subscribe": {
+            "title": "Suscribirse a {{planName}}",
+            "cancel": "Cancelar",
+            "processing": "Procesando...",
+            "subscribeAction": "Suscribirse a {{planName}}",
+            "errorPaymentDetails": "Por favor, revisa tus datos de pago.",
+            "errorStartFailed": "No se pudo iniciar tu suscripción.",
+            "errorPaymentFailed": "El pago falló. Por favor, inténtalo de nuevo."
+        }
+    },
+    "paymentMethod": {
+        "title": "Método de pago",
+        "description": "Se usa para los cargos recurrentes de tu suscripción.",
+        "loadError": "No se pudieron cargar los datos del método de pago.",
+        "addAction": "Añadir método de pago",
+        "updateAction": "Actualizar",
+        "updateNowAction": "Actualizar ahora",
+        "emptyShortTitle": "Sin método de pago",
+        "emptyTitle": "No hay métodos de pago añadidos.",
+        "expires": "Caduca el {{date}}",
+        "sepa": "Adeudo SEPA",
+        "dialog": {
+            "addTitle": "Añadir método de pago",
+            "updateTitle": "Actualizar método de pago",
+            "loading": "Cargando formulario de pago...",
+            "primaryAddress": "Usar esta dirección de facturación como dirección principal de mi organización",
+            "cancel": "Cancelar",
+            "back": "Atrás",
+            "add": "Añadir",
+            "save": "Guardar",
+            "saving": "Guardando...",
+            "errorPaymentDetails": "Por favor, revisa tus datos de pago.",
+            "errorBillingAddress": "Por favor, completa tu dirección de facturación.",
+            "errorSetupStart": "No se pudo iniciar la configuración del pago. Por favor, inténtalo de nuevo.",
+            "errorSaveFailed": "No pudimos guardar tu método de pago.",
+            "errorRetrieveFailed": "No pudimos recuperar tu método de pago. Por favor, inténtalo de nuevo.",
+            "errorUpdateFailed": "Error al actualizar",
+            "errorAddressSavedNoBilling": "Método de pago guardado, pero la actualización de la dirección de facturación falló.",
+            "errorAddressSavedNoBillingWithMessage": "Método de pago guardado, pero la actualización de la dirección de facturación falló: {{message}}"
+        },
+        "toast": {
+            "added": "Método de pago añadido",
+            "updated": "Método de pago actualizado",
+            "addressSavedBillingFailed": "Método de pago guardado, pero la actualización de la dirección de facturación falló"
+        }
+    },
+    "billingAddress": {
+        "title": "Dirección de facturación",
+        "description": "Dirección mostrada en las facturas y documentos fiscales.",
+        "descriptionLong": "Aparece en tus facturas y se usa para determinar los impuestos aplicables.",
+        "loadError": "No se pudo cargar la dirección de facturación.",
+        "current": "Dirección actual:",
+        "country": "País",
+        "selectCountry": "Selecciona un país",
+        "addressLabel": "Dirección de facturación",
+        "addressLine1": "Dirección línea 1",
+        "addressLine1Placeholder": "Calle y número",
+        "addressLine2": "Dirección línea 2",
+        "addressLine2Placeholder": "Apartamento, suite, unidad, etc.",
+        "optional": "(opcional)",
+        "postalCode": "Código postal",
+        "city": "Ciudad",
+        "stateRegion": "Estado / región",
+        "add": "Añadir dirección",
+        "edit": "Editar dirección",
+        "save": "Guardar",
+        "saving": "Guardando...",
+        "places": {
+            "placeholder": "Empieza a escribir tu dirección...",
+            "unavailable": "Autocompletar no disponible",
+            "loading": "Cargando autocompletar...",
+            "manualEntry": "Introducir la dirección manualmente",
+            "loadFailed": "No se pudo cargar Google Maps.",
+            "apiNotEnabled": "La API de Google Places (New) no está habilitada para esta clave. Introduce la dirección manualmente.",
+            "temporarilyUnavailable": "El autocompletar de dirección no está disponible temporalmente. Introduce la dirección manualmente."
+        },
+        "toast": {
+            "updated": "Dirección de facturación actualizada",
+            "failed": "No se pudo actualizar la dirección de facturación"
+        }
+    },
+    "invoiceEmail": {
+        "title": "Destinatario de facturas",
+        "description": "Por defecto, las facturas se envían al propietario de la organización.",
+        "descriptionLong": "Dónde se envían las facturas.",
+        "loadError": "No se pudo cargar la configuración del correo de facturación.",
+        "footer": "Esta dirección aparecerá en las facturas y recibirá las notificaciones de pago.",
+        "placeholder": "billing@company.com",
+        "save": "Guardar",
+        "saving": "Guardando...",
+        "toast": {
+            "updated": "Correo electrónico de facturación actualizado",
+            "failed": "No se pudo actualizar el correo de facturación"
+        }
+    },
+    "invoiceLanguage": {
+        "title": "Idioma de facturación",
+        "description": "Este campo determina el idioma de tu factura.",
+        "descriptionLong": "Si tu departamento de facturación usa otro idioma, selecciónalo aquí.",
+        "loadError": "No se pudo cargar la configuración del idioma de facturación.",
+        "ariaLabel": "Idioma de facturación",
+        "footer": "Este campo determina el idioma de tu factura.",
+        "save": "Guardar",
+        "saving": "Guardando...",
+        "toast": {
+            "updated": "Idioma de facturación actualizado",
+            "failed": "No se pudo actualizar el idioma de facturación"
+        }
+    },
+    "taxInformation": {
+        "title": "Información fiscal",
+        "description": "Se usa para facturas fiscales.",
+        "add": "Añadir información",
+        "edit": "Editar información",
+        "dialogTitle": "Editar información fiscal",
+        "dialogDescription": "Selecciona el tipo de NIF y luego introduce el número correspondiente.",
+        "footer": "Tu número de identificación fiscal se incluirá en las facturas y se usará para los cálculos fiscales.",
+        "typeLabel": "Tipo de NIF",
+        "typePlaceholder": "Selecciona el tipo",
+        "numberLabel": "Número de identificación fiscal",
+        "numberPlaceholder": "Introduce tu número de identificación fiscal",
+        "save": "Guardar",
+        "saving": "Guardando...",
+        "toast": {
+            "updated": "Número de identificación fiscal actualizado",
+            "failed": "No se pudo actualizar el número de identificación fiscal"
+        }
+    }
+}

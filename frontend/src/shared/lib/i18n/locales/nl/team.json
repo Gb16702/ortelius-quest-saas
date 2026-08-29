@@ -1,0 +1,366 @@
+{
+    "breadcrumb": {
+        "team": "Team",
+        "members": "Leden",
+        "invitations": "Uitnodigingen",
+        "activity": "Activiteit"
+    },
+    "members": {
+        "title": "Leden",
+        "subtitleAdmin": "Beheer de leden van je organisatie en hun rollen.",
+        "subtitleMember": "Bekijk de leden van je organisatie.",
+        "inviteAction": "Leden uitnodigen",
+        "table": {
+            "memberHeader": "Lid",
+            "roleHeader": "Rol",
+            "twoFactorHeader": "2FA",
+            "joinedOnHeader": "Lid sinds",
+            "lastSeenHeader": "Laatst gezien",
+            "youBadge": "Jij",
+            "online": "Online",
+            "twoFactorEnabled": "Ingeschakeld",
+            "twoFactorDisabled": "Uitgeschakeld",
+            "tableActionsLabel": "Tabelacties",
+            "openMenuLabel": "Menu openen",
+            "viewProfile": "Profiel bekijken",
+            "messageMember": "Bericht sturen",
+            "chatWithMember": "Chatten met {{name}}",
+            "editRole": "Rol bewerken",
+            "removeMember": "Lid verwijderen",
+            "exportCsv": "Exporteren als CSV",
+            "exporting": "Exporteren...",
+            "pageInfoLabel": "leden",
+            "emptyTitle": "Geen leden komen overeen met de huidige filters.",
+            "clearFilters": "Filters wissen"
+        },
+        "toast": {
+            "loadFailed": "Kan ledengegevens niet laden",
+            "removeSuccess": "Lid verwijderd",
+            "removeFailed": "Kan lid niet verwijderen",
+            "startChatFailed": "Chat met lid starten mislukt",
+            "roleUpdated": "Rol bijgewerkt",
+            "roleUpdateFailed": "Kan rol niet bijwerken"
+        }
+    },
+    "invitations": {
+        "title": "Uitnodigingen",
+        "subtitle": "Volg en beheer verzonden uitnodigingen.",
+        "table": {
+            "emailHeader": "E-mail",
+            "roleHeader": "Rol",
+            "statusHeader": "Status",
+            "invitedByHeader": "Uitgenodigd door",
+            "expiresAtHeader": "Verloopt op",
+            "selectAllAriaLabel": "Alles selecteren",
+            "selectRowAriaLabel": "Rij selecteren",
+            "openMenuLabel": "Menu openen",
+            "tableActionsLabel": "Tabelacties",
+            "resend": "Uitnodiging opnieuw verzenden",
+            "editRole": "Rol bewerken",
+            "cancel": "Uitnodiging annuleren",
+            "addToArchive": "Aan archief toevoegen",
+            "removeFromArchive": "Uit archief verwijderen",
+            "addingToArchive": "Toevoegen aan archief...",
+            "removingFromArchive": "Verwijderen uit archief...",
+            "exportCsv": "Exporteren als CSV",
+            "exporting": "Exporteren...",
+            "pageInfoLabel": "uitnodigingen",
+            "emptyTitle": "Geen uitnodigingen komen overeen met de huidige filters.",
+            "clearFilters": "Filters wissen"
+        },
+        "toast": {
+            "loadFailed": "Kan uitnodigingen niet laden"
+        }
+    },
+    "invitationStatus": {
+        "pending": "In afwachting",
+        "accepted": "Geaccepteerd",
+        "canceled": "Geannuleerd",
+        "expired": "Verlopen",
+        "archived": "Gearchiveerd"
+    },
+    "memberStatus": {
+        "accepted": "Actief",
+        "pending": "In afwachting",
+        "canceled": "Geannuleerd"
+    },
+    "filters": {
+        "rolesLabel": "Rollen",
+        "invitationsLabel": "Uitnodigingen",
+        "searchMembersPlaceholder": "Zoeken op naam of e-mail",
+        "searchEmailPlaceholder": "Zoeken op e-mail"
+    },
+    "inviteDialog": {
+        "title": "Leden uitnodigen",
+        "description": "Nodig teamgenoten uit om samen te werken in je organisatie.",
+        "emailPlaceholder": "collega@bedrijf.com",
+        "rolePlaceholder": "Rol",
+        "validationHint": "Druk op Enter of Tab om te bevestigen.",
+        "seatPricingNote": "Elk nieuw lid voegt €{{price}}/maand toe, naar rato.",
+        "send": "Uitnodigingen verzenden",
+        "sending": "Verzenden...",
+        "close": "Sluiten",
+        "errors": {
+            "invalidEmail": "Voer een geldig e-mailadres in",
+            "cannotInviteSelf": "Je kunt jezelf niet uitnodigen",
+            "duplicateEmail": "Dit e-mailadres staat al in de lijst",
+            "atLeastOneEmail": "Voer ten minste één e-mailadres in"
+        }
+    },
+    "inviteBreadcrumb": {
+        "ariaLabel": "Leden uitnodigen",
+        "tooltip": "Leden uitnodigen"
+    },
+    "editRoleDialog": {
+        "title": "Rol bewerken",
+        "description": "Rol van <strong>{{name}}</strong> wijzigen",
+        "update": "Rol bijwerken",
+        "updating": "Bijwerken...",
+        "close": "Sluiten",
+        "legend": "Rol"
+    },
+    "editInvitationRoleDialog": {
+        "title": "Rol van uitnodiging bewerken",
+        "description": "Rol van uitnodiging voor <strong>{{email}}</strong> wijzigen",
+        "update": "Rol bijwerken",
+        "updating": "Bijwerken...",
+        "close": "Sluiten",
+        "errors": {
+            "selectRole": "Selecteer een rol."
+        }
+    },
+    "removeMemberDialog": {
+        "title": "Lid verwijderen",
+        "description": "Weet je zeker dat je <strong>{{name}}</strong> uit de organisatie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+        "seatReleaseNote": "Een lid verwijderen levert €{{price}}/maand op, naar rato.",
+        "confirm": "Verwijdering bevestigen",
+        "removing": "Verwijderen...",
+        "close": "Sluiten"
+    },
+    "cancelInvitationDialog": {
+        "titleOne": "Uitnodiging annuleren",
+        "titleMany": "Uitnodigingen annuleren",
+        "descriptionOne": "Weet je zeker dat je de uitnodiging voor <strong>{{email}}</strong> wilt annuleren? Deze actie kan niet ongedaan worden gemaakt.",
+        "descriptionMany_one": "Weet je zeker dat je <strong>{{count}} uitnodiging</strong> wilt annuleren? Alleen uitnodigingen in afwachting worden geannuleerd. Deze actie kan niet ongedaan worden gemaakt.",
+        "descriptionMany_other": "Weet je zeker dat je <strong>{{count}} uitnodigingen</strong> wilt annuleren? Alleen uitnodigingen in afwachting worden geannuleerd. Deze actie kan niet ongedaan worden gemaakt.",
+        "confirmOne": "Uitnodiging annuleren",
+        "confirmMany": "Uitnodigingen annuleren",
+        "canceling": "Annuleren...",
+        "close": "Sluiten"
+    },
+    "profile": {
+        "dialogTitle": "Profiel van lid",
+        "memberActionsLabel": "Acties voor lid",
+        "addFavorite": "Toevoegen aan favorieten",
+        "removeFavorite": "Verwijderen uit favorieten",
+        "chatWithMember": "Chatten met {{name}}",
+        "editRole": "Rol bewerken",
+        "removeMember": "Lid verwijderen",
+        "loadFailedTitle": "Kan profiel niet laden",
+        "loadFailedDescription": "Er is een fout opgetreden bij het laden van het ledenprofiel.",
+        "joinedAgo": "Lid sinds {{duration}}",
+        "recentActivity": "Recente activiteit",
+        "viewDetails": "Details bekijken",
+        "noRecentActivity": "Geen recente activiteit.",
+        "assignedRequests": "Toegewezen aanvragen",
+        "noAssignedRequests": "Geen toegewezen aanvragen.",
+        "requestCreated": "Aangemaakt {{distance}}"
+    },
+    "activity": {
+        "title": "Activiteit",
+        "actorAll": "Alle gebruikers",
+        "actorSelected": "Geselecteerde gebruiker",
+        "actorSearchPlaceholder": "Lid zoeken...",
+        "actorEmpty": "Geen leden gevonden.",
+        "datePresetSelectLabel": "Periode",
+        "emptyTitle": "Nog geen activiteit.",
+        "emptyFilteredTitle": "Geen activiteit komt overeen met je filters.",
+        "clearFilters": "Filters wissen",
+        "loadMore": "Meer laden",
+        "actorYou": "Jij",
+        "actorSystem": "Systeem",
+        "filterSheetTitle": "Filter op gebeurtenis",
+        "filterTrigger": {
+            "ariaLabel": "Filter op gebeurtenis",
+            "tooltip": "Filter op gebeurtenis"
+        },
+        "eventFilter": {
+            "searchPlaceholder": "Gebeurtenissen zoeken...",
+            "selectAll": "Alles selecteren",
+            "clearAll": "Alles wissen",
+            "selectedCount": "{{selected}} van {{total}} geselecteerd",
+            "noMatch": "Geen overeenkomende gebeurtenissen"
+        },
+        "event": {
+            "request-created": {
+                "label": "Aanvraag aangemaakt",
+                "description": "Er is een nieuwe aanvraag aangemaakt"
+            },
+            "request-updated": {
+                "label": "Aanvraag bijgewerkt",
+                "description": "Aanvraaggegevens zijn bijgewerkt"
+            },
+            "request-rejected": {
+                "label": "Aanvraag afgewezen",
+                "description": "Een aanvraag is afgewezen"
+            },
+            "request-validated": {
+                "label": "Aanvraag gevalideerd",
+                "description": "Een aanvraag is gevalideerd"
+            },
+            "request-deleted": {
+                "label": "Aanvraag verwijderd",
+                "description": "Een aanvraag is verwijderd"
+            },
+            "request-cancelled": {
+                "label": "Aanvraag geannuleerd",
+                "description": "Een aanvraag is geannuleerd"
+            },
+            "request-document-removed": {
+                "label": "Document verwijderd",
+                "description": "Een document is uit een aanvraag verwijderd"
+            },
+            "request-linked-to-user": {
+                "label": "Aanvraag gekoppeld",
+                "description": "Een aanvraag is aan een gebruiker gekoppeld"
+            },
+            "request-assigned": {
+                "label": "Aanvraag toegewezen",
+                "description": "Een aanvraag is aan een lid toegewezen"
+            },
+            "request-reassigned": {
+                "label": "Aanvraag opnieuw toegewezen",
+                "description": "Een aanvraag is aan een ander lid toegewezen"
+            },
+            "request-unassigned": {
+                "label": "Toewijzing opgeheven",
+                "description": "De toewijzing van een aanvraag is opgeheven"
+            },
+            "request-shared-to-team-chat": {
+                "label": "Aanvraag gedeeld",
+                "description": "Een aanvraag is gedeeld in de teamchat"
+            },
+            "quote-created": {
+                "label": "Offerte aangemaakt",
+                "description": "Er is een nieuwe offerte aangemaakt"
+            },
+            "quote-updated": {
+                "label": "Offerte bijgewerkt",
+                "description": "Offertegegevens zijn bijgewerkt"
+            },
+            "quote-accepted": {
+                "label": "Offerte geaccepteerd",
+                "description": "Een offerte is geaccepteerd"
+            },
+            "quote-rejected": {
+                "label": "Offerte afgewezen",
+                "description": "Een offerte is afgewezen"
+            },
+            "invoice-created": {
+                "label": "Factuur aangemaakt",
+                "description": "Er is een nieuwe factuur aangemaakt"
+            },
+            "invoice-sent": {
+                "label": "Factuur verzonden",
+                "description": "Een factuur is verzonden"
+            },
+            "member-invited": {
+                "label": "Lid uitgenodigd",
+                "description": "Een nieuw lid is uitgenodigd voor de organisatie"
+            },
+            "invitation-resent": {
+                "label": "Uitnodiging opnieuw verzonden",
+                "description": "Een uitnodigingsmail is opnieuw verzonden"
+            },
+            "invitation-role-updated": {
+                "label": "Rol van uitnodiging bijgewerkt",
+                "description": "De rol van een uitnodiging in afwachting is gewijzigd"
+            },
+            "invitation-cancelled": {
+                "label": "Uitnodiging geannuleerd",
+                "description": "Een uitnodiging in afwachting is geannuleerd"
+            },
+            "member-role-updated": {
+                "label": "Rol bijgewerkt",
+                "description": "De rol van een lid is gewijzigd"
+            },
+            "member-removed": {
+                "label": "Lid verwijderd",
+                "description": "Een lid is uit de organisatie verwijderd"
+            },
+            "member-left": {
+                "label": "Lid vertrokken",
+                "description": "Een lid heeft de organisatie verlaten"
+            },
+            "invitations-cancelled-bulk": {
+                "label": "Uitnodigingen geannuleerd",
+                "description": "Meerdere uitnodigingen zijn tegelijk geannuleerd"
+            },
+            "organization-updated": {
+                "label": "Organisatie bijgewerkt",
+                "description": "Organisatiegegevens zijn bijgewerkt"
+            },
+            "organization-categories-updated": {
+                "label": "Categorieën bijgewerkt",
+                "description": "Organisatiecategorieën zijn bijgewerkt"
+            },
+            "organization-services-updated": {
+                "label": "Diensten bijgewerkt",
+                "description": "Organisatiediensten zijn bijgewerkt"
+            },
+            "organization-tax-id-updated": {
+                "label": "Btw-nummer bijgewerkt",
+                "description": "Het btw-nummer van de organisatie is bijgewerkt"
+            },
+            "organization-logo-updated": {
+                "label": "Logo bijgewerkt",
+                "description": "Het logo van de organisatie is bijgewerkt"
+            },
+            "organization-logo-removed": {
+                "label": "Logo verwijderd",
+                "description": "Het logo van de organisatie is verwijderd"
+            },
+            "showcase-invitations-sent": {
+                "label": "Showcase-uitnodigingen verzonden",
+                "description": "Showcase-uitnodigingen zijn verzonden naar prospects"
+            },
+            "email-intake-updated": {
+                "label": "E-mailontvangst bijgewerkt",
+                "description": "Instellingen voor e-mailontvangst zijn bijgewerkt"
+            },
+            "service-pricing-updated": {
+                "label": "Servicetarieven bijgewerkt",
+                "description": "Instellingen voor servicetarieven zijn bijgewerkt"
+            },
+            "call-started": { "label": "Gesprek gestart", "description": "Een gesprek is gestart" },
+            "call-ended": {
+                "label": "Gesprek beëindigd",
+                "description": "Een gesprek is beëindigd"
+            },
+            "subscription-created": {
+                "label": "Abonnement aangemaakt",
+                "description": "Er is een abonnement aangemaakt"
+            },
+            "subscription-confirmed": {
+                "label": "Abonnement bevestigd",
+                "description": "Een abonnement is bevestigd"
+            },
+            "subscription-seats-reconciled": {
+                "label": "Abonnementsplaatsen gelijkgetrokken",
+                "description": "Abonnementsplaatsen zijn gelijkgetrokken met het huidige ledenbestand"
+            },
+            "user-name-updated": {
+                "label": "Naam bijgewerkt",
+                "description": "Een lid heeft zijn weergavenaam bijgewerkt"
+            },
+            "two-factor-enabled": {
+                "label": "2FA ingeschakeld",
+                "description": "Tweestapsverificatie is ingeschakeld"
+            },
+            "two-factor-disabled": {
+                "label": "2FA uitgeschakeld",
+                "description": "Tweestapsverificatie is uitgeschakeld"
+            }
+        }
+    }
+}

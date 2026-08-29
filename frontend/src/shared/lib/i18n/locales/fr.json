@@ -1,0 +1,385 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "pricing": "Tarifs",
+        "contact": "Contact",
+        "signUp": "S'inscrire",
+        "signIn": "Se connecter",
+        "tryForFree": "Essai gratuit",
+        "openApp": "Ouvrir l'app"
+    },
+    "footer": {
+        "tagline1": "Gestion des demandes de fret",
+        "tagline2": "pour les entreprises de logistique",
+        "company": "Entreprise",
+        "legal": "Mentions légales",
+        "socials": "Réseaux sociaux",
+        "discoverMarketplace": "Découvrir la Marketplace",
+        "termsOfService": "Conditions d'utilisation",
+        "privacyPolicy": "Politique de confidentialité",
+        "cookiePolicy": "Politique des cookies",
+        "copyright": "© {{year}} Ortelius Quest. Tous droits réservés."
+    },
+    "home": {
+        "hero": {
+            "title": "Transformez vos demandes en revenus",
+            "subtitle": "Capturez chaque opportunité de fret dans un portail à votre image. Répondez plus vite, concluez plus d'affaires.",
+            "bookDemo": "Réserver une démo",
+            "tryForFree": "Essai gratuit",
+            "heroImageAlt": "Tableau de bord Ortelius Quest - Demandes entrantes"
+        },
+        "howItWorks": {
+            "label": "Comment ça marche",
+            "title": "La façon intelligente de gérer le fret.",
+            "subtitle": "Trois étapes simples. Zéro opportunité manquée.",
+            "step1": {
+                "number": "01",
+                "title": "Centralisez les demandes",
+                "description": "Vos clients soumettent leurs demandes via votre portail personnalisé. Visualisez, triez et répondez à tout depuis un seul endroit avec chat et appels intégrés."
+            },
+            "step2": {
+                "number": "02",
+                "title": "Assignez et routez",
+                "description": "Assignez les demandes au bon membre de l'équipe et collaborez avec des notes internes sur chaque affaire."
+            },
+            "step3": {
+                "number": "03",
+                "title": "Répondez plus vite",
+                "description": "Suivez et répondez à chaque demande depuis un tableau de bord unique. Fini les allers-retours entre emails, téléphone et tableurs."
+            }
+        },
+        "features": {
+            "builtForBusiness": {
+                "label": "Conçu pour votre entreprise",
+                "title": "Configurez tout selon votre façon de travailler",
+                "description": "Votre entreprise de logistique est unique. Configurez votre portail, vos champs personnalisés et vos workflows une fois, puis laissez tourner en pilote automatique.",
+                "portal": {
+                    "title": "Portail client personnalisé",
+                    "description": "Vos clients soumettent leurs demandes sur entreprise.ortelius.app. Professionnel, à votre image, toujours disponible."
+                },
+                "setup": {
+                    "title": "Configuration métier",
+                    "description": "Configurez une fois, travaillez à votre façon pour toujours. La plateforme s'adapte à vos opérations, pas l'inverse."
+                }
+            },
+            "respondInstantly": {
+                "label": "Répondez instantanément",
+                "title": "Chat et appels vocaux intégrés",
+                "description": "Arrêtez de jongler entre emails, téléphone et tableurs. Communiquez avec vos clients directement dans la plateforme.",
+                "chat": {
+                    "title": "Chat en temps réel",
+                    "description": "Envoyez des messages instantanément. L'historique complet des conversations est attaché à chaque demande, fini les fils d'emails."
+                },
+                "calling": {
+                    "title": "Appel en un clic",
+                    "description": "Appelez vos clients directement depuis la plateforme. Tous les appels sont enregistrés et suivis automatiquement."
+                }
+            },
+            "trackEverything": {
+                "label": "Suivez tout",
+                "title": "Du devis à la facture. Rien n'est oublié",
+                "description": "Sachez exactement où en est chaque affaire. De la première demande à la livraison finale, suivez tout au même endroit.",
+                "pipeline": {
+                    "title": "Pipeline visuel",
+                    "description": "Voyez exactement où en est chaque affaire d'un coup d'œil, de la demande à la livraison."
+                },
+                "filters": {
+                    "title": "Filtres intelligents",
+                    "description": "Triez par statut, client, date, route ou urgence. Trouvez n'importe quelle demande en quelques secondes."
+                }
+            },
+            "tryForFree": "Essayer gratuitement"
+        }
+    },
+    "pricing": {
+        "title": "Des tarifs qui évoluent avec vous",
+        "subtitle": {
+            "currentPlan": "Vous êtes actuellement sur le plan {{plan}}.",
+            "choosePlan": "Choisissez le plan adapté à votre équipe.",
+            "withTrial": "Tous les plans incluent un essai gratuit de 14 jours. Choisissez celui qui convient à votre équipe. Essayez gratuitement, aucune carte de crédit requise."
+        },
+        "comparePlans": "Comparer les plans",
+        "plans": {
+            "starter": "Starter",
+            "professional": "Professionnel",
+            "enterprise": "Entreprise"
+        },
+        "perUserMonth": "par utilisateur / mois",
+        "contactUs": "Contactez-nous",
+        "getPlan": "Choisir {{plan}}",
+        "recommended": "Recommandé",
+        "billedYearly": "Facturation annuelle",
+        "billedMonthly": "Facturation mensuelle",
+        "savePerUser": "(économisez {{amount}}€ par utilisateur)",
+        "everythingInStarterPlus": "Tout ce qui est dans Starter plus",
+        "everythingInProfessionalPlus": "Tout ce qui est dans Professionnel plus",
+        "manageSubscription": "Gérer l'abonnement",
+        "faq": {
+            "title": "Questions fréquentes",
+            "freeTrial": {
+                "question": "Y a-t-il un essai gratuit ?",
+                "answer": "Oui ! Tous les plans incluent un essai gratuit de 14 jours. Aucune carte bancaire requise."
+            },
+            "changePlan": {
+                "question": "Puis-je changer de plan plus tard ?",
+                "answer": "Absolument. Vous pouvez passer à un plan supérieur ou inférieur à tout moment. Les changements prennent effet immédiatement et nous calculons au prorata les différences de facturation."
+            },
+            "paymentMethods": {
+                "question": "Quels moyens de paiement acceptez-vous ?",
+                "answer": "Nous utilisons Stripe pour les paiements sécurisés et acceptons Visa, Mastercard, American Express et le prélèvement SEPA."
+            },
+            "trialEnds": {
+                "question": "Que se passe-t-il à la fin de l'essai ?",
+                "answer": "Vous serez notifié avant la fin de votre essai. Si vous n'ajoutez pas de moyen de paiement, votre compte passera en mode lecture seule jusqu'à votre abonnement."
+            },
+            "annualDiscount": {
+                "question": "Proposez-vous des réductions pour la facturation annuelle ?",
+                "answer": "Oui, nous offrons une réduction de 20% lorsque vous choisissez la facturation annuelle. Contactez notre équipe commerciale pour plus de détails sur les tarifs entreprise."
+            }
+        },
+        "comparison": {
+            "categories": {
+                "coreFeatures": "Fonctionnalités principales",
+                "communication": "Communication",
+                "customization": "Personnalisation",
+                "analytics": "Analytique",
+                "intelligence": "Intelligence"
+            },
+            "features": {
+                "unlimitedRequests": "Demandes illimitées",
+                "quoteManagement": "Devis et factures",
+                "clientChat": "Chat avec les clients",
+                "teamChat": "Chat d'équipe",
+                "voipCalls": "Appels vocaux",
+                "callTranscription": "Transcription des appels",
+                "branding": "Image de marque personnalisée",
+                "colorThemes": "Thèmes prédéfinis",
+                "basicDashboard": "Tableau de bord analytique",
+                "advancedAnalytics": "Analytique avancée et rapports",
+                "activityLog": "Journal d'activité",
+                "pricingIntelligence": "Intelligence tarifaire"
+            }
+        }
+    },
+    "contact": {
+        "title": "Parlez à notre équipe commerciale",
+        "subtitle": "Nous serions ravis d'en apprendre plus sur les défis de votre équipe et de vous montrer comment Ortelius Quest peut vous aider.",
+        "features": {
+            "demo": "Obtenez une démo personnalisée",
+            "trial": "Configurez votre essai Enterprise",
+            "onboarding": "Bénéficiez d'une aide à l'intégration"
+        },
+        "form": {
+            "workEmail": "Email professionnel",
+            "workEmailPlaceholder": "vous@entreprise.com",
+            "fullName": "Nom complet",
+            "fullNamePlaceholder": "Jean Dupont",
+            "country": "Pays",
+            "selectCountry": "Sélectionnez votre pays",
+            "companyWebsite": "Site web de l'entreprise",
+            "companyWebsitePlaceholder": "https://entreprise.com",
+            "companySize": "Taille de l'entreprise",
+            "selectValue": "Sélectionnez une valeur",
+            "employees": "employés",
+            "message": "Comment pouvons-nous vous aider ?",
+            "messagePlaceholder": "Parlez-nous des besoins de votre entreprise...",
+            "submit": "Envoyer le message",
+            "submitting": "Envoi en cours...",
+            "defaultMessage": "Bonjour, j'aimerais en savoir plus sur votre produit et planifier une démo.",
+            "optional": "Optionnel",
+            "validation": {
+                "emailRequired": "L'email est requis",
+                "emailInvalid": "Veuillez entrer une adresse email valide",
+                "fullNameRequired": "Le nom complet est requis",
+                "fullNameMin": "Le nom complet doit contenir au moins 2 caractères",
+                "countryRequired": "Veuillez sélectionner un pays",
+                "websiteInvalid": "Veuillez entrer une URL valide",
+                "messageRequired": "Le message est requis"
+            }
+        }
+    },
+    "cta": {
+        "startYour": "Commencez votre",
+        "freeTrial": "essai gratuit aujourd'hui."
+    },
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Tout ce que vous devez savoir sur Ortelius Quest.",
+        "questions": {
+            "freeTrial": {
+                "question": "Y a-t-il un essai gratuit ?",
+                "answer": "Oui ! Vous avez 14 jours pour essayer Ortelius Quest gratuitement."
+            },
+            "getStarted": {
+                "question": "Combien de temps faut-il pour démarrer ?",
+                "answer": "Votre organisation peut être entièrement configurée et prête à accueillir des clients en 5-10 minutes."
+            },
+            "customDomain": {
+                "question": "Puis-je utiliser mon propre domaine ?",
+                "answer": "Votre portail personnalisé est hébergé sur entreprise.ortelius.app avec votre logo et votre marque."
+            },
+            "closeDeals": {
+                "question": "Comment Ortelius Quest m'aide-t-il à conclure plus d'affaires ?",
+                "answer": "En centralisant toutes les demandes de fret au même endroit, vous ne manquez jamais une opportunité. Répondez 3x plus vite avec les outils de communication intégrés, et gardez toute votre équipe alignée avec les fonctionnalités de collaboration en temps réel."
+            },
+            "teamUse": {
+                "question": "Toute mon équipe peut-elle utiliser Ortelius Quest ?",
+                "answer": "Oui ! Ajoutez un nombre illimité de membres d'équipe, assignez des demandes à des personnes spécifiques et collaborez avec des notes internes sur chaque affaire."
+            },
+            "security": {
+                "question": "Mes données sont-elles sécurisées ?",
+                "answer": "Tous les messages de chat sont chiffrés pour garder vos communications sécurisées et privées."
+            },
+            "onboarding": {
+                "question": "Proposez-vous un accompagnement à l'intégration ?",
+                "answer": "Oui ! Nous fournissons des vidéos d'intégration pendant la configuration de la plateforme pour vous aider à tout configurer correctement."
+            }
+        }
+    },
+    "checkout": {
+        "stepLabel": "Étape {{current}} sur {{total}}",
+        "step1Title": "Nommez votre organisation",
+        "step1Subtitle": "Ce sera le nom de votre espace de travail et sous-domaine",
+        "step2Title": "Ajouter un moyen de paiement",
+        "step2Subtitle": "Finalisez votre paiement d'abonnement",
+        "step2SubtitleTrial": "Votre carte sera enregistrée pour les paiements futurs après la fin de l'essai",
+        "organizationName": "Nom de l'organisation",
+        "organizationNamePlaceholder": "Acme Inc",
+        "organizationSlug": "URL du workspace",
+        "organizationSlugPlaceholder": "acme-inc",
+        "continue": "Continuer",
+        "skipStep": "J'inviterai mon équipe plus tard",
+        "back": "Retour",
+        "startTrial": "Démarrer l'essai gratuit",
+        "tryForFree": "Essayez gratuitement, aucune carte de crédit requise.",
+        "subscribe": "S'abonner",
+        "trialCardInfo": "Votre carte sera enregistrée pour les paiements futurs après la fin de l'essai.",
+        "sessionExpired": "Votre session a expiré. Veuillez recommencer.",
+        "startOver": "Recommencer",
+        "plan": "plan",
+        "viewAllPlans": "Voir tous les plans",
+        "month": "mois",
+        "trialTimeline": {
+            "title": "Comment fonctionne votre essai gratuit",
+            "today": "Aujourd'hui",
+            "todayDesc": "Accès complet à toutes les fonctionnalités",
+            "reminderDesc": "Recevez un rappel avant la fin de l'essai",
+            "endDesc": "Votre abonnement commence"
+        },
+        "recurringDisclaimer": "En démarrant votre essai, vous acceptez d'être facturé automatiquement après la période d'essai, sauf si vous annulez avant la fin.",
+        "upgrade": "Passer au plan supérieur",
+        "emailPlaceholder": "collegue@entreprise.com",
+        "rolePlaceholder": "Rôle",
+        "addMore": "Ajouter un membre",
+        "inviteMoreLater": "Vous pourrez inviter plus de membres depuis votre tableau de bord.",
+        "roles": {
+            "member": "Membre",
+            "admin": "Admin"
+        },
+        "roleDescriptions": {
+            "member": "Gérer les demandes, conversations et devis",
+            "admin": "Accès complet aux paramètres de l'organisation"
+        },
+        "invitationExpiry": "Les invitations expirent dans 7 jours. Vous pourrez toujours les renvoyer plus tard.",
+        "validation": {
+            "organizationNameRequired": "Le nom de l'organisation est requis",
+            "organizationNameMin": "Le nom doit contenir au moins 2 caractères",
+            "organizationNameMax": "Le nom doit contenir au maximum 32 caractères",
+            "organizationSlugRequired": "L'URL du workspace est requise",
+            "organizationSlugMin": "L'URL du workspace doit contenir au moins 3 caractères",
+            "organizationSlugMax": "L'URL du workspace doit contenir au maximum 50 caractères",
+            "organizationSlugFormat": "Utilisez des lettres minuscules, des chiffres et des tirets simples uniquement",
+            "emailInvalid": "Veuillez entrer une adresse email valide",
+            "emailDuplicate": "Cet email est déjà dans la liste",
+            "emailSelfInvite": "Vous ne pouvez pas vous inviter vous-même",
+            "emailAlreadyHasOrganization": "Cet utilisateur fait déjà partie d'une organisation"
+        },
+        "errors": {
+            "SUBDOMAIN_TAKEN": "Cette URL de workspace est déjà utilisée.",
+            "SUBDOMAIN_RESERVED": "Cette URL de workspace est réservée et ne peut pas être utilisée.",
+            "SUBDOMAIN_INVALID_LENGTH": "L'URL du workspace doit contenir entre 3 et 50 caractères.",
+            "INVALID_FORMAT": "Cette URL de workspace n'est pas valide.",
+            "fixEmailErrors": "Veuillez corriger les erreurs d'email avant de continuer."
+        }
+    },
+    "common": {
+        "learnMore": "En savoir plus",
+        "getStarted": "Commencer",
+        "other": "Autre",
+        "optional": "Optionnel"
+    },
+    "auth": {
+        "footer": {
+            "support": "Support",
+            "terms": "Conditions",
+            "privacy": "Confidentialité"
+        },
+        "signIn": {
+            "title": "Bienvenue",
+            "email": "Email",
+            "password": "Mot de passe",
+            "submit": "Se connecter",
+            "noAccount": "Vous n'avez pas de compte ?",
+            "signUp": "S'inscrire",
+            "error": {
+                "failed": "Échec de la connexion"
+            }
+        },
+        "signUp": {
+            "title": "Créez votre compte",
+            "email": "Email",
+            "firstName": "Prénom",
+            "lastName": "Nom",
+            "password": "Mot de passe",
+            "passwordHint": "Doit contenir au moins 8 caractères",
+            "continue": "Continuer",
+            "submit": "Créer un compte",
+            "hasAccount": "Vous avez déjà un compte ?",
+            "signIn": "Se connecter",
+            "error": {
+                "checkEmail": "Impossible de vérifier l'email. Veuillez réessayer.",
+                "failed": "Échec de l'inscription"
+            },
+            "validation": {
+                "emailRequired": "L'email est requis",
+                "emailInvalid": "Veuillez entrer un email valide",
+                "firstNameRequired": "Le prénom est requis",
+                "lastNameRequired": "Le nom est requis",
+                "passwordMin": "Le mot de passe doit contenir au moins 8 caractères"
+            }
+        }
+    },
+    "meta": {
+        "organizationDescription": "Ortelius Quest aide les transporteurs à transformer leurs demandes de fret en revenus. Centralisez les demandes, routez-les intelligemment et répondez plus vite depuis un portail unique à votre marque.",
+        "generic": {
+            "title": "Ortelius Quest",
+            "description": "Le hub intelligent pour la gestion des demandes de fret. Centralisez, routez et répondez plus vite."
+        },
+        "home": {
+            "title": "Ortelius Quest — Gestion des demandes de fret pour transporteurs",
+            "description": "Capturez chaque opportunité dans un portail à votre marque. Répondez plus vite, concluez plus de contrats."
+        },
+        "pricing": {
+            "title": "Tarifs — Ortelius Quest",
+            "description": "Une tarification simple et transparente pour les transporteurs de toutes tailles. Démarrez gratuitement."
+        },
+        "contact": {
+            "title": "Contact — Ortelius Quest",
+            "description": "Parlez à notre équipe ou réservez une démo. Découvrez comment Ortelius Quest s'intègre à votre flux de fret."
+        },
+        "legals": {
+            "privacy": {
+                "title": "Politique de confidentialité — Ortelius Quest",
+                "description": "Comment Ortelius Quest collecte, utilise et protège vos données personnelles, conformément au RGPD, au CCPA et à la LGPD."
+            },
+            "terms": {
+                "title": "Conditions d'utilisation — Ortelius Quest",
+                "description": "Les conditions qui régissent votre utilisation d'Ortelius Quest, y compris le compte, la facturation et l'usage acceptable."
+            },
+            "cookies": {
+                "title": "Politique relative aux cookies — Ortelius Quest",
+                "description": "Comment et pourquoi Ortelius Quest utilise les cookies et technologies similaires, et comment gérer vos préférences."
+            }
+        }
+    }
+}

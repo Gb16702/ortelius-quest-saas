@@ -1,0 +1,49 @@
+{
+    "header": {
+        "contactSupport": "Contacter le support",
+        "sendRequest": "Envoyer une demande",
+        "share": "Partager",
+        "copySuccess": "Lien de la page copié. Vous pouvez le partager avec vos prospects.",
+        "copyError": "Impossible de copier le lien",
+        "noTagline": "Aucun slogan pour le moment.",
+        "addTagline": "En ajouter un"
+    },
+    "overview": {
+        "title": "Présentation",
+        "emptyTitle": "Aucune présentation pour le moment.",
+        "addOverview": "Ajouter une présentation"
+    },
+    "services": {
+        "title": "Ce que nous proposons"
+    },
+    "cargoTypes": {
+        "title": "Ce que nous transportons"
+    },
+    "details": {
+        "title": "Détails",
+        "organization": "Organisation",
+        "members": "Membres",
+        "activeSince": "Active depuis",
+        "website": "Site web"
+    },
+    "sheet": {
+        "title": "Envoyer une demande",
+        "subtitle": "Renseignez les informations ci-dessous pour envoyer votre demande de transport.",
+        "close": "Fermer",
+        "steps": {
+            "contactInformation": "Coordonnées",
+            "cargoType": "Type de marchandise",
+            "services": "Services",
+            "details": "Détails"
+        }
+    },
+    "error": {
+        "notFoundTitle": "Page entreprise introuvable",
+        "notFoundMessage": "Aucune page entreprise publique n'est disponible à cette adresse. Le lien est peut-être obsolète, ou la page n'est pas encore publiée.",
+        "unavailableTitle": "Page entreprise temporairement indisponible",
+        "unavailableMessage": "Cette page existe peut-être encore, mais ses informations n'ont pas pu être chargées. Réessayez dans un instant.",
+        "retry": "Réessayer",
+        "returnHome": "Retour à l'accueil",
+        "headNotFound": "Organisation introuvable — Ortelius Quest"
+    }
+}

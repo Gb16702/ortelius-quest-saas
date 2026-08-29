@@ -1,0 +1,278 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
+
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "useIgnoreFile": true
+    },
+
+    "files": {
+        "includes": [
+            "src/**/*",
+            "!src/app/routes/tanstack-route-tree.gen.ts",
+            "!src/app/model/route-tree.gen.ts",
+            "packages/websocket-types/src/**/*",
+            "scripts/**/*",
+            "!build/**/*",
+            "!node_modules/**/*",
+            "!public/**/*",
+            "!.react-router/**/*"
+        ],
+        "ignoreUnknown": true
+    },
+
+    "formatter": {
+        "enabled": true,
+        "formatWithErrors": false,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 100,
+        "lineEnding": "lf"
+    },
+
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "double",
+            "jsxQuoteStyle": "double",
+            "semicolons": "asNeeded",
+            "trailingCommas": "es5"
+        }
+    },
+
+    "json": {
+        "formatter": {
+            "enabled": true
+        }
+    },
+
+    "css": {
+        "parser": {
+            "tailwindDirectives": true
+        },
+        "formatter": {
+            "enabled": true
+        }
+    },
+
+    "assist": {
+        "actions": {
+            "source": {
+                "organizeImports": "on"
+            }
+        }
+    },
+
+    "linter": {
+        "enabled": true,
+        "domains": {
+            "react": "all"
+        },
+        "rules": {
+            "recommended": true,
+            "complexity": {
+                "noExcessiveCognitiveComplexity": {
+                    "level": "warn",
+                    "options": {
+                        "maxAllowedComplexity": 25
+                    }
+                },
+                "noVoid": "off",
+                "noForEach": "off"
+            },
+            "correctness": {
+                "noUnusedVariables": "error",
+                "noUnusedImports": "error",
+                "noUnusedFunctionParameters": "warn",
+                "useExhaustiveDependencies": "error",
+                "noNestedComponentDefinitions": "error",
+                "useUniqueElementIds": "warn"
+            },
+            "style": {
+                "useImportType": "error",
+                "noDefaultExport": "error",
+                "noNonNullAssertion": "error",
+                "noUselessElse": "warn",
+                "useNodejsImportProtocol": "off",
+                "useFilenamingConvention": {
+                    "level": "error",
+                    "options": {
+                        "filenameCases": ["kebab-case"],
+                        "strictCase": true,
+                        "requireAscii": true
+                    }
+                },
+                "useComponentExportOnlyModules": {
+                    "level": "warn",
+                    "options": {
+                        "allowConstantExport": true
+                    }
+                }
+            },
+            "suspicious": {
+                "noExplicitAny": "error",
+                "noArrayIndexKey": "warn",
+                "noDocumentCookie": "off"
+            },
+            "security": {
+                "noDangerouslySetInnerHtml": "off"
+            },
+            "a11y": {
+                "useSemanticElements": "warn",
+                "useKeyWithClickEvents": "warn",
+                "noLabelWithoutControl": "warn",
+                "useButtonType": "warn",
+                "noStaticElementInteractions": "warn",
+                "useMediaCaption": "off"
+            },
+            "nursery": {
+                "useSortedClasses": {
+                    "level": "warn",
+                    "options": {
+                        "attributes": ["className", "class"],
+                        "functions": ["clsx", "cva", "cn"]
+                    }
+                }
+            }
+        }
+    },
+
+    "overrides": [
+        {
+            "includes": ["src/shared/ui/**/*.tsx", "src/shared/ui/**/*.ts"],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "noRestrictedImports": {
+                            "level": "error",
+                            "options": {
+                                "patterns": [
+                                    {
+                                        "group": [
+                                            "@/app",
+                                            "@/app/**",
+                                            "@/entities",
+                                            "@/entities/**",
+                                            "@/features",
+                                            "@/features/**",
+                                            "@/pages",
+                                            "@/pages/**",
+                                            "@/routes",
+                                            "@/routes/**",
+                                            "@/widgets",
+                                            "@/widgets/**"
+                                        ],
+                                        "message": "src/shared/ui is shared UI and must not import app, routes, pages, widgets, features, or entities."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "includes": ["src/features/**/*.tsx", "src/features/**/*.ts"],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "noRestrictedImports": {
+                            "level": "error",
+                            "options": {
+                                "patterns": [
+                                    {
+                                        "group": ["@/routes", "@/routes/**"],
+                                        "message": "src/features must not import routes."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "includes": [
+                "src/routes/**/*.tsx",
+                "src/routes/**/*.ts",
+                "src/routes.ts",
+                "src/root.tsx",
+                "src/entry.server.tsx",
+                "src/entry.client.tsx",
+                "src/app/root.tsx"
+            ],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "noDefaultExport": "off",
+                        "useFilenamingConvention": "off",
+                        "useComponentExportOnlyModules": "off"
+                    },
+                    "suspicious": {
+                        "noExplicitAny": "off"
+                    }
+                }
+            }
+        },
+        {
+            "includes": ["src/app/routes/**/*.ts", "src/app/routes/**/*.tsx"],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "noDefaultExport": "off",
+                        "useFilenamingConvention": "off",
+                        "useComponentExportOnlyModules": "off"
+                    }
+                }
+            }
+        },
+        {
+            "includes": ["src/shared/ui/**/*.tsx"],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "useComponentExportOnlyModules": "off"
+                    },
+                    "correctness": {
+                        "noNestedComponentDefinitions": "off"
+                    }
+                }
+            }
+        },
+        {
+            "includes": [
+                "src/**/*-provider.tsx",
+                "src/**/*-context.tsx",
+                "src/**/*.provider.tsx",
+                "src/**/*.context.tsx"
+            ],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "useComponentExportOnlyModules": "off"
+                    }
+                }
+            }
+        },
+        {
+            "includes": ["**/*.d.ts"],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "noNonNullAssertion": "off"
+                    }
+                }
+            }
+        },
+        {
+            "includes": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx"],
+            "linter": {
+                "rules": {
+                    "style": {
+                        "useComponentExportOnlyModules": "off"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "loading": "Chargement de l'invitation...",
+    "expired": {
+        "title": "Invitation expirée",
+        "description": "Cette invitation a expiré et n'est plus valide.",
+        "details": "Veuillez contacter l'administrateur de votre organisation pour une nouvelle invitation."
+    },
+    "invalid": {
+        "title": "Invitation introuvable",
+        "description": "Cette invitation est invalide ou a été supprimée."
+    },
+    "card": {
+        "logoAlt": "Logo de {{organizationName}}",
+        "joinTitle": "Rejoindre {{organizationName}}",
+        "inviterDescription_admin": "<inviter>{{inviterName}}</inviter> vous a invité à rejoindre l'équipe. Commencez à gérer les demandes ensemble en tant qu'<role>{{roleLabel}}</role>.",
+        "inviterDescription_member": "<inviter>{{inviterName}}</inviter> vous a invité à rejoindre l'équipe. Commencez à gérer les demandes ensemble en tant que <role>{{roleLabel}}</role>.",
+        "anonymousDescription_admin": "Rejoignez l'équipe et commencez à gérer les demandes ensemble. Cliquez ci-dessous pour rejoindre en tant qu'<role>{{roleLabel}}</role>.",
+        "anonymousDescription_member": "Rejoignez l'équipe et commencez à gérer les demandes ensemble. Cliquez ci-dessous pour rejoindre en tant que <role>{{roleLabel}}</role>.",
+        "signInToAccept": "Se connecter pour accepter",
+        "useDifferentAccount": "Utiliser un autre compte",
+        "alreadyHaveAccount": "Vous avez déjà un compte ? Se connecter",
+        "joinAction": "Rejoindre {{organizationName}}"
+    },
+    "status": {
+        "pending": "En attente",
+        "accepted": "Acceptée",
+        "canceled": "Annulée"
+    },
+    "error": {
+        "notFound": "Invitation introuvable.",
+        "wrongEmail": "Cette invitation a été envoyée à une autre adresse e-mail. Connectez-vous avec le bon compte pour l'accepter.",
+        "alreadyMember": "Vous êtes déjà membre de cette organisation.",
+        "notPending": "Cette invitation ne peut plus être acceptée.",
+        "expired": "Cette invitation a expiré.",
+        "acceptFailed": "Échec de l'acceptation de l'invitation.",
+        "invalidLink": "Lien d'invitation invalide",
+        "unexpected": "Une erreur inattendue est survenue"
+    }
+}

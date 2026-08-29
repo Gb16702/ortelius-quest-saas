@@ -1,0 +1,259 @@
+{
+    "page": {
+        "title": "Discussion",
+        "subtitle": "Gérez les échanges de votre espace"
+    },
+    "empty": {
+        "noConversations": "Aucune conversation pour le moment.",
+        "noUnread": "Aucune conversation non lue.",
+        "noResults": "Aucune conversation trouvée.",
+        "viewRequests": "Voir les demandes",
+        "sendRequest": "Envoyer une demande",
+        "clearSearch": "Effacer la recherche",
+        "clearFilters": "Effacer les filtres"
+    },
+    "search": {
+        "placeholder": "Rechercher des conversations",
+        "filter": "Filtrer",
+        "sort": "Trier",
+        "type": "Type",
+        "status": "Statut",
+        "typeFilter": "Type de conversation",
+        "statusFilter": "Statut de la conversation",
+        "allConversationTypes": "Toutes les conversations",
+        "allStatuses": "Tous les statuts",
+        "filterUnread": "Filtrer les conversations non lues",
+        "isUnread": "Non lus"
+    },
+    "sort": {
+        "newest": "Plus récentes",
+        "oldest": "Plus anciennes"
+    },
+    "section": {
+        "pinned": "Favoris",
+        "unpinned": "Autres discussions"
+    },
+    "card": {
+        "teamChat": "Discussion d'équipe",
+        "pin": "Épingler la conversation",
+        "unpin": "Désépingler la conversation",
+        "addFavorite": "Ajouter aux favoris",
+        "removeFavorite": "Retirer des favoris",
+        "oneMessage": "1 message",
+        "manyMessages": "{{count}} messages",
+        "messagesSentSuffix": "{{label}} envoyés dans ce chat",
+        "typingOne": "{{name}} est en train d'écrire",
+        "typingTwo": "{{name1}} et {{name2}} sont en train d'écrire",
+        "typingMany": "{{count}} personnes sont en train d'écrire",
+        "sharedAFile": "a partagé un fichier",
+        "sharedFiles": "a partagé {{count}} fichiers",
+        "senderPrefix": "~ {{name}}"
+    },
+    "conversation": {
+        "forbidden": {
+            "title": "Conversation indisponible",
+            "description": "Vous n'avez pas accès à cette conversation."
+        },
+        "notFound": {
+            "title": "Conversation introuvable",
+            "description": "Cette conversation a peut-être été supprimée ou déplacée."
+        },
+        "error": {
+            "title": "Impossible de charger cette conversation",
+            "description": "Réessayez ou revenez à vos discussions."
+        },
+        "tryAgain": "Réessayer",
+        "backToChats": "Retour aux discussions",
+        "loading": "Chargement...",
+        "fallbackTitle": "Conversation"
+    },
+    "header": {
+        "search": "Rechercher",
+        "viewParticipants": "Voir les participants",
+        "exportCsv": "Exporter en CSV",
+        "exporting": "Exportation..."
+    },
+    "messageList": {
+        "loadingEarlier": "Chargement des messages précédents",
+        "loadEarlier": "Charger les messages précédents"
+    },
+    "input": {
+        "placeholder": "Envoyer un message",
+        "placeholderTo": "Envoyer un message à {{name}}",
+        "typePlaceholder": "Saisissez un message...",
+        "replyingTo": "Réponse à {{name}}",
+        "cancelReply": "Annuler la réponse",
+        "attachFile": "Joindre un fichier",
+        "addPhotosOrFiles": "Ajouter des photos ou fichiers",
+        "sending": "Envoi du message",
+        "send": "Envoyer le message",
+        "removeAttachment": "Supprimer la pièce jointe"
+    },
+    "searchDialog": {
+        "title": "Rechercher des messages",
+        "placeholder": "Rechercher dans la conversation...",
+        "empty": "Tapez pour rechercher des messages.",
+        "noResults": "Aucun message trouvé.",
+        "loading": "Chargement des résultats",
+        "more": "Plus de résultats",
+        "activityEvent": "Événement d'activité",
+        "fallbackUser": "Utilisateur",
+        "loadError": "Échec de la recherche des messages"
+    },
+    "participants": {
+        "title": "Participants",
+        "description": "Tous les participants à cette conversation.",
+        "searchPlaceholder": "Rechercher des utilisateurs",
+        "noResults": "Aucun utilisateur trouvé.",
+        "empty": "Aucun utilisateur dans cette conversation."
+    },
+    "delete": {
+        "title": "Supprimer le message",
+        "description": "Êtes-vous sûr de vouloir supprimer ce message ? Cette action est irréversible.",
+        "cancel": "Annuler",
+        "confirm": "Supprimer"
+    },
+    "message": {
+        "deleted": "Ce message a été supprimé",
+        "edited": "(modifié)",
+        "you": "Vous",
+        "someone": "Quelqu'un",
+        "editEscape": "échap pour",
+        "editEnter": "entrée pour",
+        "editCancel": "annuler",
+        "editSave": "enregistrer",
+        "viewProfile": "Voir le profil",
+        "partOfOrg": "Cet utilisateur fait partie de l'organisation {{organization}}."
+    },
+    "toolbar": {
+        "reply": "Répondre",
+        "pin": "Épingler",
+        "unpin": "Désépingler",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "ariaReply": "Répondre au message",
+        "ariaPin": "Épingler le message",
+        "ariaUnpin": "Désépingler le message",
+        "ariaEdit": "Modifier le message",
+        "ariaDelete": "Supprimer le message"
+    },
+    "pinned": {
+        "empty": "Aucun message épinglé",
+        "goTo": "Aller à",
+        "viewAll": "Messages épinglés",
+        "pinnedByPrefix": "a épinglé",
+        "aMessage": "un message",
+        "toThisChannel": "dans ce canal."
+    },
+    "systemMessage": {
+        "openRequest": "Ouvrir la demande",
+        "downloadPdf": "Télécharger le PDF"
+    },
+    "attachmentUpload": {
+        "uploadFailed": "Échec du téléversement des fichiers",
+        "invalidFileType": "Type de fichier invalide. Seuls les fichiers {{formats}} sont autorisés.",
+        "maxFiles": "Maximum {{count}} fichiers autorisés par message.",
+        "fileTooLarge": "Le fichier {{filename}} dépasse la taille maximale de {{size}}."
+    },
+    "toast": {
+        "tryAgain": "Réessayer",
+        "loadMoreFailed": "Échec du chargement de conversations supplémentaires.",
+        "loadConversationsFailed": "Échec du chargement des conversations.",
+        "refreshConversationsFailed": "Échec de l'actualisation des conversations.",
+        "loadConversationFailed": "Échec du chargement de la conversation.",
+        "loadEarlierFailed": "Échec du chargement des messages précédents.",
+        "messageNotLoaded": "Message non chargé.",
+        "sendMessageFailed": "Échec de l'envoi du message",
+        "messageDeleted": "Message supprimé",
+        "messageUpdated": "Message mis à jour",
+        "deleteMessageFailedWindow": "Échec de la suppression du message. Vérifiez que vous êtes dans la fenêtre de 15 minutes.",
+        "updateMessageFailedWindow": "Échec de la mise à jour du message. Vérifiez que vous êtes dans la fenêtre de 15 minutes.",
+        "messagePinned": "Message épinglé",
+        "messageUnpinned": "Message désépinglé",
+        "pinMessageFailed": "Échec de l'épinglage du message",
+        "unpinMessageFailed": "Échec du désépinglage du message",
+        "addingFavorite": "Ajout aux favoris",
+        "removingFavorite": "Retrait des favoris",
+        "favoriteAdded": "Favori ajouté",
+        "favoriteRemoved": "Favori retiré",
+        "addFavoriteFailed": "Échec de l'ajout aux favoris",
+        "removeFavoriteFailed": "Échec du retrait des favoris",
+        "undo": "Annuler",
+        "noMessagesToExport": "Aucun message à exporter",
+        "exportTeamAdminsOnly": "Seuls les administrateurs et propriétaires peuvent exporter les discussions d'équipe",
+        "exported_one": "{{count}} message exporté",
+        "exported_other": "{{count}} messages exportés",
+        "exportFailed": "Échec de l'exportation de la conversation"
+    },
+    "export": {
+        "system": "Système",
+        "unknown": "Inconnu",
+        "organization": "Organisation",
+        "user": "Utilisateur",
+        "notAvailable": "N/A",
+        "deleted": "[Supprimé]",
+        "none": "Aucun",
+        "yes": "Oui",
+        "no": "Non"
+    },
+    "attachment": {
+        "download": "Télécharger",
+        "openNewWindow": "Ouvrir dans une nouvelle fenêtre",
+        "openNewTab": "Ouvrir dans un nouvel onglet",
+        "close": "Fermer",
+        "zoomIn": "Zoom avant",
+        "zoomOut": "Zoom arrière",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "previousAria": "Pièce jointe précédente",
+        "nextAria": "Pièce jointe suivante",
+        "downloadPdfLabel": "Télécharger le PDF",
+        "downloadFileLabel": "Télécharger le fichier",
+        "remove": "Supprimer la pièce jointe",
+        "you": "Vous"
+    },
+    "scrollToBottom": {
+        "aria": "Faire défiler vers le bas"
+    },
+    "mention": {
+        "membersMatching": "Membres correspondant à @{{query}}",
+        "members": "Membres",
+        "rolesMatching": "Rôles correspondant à @{{query}}",
+        "roles": "Rôles",
+        "roleDescription": {
+            "owner": "Notifier le propriétaire",
+            "admin": "Notifier tous les administrateurs",
+            "member": "Notifier tous les membres"
+        }
+    },
+    "readReceipts": {
+        "seenBy": "Vu par {{name}}"
+    },
+    "systemEvent": {
+        "requests": {
+            "event": {
+                "submitted": "Demande #{{requestNumber}} soumise par {{requesterName}}",
+                "rejected": "Demande #{{requestNumber}} refusée{{reason}}",
+                "canceled": "Demande #{{requestNumber}} annulée par {{requesterName}}",
+                "assigned": "Demande #{{requestNumber}} attribuée à {{memberName}}",
+                "reassigned": "Demande #{{requestNumber}} réattribuée à {{memberName}}",
+                "unassigned": "Demande #{{requestNumber}} retirée à {{memberName}}",
+                "linkedToAccount": "Demande #{{requestNumber}} liée au compte de {{userName}}",
+                "accountCreated": "Compte créé pour {{userName}}",
+                "accountCreatedAndLinked": "Compte créé et lié pour {{userName}}",
+                "newSubmittedToOrg": "Nouvelle demande {{requestNumber}} soumise par {{requesterName}} à {{organizationName}}"
+            }
+        },
+        "settings": {
+            "emailIntake": {
+                "enabledBy": "{{userName}} a activé la réception par e-mail",
+                "disabledBy": "{{userName}} a désactivé la réception par e-mail"
+            }
+        },
+        "quotes": {
+            "event": {
+                "sentBy": "Le devis {{quoteNumber}} a été envoyé par {{organizationName}}"
+            }
+        }
+    }
+}

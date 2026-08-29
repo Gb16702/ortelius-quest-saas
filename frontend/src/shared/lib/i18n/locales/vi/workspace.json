@@ -1,0 +1,68 @@
+{
+    "sidebar": {
+        "searchPlaceholder": "Tìm kiếm...",
+        "searchEmpty": "Không tìm thấy kết quả.",
+        "subtitlePage": "Trang",
+        "subtitleAction": "Hành động",
+        "subtitleNavigation": "Điều hướng",
+        "requests": "Yêu cầu",
+        "chats": "Trò chuyện",
+        "chat": "Trò chuyện",
+        "account": "Tài khoản",
+        "accountSettings": "Cài đặt tài khoản",
+        "dashboard": "Bảng điều khiển",
+        "team": "Nhóm",
+        "members": "Thành viên",
+        "membersSection": "Thành viên nhóm",
+        "favoriteRequesterChat": "Trò chuyện yêu cầu với {{name}}",
+        "favoriteRequesterChatWithRequest": "Trò chuyện yêu cầu #{{requestNumber}} với {{name}}",
+        "invitations": "Lời mời",
+        "activity": "Hoạt động",
+        "settings": "Cài đặt",
+        "branding": "Thương hiệu",
+        "business": "Doanh nghiệp",
+        "billing": "Thanh toán",
+        "invoices": "Hóa đơn",
+        "legals": "Pháp lý",
+        "try": "Thử",
+        "shareCompanyPage": "Chia sẻ trang công ty",
+        "inviteMembers": "Mời thành viên",
+        "setupChecklist": {
+            "title": "Getting started",
+            "open": "Mở danh sách bắt đầu",
+            "close": "Đóng danh sách bắt đầu",
+            "progress": "Hoàn thành {{percent}}%",
+            "stepsCompleted": "Đã hoàn thành {{completed}}/{{total}} bước",
+            "continue": "Tiếp tục thiết lập"
+        },
+        "openNotifications": "Mở thông báo",
+        "memberCount_one": "{{count}} thành viên",
+        "memberCount_other": "{{count}} thành viên",
+        "homePage": "Trang chủ",
+        "signOut": "Đăng xuất",
+        "backToOrg": "Quay lại {{org}}"
+    },
+    "topbar": {
+        "openNotifications": "Mở thông báo",
+        "openAccountMenu": "Mở menu tài khoản",
+        "viewProfile": "Xem hồ sơ",
+        "homePage": "Trang chủ",
+        "accountSettings": "Cài đặt tài khoản",
+        "signOut": "Đăng xuất",
+        "unknownUser": "Người dùng"
+    },
+    "userMenu": {
+        "language": "Ngôn ngữ"
+    },
+    "header": {
+        "signIn": "Đăng nhập",
+        "getStarted": "Bắt đầu",
+        "unknownUser": "Người dùng không xác định",
+        "dashboard": "Bảng điều khiển",
+        "requests": "Yêu cầu",
+        "chat": "Trò chuyện",
+        "members": "Thành viên",
+        "accountSettings": "Cài đặt tài khoản",
+        "signOut": "Đăng xuất"
+    }
+}

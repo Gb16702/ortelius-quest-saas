@@ -1,0 +1,410 @@
+{
+    "nav": {
+        "home": "Home",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "signUp": "Sign up",
+        "signIn": "Sign in",
+        "tryForFree": "Try for free",
+        "openApp": "Open app"
+    },
+    "footer": {
+        "tagline1": "Freight request management",
+        "tagline2": "for logistics companies",
+        "company": "Company",
+        "legal": "Legal",
+        "socials": "Socials",
+        "discoverMarketplace": "Discover Marketplace",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "cookiePolicy": "Cookie Policy",
+        "copyright": "© {{year}} Ortelius Quest. All rights reserved."
+    },
+    "home": {
+        "hero": {
+            "title": "Turn requests into revenue",
+            "subtitle": "Capture every freight opportunity in one branded portal. Respond faster, close more deals.",
+            "bookDemo": "Book a demo",
+            "tryForFree": "Try for free",
+            "heroImageAlt": "Ortelius Quest Dashboard - Incoming Requests"
+        },
+        "howItWorks": {
+            "label": "How it works",
+            "title": "The smarter way to freight.",
+            "subtitle": "Three simple steps. Zero missed opportunities.",
+            "step1": {
+                "number": "01",
+                "title": "Centralize requests",
+                "description": "Clients submit requests through your branded portal. View, sort, and respond to everything in one place with built-in chat and voice calling."
+            },
+            "step2": {
+                "number": "02",
+                "title": "Route & assign",
+                "description": "Assign requests to the right team member and collaborate with internal notes on every deal."
+            },
+            "step3": {
+                "number": "03",
+                "title": "Respond faster",
+                "description": "Track and respond to every request from a single dashboard. No more switching between email, phone, and spreadsheets."
+            }
+        },
+        "features": {
+            "builtForBusiness": {
+                "label": "Built for your business",
+                "title": "Configure everything to match how you work",
+                "description": "Your logo, your colors, your subdomain. Clients see your brand, not ours.",
+                "portal": {
+                    "title": "Branded Client Portal",
+                    "description": "Your clients submit requests at company.ortelius.app. Professional, branded, always on."
+                },
+                "setup": {
+                    "title": "Business Setup",
+                    "description": "Configure once, work your way forever. The platform bends to your operations, not the other way around."
+                }
+            },
+            "respondInstantly": {
+                "label": "Respond instantly",
+                "title": "Built-in chat and voice calling",
+                "description": "Stop juggling email, phone, and spreadsheets. Communicate with clients directly in the platform.",
+                "chat": {
+                    "title": "Real-time Chat",
+                    "description": "A dedicated chat with each client. Requests, quotes, and invoices live in the conversation."
+                },
+                "calling": {
+                    "title": "One-Click Calling",
+                    "description": "Click to call clients directly from the platform. All calls logged and tracked automatically."
+                }
+            },
+            "trackEverything": {
+                "label": "Track everything",
+                "title": "Quote to invoice. Nothing missed",
+                "description": "Know exactly where every deal stands. From first request to final delivery, track it all in one place.",
+                "pipeline": {
+                    "title": "Visual Pipeline",
+                    "description": "See exactly where each deal stands at a glance, from request to delivery."
+                },
+                "filters": {
+                    "title": "Smart Filters",
+                    "description": "Sort by status, client, date, route, or urgency. Find any request in seconds."
+                }
+            },
+            "tryForFree": "Try for free"
+        }
+    },
+    "pricing": {
+        "title": "Pricing that grows with you",
+        "subtitle": {
+            "currentPlan": "You're currently on the {{plan}} plan.",
+            "choosePlan": "Choose the plan that fits your team.",
+            "withTrial": "All plans include a 14-day free trial. Pick the one that fits your team. Try for free, no credit card required."
+        },
+        "comparePlans": "Compare plans",
+        "plans": {
+            "starter": "Starter",
+            "professional": "Professional",
+            "enterprise": "Enterprise"
+        },
+        "perUserMonth": "per user / month",
+        "contactUs": "Contact us",
+        "getPlan": "Get {{plan}}",
+        "recommended": "Recommended",
+        "billedYearly": "Billed yearly",
+        "billedMonthly": "Billed monthly",
+        "savePerUser": "(save {{amount}}€ per user)",
+        "everythingInStarterPlus": "Everything in Starter plus",
+        "everythingInProfessionalPlus": "Everything in Professional plus",
+        "manageSubscription": "Manage subscription",
+        "faq": {
+            "title": "Frequently asked questions",
+            "freeTrial": {
+                "question": "Is there a free trial?",
+                "answer": "Yes! All plans include a 14-day free trial. No credit card required."
+            },
+            "changePlan": {
+                "question": "Can I change my plan later?",
+                "answer": "Absolutely. You can upgrade or downgrade your plan at any time. Changes take effect immediately and we'll prorate any billing differences."
+            },
+            "paymentMethods": {
+                "question": "What payment methods do you accept?",
+                "answer": "We use Stripe for secure payments and accept Visa, Mastercard, American Express, and SEPA direct debit."
+            },
+            "trialEnds": {
+                "question": "What happens when my trial ends?",
+                "answer": "You'll be notified before your trial ends. If you don't add a payment method, your account will be downgraded to read-only mode until you subscribe."
+            },
+            "annualDiscount": {
+                "question": "Do you offer discounts for annual billing?",
+                "answer": "Yes, we offer a 20% discount when you choose annual billing. Contact our sales team for more details on enterprise pricing."
+            }
+        },
+        "comparison": {
+            "categories": {
+                "coreFeatures": "Core features",
+                "communication": "Communication",
+                "customization": "Customization",
+                "analytics": "Analytics",
+                "intelligence": "Intelligence"
+            },
+            "features": {
+                "unlimitedRequests": "Unlimited requests",
+                "quoteManagement": "Quotes & invoices",
+                "clientChat": "Chat with clients",
+                "teamChat": "Team chat",
+                "voipCalls": "Voice calls",
+                "callTranscription": "Call transcription",
+                "branding": "Custom branding",
+                "colorThemes": "Theme presets",
+                "basicDashboard": "Analytics dashboard",
+                "advancedAnalytics": "Advanced analytics & reports",
+                "activityLog": "Activity log",
+                "pricingIntelligence": "Pricing intelligence"
+            }
+        }
+    },
+    "contact": {
+        "title": "Talk to our sales team",
+        "subtitle": "We'd love to learn about your team's challenges and show you how Ortelius Quest can help.",
+        "features": {
+            "demo": "Get a custom demo",
+            "trial": "Set up your Enterprise trial",
+            "onboarding": "Get onboarding help"
+        },
+        "form": {
+            "workEmail": "Work email",
+            "workEmailPlaceholder": "you@company.com",
+            "fullName": "Full name",
+            "fullNamePlaceholder": "John Doe",
+            "country": "Country",
+            "selectCountry": "Select your country",
+            "companyWebsite": "Company website",
+            "companyWebsitePlaceholder": "https://company.com",
+            "companySize": "Company size",
+            "selectValue": "Select a value",
+            "employees": "employees",
+            "message": "How can we help?",
+            "messagePlaceholder": "Tell us about your company needs...",
+            "submit": "Send message",
+            "submitting": "Sending...",
+            "defaultMessage": "Hi, I'd like to learn more about your product and schedule a demo.",
+            "optional": "Optional",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email address",
+                "fullNameRequired": "Full name is required",
+                "fullNameMin": "Full name must be at least 2 characters",
+                "countryRequired": "Please select a country",
+                "websiteInvalid": "Please enter a valid URL",
+                "messageRequired": "Message is required"
+            }
+        }
+    },
+    "cta": {
+        "startYour": "Start your",
+        "freeTrial": "free trial today."
+    },
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Everything you need to know about Ortelius Quest.",
+        "questions": {
+            "freeTrial": {
+                "question": "Is there a free trial?",
+                "answer": "Yes! You get 14 days to try Ortelius Quest free."
+            },
+            "getStarted": {
+                "question": "How long does it take to get started?",
+                "answer": "Your organization can be fully configured and ready to welcome clients in 5-10 minutes."
+            },
+            "customDomain": {
+                "question": "Can I use my own domain?",
+                "answer": "Your branded portal is hosted at company.ortelius.app with your custom logo and branding."
+            },
+            "closeDeals": {
+                "question": "How does Ortelius Quest help me close more deals?",
+                "answer": "By centralizing all freight requests in one place, you never miss an opportunity. Respond 3x faster with built-in communication tools, and keep your entire team aligned with real-time collaboration features."
+            },
+            "teamUse": {
+                "question": "Can my whole team use Ortelius Quest?",
+                "answer": "Yes! Add unlimited team members, assign requests to specific people, and collaborate with internal notes on every deal."
+            },
+            "security": {
+                "question": "Is my data secure?",
+                "answer": "All chat messages are encrypted to keep your communications secure and private."
+            },
+            "onboarding": {
+                "question": "Do you provide onboarding support?",
+                "answer": "Yes! We provide onboarding videos during platform setup to help you configure everything properly."
+            }
+        }
+    },
+    "checkout": {
+        "stepLabel": "Step {{current}} of {{total}}",
+        "step1Title": "Name your organization",
+        "step1Subtitle": "This will be your workspace name and subdomain",
+        "step2Title": "Add payment method",
+        "step2Subtitle": "Complete your subscription payment",
+        "step2SubtitleTrial": "Your card will be saved for future payments after the trial ends",
+        "organizationName": "Organization name",
+        "organizationNamePlaceholder": "Acme Inc",
+        "organizationSlug": "Workspace URL",
+        "organizationSlugPlaceholder": "acme-inc",
+        "continue": "Continue",
+        "skipStep": "I'll invite my team later",
+        "back": "Back",
+        "startTrial": "Start free trial",
+        "tryForFree": "Try for free, no credit card required.",
+        "subscribe": "Subscribe",
+        "trialCardInfo": "Your card will be saved for future payments after the trial ends.",
+        "sessionExpired": "Your session has expired. Please start again.",
+        "startOver": "Start over",
+        "plan": "plan",
+        "viewAllPlans": "View all plans",
+        "month": "mo",
+        "trialTimeline": {
+            "title": "How your free trial works",
+            "today": "Today",
+            "todayDesc": "Full access to all features",
+            "reminderDesc": "Get a reminder before trial ends",
+            "endDesc": "Your subscription begins"
+        },
+        "recurringDisclaimer": "By starting your trial, you agree to be charged automatically after the trial period unless you cancel before it ends.",
+        "upgrade": "Upgrade",
+        "emailPlaceholder": "colleague@company.com",
+        "rolePlaceholder": "Role",
+        "addMore": "Add member",
+        "inviteMoreLater": "You can invite more members from your dashboard after setup.",
+        "roles": {
+            "member": "Member",
+            "admin": "Admin"
+        },
+        "roleDescriptions": {
+            "member": "Manage requests, conversations and quotes",
+            "admin": "Full access to organization settings"
+        },
+        "invitationExpiry": "Invitations expire in 7 days. You can still resend them later.",
+        "validation": {
+            "organizationNameRequired": "Organization name is required",
+            "organizationNameMin": "Organization name must be at least 2 characters",
+            "organizationNameMax": "Organization name must be at most 32 characters",
+            "organizationSlugRequired": "Workspace URL is required",
+            "organizationSlugMin": "Workspace URL must be at least 3 characters",
+            "organizationSlugMax": "Workspace URL must be at most 50 characters",
+            "organizationSlugFormat": "Use lowercase letters, numbers, and single hyphens only",
+            "emailInvalid": "Please enter a valid email address",
+            "emailDuplicate": "This email is already in the list",
+            "emailSelfInvite": "You cannot invite yourself",
+            "emailAlreadyHasOrganization": "This user is already part of an organization"
+        },
+        "errors": {
+            "SUBDOMAIN_TAKEN": "This workspace URL is already taken.",
+            "SUBDOMAIN_RESERVED": "This workspace URL is reserved and cannot be used.",
+            "SUBDOMAIN_INVALID_LENGTH": "Workspace URL must be between 3 and 50 characters.",
+            "INVALID_FORMAT": "This workspace URL is not valid.",
+            "fixEmailErrors": "Please fix the email errors before continuing."
+        },
+        "topFeatures": "Top features",
+        "features": {
+            "unlimitedRequests": "Unlimited requests",
+            "quoteManagement": "Quote management",
+            "clientChat": "Chat with clients",
+            "teamChat": "Team chat",
+            "voipCalls": "Voice calls",
+            "callTranscription": "Call transcription",
+            "branding": "Custom branding",
+            "colorThemes": "Theme presets",
+            "basicDashboard": "Analytics dashboard",
+            "advancedAnalytics": "Advanced analytics & reports",
+            "activityLog": "Activity log",
+            "pricingIntelligence": "Pricing intelligence"
+        },
+        "billing": {
+            "dueToday": "Due today",
+            "perMonth": "/month",
+            "perYear": "/year",
+            "afterTrial": "{{price}}{{interval}} after {{days}}-day trial"
+        },
+        "billingDisclaimer": "By subscribing, you authorize The Space Behind BV to charge you according to the terms until you cancel. You also agree to the",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy"
+    },
+    "common": {
+        "learnMore": "Learn more",
+        "getStarted": "Get started",
+        "other": "Other",
+        "optional": "Optional",
+        "and": "and"
+    },
+    "auth": {
+        "footer": {
+            "support": "Support",
+            "terms": "Terms",
+            "privacy": "Privacy"
+        },
+        "signIn": {
+            "title": "Welcome back",
+            "email": "Email",
+            "password": "Password",
+            "submit": "Sign in",
+            "noAccount": "Don't have an account?",
+            "signUp": "Sign up",
+            "error": {
+                "failed": "Sign in failed"
+            }
+        },
+        "signUp": {
+            "title": "Create your account",
+            "email": "Email",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "password": "Password",
+            "passwordHint": "Must be at least 8 characters",
+            "continue": "Continue",
+            "submit": "Create account",
+            "hasAccount": "Already have an account?",
+            "signIn": "Sign in",
+            "error": {
+                "checkEmail": "Failed to check email. Please try again.",
+                "failed": "Sign up failed"
+            },
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "firstNameRequired": "First name is required",
+                "lastNameRequired": "Last name is required",
+                "passwordMin": "Password must be at least 8 characters"
+            }
+        }
+    },
+    "meta": {
+        "organizationDescription": "Ortelius Quest helps logistics companies turn freight requests into revenue. Centralize requests, route them intelligently, and respond faster from a single branded portal.",
+        "generic": {
+            "title": "Ortelius Quest",
+            "description": "The smart hub for freight request management. Centralize, route, and respond faster."
+        },
+        "home": {
+            "title": "Ortelius Quest — Freight request management for logistics companies",
+            "description": "Capture every freight opportunity in one branded portal. Respond faster, close more deals."
+        },
+        "pricing": {
+            "title": "Pricing — Ortelius Quest",
+            "description": "Simple, transparent pricing built for logistics companies of every size. Start for free."
+        },
+        "contact": {
+            "title": "Contact — Ortelius Quest",
+            "description": "Talk to our team or book a demo. We'll show you how Ortelius Quest fits your freight workflow."
+        },
+        "legals": {
+            "privacy": {
+                "title": "Privacy Policy — Ortelius Quest",
+                "description": "How Ortelius Quest collects, uses, and protects your personal data, in line with GDPR, CCPA, and LGPD."
+            },
+            "terms": {
+                "title": "Terms of Service — Ortelius Quest",
+                "description": "The terms that govern your use of Ortelius Quest, including account, billing, and acceptable use."
+            },
+            "cookies": {
+                "title": "Cookie Policy — Ortelius Quest",
+                "description": "How and why Ortelius Quest uses cookies and similar technologies, and how to manage your preferences."
+            }
+        }
+    }
+}

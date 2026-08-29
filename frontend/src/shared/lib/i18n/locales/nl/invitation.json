@@ -1,0 +1,39 @@
+{
+    "loading": "Uitnodiging laden...",
+    "expired": {
+        "title": "Uitnodiging verlopen",
+        "description": "Deze uitnodiging is verlopen en niet langer geldig.",
+        "details": "Neem contact op met de beheerder van je organisatie voor een nieuwe uitnodiging."
+    },
+    "invalid": {
+        "title": "Uitnodiging niet gevonden",
+        "description": "Deze uitnodiging is ongeldig of is verwijderd."
+    },
+    "card": {
+        "logoAlt": "Logo van {{organizationName}}",
+        "joinTitle": "Word lid van {{organizationName}}",
+        "inviterDescription_admin": "<inviter>{{inviterName}}</inviter> heeft je uitgenodigd om lid te worden van het team. Beheer samen aanvragen als <role>{{roleLabel}}</role>.",
+        "inviterDescription_member": "<inviter>{{inviterName}}</inviter> heeft je uitgenodigd om lid te worden van het team. Beheer samen aanvragen als <role>{{roleLabel}}</role>.",
+        "anonymousDescription_admin": "Word lid van het team en beheer samen aanvragen. Klik hieronder om mee te doen als <role>{{roleLabel}}</role>.",
+        "anonymousDescription_member": "Word lid van het team en beheer samen aanvragen. Klik hieronder om mee te doen als <role>{{roleLabel}}</role>.",
+        "signInToAccept": "Inloggen om te accepteren",
+        "useDifferentAccount": "Een ander account gebruiken",
+        "alreadyHaveAccount": "Heb je al een account? Inloggen",
+        "joinAction": "Word lid van {{organizationName}}"
+    },
+    "status": {
+        "pending": "In afwachting",
+        "accepted": "Geaccepteerd",
+        "canceled": "Geannuleerd"
+    },
+    "error": {
+        "notFound": "Uitnodiging niet gevonden.",
+        "wrongEmail": "Deze uitnodiging is naar een ander e-mailadres gestuurd. Log in met het juiste account om te accepteren.",
+        "alreadyMember": "Je bent al lid van deze organisatie.",
+        "notPending": "Deze uitnodiging kan niet meer worden geaccepteerd.",
+        "expired": "Deze uitnodiging is verlopen.",
+        "acceptFailed": "Accepteren van de uitnodiging is mislukt.",
+        "invalidLink": "Ongeldige uitnodigingslink",
+        "unexpected": "Er is een onverwachte fout opgetreden"
+    }
+}

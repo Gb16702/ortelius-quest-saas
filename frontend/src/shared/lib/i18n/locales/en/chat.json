@@ -1,0 +1,259 @@
+{
+    "page": {
+        "title": "Chat",
+        "subtitle": "Manage conversations across your workspace"
+    },
+    "empty": {
+        "noConversations": "No conversations yet.",
+        "noUnread": "No unread conversations.",
+        "noResults": "No conversations found.",
+        "viewRequests": "View Requests",
+        "sendRequest": "Send Request",
+        "clearSearch": "Clear search",
+        "clearFilters": "Clear filters"
+    },
+    "search": {
+        "placeholder": "Search conversations",
+        "filter": "Filter",
+        "sort": "Sort",
+        "type": "Type",
+        "status": "Status",
+        "typeFilter": "Conversation type",
+        "statusFilter": "Conversation status",
+        "allConversationTypes": "All conversations",
+        "allStatuses": "All statuses",
+        "filterUnread": "Filter unread conversations",
+        "isUnread": "Unread"
+    },
+    "sort": {
+        "newest": "Newest first",
+        "oldest": "Oldest first"
+    },
+    "section": {
+        "pinned": "Favorites",
+        "unpinned": "Other chats"
+    },
+    "card": {
+        "teamChat": "Team chat",
+        "pin": "Pin conversation",
+        "unpin": "Unpin conversation",
+        "addFavorite": "Add favorite",
+        "removeFavorite": "Remove favorite",
+        "oneMessage": "1 message",
+        "manyMessages": "{{count}} messages",
+        "messagesSentSuffix": "{{label}} sent in this chat",
+        "typingOne": "{{name}} is typing",
+        "typingTwo": "{{name1}} and {{name2}} are typing",
+        "typingMany": "{{count}} people are typing",
+        "sharedAFile": "shared a file",
+        "sharedFiles": "shared {{count}} files",
+        "senderPrefix": "~ {{name}}"
+    },
+    "conversation": {
+        "forbidden": {
+            "title": "Conversation unavailable",
+            "description": "You don't have access to this conversation."
+        },
+        "notFound": {
+            "title": "Conversation not found",
+            "description": "This conversation may have been deleted or moved."
+        },
+        "error": {
+            "title": "We couldn't load this conversation",
+            "description": "Try again, or return to your chats."
+        },
+        "tryAgain": "Try again",
+        "backToChats": "Back to chats",
+        "loading": "Loading...",
+        "fallbackTitle": "Conversation"
+    },
+    "header": {
+        "search": "Search",
+        "viewParticipants": "View participants",
+        "exportCsv": "Export as CSV",
+        "exporting": "Exporting..."
+    },
+    "messageList": {
+        "loadingEarlier": "Loading earlier",
+        "loadEarlier": "Load earlier messages"
+    },
+    "input": {
+        "placeholder": "Send a message",
+        "placeholderTo": "Send a message to {{name}}",
+        "typePlaceholder": "Type a message...",
+        "replyingTo": "Replying to {{name}}",
+        "cancelReply": "Cancel reply",
+        "attachFile": "Attach file",
+        "addPhotosOrFiles": "Add photos or files",
+        "sending": "Sending message",
+        "send": "Send message",
+        "removeAttachment": "Remove attachment"
+    },
+    "searchDialog": {
+        "title": "Search messages",
+        "placeholder": "Search in conversation...",
+        "empty": "Type to search messages.",
+        "noResults": "No messages found.",
+        "loading": "Loading results",
+        "more": "More results",
+        "activityEvent": "Activity event",
+        "fallbackUser": "User",
+        "loadError": "Failed to search messages"
+    },
+    "participants": {
+        "title": "Participants",
+        "description": "All participants in this conversation.",
+        "searchPlaceholder": "Search users",
+        "noResults": "No users found.",
+        "empty": "No users in this conversation."
+    },
+    "delete": {
+        "title": "Delete Message",
+        "description": "Are you sure you want to delete this message? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+    },
+    "message": {
+        "deleted": "This message was deleted",
+        "edited": "(edited)",
+        "you": "You",
+        "someone": "Someone",
+        "editEscape": "escape to",
+        "editEnter": "enter to",
+        "editCancel": "cancel",
+        "editSave": "save",
+        "viewProfile": "View profile",
+        "partOfOrg": "This user is part of {{organization}} organization."
+    },
+    "toolbar": {
+        "reply": "Reply",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "edit": "Edit",
+        "delete": "Delete",
+        "ariaReply": "Reply to message",
+        "ariaPin": "Pin message",
+        "ariaUnpin": "Unpin message",
+        "ariaEdit": "Edit message",
+        "ariaDelete": "Delete message"
+    },
+    "pinned": {
+        "empty": "No pinned messages",
+        "goTo": "Go to",
+        "viewAll": "Pinned messages",
+        "pinnedByPrefix": "pinned",
+        "aMessage": "a message",
+        "toThisChannel": "to this channel."
+    },
+    "systemMessage": {
+        "openRequest": "Open request",
+        "downloadPdf": "Download PDF"
+    },
+    "attachmentUpload": {
+        "uploadFailed": "Failed to upload files",
+        "invalidFileType": "Invalid file type. Only {{formats}} files are allowed.",
+        "maxFiles": "Maximum {{count}} files allowed per message.",
+        "fileTooLarge": "File {{filename}} exceeds maximum size of {{size}}."
+    },
+    "toast": {
+        "tryAgain": "Try again",
+        "loadMoreFailed": "Failed to load more conversations.",
+        "loadConversationsFailed": "Failed to load conversations.",
+        "refreshConversationsFailed": "Failed to refresh conversations.",
+        "loadConversationFailed": "Failed to load conversation.",
+        "loadEarlierFailed": "Failed to load earlier messages.",
+        "messageNotLoaded": "Message not loaded.",
+        "sendMessageFailed": "Failed to send message",
+        "messageDeleted": "Message deleted",
+        "messageUpdated": "Message updated",
+        "deleteMessageFailedWindow": "Failed to delete message. Check that you're within the 15-minute window.",
+        "updateMessageFailedWindow": "Failed to update message. Check that you're within the 15-minute window.",
+        "messagePinned": "Message pinned",
+        "messageUnpinned": "Message unpinned",
+        "pinMessageFailed": "Failed to pin message",
+        "unpinMessageFailed": "Failed to unpin message",
+        "addingFavorite": "Adding favorite",
+        "removingFavorite": "Removing favorite",
+        "favoriteAdded": "Favorite added",
+        "favoriteRemoved": "Favorite removed",
+        "addFavoriteFailed": "Failed to add favorite",
+        "removeFavoriteFailed": "Failed to remove favorite",
+        "undo": "Undo",
+        "noMessagesToExport": "No messages to export",
+        "exportTeamAdminsOnly": "Only admins and owners can export team chats",
+        "exported_one": "Exported {{count}} message",
+        "exported_other": "Exported {{count}} messages",
+        "exportFailed": "Failed to export conversation"
+    },
+    "export": {
+        "system": "System",
+        "unknown": "Unknown",
+        "organization": "Organization",
+        "user": "User",
+        "notAvailable": "N/A",
+        "deleted": "[Deleted]",
+        "none": "None",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "attachment": {
+        "download": "Download",
+        "openNewWindow": "Open in new window",
+        "openNewTab": "Open in new tab",
+        "close": "Close",
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out",
+        "previous": "Previous",
+        "next": "Next",
+        "previousAria": "Previous attachment",
+        "nextAria": "Next attachment",
+        "downloadPdfLabel": "Download PDF",
+        "downloadFileLabel": "Download File",
+        "remove": "Remove attachment",
+        "you": "You"
+    },
+    "scrollToBottom": {
+        "aria": "Scroll to bottom"
+    },
+    "mention": {
+        "membersMatching": "Members matching @{{query}}",
+        "members": "Members",
+        "rolesMatching": "Roles matching @{{query}}",
+        "roles": "Roles",
+        "roleDescription": {
+            "owner": "Notify the owner",
+            "admin": "Notify all users having admin role",
+            "member": "Notify all users having member role"
+        }
+    },
+    "readReceipts": {
+        "seenBy": "Seen by {{name}}"
+    },
+    "systemEvent": {
+        "requests": {
+            "event": {
+                "submitted": "Request #{{requestNumber}} submitted by {{requesterName}}",
+                "rejected": "Request #{{requestNumber}} has been rejected{{reason}}",
+                "canceled": "Request #{{requestNumber}} canceled by {{requesterName}}",
+                "assigned": "Request #{{requestNumber}} assigned to {{memberName}}",
+                "reassigned": "Request #{{requestNumber}} reassigned to {{memberName}}",
+                "unassigned": "Request #{{requestNumber}} unassigned from {{memberName}}",
+                "linkedToAccount": "Request #{{requestNumber}} linked to account for {{userName}}",
+                "accountCreated": "Account created for {{userName}}",
+                "accountCreatedAndLinked": "Account created and linked for {{userName}}",
+                "newSubmittedToOrg": "New request {{requestNumber}} submitted by {{requesterName}} to {{organizationName}}"
+            }
+        },
+        "settings": {
+            "emailIntake": {
+                "enabledBy": "{{userName}} enabled Email Intake",
+                "disabledBy": "{{userName}} disabled Email Intake"
+            }
+        },
+        "quotes": {
+            "event": {
+                "sentBy": "Quote {{quoteNumber}} has been sent by {{organizationName}}"
+            }
+        }
+    }
+}

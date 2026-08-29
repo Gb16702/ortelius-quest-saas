@@ -1,0 +1,499 @@
+{
+    "nav": {
+        "settings": "Cài đặt",
+        "branding": "Thương hiệu",
+        "business": "Doanh nghiệp",
+        "billing": "Thanh toán",
+        "invoices": "Hóa đơn",
+        "legals": "Tài liệu pháp lý"
+    },
+    "branding": {
+        "title": "Thương hiệu",
+        "subtitle": "Quản lý cách tổ chức của bạn hiển thị công khai.",
+        "loadError": "Không thể tải cài đặt tổ chức.",
+        "publicProfile": {
+            "heading": "Hồ sơ công khai",
+            "description": "Hiển thị trên trang tổ chức công khai và tài liệu gửi khách hàng."
+        },
+        "visualIdentity": {
+            "heading": "Nhận diện hình ảnh",
+            "description": "Sử dụng cho các bề mặt thương hiệu và lời kêu gọi hành động."
+        },
+        "logo": {
+            "title": "Logo tổ chức",
+            "description": "Nhấp vào logo để tải lên logo tùy chỉnh.",
+            "uploadAriaLabel": "Tải lên logo tổ chức"
+        },
+        "tagline": {
+            "title": "Khẩu hiệu",
+            "description": "Một câu ngắn mô tả hoạt động của tổ chức bạn.",
+            "placeholder": "ví dụ: Vận chuyển không rắc rối"
+        },
+        "website": {
+            "title": "Trang web",
+            "description": "URL trang web của tổ chức bạn.",
+            "placeholder": "vidu.com"
+        },
+        "overview": {
+            "title": "Tổng quan",
+            "description": "Mô tả chi tiết về tổ chức của bạn.",
+            "editAction": "Chỉnh sửa tổng quan",
+            "dialogTitle": "Chỉnh sửa tổng quan",
+            "placeholder": "Mô tả tổ chức của bạn..."
+        },
+        "brandColor": {
+            "title": "Màu thương hiệu",
+            "description": "Chọn màu nhấn dùng cho điều khiển và lời kêu gọi hành động.",
+            "ariaLabel": "Màu thương hiệu của tổ chức"
+        },
+        "font": {
+            "title": "Phông chữ",
+            "description": "Chọn phông chữ giao diện của tổ chức.",
+            "ariaLabel": "Phông chữ của tổ chức"
+        },
+        "toast": {
+            "taglineUpdated": "Đã cập nhật khẩu hiệu tổ chức",
+            "overviewSaving": "Đang lưu tổng quan…",
+            "overviewUpdated": "Đã cập nhật tổng quan tổ chức",
+            "overviewFailed": "Không thể lưu tổng quan",
+            "websiteUpdated": "Đã cập nhật trang web tổ chức",
+            "brandColorSaving": "Đang lưu màu thương hiệu...",
+            "brandColorUpdated": "Đã cập nhật màu thương hiệu",
+            "brandColorFailed": "Không thể cập nhật màu thương hiệu",
+            "fontSaving": "Đang lưu phông chữ...",
+            "fontUpdated": "Đã cập nhật phông chữ",
+            "fontFailed": "Không thể cập nhật phông chữ",
+            "logoUploading": "Đang tải lên logo...",
+            "logoUpdated": "Đã cập nhật logo tổ chức",
+            "logoUpdateFailed": "Không thể cập nhật logo",
+            "logoRemoving": "Đang xóa logo...",
+            "logoRemoved": "Đã xóa logo tổ chức",
+            "logoRemoveFailed": "Không thể xóa logo",
+            "viewHomePage": "Xem trang chủ"
+        }
+    },
+    "business": {
+        "title": "Doanh nghiệp",
+        "loadError": "Không thể tải cài đặt doanh nghiệp.",
+        "catalog": {
+            "heading": "Danh mục",
+            "description": "Xác định những gì khách hàng có thể yêu cầu và nhóm của bạn có thể báo giá",
+            "cargoTypes": {
+                "title": "Loại hàng",
+                "empty": "Không có loại hàng nào đang hoạt động"
+            },
+            "services": {
+                "title": "Dịch vụ",
+                "empty": "Không có dịch vụ nào đang hoạt động"
+            }
+        },
+        "intelligence": {
+            "heading": "Trí tuệ",
+            "description": "Dữ liệu đầu vào để tự động chuẩn bị báo giá và gợi ý giá",
+            "pricingData": {
+                "title": "Dữ liệu giá",
+                "description": "Nhập các giao dịch trước đây dùng cho gợi ý giá AI"
+            },
+            "emailIntake": {
+                "title": "Tiếp nhận qua email",
+                "descriptionPrefix": "Chuyển tiếp email khách hàng đến ",
+                "descriptionSuffix": " để AI soạn yêu cầu cho bạn duyệt",
+                "fallbackAddress": "địa chỉ nhận thư của bạn"
+            }
+        },
+        "cargoSheet": {
+            "title": "Quản lý loại hàng",
+            "description": "Chọn các loại hàng mà tổ chức của bạn có thể xử lý.",
+            "saveLabel": "Lưu danh mục"
+        },
+        "servicesSheet": {
+            "title": "Quản lý dịch vụ",
+            "description": "Xác định các dịch vụ logistics và vận tải bạn cung cấp cho khách hàng.",
+            "saveLabel": "Lưu dịch vụ"
+        },
+        "pricingDialog": {
+            "title": "Dữ liệu giá",
+            "description": "Nhập các giao dịch trước đây dùng cho gợi ý giá AI"
+        },
+        "others_one": "{{count}} mục khác",
+        "others_other": "{{count}} mục khác",
+        "toast": {
+            "noChanges": "Không có thay đổi để lưu",
+            "cargoSaving": "Đang lưu loại hàng...",
+            "cargoUpdated": "Đã cập nhật loại hàng",
+            "cargoFailed": "Không thể cập nhật loại hàng",
+            "servicesSaving": "Đang lưu dịch vụ...",
+            "servicesUpdated": "Đã cập nhật dịch vụ",
+            "servicesFailed": "Không thể cập nhật dịch vụ",
+            "categoriesLoadFailed": "Không thể tải danh mục",
+            "servicesLoadFailed": "Không thể tải dịch vụ",
+            "emailIntakeEnabling": "Đang bật tiếp nhận qua email...",
+            "emailIntakeDisabling": "Đang tắt tiếp nhận qua email...",
+            "emailIntakeEnabled": "Đã bật tiếp nhận qua email",
+            "emailIntakeDisabled": "Đã tắt tiếp nhận qua email",
+            "emailIntakeFailed": "Không thể cập nhật tiếp nhận qua email"
+        }
+    },
+    "billing": {
+        "title": "Thanh toán",
+        "sections": {
+            "details": {
+                "title": "Chi tiết thanh toán"
+            },
+            "invoice": {
+                "title": "Tùy chọn hóa đơn"
+            },
+            "danger": {
+                "title": "Vùng nguy hiểm"
+            }
+        }
+    },
+    "invoices": {
+        "title": "Hóa đơn",
+        "list": {
+            "totalDue": "Tổng phải trả",
+            "invoiced": "Đã xuất hóa đơn {{date}}",
+            "viewInvoice": "Xem hóa đơn",
+            "downloadPdf": "Tải xuống PDF",
+            "loadMore": "Tải thêm",
+            "emptyTitle": "Chưa có hóa đơn nào",
+            "emptyDescription": "Hóa đơn sẽ xuất hiện ở đây khi đăng ký của bạn tạo ra chúng.",
+            "errorTitle": "Không thể tải hóa đơn.",
+            "errorDescription": "Chúng tôi không thể lấy hóa đơn của bạn. Hãy thử lại trước khi cho rằng không có hóa đơn.",
+            "noFilteredFound": "Không tìm thấy hóa đơn {{filter}}.",
+            "loadFailed": "Không thể tải hóa đơn."
+        },
+        "filter": {
+            "all": "Tất cả hóa đơn",
+            "paid": "Đã thanh toán",
+            "open": "Mở",
+            "draft": "Nháp"
+        },
+        "sheet": {
+            "title": "Chi tiết hóa đơn",
+            "totalDue": "Tổng phải trả",
+            "invoiceNumber": "Số hóa đơn",
+            "product": "Sản phẩm",
+            "qty": "SL",
+            "totalCost": "Tổng chi phí",
+            "subtotal": "Tạm tính",
+            "total": "Tổng",
+            "download": "Tải xuống",
+            "contactSupport": "Liên hệ hỗ trợ"
+        }
+    },
+    "legalDocuments": {
+        "title": "Tài liệu pháp lý",
+        "upload": {
+            "title": "Thêm tài liệu",
+            "description": "Có thể dùng lại trong báo giá và hóa đơn của bạn.",
+            "dropzoneTitle": "Tải tệp lên",
+            "dropzoneDescription": "Nhấp vào đây hoặc kéo thả để tải lên",
+            "dropzoneActive": "Thả tệp vào đây",
+            "queued": "Đang chờ",
+            "labelFor": "Nhãn hiển thị cho {{filename}}",
+            "labelPlaceholder": "Nhãn tài liệu",
+            "removeFile": "Xóa {{filename}}",
+            "limit": "Tối đa {{count}} tệp PDF, mỗi tệp {{size}}",
+            "upload": "Tải lên",
+            "uploading": "Đang tải lên...",
+            "uploadFiles_one": "Tải lên {{count}} tệp",
+            "uploadFiles_other": "Tải lên {{count}} tệp"
+        },
+        "table": {
+            "library": "Thư viện",
+            "uploaded": "Đã tải lên {{date}}",
+            "downloadAria": "Tải xuống {{label}}",
+            "actionsAria": "Hành động cho {{label}}",
+            "download": "Tải xuống",
+            "rename": "Đổi tên",
+            "delete": "Xóa"
+        },
+        "rename": {
+            "title": "Đổi tên tài liệu",
+            "required": "Nhãn là bắt buộc."
+        },
+        "delete": {
+            "title": "Xóa tài liệu pháp lý?",
+            "description": "Tài liệu này sẽ bị xóa vĩnh viễn.",
+            "descriptionWithLabel": "\"{{label}}\" sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác."
+        },
+        "dialog": {
+            "cancel": "Hủy",
+            "save": "Lưu"
+        },
+        "error": {
+            "oversize": "Mỗi tệp phải từ 25 MB trở xuống.",
+            "wrongFormat": "Chỉ chấp nhận tệp PDF.",
+            "tooMany": "Bạn có thể tải lên tối đa {{count}} tệp mỗi lần.",
+            "noOrganization": "Chưa chọn tổ chức.",
+            "emptyUpload": "Thêm ít nhất một tài liệu để tải lên.",
+            "missingLabels": "Thêm nhãn cho mọi tài liệu trước khi tải lên.",
+            "quotaExceeded": "Tải lên sẽ vượt quá giới hạn {{size}} MB của tổ chức.",
+            "quotaWithCurrent": "Lần tải lên này sẽ vượt quá giới hạn {{quota}} của tổ chức. Hiện đang dùng {{current}}.",
+            "network": "Lỗi mạng trong khi tải lên. Hãy thử lại.",
+            "uploadFailed": "Tải lên thất bại"
+        },
+        "toast": {
+            "loadFailed": "Không thể tải tài liệu pháp lý",
+            "added_one": "Đã thêm {{count}} tài liệu.",
+            "added_other": "Đã thêm {{count}} tài liệu.",
+            "uploaded_one": "Đã tải lên {{count}} tài liệu.",
+            "uploaded_other": "Đã tải lên {{count}} tài liệu.",
+            "undo_one": "Hoàn tác",
+            "undo_other": "Hoàn tác tất cả",
+            "uploadUndone_one": "Đã hoàn tác tải lên.",
+            "uploadUndone_other": "Đã hoàn tác các lần tải lên.",
+            "retrying_one": "Đang thử tải lên lại...",
+            "retrying_other": "Đang thử tải lên lại {{count}} lần...",
+            "uploadFailed_one": "{{count}} lần tải lên thất bại.",
+            "uploadFailed_other": "{{count}} lần tải lên thất bại.",
+            "uploading_one": "Đang tải lên {{count}} tài liệu...",
+            "uploading_other": "Đang tải lên {{count}} tài liệu...",
+            "renaming": "Đang đổi tên tài liệu...",
+            "renamed": "Đã đổi tên tài liệu.",
+            "renameFailed": "Đổi tên thất bại",
+            "deleting": "Đang xóa tài liệu...",
+            "deleted": "Đã xóa tài liệu.",
+            "deleteFailed": "Xóa thất bại",
+            "preparingDownload": "Đang chuẩn bị tải xuống...",
+            "downloadStarted": "Đã bắt đầu tải xuống.",
+            "downloadFailed": "Tải xuống thất bại"
+        }
+    },
+    "subscription": {
+        "card": {
+            "freeTrial": "Dùng thử miễn phí",
+            "currentPlan": "Gói hiện tại",
+            "manage": "Quản lý gói",
+            "invoices": "Hóa đơn",
+            "subscriptionFallback": "Đăng ký",
+            "loadError": "Không thể tải dữ liệu đăng ký.",
+            "afterTrial": "sau bản dùng thử",
+            "trialDaysLeft_one": "Còn {{count}} ngày. Thêm thanh toán trước {{date}} để giữ gói của bạn.",
+            "trialDaysLeft_other": "Còn {{count}} ngày. Thêm thanh toán trước {{date}} để giữ gói của bạn.",
+            "trialEndsToday": "Bản dùng thử kết thúc hôm nay. Thêm thanh toán để giữ gói của bạn.",
+            "resuming": "Đang khôi phục gói...",
+            "endsOn": "Gói của bạn kết thúc vào {{date}}.",
+            "nextBillingDateFallback": "ngày thanh toán tiếp theo",
+            "resumePlan": "Khôi phục gói",
+            "keepingPlan": "Đang giữ {{planName}}...",
+            "planChangesTo": "Gói của bạn sẽ chuyển sang {{newPlan}} vào {{date}}.",
+            "keepPlan": "Giữ {{planName}}",
+            "planIncludes": "Gói của bạn bao gồm",
+            "noFeatures": "Không có tính năng nào được liệt kê cho gói này.",
+            "trialEnded": "Bản dùng thử đã kết thúc",
+            "noActivePlan": "Không có gói nào đang hoạt động",
+            "subscribeToContinue": "Đăng ký để tiếp tục",
+            "pickPlan": "Chọn một gói để bắt đầu",
+            "subscribe": "Đăng ký",
+            "choosePlan": "Chọn gói",
+            "planFrom": "{{planName}} từ {{price}}/tháng · nâng cấp hoặc hạ cấp bất cứ lúc nào.",
+            "anytime": "Nâng cấp hoặc hạ cấp bất cứ lúc nào."
+        },
+        "status": {
+            "active": "Đang hoạt động",
+            "trialing": "Đang dùng thử",
+            "cancelled": "Đã hủy",
+            "expired": "Đã hết hạn"
+        },
+        "toast": {
+            "resumed": "Đã khôi phục đăng ký",
+            "pendingCanceled": "Đã hủy thay đổi đang chờ",
+            "planUpdated": "Đã cập nhật gói",
+            "subscribed": "Chào mừng đến với {{planName}}",
+            "canceled": "Đã hủy đăng ký"
+        },
+        "cancel": {
+            "cardTitle": "Hủy đăng ký",
+            "cardDescription": "Dừng thanh toán định kỳ vào cuối kỳ hiện tại. Bạn có thể đăng ký lại bất cứ lúc nào.",
+            "cancel": "Hủy",
+            "dialogTitle": "Hủy gói",
+            "loseFeaturesWithDate": "Bạn sẽ mất tất cả tính năng của {{planName}} sau {{date}}.",
+            "loseFeaturesEnd": "Bạn sẽ mất tất cả tính năng của {{planName}} vào cuối kỳ thanh toán hiện tại.",
+            "reasonLegend": "Lý do chính khiến bạn hủy là gì?",
+            "feedbackLabel": "Bạn có phản hồi gì khác không?",
+            "optional": "(tùy chọn)",
+            "feedbackPlaceholder": "Chia sẻ bất kỳ điều gì có thể giúp chúng tôi cải thiện",
+            "keepPlan": "Giữ gói {{planName}} của bạn",
+            "confirmAction": "Hủy gói",
+            "canceling": "Đang hủy...",
+            "reason": {
+                "too_expensive": "Chi phí đăng ký quá cao đối với tôi",
+                "temporary_break": "Tôi đang tạm nghỉ",
+                "missing_features": "Quest không có các tính năng tôi cần",
+                "switching_to_competitor": "Công cụ khác phù hợp với nhu cầu của tôi hơn",
+                "low_usage": "Tôi không dùng đủ nhiều để xứng với chi phí",
+                "bugs_or_errors": "Tôi liên tục gặp lỗi hoặc sự cố",
+                "other": "Lý do của tôi không nằm trong danh sách trên"
+            }
+        },
+        "planSelection": {
+            "title": "Quản lý gói của bạn",
+            "close": "Đóng",
+            "perUserMonth": "mỗi người dùng /",
+            "month": "tháng",
+            "billedYearly": "Tính theo năm",
+            "billedMonthly": "Tính theo tháng",
+            "savePerUser": "Tiết kiệm €{{amount}} mỗi người dùng",
+            "everythingIn": "Tất cả những gì có trong {{planName}}, và:",
+            "current": "Hiện tại",
+            "recommended": "Được khuyến nghị"
+        },
+        "planChange": {
+            "title": "Xác nhận thay đổi gói",
+            "description": "Xem lại cách thay đổi gói này ảnh hưởng đến thanh toán trước khi xác nhận.",
+            "changePmTitle": "Cập nhật phương thức thanh toán",
+            "changePmDescription": "Cập nhật phương thức thanh toán dùng cho đăng ký của tổ chức này.",
+            "loadError": "Không thể tải chi tiết thay đổi gói",
+            "tryAgainHint": "Vui lòng thử lại sau ít phút.",
+            "tryAgain": "Thử lại",
+            "retrying": "Đang thử lại...",
+            "close": "Đóng",
+            "cancel": "Hủy",
+            "processing": "Đang xử lý...",
+            "confirming": "Đang xác nhận...",
+            "confirm": "Xác nhận",
+            "payNow": "Thanh toán ngay",
+            "proratedNew": "Gói {{planName}} tính theo tỷ lệ",
+            "proratedCredit": "Tín dụng theo tỷ lệ cho thời gian chưa sử dụng của {{planName}}",
+            "dueToday": "Phải trả hôm nay",
+            "thenAmount": "Sau đó {{amount}} / {{interval}} từ {{date}}.",
+            "newPlan": "Gói {{planName}} mới",
+            "effectiveFrom": "Có hiệu lực từ",
+            "currentStaysActive": "Gói {{planName}} của bạn vẫn hoạt động cho đến lúc đó. Không tính phí hôm nay.",
+            "featuresRemoved": "Tính năng đã loại bỏ",
+            "intervalMonth": "tháng",
+            "intervalYear": "năm",
+            "change": "Thay đổi",
+            "expires": "hết hạn"
+        },
+        "subscribe": {
+            "title": "Đăng ký {{planName}}",
+            "cancel": "Hủy",
+            "processing": "Đang xử lý...",
+            "subscribeAction": "Đăng ký {{planName}}",
+            "errorPaymentDetails": "Vui lòng kiểm tra thông tin thanh toán của bạn.",
+            "errorStartFailed": "Không thể bắt đầu đăng ký của bạn.",
+            "errorPaymentFailed": "Thanh toán thất bại. Vui lòng thử lại."
+        }
+    },
+    "paymentMethod": {
+        "title": "Phương thức thanh toán",
+        "description": "Dùng cho các khoản phí đăng ký định kỳ của bạn.",
+        "loadError": "Không thể tải dữ liệu phương thức thanh toán.",
+        "addAction": "Thêm phương thức thanh toán",
+        "updateAction": "Cập nhật",
+        "updateNowAction": "Cập nhật ngay",
+        "emptyShortTitle": "Chưa có phương thức thanh toán",
+        "emptyTitle": "Chưa thêm phương thức thanh toán nào.",
+        "expires": "Hết hạn {{date}}",
+        "sepa": "Ghi nợ SEPA",
+        "dialog": {
+            "addTitle": "Thêm phương thức thanh toán",
+            "updateTitle": "Cập nhật phương thức thanh toán",
+            "loading": "Đang tải biểu mẫu thanh toán...",
+            "primaryAddress": "Sử dụng địa chỉ thanh toán này làm địa chỉ chính của tổ chức tôi",
+            "cancel": "Hủy",
+            "back": "Quay lại",
+            "add": "Thêm",
+            "save": "Lưu",
+            "saving": "Đang lưu...",
+            "errorPaymentDetails": "Vui lòng kiểm tra thông tin thanh toán của bạn.",
+            "errorBillingAddress": "Vui lòng hoàn tất địa chỉ thanh toán của bạn.",
+            "errorSetupStart": "Không thể bắt đầu thiết lập thanh toán. Vui lòng thử lại.",
+            "errorSaveFailed": "Chúng tôi không thể lưu phương thức thanh toán của bạn.",
+            "errorRetrieveFailed": "Chúng tôi không thể lấy phương thức thanh toán của bạn. Vui lòng thử lại.",
+            "errorUpdateFailed": "Cập nhật thất bại",
+            "errorAddressSavedNoBilling": "Đã lưu phương thức thanh toán, nhưng cập nhật địa chỉ thanh toán thất bại.",
+            "errorAddressSavedNoBillingWithMessage": "Đã lưu phương thức thanh toán, nhưng cập nhật địa chỉ thanh toán thất bại: {{message}}"
+        },
+        "toast": {
+            "added": "Đã thêm phương thức thanh toán",
+            "updated": "Đã cập nhật phương thức thanh toán",
+            "addressSavedBillingFailed": "Đã lưu phương thức thanh toán, nhưng cập nhật địa chỉ thanh toán thất bại"
+        }
+    },
+    "billingAddress": {
+        "title": "Địa chỉ thanh toán",
+        "description": "Địa chỉ hiển thị trên hóa đơn và tài liệu thuế.",
+        "descriptionLong": "Hiển thị trên hóa đơn của bạn và dùng để xác định thuế áp dụng.",
+        "loadError": "Không thể tải địa chỉ thanh toán.",
+        "current": "Địa chỉ hiện tại:",
+        "country": "Quốc gia",
+        "selectCountry": "Chọn quốc gia",
+        "addressLabel": "Địa chỉ thanh toán",
+        "addressLine1": "Địa chỉ dòng 1",
+        "addressLine1Placeholder": "Đường và số nhà",
+        "addressLine2": "Địa chỉ dòng 2",
+        "addressLine2Placeholder": "Căn hộ, phòng, đơn vị, v.v.",
+        "optional": "(tùy chọn)",
+        "postalCode": "Mã bưu chính",
+        "city": "Thành phố",
+        "stateRegion": "Tỉnh / khu vực",
+        "add": "Thêm địa chỉ thanh toán",
+        "edit": "Sửa địa chỉ thanh toán",
+        "save": "Lưu",
+        "saving": "Đang lưu...",
+        "places": {
+            "placeholder": "Bắt đầu nhập địa chỉ của bạn...",
+            "unavailable": "Không có gợi ý tự động",
+            "loading": "Đang tải gợi ý tự động...",
+            "manualEntry": "Nhập địa chỉ thủ công",
+            "loadFailed": "Không thể tải Google Maps.",
+            "apiNotEnabled": "Google Places API (New) chưa được bật cho khóa API này. Hãy nhập địa chỉ thủ công.",
+            "temporarilyUnavailable": "Tính năng gợi ý địa chỉ tạm thời không khả dụng. Hãy nhập địa chỉ thủ công."
+        },
+        "toast": {
+            "updated": "Đã cập nhật địa chỉ thanh toán",
+            "failed": "Không thể cập nhật địa chỉ thanh toán"
+        }
+    },
+    "invoiceEmail": {
+        "title": "Người nhận hóa đơn qua email",
+        "description": "Theo mặc định, hóa đơn được gửi đến chủ sở hữu tổ chức.",
+        "descriptionLong": "Nơi nhận email hóa đơn.",
+        "loadError": "Không thể tải cài đặt email hóa đơn.",
+        "footer": "Địa chỉ này sẽ xuất hiện trên hóa đơn và nhận thông báo thanh toán.",
+        "placeholder": "billing@company.com",
+        "save": "Lưu",
+        "saving": "Đang lưu...",
+        "toast": {
+            "updated": "Đã cập nhật email hóa đơn",
+            "failed": "Không thể cập nhật email hóa đơn"
+        }
+    },
+    "invoiceLanguage": {
+        "title": "Ngôn ngữ hóa đơn",
+        "description": "Trường này xác định ngôn ngữ của hóa đơn.",
+        "descriptionLong": "Nếu bộ phận thanh toán của bạn dùng ngôn ngữ khác, hãy chọn tại đây.",
+        "loadError": "Không thể tải cài đặt ngôn ngữ hóa đơn.",
+        "ariaLabel": "Ngôn ngữ hóa đơn",
+        "footer": "Trường này xác định ngôn ngữ của hóa đơn.",
+        "save": "Lưu",
+        "saving": "Đang lưu...",
+        "toast": {
+            "updated": "Đã cập nhật ngôn ngữ hóa đơn",
+            "failed": "Không thể cập nhật ngôn ngữ hóa đơn"
+        }
+    },
+    "taxInformation": {
+        "title": "Thông tin thuế",
+        "description": "Dùng cho hóa đơn thuế.",
+        "add": "Thêm thông tin",
+        "edit": "Chỉnh sửa thông tin",
+        "dialogTitle": "Chỉnh sửa thông tin thuế",
+        "dialogDescription": "Chọn loại mã số thuế, rồi nhập số tương ứng.",
+        "footer": "Mã số thuế của bạn sẽ được đưa vào hóa đơn và dùng để tính thuế.",
+        "typeLabel": "Loại mã số thuế",
+        "typePlaceholder": "Chọn loại",
+        "numberLabel": "Mã số thuế",
+        "numberPlaceholder": "Nhập mã số thuế của bạn",
+        "save": "Lưu",
+        "saving": "Đang lưu...",
+        "toast": {
+            "updated": "Đã cập nhật mã số thuế",
+            "failed": "Không thể cập nhật mã số thuế"
+        }
+    }
+}

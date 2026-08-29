@@ -1,0 +1,499 @@
+{
+    "nav": {
+        "settings": "Settings",
+        "branding": "Branding",
+        "business": "Business",
+        "billing": "Billing",
+        "invoices": "Invoices",
+        "legals": "Legals"
+    },
+    "branding": {
+        "title": "Branding",
+        "subtitle": "Manage how your organization appears publicly.",
+        "loadError": "Organization settings could not be loaded.",
+        "publicProfile": {
+            "heading": "Public profile",
+            "description": "Shown on your public organization page and customer-facing documents."
+        },
+        "visualIdentity": {
+            "heading": "Visual identity",
+            "description": "Used for branded surfaces and calls to action."
+        },
+        "logo": {
+            "title": "Organization logo",
+            "description": "Click on the logo to upload a custom one.",
+            "uploadAriaLabel": "Upload organization logo"
+        },
+        "tagline": {
+            "title": "Tagline",
+            "description": "A short phrase that captures what your organization does.",
+            "placeholder": "e.g. Freight without friction"
+        },
+        "website": {
+            "title": "Website",
+            "description": "Your organization's website URL.",
+            "placeholder": "example.com"
+        },
+        "overview": {
+            "title": "Overview",
+            "description": "A detailed description of your organization.",
+            "editAction": "Edit overview",
+            "dialogTitle": "Edit overview",
+            "placeholder": "Describe your organization..."
+        },
+        "brandColor": {
+            "title": "Brand color",
+            "description": "Select the accent color used by controls and calls to action.",
+            "ariaLabel": "Organization brand color"
+        },
+        "font": {
+            "title": "Font",
+            "description": "Select your organization interface typeface.",
+            "ariaLabel": "Organization font"
+        },
+        "toast": {
+            "taglineUpdated": "Organization tagline updated",
+            "overviewSaving": "Saving overview…",
+            "overviewUpdated": "Organization overview updated",
+            "overviewFailed": "Failed to save overview",
+            "websiteUpdated": "Organization website updated",
+            "brandColorSaving": "Saving brand color...",
+            "brandColorUpdated": "Brand color updated",
+            "brandColorFailed": "Failed to update brand color",
+            "fontSaving": "Saving font...",
+            "fontUpdated": "Font updated",
+            "fontFailed": "Failed to update font",
+            "logoUploading": "Uploading logo...",
+            "logoUpdated": "Updated organization logo",
+            "logoUpdateFailed": "Failed to update logo",
+            "logoRemoving": "Removing logo...",
+            "logoRemoved": "Removed organization logo",
+            "logoRemoveFailed": "Failed to remove logo",
+            "viewHomePage": "View home page"
+        }
+    },
+    "business": {
+        "title": "Business",
+        "loadError": "Business settings could not be loaded.",
+        "catalog": {
+            "heading": "Catalog",
+            "description": "Define what clients can request and what your team can quote",
+            "cargoTypes": {
+                "title": "Cargo types",
+                "empty": "No active cargo types"
+            },
+            "services": {
+                "title": "Services",
+                "empty": "No active services"
+            }
+        },
+        "intelligence": {
+            "heading": "Intelligence",
+            "description": "Inputs used to automate quote preparation and pricing suggestions",
+            "pricingData": {
+                "title": "Pricing data",
+                "description": "Import past transactions used for AI price suggestions"
+            },
+            "emailIntake": {
+                "title": "Email intake",
+                "descriptionPrefix": "Forward client emails to ",
+                "descriptionSuffix": " so AI can draft requests for review",
+                "fallbackAddress": "your inbound address"
+            }
+        },
+        "cargoSheet": {
+            "title": "Manage cargo types",
+            "description": "Select which cargo categories your organization can handle and process.",
+            "saveLabel": "Save categories"
+        },
+        "servicesSheet": {
+            "title": "Manage services",
+            "description": "Define which logistics and cargo services you provide to clients.",
+            "saveLabel": "Save services"
+        },
+        "pricingDialog": {
+            "title": "Pricing data",
+            "description": "Import past transactions used for AI price suggestions"
+        },
+        "others_one": "{{count}} other",
+        "others_other": "{{count}} others",
+        "toast": {
+            "noChanges": "No changes to save",
+            "cargoSaving": "Saving cargo types...",
+            "cargoUpdated": "Cargo types updated",
+            "cargoFailed": "Failed to update cargo types",
+            "servicesSaving": "Saving services...",
+            "servicesUpdated": "Services updated",
+            "servicesFailed": "Failed to update services",
+            "categoriesLoadFailed": "Failed to load categories",
+            "servicesLoadFailed": "Failed to load services",
+            "emailIntakeEnabling": "Enabling email intake...",
+            "emailIntakeDisabling": "Disabling email intake...",
+            "emailIntakeEnabled": "Email intake enabled",
+            "emailIntakeDisabled": "Email intake disabled",
+            "emailIntakeFailed": "Failed to update email intake"
+        }
+    },
+    "billing": {
+        "title": "Billing",
+        "sections": {
+            "details": {
+                "title": "Billing details"
+            },
+            "invoice": {
+                "title": "Invoice preferences"
+            },
+            "danger": {
+                "title": "Danger zone"
+            }
+        }
+    },
+    "invoices": {
+        "title": "Invoices",
+        "list": {
+            "totalDue": "Total Due",
+            "invoiced": "Invoiced {{date}}",
+            "viewInvoice": "View invoice",
+            "downloadPdf": "Download PDF",
+            "loadMore": "Load more",
+            "emptyTitle": "No invoices yet",
+            "emptyDescription": "Invoices will appear here once your subscription generates them.",
+            "errorTitle": "Unable to load invoices.",
+            "errorDescription": "We couldn't fetch your billing invoices. Try again before assuming there are no invoices.",
+            "noFilteredFound": "No {{filter}} invoices found.",
+            "loadFailed": "Failed to load invoice."
+        },
+        "filter": {
+            "all": "All invoices",
+            "paid": "Paid",
+            "open": "Open",
+            "draft": "Draft"
+        },
+        "sheet": {
+            "title": "Invoice details",
+            "totalDue": "Total Due",
+            "invoiceNumber": "Invoice Number",
+            "product": "Product",
+            "qty": "Qty",
+            "totalCost": "Total Cost",
+            "subtotal": "Subtotal",
+            "total": "Total",
+            "download": "Download",
+            "contactSupport": "Contact support"
+        }
+    },
+    "legalDocuments": {
+        "title": "Legals",
+        "upload": {
+            "title": "Add documents",
+            "description": "Reusable across your quotes and invoices.",
+            "dropzoneTitle": "Upload files",
+            "dropzoneDescription": "Click here or drag and drop to upload",
+            "dropzoneActive": "Drop the files here",
+            "queued": "Queued",
+            "labelFor": "Display label for {{filename}}",
+            "labelPlaceholder": "Document label",
+            "removeFile": "Remove {{filename}}",
+            "limit": "Up to {{count}} PDF files, {{size}} each",
+            "upload": "Upload",
+            "uploading": "Uploading...",
+            "uploadFiles_one": "Upload {{count}} file",
+            "uploadFiles_other": "Upload {{count}} files"
+        },
+        "table": {
+            "library": "Library",
+            "uploaded": "Uploaded {{date}}",
+            "downloadAria": "Download {{label}}",
+            "actionsAria": "Actions for {{label}}",
+            "download": "Download",
+            "rename": "Rename",
+            "delete": "Delete"
+        },
+        "rename": {
+            "title": "Rename document",
+            "required": "Label is required."
+        },
+        "delete": {
+            "title": "Delete legal document?",
+            "description": "This document will be permanently removed.",
+            "descriptionWithLabel": "\"{{label}}\" will be permanently removed. This cannot be undone."
+        },
+        "dialog": {
+            "cancel": "Cancel",
+            "save": "Save"
+        },
+        "error": {
+            "oversize": "Each file must be 25 MB or smaller.",
+            "wrongFormat": "Only PDF files are accepted.",
+            "tooMany": "You can upload up to {{count}} files at once.",
+            "noOrganization": "No organization selected.",
+            "emptyUpload": "Add at least one document to upload.",
+            "missingLabels": "Add a label for every document before uploading.",
+            "quotaExceeded": "Upload would exceed the {{size}} MB org limit.",
+            "quotaWithCurrent": "This upload would put you over the {{quota}} org limit. Currently using {{current}}.",
+            "network": "Network error during upload. Try again.",
+            "uploadFailed": "Upload failed"
+        },
+        "toast": {
+            "loadFailed": "Failed to load legal documents",
+            "added_one": "Added {{count}} document.",
+            "added_other": "Added {{count}} documents.",
+            "uploaded_one": "{{count}} document uploaded.",
+            "uploaded_other": "{{count}} documents uploaded.",
+            "undo_one": "Undo",
+            "undo_other": "Undo all",
+            "uploadUndone_one": "Upload undone.",
+            "uploadUndone_other": "Uploads undone.",
+            "retrying_one": "Retrying upload...",
+            "retrying_other": "Retrying {{count}} uploads...",
+            "uploadFailed_one": "{{count}} upload failed.",
+            "uploadFailed_other": "{{count}} uploads failed.",
+            "uploading_one": "Uploading {{count}} document...",
+            "uploading_other": "Uploading {{count}} documents...",
+            "renaming": "Renaming document...",
+            "renamed": "Document renamed.",
+            "renameFailed": "Rename failed",
+            "deleting": "Deleting document...",
+            "deleted": "Document deleted.",
+            "deleteFailed": "Delete failed",
+            "preparingDownload": "Preparing download...",
+            "downloadStarted": "Download started.",
+            "downloadFailed": "Download failed"
+        }
+    },
+    "subscription": {
+        "card": {
+            "freeTrial": "Free trial",
+            "currentPlan": "Current plan",
+            "manage": "Manage plan",
+            "invoices": "Invoices",
+            "subscriptionFallback": "Subscription",
+            "loadError": "Subscription data could not be loaded.",
+            "afterTrial": "after trial",
+            "trialDaysLeft_one": "{{count}} day left. Add billing before {{date}} to keep your plan.",
+            "trialDaysLeft_other": "{{count}} days left. Add billing before {{date}} to keep your plan.",
+            "trialEndsToday": "Trial ends today. Add billing to keep your plan.",
+            "resuming": "Resuming plan...",
+            "endsOn": "Your plan ends on {{date}}.",
+            "nextBillingDateFallback": "your next billing date",
+            "resumePlan": "Resume plan",
+            "keepingPlan": "Keeping {{planName}}...",
+            "planChangesTo": "Your plan changes to {{newPlan}} on {{date}}.",
+            "keepPlan": "Keep {{planName}}",
+            "planIncludes": "Your plan includes",
+            "noFeatures": "No features listed for this plan.",
+            "trialEnded": "Trial ended",
+            "noActivePlan": "No active plan",
+            "subscribeToContinue": "Subscribe to continue",
+            "pickPlan": "Pick a plan to get started",
+            "subscribe": "Subscribe",
+            "choosePlan": "Choose a plan",
+            "planFrom": "{{planName}} from {{price}}/mo · upgrade or downgrade anytime.",
+            "anytime": "Upgrade or downgrade anytime."
+        },
+        "status": {
+            "active": "Active",
+            "trialing": "Trialing",
+            "cancelled": "Cancelled",
+            "expired": "Expired"
+        },
+        "toast": {
+            "resumed": "Subscription resumed",
+            "pendingCanceled": "Pending change canceled",
+            "planUpdated": "Plan updated",
+            "subscribed": "Welcome to {{planName}}",
+            "canceled": "Subscription canceled"
+        },
+        "cancel": {
+            "cardTitle": "Cancel subscription",
+            "cardDescription": "Stop recurring billing at the end of your current period. You can resubscribe at any time.",
+            "cancel": "Cancel",
+            "dialogTitle": "Cancel plan",
+            "loseFeaturesWithDate": "You'll lose all {{planName}} features after {{date}}.",
+            "loseFeaturesEnd": "You'll lose all {{planName}} features at the end of your current billing period.",
+            "reasonLegend": "What is your main reason for canceling?",
+            "feedbackLabel": "Any additional feedback?",
+            "optional": "(optional)",
+            "feedbackPlaceholder": "Share anything that could help us improve",
+            "keepPlan": "Keep your {{planName}} plan",
+            "confirmAction": "Cancel plan",
+            "canceling": "Canceling...",
+            "reason": {
+                "too_expensive": "The subscription cost is too high for me",
+                "temporary_break": "I'm taking a temporary break",
+                "missing_features": "Quest doesn't have the features I need",
+                "switching_to_competitor": "Another tool better fits my needs",
+                "low_usage": "I don't use it enough to justify the cost",
+                "bugs_or_errors": "I kept running into errors or bugs",
+                "other": "My reason for leaving isn't listed above"
+            }
+        },
+        "planSelection": {
+            "title": "Manage your plan",
+            "close": "Close",
+            "perUserMonth": "per user /",
+            "month": "month",
+            "billedYearly": "Billed yearly",
+            "billedMonthly": "Billed monthly",
+            "savePerUser": "Save €{{amount}} per user",
+            "everythingIn": "Everything in {{planName}}, and:",
+            "current": "Current",
+            "recommended": "Recommended"
+        },
+        "planChange": {
+            "title": "Confirm plan changes",
+            "description": "Review how this plan change affects billing before confirming.",
+            "changePmTitle": "Update payment method",
+            "changePmDescription": "Update the payment method used for this organization subscription.",
+            "loadError": "We couldn't load the plan change details",
+            "tryAgainHint": "Please try again in a moment.",
+            "tryAgain": "Try again",
+            "retrying": "Retrying...",
+            "close": "Close",
+            "cancel": "Cancel",
+            "processing": "Processing...",
+            "confirming": "Confirming...",
+            "confirm": "Confirm",
+            "payNow": "Pay now",
+            "proratedNew": "Prorated {{planName}} plan",
+            "proratedCredit": "Prorated credit for unused {{planName}} time",
+            "dueToday": "Due today",
+            "thenAmount": "Then {{amount}} / {{interval}} from {{date}}.",
+            "newPlan": "New {{planName}} plan",
+            "effectiveFrom": "Effective from",
+            "currentStaysActive": "Your {{planName}} plan stays active until then. No charge today.",
+            "featuresRemoved": "Features removed",
+            "intervalMonth": "month",
+            "intervalYear": "year",
+            "change": "Change",
+            "expires": "expires"
+        },
+        "subscribe": {
+            "title": "Subscribe to {{planName}}",
+            "cancel": "Cancel",
+            "processing": "Processing...",
+            "subscribeAction": "Subscribe to {{planName}}",
+            "errorPaymentDetails": "Please check your payment details.",
+            "errorStartFailed": "Couldn't start your subscription.",
+            "errorPaymentFailed": "Payment failed. Please try again."
+        }
+    },
+    "paymentMethod": {
+        "title": "Payment method",
+        "description": "Used for your recurring subscription charges.",
+        "loadError": "Payment method data could not be loaded.",
+        "addAction": "Add payment method",
+        "updateAction": "Update",
+        "updateNowAction": "Update now",
+        "emptyShortTitle": "No payment method",
+        "emptyTitle": "No payment methods added.",
+        "expires": "Expires {{date}}",
+        "sepa": "SEPA Direct Debit",
+        "dialog": {
+            "addTitle": "Add payment method",
+            "updateTitle": "Update payment method",
+            "loading": "Loading payment form...",
+            "primaryAddress": "Use this billing address as my organization's primary address",
+            "cancel": "Cancel",
+            "back": "Back",
+            "add": "Add",
+            "save": "Save",
+            "saving": "Saving...",
+            "errorPaymentDetails": "Please check your payment details.",
+            "errorBillingAddress": "Please complete your billing address.",
+            "errorSetupStart": "Couldn't start payment setup. Please try again.",
+            "errorSaveFailed": "We couldn't save your payment method.",
+            "errorRetrieveFailed": "We couldn't retrieve your payment method. Please try again.",
+            "errorUpdateFailed": "Update failed",
+            "errorAddressSavedNoBilling": "Payment method saved, but billing address update failed.",
+            "errorAddressSavedNoBillingWithMessage": "Payment method saved, but billing address update failed: {{message}}"
+        },
+        "toast": {
+            "added": "Payment method added",
+            "updated": "Payment method updated",
+            "addressSavedBillingFailed": "Payment method saved, but billing address update failed"
+        }
+    },
+    "billingAddress": {
+        "title": "Billing address",
+        "description": "Address shown on invoices and tax documents.",
+        "descriptionLong": "Shown on your invoices and used to determine applicable taxes.",
+        "loadError": "Billing address could not be loaded.",
+        "current": "Current address:",
+        "country": "Country",
+        "selectCountry": "Select a country",
+        "addressLabel": "Billing address",
+        "addressLine1": "Address line 1",
+        "addressLine1Placeholder": "Street and number",
+        "addressLine2": "Address line 2",
+        "addressLine2Placeholder": "Apartment, suite, unit, etc.",
+        "optional": "(optional)",
+        "postalCode": "Postal code",
+        "city": "City",
+        "stateRegion": "State / region",
+        "add": "Add billing address",
+        "edit": "Edit billing address",
+        "save": "Save",
+        "saving": "Saving...",
+        "places": {
+            "placeholder": "Start typing your address...",
+            "unavailable": "Autocomplete unavailable",
+            "loading": "Loading autocomplete...",
+            "manualEntry": "Enter address manually",
+            "loadFailed": "Google Maps failed to load.",
+            "apiNotEnabled": "Google Places API (New) is not enabled for this API key. Enter the address manually.",
+            "temporarilyUnavailable": "Address autocomplete is temporarily unavailable. Enter the address manually."
+        },
+        "toast": {
+            "updated": "Billing address updated",
+            "failed": "Failed to update billing address"
+        }
+    },
+    "invoiceEmail": {
+        "title": "Invoice email recipient",
+        "description": "By default, invoices are sent to the organization owner.",
+        "descriptionLong": "Where invoice emails are sent.",
+        "loadError": "Invoice email setting could not be loaded.",
+        "footer": "This address will appear on invoices and receive payment notifications.",
+        "placeholder": "billing@company.com",
+        "save": "Save",
+        "saving": "Saving...",
+        "toast": {
+            "updated": "Invoice email updated",
+            "failed": "Failed to update invoice email"
+        }
+    },
+    "invoiceLanguage": {
+        "title": "Invoice language",
+        "description": "This field determines the language of your invoice.",
+        "descriptionLong": "If your billing department is using a different language, select it here.",
+        "loadError": "Invoice language setting could not be loaded.",
+        "ariaLabel": "Invoice language",
+        "footer": "This field determines the language of your invoice.",
+        "save": "Save",
+        "saving": "Saving...",
+        "toast": {
+            "updated": "Invoice language updated",
+            "failed": "Failed to update invoice language"
+        }
+    },
+    "taxInformation": {
+        "title": "Tax information",
+        "description": "Used for tax invoices.",
+        "add": "Add information",
+        "edit": "Edit information",
+        "dialogTitle": "Edit tax information",
+        "dialogDescription": "Select the tax ID type, then enter the matching number.",
+        "footer": "Your tax ID will be included on invoices and used for tax calculations.",
+        "typeLabel": "Tax ID type",
+        "typePlaceholder": "Select tax ID type",
+        "numberLabel": "Tax ID number",
+        "numberPlaceholder": "Enter your tax identification number",
+        "save": "Save",
+        "saving": "Saving...",
+        "toast": {
+            "updated": "Tax ID updated",
+            "failed": "Failed to update tax ID"
+        }
+    }
+}

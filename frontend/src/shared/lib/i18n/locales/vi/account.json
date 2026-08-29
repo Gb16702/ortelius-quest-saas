@@ -1,0 +1,30 @@
+{
+    "breadcrumb": "Cài đặt tài khoản",
+    "head": {
+        "title": "Cài đặt tài khoản",
+        "subtitle": "Quản lý các tùy chọn cá nhân của bạn."
+    },
+    "profile": {
+        "title": "Hồ sơ",
+        "description": "Tên và ảnh đại diện của bạn được chia sẻ trên tất cả các sản phẩm Ortelius. Chỉnh sửa một lần trong cổng tài khoản trung tâm và các thay đổi sẽ được áp dụng ở mọi nơi.",
+        "openPortal": "Mở cổng tài khoản"
+    },
+    "leaveOrganization": {
+        "title": "Rời khỏi tổ chức",
+        "description": "Rời khỏi {{organizationName}} sẽ thu hồi quyền truy cập của bạn vào dữ liệu, thành viên và tin nhắn. Các yêu cầu được giao cho bạn sẽ bị hủy gán. Hành động này không thể hoàn tác.",
+        "action": "Rời khỏi tổ chức",
+        "dialog": {
+            "title": "Rời khỏi {{organizationName}}?",
+            "description": "Bạn sẽ mất quyền truy cập vào tổ chức này, các thành viên, yêu cầu và tin nhắn. Mọi yêu cầu hiện đang được giao cho bạn sẽ bị hủy gán. Hành động này không thể hoàn tác.",
+            "confirmLabelPrefix": "Để xác nhận, hãy nhập",
+            "confirmLabelSuffix": "bên dưới:",
+            "cancel": "Hủy",
+            "submitting": "Đang rời đi...",
+            "confirm": "Rời khỏi tổ chức"
+        },
+        "toast": {
+            "success": "Bạn đã rời khỏi {{organizationName}}",
+            "error": "Không thể rời khỏi tổ chức"
+        }
+    }
+}

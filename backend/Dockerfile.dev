@@ -1,0 +1,27 @@
+FROM oven/bun:1.2.2
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    git \
+    libvips-dev \
+    python3 \
+    make \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY package.json bun.lock ./
+COPY packages ./packages
+
+RUN bun install
+
+RUN bun add sharp --platform=linux --arch=x64
+
+COPY . .
+
+EXPOSE 3000
+
+ENV NODE_ENV=development
+ENV PORT=3000
+
+CMD ["bun", "run", "dev"]

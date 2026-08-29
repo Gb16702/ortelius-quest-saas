@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Cache bun dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: ${{ runner.os }}-bun-
+
+      - run: bun install --frozen-lockfile
+
+      - run: bun run typecheck
+
+      - run: bun run test
+
+      - run: bun run ci:check
+
+      - run: bun run build
+        env:
+          NODE_ENV: production
+          AUTH_URL: https://auth.preview.ortelius.app
+          API_URL: https://api-quest.ortelius.app
+          WS_URL: wss://api-quest.ortelius.app
+          LOGIN_URL: https://ortelius.app/auth
+          VITE_API_URL: https://api-quest.ortelius.app
+          VITE_WS_URL: wss://api-quest.ortelius.app
+          VITE_PORTAL_ACCOUNT_URL: https://ortelius.app/account

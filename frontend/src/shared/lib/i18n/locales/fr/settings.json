@@ -1,0 +1,499 @@
+{
+    "nav": {
+        "settings": "Paramètres",
+        "branding": "Identité visuelle",
+        "business": "Activité",
+        "billing": "Facturation",
+        "invoices": "Factures",
+        "legals": "Documents légaux"
+    },
+    "branding": {
+        "title": "Identité visuelle",
+        "subtitle": "Gérez l'apparence publique de votre organisation.",
+        "loadError": "Impossible de charger les paramètres de l'organisation.",
+        "publicProfile": {
+            "heading": "Profil public",
+            "description": "Affiché sur votre page publique et les documents clients."
+        },
+        "visualIdentity": {
+            "heading": "Identité visuelle",
+            "description": "Utilisée pour les surfaces de marque et les appels à l'action."
+        },
+        "logo": {
+            "title": "Logo de l'organisation",
+            "description": "Cliquez sur le logo pour en téléverser un personnalisé.",
+            "uploadAriaLabel": "Téléverser le logo de l'organisation"
+        },
+        "tagline": {
+            "title": "Slogan",
+            "description": "Une phrase courte qui décrit l'activité de votre organisation.",
+            "placeholder": "ex. Le fret sans friction"
+        },
+        "website": {
+            "title": "Site web",
+            "description": "L'URL du site web de votre organisation.",
+            "placeholder": "exemple.com"
+        },
+        "overview": {
+            "title": "Description",
+            "description": "Une description détaillée de votre organisation.",
+            "editAction": "Modifier la description",
+            "dialogTitle": "Modifier la description",
+            "placeholder": "Décrivez votre organisation..."
+        },
+        "brandColor": {
+            "title": "Couleur de marque",
+            "description": "Sélectionnez la couleur d'accent utilisée par les commandes et les appels à l'action.",
+            "ariaLabel": "Couleur de marque de l'organisation"
+        },
+        "font": {
+            "title": "Police",
+            "description": "Sélectionnez la police de l'interface de votre organisation.",
+            "ariaLabel": "Police de l'organisation"
+        },
+        "toast": {
+            "taglineUpdated": "Slogan de l'organisation mis à jour",
+            "overviewSaving": "Enregistrement de la description…",
+            "overviewUpdated": "Description de l'organisation mise à jour",
+            "overviewFailed": "Échec de l'enregistrement de la description",
+            "websiteUpdated": "Site web de l'organisation mis à jour",
+            "brandColorSaving": "Enregistrement de la couleur de marque...",
+            "brandColorUpdated": "Couleur de marque mise à jour",
+            "brandColorFailed": "Échec de la mise à jour de la couleur de marque",
+            "fontSaving": "Enregistrement de la police...",
+            "fontUpdated": "Police mise à jour",
+            "fontFailed": "Échec de la mise à jour de la police",
+            "logoUploading": "Téléversement du logo...",
+            "logoUpdated": "Logo de l'organisation mis à jour",
+            "logoUpdateFailed": "Échec de la mise à jour du logo",
+            "logoRemoving": "Suppression du logo...",
+            "logoRemoved": "Logo de l'organisation supprimé",
+            "logoRemoveFailed": "Échec de la suppression du logo",
+            "viewHomePage": "Voir la page d'accueil"
+        }
+    },
+    "business": {
+        "title": "Activité",
+        "loadError": "Impossible de charger les paramètres d'activité.",
+        "catalog": {
+            "heading": "Catalogue",
+            "description": "Définissez ce que les clients peuvent demander et ce que votre équipe peut coter",
+            "cargoTypes": {
+                "title": "Types de fret",
+                "empty": "Aucun type de fret actif"
+            },
+            "services": {
+                "title": "Services",
+                "empty": "Aucun service actif"
+            }
+        },
+        "intelligence": {
+            "heading": "Intelligence",
+            "description": "Données utilisées pour automatiser la préparation des devis et les suggestions de prix",
+            "pricingData": {
+                "title": "Données tarifaires",
+                "description": "Importez les transactions passées utilisées pour les suggestions de prix IA"
+            },
+            "emailIntake": {
+                "title": "Réception par e-mail",
+                "descriptionPrefix": "Transférez les e-mails clients vers ",
+                "descriptionSuffix": " pour que l'IA prépare des demandes à valider",
+                "fallbackAddress": "votre adresse de réception"
+            }
+        },
+        "cargoSheet": {
+            "title": "Gérer les types de fret",
+            "description": "Sélectionnez les catégories de fret que votre organisation peut traiter.",
+            "saveLabel": "Enregistrer les catégories"
+        },
+        "servicesSheet": {
+            "title": "Gérer les services",
+            "description": "Définissez les services logistiques et de fret que vous proposez à vos clients.",
+            "saveLabel": "Enregistrer les services"
+        },
+        "pricingDialog": {
+            "title": "Données tarifaires",
+            "description": "Importez les transactions passées utilisées pour les suggestions de prix IA"
+        },
+        "others_one": "{{count}} autre",
+        "others_other": "{{count}} autres",
+        "toast": {
+            "noChanges": "Aucun changement à enregistrer",
+            "cargoSaving": "Enregistrement des types de fret...",
+            "cargoUpdated": "Types de fret mis à jour",
+            "cargoFailed": "Échec de la mise à jour des types de fret",
+            "servicesSaving": "Enregistrement des services...",
+            "servicesUpdated": "Services mis à jour",
+            "servicesFailed": "Échec de la mise à jour des services",
+            "categoriesLoadFailed": "Échec du chargement des catégories",
+            "servicesLoadFailed": "Échec du chargement des services",
+            "emailIntakeEnabling": "Activation de la réception par e-mail...",
+            "emailIntakeDisabling": "Désactivation de la réception par e-mail...",
+            "emailIntakeEnabled": "Réception par e-mail activée",
+            "emailIntakeDisabled": "Réception par e-mail désactivée",
+            "emailIntakeFailed": "Échec de la mise à jour de la réception par e-mail"
+        }
+    },
+    "billing": {
+        "title": "Facturation",
+        "sections": {
+            "details": {
+                "title": "Informations de facturation"
+            },
+            "invoice": {
+                "title": "Préférences de facture"
+            },
+            "danger": {
+                "title": "Zone sensible"
+            }
+        }
+    },
+    "invoices": {
+        "title": "Factures",
+        "list": {
+            "totalDue": "Total dû",
+            "invoiced": "Facturé le {{date}}",
+            "viewInvoice": "Voir la facture",
+            "downloadPdf": "Télécharger le PDF",
+            "loadMore": "Charger plus",
+            "emptyTitle": "Aucune facture pour le moment",
+            "emptyDescription": "Les factures apparaîtront ici dès que votre abonnement en générera.",
+            "errorTitle": "Impossible de charger les factures.",
+            "errorDescription": "Nous n'avons pas pu récupérer vos factures. Réessayez avant de supposer qu'aucune n'existe.",
+            "noFilteredFound": "Aucune facture {{filter}} trouvée.",
+            "loadFailed": "Échec du chargement de la facture."
+        },
+        "filter": {
+            "all": "Toutes les factures",
+            "paid": "Payée",
+            "open": "Ouverte",
+            "draft": "Brouillon"
+        },
+        "sheet": {
+            "title": "Détails de la facture",
+            "totalDue": "Total dû",
+            "invoiceNumber": "Numéro de facture",
+            "product": "Produit",
+            "qty": "Qté",
+            "totalCost": "Coût total",
+            "subtotal": "Sous-total",
+            "total": "Total",
+            "download": "Télécharger",
+            "contactSupport": "Contacter le support"
+        }
+    },
+    "legalDocuments": {
+        "title": "Documents légaux",
+        "upload": {
+            "title": "Ajouter des documents",
+            "description": "Réutilisables dans vos devis et factures.",
+            "dropzoneTitle": "Téléverser des fichiers",
+            "dropzoneDescription": "Cliquez ici ou glissez-déposez pour téléverser",
+            "dropzoneActive": "Déposez les fichiers ici",
+            "queued": "En attente",
+            "labelFor": "Libellé d'affichage pour {{filename}}",
+            "labelPlaceholder": "Libellé du document",
+            "removeFile": "Retirer {{filename}}",
+            "limit": "Jusqu'à {{count}} fichiers PDF, {{size}} chacun",
+            "upload": "Téléverser",
+            "uploading": "Téléversement...",
+            "uploadFiles_one": "Téléverser {{count}} fichier",
+            "uploadFiles_other": "Téléverser {{count}} fichiers"
+        },
+        "table": {
+            "library": "Bibliothèque",
+            "uploaded": "Téléversé {{date}}",
+            "downloadAria": "Télécharger {{label}}",
+            "actionsAria": "Actions pour {{label}}",
+            "download": "Télécharger",
+            "rename": "Renommer",
+            "delete": "Supprimer"
+        },
+        "rename": {
+            "title": "Renommer le document",
+            "required": "Le libellé est obligatoire."
+        },
+        "delete": {
+            "title": "Supprimer le document légal ?",
+            "description": "Ce document sera définitivement supprimé.",
+            "descriptionWithLabel": "\"{{label}}\" sera définitivement supprimé. Cette action est irréversible."
+        },
+        "dialog": {
+            "cancel": "Annuler",
+            "save": "Enregistrer"
+        },
+        "error": {
+            "oversize": "Chaque fichier doit faire 25 Mo ou moins.",
+            "wrongFormat": "Seuls les fichiers PDF sont acceptés.",
+            "tooMany": "Vous pouvez téléverser jusqu'à {{count}} fichiers à la fois.",
+            "noOrganization": "Aucune organisation sélectionnée.",
+            "emptyUpload": "Ajoutez au moins un document à téléverser.",
+            "missingLabels": "Ajoutez un libellé pour chaque document avant de téléverser.",
+            "quotaExceeded": "Le téléversement dépasserait la limite de {{size}} Mo de l'organisation.",
+            "quotaWithCurrent": "Ce téléversement dépasserait la limite de {{quota}} de l'organisation. Utilisation actuelle : {{current}}.",
+            "network": "Erreur réseau pendant le téléversement. Réessayez.",
+            "uploadFailed": "Échec du téléversement"
+        },
+        "toast": {
+            "loadFailed": "Échec du chargement des documents légaux",
+            "added_one": "{{count}} document ajouté.",
+            "added_other": "{{count}} documents ajoutés.",
+            "uploaded_one": "{{count}} document téléversé.",
+            "uploaded_other": "{{count}} documents téléversés.",
+            "undo_one": "Annuler",
+            "undo_other": "Tout annuler",
+            "uploadUndone_one": "Téléversement annulé.",
+            "uploadUndone_other": "Téléversements annulés.",
+            "retrying_one": "Nouvelle tentative de téléversement...",
+            "retrying_other": "Nouvelle tentative de {{count}} téléversements...",
+            "uploadFailed_one": "{{count}} téléversement a échoué.",
+            "uploadFailed_other": "{{count}} téléversements ont échoué.",
+            "uploading_one": "Téléversement de {{count}} document...",
+            "uploading_other": "Téléversement de {{count}} documents...",
+            "renaming": "Renommage du document...",
+            "renamed": "Document renommé.",
+            "renameFailed": "Échec du renommage",
+            "deleting": "Suppression du document...",
+            "deleted": "Document supprimé.",
+            "deleteFailed": "Échec de la suppression",
+            "preparingDownload": "Préparation du téléchargement...",
+            "downloadStarted": "Téléchargement démarré.",
+            "downloadFailed": "Échec du téléchargement"
+        }
+    },
+    "subscription": {
+        "card": {
+            "freeTrial": "Période d'essai",
+            "currentPlan": "Forfait actuel",
+            "manage": "Gérer le forfait",
+            "invoices": "Factures",
+            "subscriptionFallback": "Abonnement",
+            "loadError": "Impossible de charger les données d'abonnement.",
+            "afterTrial": "après l'essai",
+            "trialDaysLeft_one": "{{count}} jour restant. Ajoutez un moyen de paiement avant le {{date}} pour conserver votre forfait.",
+            "trialDaysLeft_other": "{{count}} jours restants. Ajoutez un moyen de paiement avant le {{date}} pour conserver votre forfait.",
+            "trialEndsToday": "L'essai se termine aujourd'hui. Ajoutez un moyen de paiement pour conserver votre forfait.",
+            "resuming": "Reprise du forfait...",
+            "endsOn": "Votre forfait prend fin le {{date}}.",
+            "nextBillingDateFallback": "votre prochaine date de facturation",
+            "resumePlan": "Reprendre le forfait",
+            "keepingPlan": "Conservation de {{planName}}...",
+            "planChangesTo": "Votre forfait passe à {{newPlan}} le {{date}}.",
+            "keepPlan": "Conserver {{planName}}",
+            "planIncludes": "Votre forfait inclut",
+            "noFeatures": "Aucune fonctionnalité listée pour ce forfait.",
+            "trialEnded": "Essai terminé",
+            "noActivePlan": "Aucun forfait actif",
+            "subscribeToContinue": "S'abonner pour continuer",
+            "pickPlan": "Choisissez un forfait pour commencer",
+            "subscribe": "S'abonner",
+            "choosePlan": "Choisir un forfait",
+            "planFrom": "{{planName}} à partir de {{price}}/mois · changez de forfait quand vous voulez.",
+            "anytime": "Changez de forfait quand vous voulez."
+        },
+        "status": {
+            "active": "Actif",
+            "trialing": "Période d'essai",
+            "cancelled": "Annulé",
+            "expired": "Expiré"
+        },
+        "toast": {
+            "resumed": "Abonnement repris",
+            "pendingCanceled": "Changement en attente annulé",
+            "planUpdated": "Forfait mis à jour",
+            "subscribed": "Bienvenue sur {{planName}}",
+            "canceled": "Abonnement annulé"
+        },
+        "cancel": {
+            "cardTitle": "Résilier l'abonnement",
+            "cardDescription": "Arrêtez la facturation récurrente à la fin de votre période en cours. Vous pouvez vous réabonner à tout moment.",
+            "cancel": "Annuler",
+            "dialogTitle": "Résilier le forfait",
+            "loseFeaturesWithDate": "Vous perdrez toutes les fonctionnalités de {{planName}} après le {{date}}.",
+            "loseFeaturesEnd": "Vous perdrez toutes les fonctionnalités de {{planName}} à la fin de votre période de facturation actuelle.",
+            "reasonLegend": "Quelle est votre principale raison de résiliation ?",
+            "feedbackLabel": "Un commentaire à ajouter ?",
+            "optional": "(facultatif)",
+            "feedbackPlaceholder": "Partagez tout ce qui pourrait nous aider à nous améliorer",
+            "keepPlan": "Conserver votre forfait {{planName}}",
+            "confirmAction": "Résilier le forfait",
+            "canceling": "Résiliation...",
+            "reason": {
+                "too_expensive": "Le coût de l'abonnement est trop élevé pour moi",
+                "temporary_break": "Je fais une pause temporaire",
+                "missing_features": "Quest n'a pas les fonctionnalités dont j'ai besoin",
+                "switching_to_competitor": "Un autre outil correspond mieux à mes besoins",
+                "low_usage": "Je ne l'utilise pas assez pour en justifier le coût",
+                "bugs_or_errors": "J'ai rencontré trop d'erreurs ou de bugs",
+                "other": "Ma raison de partir n'est pas dans la liste"
+            }
+        },
+        "planSelection": {
+            "title": "Gérer votre forfait",
+            "close": "Fermer",
+            "perUserMonth": "par utilisateur /",
+            "month": "mois",
+            "billedYearly": "Facturé annuellement",
+            "billedMonthly": "Facturé mensuellement",
+            "savePerUser": "Économisez {{amount}} € par utilisateur",
+            "everythingIn": "Tout ce qui est inclus dans {{planName}}, et :",
+            "current": "Actuel",
+            "recommended": "Recommandé"
+        },
+        "planChange": {
+            "title": "Confirmer le changement de forfait",
+            "description": "Vérifiez l'impact de ce changement sur la facturation avant de confirmer.",
+            "changePmTitle": "Mettre à jour le moyen de paiement",
+            "changePmDescription": "Mettez à jour le moyen de paiement utilisé pour l'abonnement de cette organisation.",
+            "loadError": "Nous n'avons pas pu charger les détails du changement de forfait",
+            "tryAgainHint": "Veuillez réessayer dans un instant.",
+            "tryAgain": "Réessayer",
+            "retrying": "Nouvelle tentative...",
+            "close": "Fermer",
+            "cancel": "Annuler",
+            "processing": "Traitement...",
+            "confirming": "Confirmation...",
+            "confirm": "Confirmer",
+            "payNow": "Payer maintenant",
+            "proratedNew": "Forfait {{planName}} au prorata",
+            "proratedCredit": "Crédit au prorata pour le temps inutilisé de {{planName}}",
+            "dueToday": "Dû aujourd'hui",
+            "thenAmount": "Puis {{amount}} / {{interval}} à partir du {{date}}.",
+            "newPlan": "Nouveau forfait {{planName}}",
+            "effectiveFrom": "Effectif à partir du",
+            "currentStaysActive": "Votre forfait {{planName}} reste actif jusque-là. Aucun débit aujourd'hui.",
+            "featuresRemoved": "Fonctionnalités supprimées",
+            "intervalMonth": "mois",
+            "intervalYear": "an",
+            "change": "Modifier",
+            "expires": "expire"
+        },
+        "subscribe": {
+            "title": "S'abonner à {{planName}}",
+            "cancel": "Annuler",
+            "processing": "Traitement...",
+            "subscribeAction": "S'abonner à {{planName}}",
+            "errorPaymentDetails": "Veuillez vérifier vos informations de paiement.",
+            "errorStartFailed": "Impossible de démarrer votre abonnement.",
+            "errorPaymentFailed": "Le paiement a échoué. Veuillez réessayer."
+        }
+    },
+    "paymentMethod": {
+        "title": "Moyen de paiement",
+        "description": "Utilisé pour vos prélèvements d'abonnement récurrents.",
+        "loadError": "Impossible de charger les données du moyen de paiement.",
+        "addAction": "Ajouter un moyen de paiement",
+        "updateAction": "Mettre à jour",
+        "updateNowAction": "Mettre à jour maintenant",
+        "emptyShortTitle": "Aucun moyen de paiement",
+        "emptyTitle": "Aucun moyen de paiement ajouté.",
+        "expires": "Expire le {{date}}",
+        "sepa": "Prélèvement SEPA",
+        "dialog": {
+            "addTitle": "Ajouter un moyen de paiement",
+            "updateTitle": "Mettre à jour le moyen de paiement",
+            "loading": "Chargement du formulaire de paiement...",
+            "primaryAddress": "Utiliser cette adresse de facturation comme adresse principale de mon organisation",
+            "cancel": "Annuler",
+            "back": "Retour",
+            "add": "Ajouter",
+            "save": "Enregistrer",
+            "saving": "Enregistrement...",
+            "errorPaymentDetails": "Veuillez vérifier vos informations de paiement.",
+            "errorBillingAddress": "Veuillez compléter votre adresse de facturation.",
+            "errorSetupStart": "Impossible de démarrer la configuration du paiement. Veuillez réessayer.",
+            "errorSaveFailed": "Nous n'avons pas pu enregistrer votre moyen de paiement.",
+            "errorRetrieveFailed": "Nous n'avons pas pu récupérer votre moyen de paiement. Veuillez réessayer.",
+            "errorUpdateFailed": "Échec de la mise à jour",
+            "errorAddressSavedNoBilling": "Moyen de paiement enregistré, mais la mise à jour de l'adresse de facturation a échoué.",
+            "errorAddressSavedNoBillingWithMessage": "Moyen de paiement enregistré, mais la mise à jour de l'adresse de facturation a échoué : {{message}}"
+        },
+        "toast": {
+            "added": "Moyen de paiement ajouté",
+            "updated": "Moyen de paiement mis à jour",
+            "addressSavedBillingFailed": "Moyen de paiement enregistré, mais la mise à jour de l'adresse de facturation a échoué"
+        }
+    },
+    "billingAddress": {
+        "title": "Adresse de facturation",
+        "description": "Adresse affichée sur les factures et les documents fiscaux.",
+        "descriptionLong": "Affichée sur vos factures et utilisée pour déterminer les taxes applicables.",
+        "loadError": "Impossible de charger l'adresse de facturation.",
+        "current": "Adresse actuelle :",
+        "country": "Pays",
+        "selectCountry": "Sélectionnez un pays",
+        "addressLabel": "Adresse de facturation",
+        "addressLine1": "Adresse ligne 1",
+        "addressLine1Placeholder": "Rue et numéro",
+        "addressLine2": "Adresse ligne 2",
+        "addressLine2Placeholder": "Appartement, suite, unité, etc.",
+        "optional": "(facultatif)",
+        "postalCode": "Code postal",
+        "city": "Ville",
+        "stateRegion": "État / région",
+        "add": "Ajouter une adresse",
+        "edit": "Modifier l'adresse",
+        "save": "Enregistrer",
+        "saving": "Enregistrement...",
+        "places": {
+            "placeholder": "Commencez à saisir votre adresse...",
+            "unavailable": "Autocomplétion indisponible",
+            "loading": "Chargement de l'autocomplétion...",
+            "manualEntry": "Saisir l'adresse manuellement",
+            "loadFailed": "Échec du chargement de Google Maps.",
+            "apiNotEnabled": "L'API Google Places (New) n'est pas activée pour cette clé. Saisissez l'adresse manuellement.",
+            "temporarilyUnavailable": "L'autocomplétion d'adresse est temporairement indisponible. Saisissez l'adresse manuellement."
+        },
+        "toast": {
+            "updated": "Adresse de facturation mise à jour",
+            "failed": "Échec de la mise à jour de l'adresse de facturation"
+        }
+    },
+    "invoiceEmail": {
+        "title": "Destinataire des factures",
+        "description": "Par défaut, les factures sont envoyées au propriétaire de l'organisation.",
+        "descriptionLong": "Adresse de réception des factures.",
+        "loadError": "Impossible de charger le paramètre d'e-mail de facturation.",
+        "footer": "Cette adresse apparaîtra sur les factures et recevra les notifications de paiement.",
+        "placeholder": "billing@company.com",
+        "save": "Enregistrer",
+        "saving": "Enregistrement...",
+        "toast": {
+            "updated": "E-mail de facturation mis à jour",
+            "failed": "Échec de la mise à jour de l'e-mail de facturation"
+        }
+    },
+    "invoiceLanguage": {
+        "title": "Langue de facturation",
+        "description": "Ce champ détermine la langue de votre facture.",
+        "descriptionLong": "Si votre service de facturation utilise une autre langue, sélectionnez-la ici.",
+        "loadError": "Impossible de charger le paramètre de langue de facturation.",
+        "ariaLabel": "Langue de facturation",
+        "footer": "Ce champ détermine la langue de votre facture.",
+        "save": "Enregistrer",
+        "saving": "Enregistrement...",
+        "toast": {
+            "updated": "Langue de facturation mise à jour",
+            "failed": "Échec de la mise à jour de la langue de facturation"
+        }
+    },
+    "taxInformation": {
+        "title": "Informations fiscales",
+        "description": "Utilisée pour les factures fiscales.",
+        "add": "Ajouter les informations",
+        "edit": "Modifier les informations",
+        "dialogTitle": "Modifier les informations fiscales",
+        "dialogDescription": "Sélectionnez le type d'identifiant fiscal, puis saisissez le numéro correspondant.",
+        "footer": "Votre numéro d'identification fiscale sera inclus sur les factures et utilisé pour les calculs fiscaux.",
+        "typeLabel": "Type de numéro d'identification fiscale",
+        "typePlaceholder": "Sélectionnez le type",
+        "numberLabel": "Numéro d'identification fiscale",
+        "numberPlaceholder": "Saisissez votre numéro d'identification fiscale",
+        "save": "Enregistrer",
+        "saving": "Enregistrement...",
+        "toast": {
+            "updated": "Numéro d'identification fiscale mis à jour",
+            "failed": "Échec de la mise à jour du numéro d'identification fiscale"
+        }
+    }
+}

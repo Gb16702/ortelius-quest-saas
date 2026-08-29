@@ -1,0 +1,132 @@
+{
+    "breadcrumb": "Dashboard",
+    "page": {
+        "title": "Dashboard",
+        "subtitle": {
+            "admin": "Track your contributions and organization performance.",
+            "member": "Track your personal performance."
+        }
+    },
+    "sections": {
+        "myContributions": {
+            "title": "My activity",
+            "subtitle": "Track your personal performance."
+        },
+        "organizationOverview": {
+            "title": "Organization overview",
+            "subtitle": "Track your organization metrics."
+        }
+    },
+    "timePeriod": {
+        "last7Days": "Last 7 days",
+        "last14Days": "Last 14 days",
+        "last30Days": "Last 30 days",
+        "last3Months": "Last 3 months",
+        "last12Months": "Last 12 months"
+    },
+    "comparison": {
+        "previous7Days": "Compared to previous 7 days",
+        "previous14Days": "Compared to previous 14 days",
+        "previous30Days": "Compared to previous 30 days",
+        "previous3Months": "Compared to previous 3 months",
+        "previous12Months": "Compared to previous 12 months",
+        "previousDays": "Compared to previous {{count}} days",
+        "previousPeriod": "Compared to previous period"
+    },
+    "personalMetrics": {
+        "requestsHandled": {
+            "title": "Requests Handled",
+            "chartLabel": "requests handled"
+        },
+        "quotesCreated": {
+            "title": "Quotes Created",
+            "chartLabel": "quotes created"
+        },
+        "revenueGenerated": {
+            "title": "Revenue Generated",
+            "chartLabel": "revenue"
+        },
+        "messagesSent": {
+            "title": "Messages Sent",
+            "chartLabel": "messages"
+        },
+        "activityScore": {
+            "title": "Activity Score"
+        }
+    },
+    "organizationMetrics": {
+        "totalRequests": {
+            "title": "Total Requests",
+            "chartLabel": "requests"
+        },
+        "newVisitors": {
+            "title": "New visitors",
+            "chartLabel": "new visitors"
+        },
+        "viewToRequestConversion": {
+            "title": "View-to-request conversion",
+            "chartLabel": "conversion"
+        },
+        "acceptedQuotes": {
+            "title": "Accepted quotes",
+            "chartLabel": "accepted quotes"
+        },
+        "totalRevenue": {
+            "title": "Total Revenue",
+            "chartLabel": "revenue"
+        }
+    },
+    "recentActivity": {
+        "title": "Recent Activity",
+        "rightLabel": "TIME",
+        "empty": "No activity yet.",
+        "systemActor": "System"
+    },
+    "requestPipeline": {
+        "title": "Request pipeline",
+        "empty": "No requests yet.",
+        "error": "Requests could not be loaded.",
+        "table": {
+            "status": "Status",
+            "share": "Share",
+            "total": "Total"
+        }
+    },
+    "recentRequests": {
+        "title": "Recent requests",
+        "rightLabel": "LATEST",
+        "empty": "No recent requests yet.",
+        "error": "Requests could not be loaded."
+    },
+    "topMembers": {
+        "title": "Top request handlers",
+        "rightLabel": "HANDLED",
+        "empty": "No handled requests yet.",
+        "error": "Contributors could not be loaded.",
+        "handledCount": "{{count}} handled requests",
+        "revenueSuffix": "handled"
+    },
+    "servicesCargo": {
+        "tabs": {
+            "cargo": "Cargo Types",
+            "services": "Services"
+        },
+        "rightLabel": "REQUESTS",
+        "emptyServices": "No services data available.",
+        "emptyCargo": "No cargo type data available.",
+        "error": "Service and cargo type data could not be loaded."
+    },
+    "metricsError": {
+        "loadFailed": "Metrics could not be loaded."
+    },
+    "toasts": {
+        "organizationJoined": "Organization joined"
+    },
+    "actions": {
+        "viewAll": "View All",
+        "moreOptions": "More options"
+    },
+    "common": {
+        "retry": "Retry"
+    }
+}

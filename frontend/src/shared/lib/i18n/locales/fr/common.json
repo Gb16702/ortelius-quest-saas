@@ -1,0 +1,58 @@
+{
+    "action": {
+        "confirm": "Confirmer",
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "save": "Enregistrer",
+        "delete": "Supprimer",
+        "next": "Suivant",
+        "back": "Retour",
+        "retry": "Réessayer",
+        "tryAgain": "Réessayer",
+        "undo": "Annuler",
+        "copy": "Copier",
+        "openNavigation": "Ouvrir la sidebar",
+        "closeNavigation": "Fermer la sidebar"
+    },
+    "state": {
+        "loading": "Chargement...",
+        "empty": "Aucun élément",
+        "error": "Une erreur est survenue"
+    },
+    "role": {
+        "owner": "Propriétaire",
+        "admin": "Administrateur",
+        "member": "Membre"
+    },
+    "errorBoundary": {
+        "title": "Impossible de charger ce bloc",
+        "copySuccess": "Détails de l'erreur copiés dans le presse-papiers",
+        "copyError": "Impossible de copier dans le presse-papiers"
+    },
+    "error": {
+        "BAD_REQUEST": "Requête invalide",
+        "VALIDATION_ERROR": "Échec de la validation",
+        "UNAUTHORIZED": "Authentification requise",
+        "FORBIDDEN": "Permissions insuffisantes",
+        "NOT_FOUND": "Ressource introuvable",
+        "METHOD_NOT_ALLOWED": "Méthode non autorisée",
+        "CONFLICT": "Conflit de ressource",
+        "PAYLOAD_TOO_LARGE": "Charge utile trop volumineuse",
+        "RATE_LIMITED": "Trop de requêtes",
+        "INTERNAL_SERVER_ERROR": "Une erreur interne du serveur est survenue",
+        "UPSTREAM_UNAVAILABLE": "API en amont indisponible",
+        "unknown": "Une erreur est survenue"
+    },
+    "date": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "never": "Jamais"
+    },
+    "guestBadge": {
+        "label": "Invité",
+        "tooltip": {
+            "account": "Cet utilisateur n'a pas encore créé de compte.",
+            "notifications": "Les notifications seront envoyées par e-mail."
+        }
+    }
+}

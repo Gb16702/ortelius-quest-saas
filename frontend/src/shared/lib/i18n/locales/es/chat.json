@@ -1,0 +1,259 @@
+{
+    "page": {
+        "title": "Conversación",
+        "subtitle": "Gestiona conversaciones de tu espacio"
+    },
+    "empty": {
+        "noConversations": "Aún no hay conversaciones.",
+        "noUnread": "No hay conversaciones sin leer.",
+        "noResults": "No se encontraron conversaciones.",
+        "viewRequests": "Ver solicitudes",
+        "sendRequest": "Enviar solicitud",
+        "clearSearch": "Borrar búsqueda",
+        "clearFilters": "Borrar filtros"
+    },
+    "search": {
+        "placeholder": "Buscar conversaciones",
+        "filter": "Filtrar",
+        "sort": "Ordenar",
+        "type": "Tipo",
+        "status": "Estado",
+        "typeFilter": "Tipo de conversación",
+        "statusFilter": "Estado de la conversación",
+        "allConversationTypes": "Todas las conversaciones",
+        "allStatuses": "Todos los estados",
+        "filterUnread": "Filtrar conversaciones sin leer",
+        "isUnread": "Sin leer"
+    },
+    "sort": {
+        "newest": "Más recientes primero",
+        "oldest": "Más antiguas primero"
+    },
+    "section": {
+        "pinned": "Favoritos",
+        "unpinned": "Otros chats"
+    },
+    "card": {
+        "teamChat": "Chat de equipo",
+        "pin": "Fijar conversación",
+        "unpin": "Desfijar conversación",
+        "addFavorite": "Añadir a favoritos",
+        "removeFavorite": "Quitar de favoritos",
+        "oneMessage": "1 mensaje",
+        "manyMessages": "{{count}} mensajes",
+        "messagesSentSuffix": "{{label}} enviados en este chat",
+        "typingOne": "{{name}} está escribiendo",
+        "typingTwo": "{{name1}} y {{name2}} están escribiendo",
+        "typingMany": "{{count}} personas están escribiendo",
+        "sharedAFile": "compartió un archivo",
+        "sharedFiles": "compartió {{count}} archivos",
+        "senderPrefix": "~ {{name}}"
+    },
+    "conversation": {
+        "forbidden": {
+            "title": "Conversación no disponible",
+            "description": "No tienes acceso a esta conversación."
+        },
+        "notFound": {
+            "title": "Conversación no encontrada",
+            "description": "Esta conversación puede haber sido eliminada o movida."
+        },
+        "error": {
+            "title": "No se pudo cargar esta conversación",
+            "description": "Inténtalo de nuevo o vuelve a tus conversaciones."
+        },
+        "tryAgain": "Reintentar",
+        "backToChats": "Volver a las conversaciones",
+        "loading": "Cargando...",
+        "fallbackTitle": "Conversación"
+    },
+    "header": {
+        "search": "Buscar",
+        "viewParticipants": "Ver participantes",
+        "exportCsv": "Exportar como CSV",
+        "exporting": "Exportando..."
+    },
+    "messageList": {
+        "loadingEarlier": "Cargando mensajes anteriores",
+        "loadEarlier": "Cargar mensajes anteriores"
+    },
+    "input": {
+        "placeholder": "Enviar un mensaje",
+        "placeholderTo": "Enviar un mensaje a {{name}}",
+        "typePlaceholder": "Escribe un mensaje...",
+        "replyingTo": "Respondiendo a {{name}}",
+        "cancelReply": "Cancelar respuesta",
+        "attachFile": "Adjuntar archivo",
+        "addPhotosOrFiles": "Añadir fotos o archivos",
+        "sending": "Enviando mensaje",
+        "send": "Enviar mensaje",
+        "removeAttachment": "Eliminar adjunto"
+    },
+    "searchDialog": {
+        "title": "Buscar mensajes",
+        "placeholder": "Buscar en la conversación...",
+        "empty": "Escribe para buscar mensajes.",
+        "noResults": "No se encontraron mensajes.",
+        "loading": "Cargando resultados",
+        "more": "Más resultados",
+        "activityEvent": "Evento de actividad",
+        "fallbackUser": "Usuario",
+        "loadError": "Error al buscar mensajes"
+    },
+    "participants": {
+        "title": "Participantes",
+        "description": "Todos los participantes de esta conversación.",
+        "searchPlaceholder": "Buscar usuarios",
+        "noResults": "No se encontraron usuarios.",
+        "empty": "No hay usuarios en esta conversación."
+    },
+    "delete": {
+        "title": "Eliminar mensaje",
+        "description": "¿Seguro que quieres eliminar este mensaje? Esta acción no se puede deshacer.",
+        "cancel": "Cancelar",
+        "confirm": "Eliminar"
+    },
+    "message": {
+        "deleted": "Este mensaje fue eliminado",
+        "edited": "(editado)",
+        "you": "Tú",
+        "someone": "Alguien",
+        "editEscape": "esc para",
+        "editEnter": "intro para",
+        "editCancel": "cancelar",
+        "editSave": "guardar",
+        "viewProfile": "Ver perfil",
+        "partOfOrg": "Este usuario forma parte de la organización {{organization}}."
+    },
+    "toolbar": {
+        "reply": "Responder",
+        "pin": "Fijar",
+        "unpin": "Desfijar",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "ariaReply": "Responder al mensaje",
+        "ariaPin": "Fijar mensaje",
+        "ariaUnpin": "Desfijar mensaje",
+        "ariaEdit": "Editar mensaje",
+        "ariaDelete": "Eliminar mensaje"
+    },
+    "pinned": {
+        "empty": "No hay mensajes fijados",
+        "goTo": "Ir a",
+        "viewAll": "Mensajes fijados",
+        "pinnedByPrefix": "fijó",
+        "aMessage": "un mensaje",
+        "toThisChannel": "en este canal."
+    },
+    "systemMessage": {
+        "openRequest": "Abrir solicitud",
+        "downloadPdf": "Descargar PDF"
+    },
+    "attachmentUpload": {
+        "uploadFailed": "Error al subir archivos",
+        "invalidFileType": "Tipo de archivo no válido. Solo se permiten archivos {{formats}}.",
+        "maxFiles": "Máximo {{count}} archivos permitidos por mensaje.",
+        "fileTooLarge": "El archivo {{filename}} supera el tamaño máximo de {{size}}."
+    },
+    "toast": {
+        "tryAgain": "Reintentar",
+        "loadMoreFailed": "No se pudieron cargar más conversaciones.",
+        "loadConversationsFailed": "No se pudieron cargar las conversaciones.",
+        "refreshConversationsFailed": "No se pudieron actualizar las conversaciones.",
+        "loadConversationFailed": "No se pudo cargar la conversación.",
+        "loadEarlierFailed": "No se pudieron cargar los mensajes anteriores.",
+        "messageNotLoaded": "Mensaje no cargado.",
+        "sendMessageFailed": "No se pudo enviar el mensaje",
+        "messageDeleted": "Mensaje eliminado",
+        "messageUpdated": "Mensaje actualizado",
+        "deleteMessageFailedWindow": "No se pudo eliminar el mensaje. Comprueba que estés dentro de la ventana de 15 minutos.",
+        "updateMessageFailedWindow": "No se pudo actualizar el mensaje. Comprueba que estés dentro de la ventana de 15 minutos.",
+        "messagePinned": "Mensaje fijado",
+        "messageUnpinned": "Mensaje desfijado",
+        "pinMessageFailed": "No se pudo fijar el mensaje",
+        "unpinMessageFailed": "No se pudo desfijar el mensaje",
+        "addingFavorite": "Añadiendo favorito",
+        "removingFavorite": "Quitando favorito",
+        "favoriteAdded": "Favorito añadido",
+        "favoriteRemoved": "Favorito quitado",
+        "addFavoriteFailed": "No se pudo añadir a favoritos",
+        "removeFavoriteFailed": "No se pudo quitar de favoritos",
+        "undo": "Deshacer",
+        "noMessagesToExport": "No hay mensajes para exportar",
+        "exportTeamAdminsOnly": "Solo administradores y propietarios pueden exportar chats de equipo",
+        "exported_one": "{{count}} mensaje exportado",
+        "exported_other": "{{count}} mensajes exportados",
+        "exportFailed": "No se pudo exportar la conversación"
+    },
+    "export": {
+        "system": "Sistema",
+        "unknown": "Desconocido",
+        "organization": "Organización",
+        "user": "Usuario",
+        "notAvailable": "N/D",
+        "deleted": "[Eliminado]",
+        "none": "Ninguno",
+        "yes": "Sí",
+        "no": "No"
+    },
+    "attachment": {
+        "download": "Descargar",
+        "openNewWindow": "Abrir en ventana nueva",
+        "openNewTab": "Abrir en pestaña nueva",
+        "close": "Cerrar",
+        "zoomIn": "Acercar",
+        "zoomOut": "Alejar",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "previousAria": "Adjunto anterior",
+        "nextAria": "Adjunto siguiente",
+        "downloadPdfLabel": "Descargar PDF",
+        "downloadFileLabel": "Descargar archivo",
+        "remove": "Eliminar adjunto",
+        "you": "Tú"
+    },
+    "scrollToBottom": {
+        "aria": "Desplazarse hacia abajo"
+    },
+    "mention": {
+        "membersMatching": "Miembros que coinciden con @{{query}}",
+        "members": "Miembros",
+        "rolesMatching": "Roles que coinciden con @{{query}}",
+        "roles": "Roles",
+        "roleDescription": {
+            "owner": "Notificar al propietario",
+            "admin": "Notificar a todos los administradores",
+            "member": "Notificar a todos los miembros"
+        }
+    },
+    "readReceipts": {
+        "seenBy": "Visto por {{name}}"
+    },
+    "systemEvent": {
+        "requests": {
+            "event": {
+                "submitted": "Solicitud #{{requestNumber}} enviada por {{requesterName}}",
+                "rejected": "Solicitud #{{requestNumber}} rechazada{{reason}}",
+                "canceled": "Solicitud #{{requestNumber}} cancelada por {{requesterName}}",
+                "assigned": "Solicitud #{{requestNumber}} asignada a {{memberName}}",
+                "reassigned": "Solicitud #{{requestNumber}} reasignada a {{memberName}}",
+                "unassigned": "Solicitud #{{requestNumber}} retirada a {{memberName}}",
+                "linkedToAccount": "Solicitud #{{requestNumber}} vinculada a la cuenta de {{userName}}",
+                "accountCreated": "Cuenta creada para {{userName}}",
+                "accountCreatedAndLinked": "Cuenta creada y vinculada para {{userName}}",
+                "newSubmittedToOrg": "Nueva solicitud {{requestNumber}} enviada por {{requesterName}} a {{organizationName}}"
+            }
+        },
+        "settings": {
+            "emailIntake": {
+                "enabledBy": "{{userName}} activó la recepción por correo",
+                "disabledBy": "{{userName}} desactivó la recepción por correo"
+            }
+        },
+        "quotes": {
+            "event": {
+                "sentBy": "La cotización {{quoteNumber}} fue enviada por {{organizationName}}"
+            }
+        }
+    }
+}

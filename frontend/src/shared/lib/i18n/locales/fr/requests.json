@@ -1,0 +1,158 @@
+{
+    "page": {
+        "breadcrumb": "Demandes",
+        "incomingTitle": "Demandes reçues",
+        "outgoingTitle": "Demandes envoyées",
+        "incomingSubtitle": "Gérez les demandes reçues par votre organisation.",
+        "outgoingSubtitle": "Consultez et gérez vos demandes envoyées."
+    },
+    "table": {
+        "searchPlaceholder": "Rechercher des demandes",
+        "pageInfoLabel": "demandes",
+        "column": {
+            "request": "Demande",
+            "requester": "Demandeur",
+            "organization": "Organisation",
+            "assignedTo": "Attribuée à",
+            "status": "Statut",
+            "period": "Période",
+            "priority": "Priorité"
+        },
+        "actions": {
+            "tableActions": "Actions du tableau",
+            "openMenu": "Ouvrir le menu",
+            "openRequest": "Ouvrir la demande",
+            "openQuote": "Ouvrir le devis",
+            "assignRequest": "Attribuer la demande",
+            "reassignRequest": "Réattribuer la demande",
+            "chatWith": "Discuter avec {{name}}",
+            "shareToTeamChat": "Partager dans le chat d'équipe",
+            "download": "Télécharger",
+            "exportCsv": "Exporter en CSV",
+            "exporting": "Exportation..."
+        },
+        "empty": {
+            "errorTitle": "Impossible de charger les demandes.",
+            "filteredTitle": "Aucune demande ne correspond aux filtres actuels.",
+            "clearFilters": "Effacer les filtres",
+            "incomingTitle": "Aucune demande reçue.",
+            "outgoingTitle": "Aucune demande envoyée."
+        }
+    },
+    "filters": {
+        "datePlaceholder": "Sélectionner la période",
+        "assigneePlaceholder": "Tous les assignés",
+        "priorityPlaceholder": "Toutes les priorités",
+        "statusLabel": "Statut",
+        "searchMember": "Rechercher un membre...",
+        "selectedCount": "{{count}} sélectionnés",
+        "noPrioritiesFound": "Aucune priorité trouvée.",
+        "noMembersFound": "Aucun membre trouvé."
+    },
+    "status": {
+        "draft": "Brouillon",
+        "open": "Ouverte",
+        "closed": "Fermée",
+        "pending": "En attente",
+        "quoted": "Devis envoyé",
+        "rejected": "Refusée",
+        "canceled": "Annulée",
+        "cancelled": "Annulée",
+        "quote_rejected": "Devis refusé",
+        "invoiced": "Facturée",
+        "expired": "Expirée"
+    },
+    "priority": {
+        "high": "Élevée",
+        "medium": "Moyenne",
+        "low": "Faible",
+        "none": "—"
+    },
+    "assign": {
+        "titleAssign": "Attribuer la demande",
+        "titleReassign": "Réattribuer la demande",
+        "descriptionAssign": "Choisissez un utilisateur à qui attribuer cette demande.",
+        "descriptionReassign": "Choisissez un utilisateur à qui réattribuer cette demande.",
+        "searchPlaceholder": "Rechercher un utilisateur",
+        "noMembersFound": "Aucun membre trouvé.",
+        "noMembersAvailable": "Aucun membre disponible.",
+        "assigneeLegend": "Assigné",
+        "youBadge": "Vous",
+        "validationRequired": "Veuillez sélectionner un membre à attribuer.",
+        "assign": "Attribuer",
+        "reassign": "Réattribuer",
+        "unassign": "Désattribuer",
+        "assigning": "Attribution...",
+        "unassigning": "Désattribution..."
+    },
+    "cancelDialog": {
+        "cancel": {
+            "trigger": "Annuler la demande",
+            "title": "Annuler la demande",
+            "verb": "annuler",
+            "action": "Oui, annuler la demande",
+            "loading": "Annulation..."
+        },
+        "reject": {
+            "trigger": "Refuser la demande",
+            "title": "Refuser la demande",
+            "verb": "refuser",
+            "action": "Confirmer le refus",
+            "loading": "Refus en cours..."
+        },
+        "discard": {
+            "trigger": "Supprimer le brouillon",
+            "title": "Supprimer le brouillon",
+            "verb": "supprimer",
+            "action": "Oui, supprimer le brouillon",
+            "loading": "Suppression..."
+        },
+        "description": "Êtes-vous sûr de vouloir {{verb}} <strong>{{requestNumber}}</strong> ? Cette action est irréversible."
+    },
+    "rejectionDialog": {
+        "title": "Refuser la demande",
+        "description": "Veuillez indiquer la raison du refus de cette demande. Le demandeur sera informé de votre décision.",
+        "requestNumberLabel": "Numéro de demande",
+        "reasonLabel": "Raison du refus",
+        "reasonPlaceholder": "Veuillez expliquer pourquoi vous refusez cette demande",
+        "reasonRequired": "Veuillez fournir une raison pour le refus.",
+        "submit": "Refuser la demande",
+        "submitting": "Refus en cours..."
+    },
+    "modalFooter": {
+        "submitQuote": "Envoyer le devis",
+        "submittingQuote": "Envoi en cours...",
+        "cancelEdit": "Annuler la modification",
+        "answerWithQuote": "Répondre avec un devis",
+        "legalsRequired": "Téléchargez au moins un document légal avant d'envoyer un devis.",
+        "goToLegals": "Aller aux documents légaux",
+        "validateDraft": "Valider le brouillon",
+        "validatingDraft": "Validation..."
+    },
+    "toast": {
+        "requestCanceled": "Demande annulée",
+        "failedToCancel": "Échec de l'annulation de la demande",
+        "requestRejected": "Demande refusée",
+        "failedToReject": "Échec du refus de la demande",
+        "draftValidated": "Brouillon validé",
+        "failedToValidate": "Échec de la validation du brouillon",
+        "draftDiscarded": "Brouillon supprimé",
+        "failedToDiscard": "Échec de la suppression du brouillon",
+        "failedToLoadRequests": "Échec du chargement des demandes"
+    },
+    "sharedRequest": {
+        "dateRange": "{{from}} au {{to}}",
+        "notFound": "Demande introuvable"
+    },
+    "error": {
+        "notFound": "Demande introuvable",
+        "cancelForbidden": "Vous n'avez pas la permission d'annuler cette demande",
+        "organizationForbidden": "Vous n'avez pas la permission d'accéder aux demandes de cette organisation",
+        "shareForbidden": "Vous n'avez pas la permission de partager cette demande",
+        "invalidAssignment": "Attribution invalide",
+        "invalidState": "La demande est dans un état invalide pour cette action",
+        "teamChatNotFound": "Chat d'équipe introuvable",
+        "loadFailed": "Échec du chargement des demandes.",
+        "responseShape": "La réponse de l'API des demandes ne correspond pas à la structure attendue."
+    }
+}

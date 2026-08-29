@@ -1,0 +1,369 @@
+{
+    "breadcrumb": {
+        "team": "Team",
+        "members": "Members",
+        "invitations": "Invitations",
+        "activity": "Activity"
+    },
+    "members": {
+        "title": "Members",
+        "subtitleAdmin": "Manage your organization's members and their roles.",
+        "subtitleMember": "View your organization's members.",
+        "inviteAction": "Invite members",
+        "table": {
+            "memberHeader": "Member",
+            "roleHeader": "Role",
+            "twoFactorHeader": "2FA",
+            "joinedOnHeader": "Joined on",
+            "lastSeenHeader": "Last seen",
+            "youBadge": "You",
+            "online": "Online",
+            "twoFactorEnabled": "Enabled",
+            "twoFactorDisabled": "Disabled",
+            "tableActionsLabel": "Table actions",
+            "openMenuLabel": "Open menu",
+            "viewProfile": "View profile",
+            "messageMember": "Message member",
+            "chatWithMember": "Chat with {{name}}",
+            "editRole": "Edit role",
+            "removeMember": "Remove member",
+            "exportCsv": "Export as CSV",
+            "exporting": "Exporting...",
+            "pageInfoLabel": "members",
+            "emptyTitle": "No members match the current filters.",
+            "clearFilters": "Clear filters"
+        },
+        "toast": {
+            "loadFailed": "Failed to load members data",
+            "removeSuccess": "Member removed",
+            "removeFailed": "Failed to remove member",
+            "startChatFailed": "Failed to start member chat",
+            "roleUpdated": "Role updated",
+            "roleUpdateFailed": "Failed to update role"
+        }
+    },
+    "invitations": {
+        "title": "Invitations",
+        "subtitle": "Track and manage sent invitations.",
+        "table": {
+            "emailHeader": "Email",
+            "roleHeader": "Role",
+            "statusHeader": "Status",
+            "invitedByHeader": "Invited by",
+            "expiresAtHeader": "Expires at",
+            "selectAllAriaLabel": "Select all",
+            "selectRowAriaLabel": "Select row",
+            "openMenuLabel": "Open menu",
+            "tableActionsLabel": "Table actions",
+            "resend": "Resend invitation",
+            "editRole": "Edit role",
+            "cancel": "Cancel invitation",
+            "addToArchive": "Add to archive",
+            "removeFromArchive": "Remove from archive",
+            "addingToArchive": "Adding to archive...",
+            "removingFromArchive": "Removing from archive...",
+            "exportCsv": "Export as CSV",
+            "exporting": "Exporting...",
+            "pageInfoLabel": "invitations",
+            "emptyTitle": "No invitations match the current filters.",
+            "clearFilters": "Clear filters"
+        },
+        "toast": {
+            "loadFailed": "Failed to load invitations data"
+        }
+    },
+    "invitationStatus": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "canceled": "Canceled",
+        "expired": "Expired",
+        "archived": "Archived"
+    },
+    "memberStatus": {
+        "accepted": "Active",
+        "pending": "Pending",
+        "canceled": "Canceled"
+    },
+    "filters": {
+        "rolesLabel": "Roles",
+        "invitationsLabel": "Invitations",
+        "searchMembersPlaceholder": "Search by name or email",
+        "searchEmailPlaceholder": "Search by email"
+    },
+    "inviteDialog": {
+        "title": "Invite members",
+        "description": "Invite teammates to collaborate in your organization.",
+        "emailPlaceholder": "colleague@company.com",
+        "rolePlaceholder": "Role",
+        "validationHint": "Press Enter or Tab to validate.",
+        "seatPricingNote": "Each new member adds €{{price}}/mo, prorated.",
+        "send": "Send Invitations",
+        "sending": "Sending...",
+        "close": "Close",
+        "errors": {
+            "invalidEmail": "Please enter a valid email address",
+            "cannotInviteSelf": "You cannot invite yourself",
+            "duplicateEmail": "This email is already in the list",
+            "atLeastOneEmail": "Please enter at least one email address"
+        }
+    },
+    "inviteBreadcrumb": {
+        "ariaLabel": "Invite members",
+        "tooltip": "Invite members"
+    },
+    "editRoleDialog": {
+        "title": "Edit Role",
+        "description": "Change <strong>{{name}}</strong>'s role",
+        "update": "Update Role",
+        "updating": "Updating...",
+        "close": "Close",
+        "legend": "Role"
+    },
+    "editInvitationRoleDialog": {
+        "title": "Edit Invitation Role",
+        "description": "Change <strong>{{email}}</strong>'s invitation role",
+        "update": "Update Role",
+        "updating": "Updating...",
+        "close": "Close",
+        "errors": {
+            "selectRole": "Please select a role."
+        }
+    },
+    "removeMemberDialog": {
+        "title": "Remove Member",
+        "description": "Are you sure you want to remove <strong>{{name}}</strong> from the organization? This action cannot be undone.",
+        "seatReleaseNote": "Removing a member credits €{{price}}/mo, prorated.",
+        "confirm": "Confirm removal",
+        "removing": "Removing...",
+        "close": "Close"
+    },
+    "cancelInvitationDialog": {
+        "titleOne": "Cancel Invitation",
+        "titleMany": "Cancel Invitations",
+        "descriptionOne": "Are you sure you want to cancel the invitation for <strong>{{email}}</strong>? This action cannot be undone.",
+        "descriptionMany_one": "Are you sure you want to cancel <strong>{{count}} invitation</strong>? Only pending invitations will be canceled. This action cannot be undone.",
+        "descriptionMany_other": "Are you sure you want to cancel <strong>{{count}} invitations</strong>? Only pending invitations will be canceled. This action cannot be undone.",
+        "confirmOne": "Cancel invitation",
+        "confirmMany": "Cancel invitations",
+        "canceling": "Canceling...",
+        "close": "Close"
+    },
+    "profile": {
+        "dialogTitle": "Member Profile",
+        "memberActionsLabel": "Member actions",
+        "addFavorite": "Add to favorite",
+        "removeFavorite": "Remove from favorite",
+        "chatWithMember": "Chat with {{name}}",
+        "editRole": "Edit role",
+        "removeMember": "Remove member",
+        "loadFailedTitle": "Failed to load profile",
+        "loadFailedDescription": "An error occurred while loading the member profile.",
+        "joinedAgo": "Joined {{duration}} ago",
+        "recentActivity": "Recent Activity",
+        "viewDetails": "View details",
+        "noRecentActivity": "No recent activity.",
+        "assignedRequests": "Assigned Requests",
+        "noAssignedRequests": "No assigned requests.",
+        "requestCreated": "Created {{distance}}"
+    },
+    "activity": {
+        "title": "Activity",
+        "actorAll": "All users",
+        "actorSelected": "Selected user",
+        "actorSearchPlaceholder": "Search member...",
+        "actorEmpty": "No members found.",
+        "datePresetSelectLabel": "Date range",
+        "emptyTitle": "No activity yet.",
+        "emptyFilteredTitle": "No activity matches your filters.",
+        "clearFilters": "Clear filters",
+        "loadMore": "Load More",
+        "actorYou": "You",
+        "actorSystem": "System",
+        "filterSheetTitle": "Filter by Event",
+        "filterTrigger": {
+            "ariaLabel": "Filter by event",
+            "tooltip": "Filter by event"
+        },
+        "eventFilter": {
+            "searchPlaceholder": "Search events...",
+            "selectAll": "Select All",
+            "clearAll": "Clear All",
+            "selectedCount": "{{selected}} of {{total}} selected",
+            "noMatch": "No matching events"
+        },
+        "event": {
+            "request-created": {
+                "label": "Request created",
+                "description": "A new request was created"
+            },
+            "request-updated": {
+                "label": "Request updated",
+                "description": "Request details were updated"
+            },
+            "request-rejected": {
+                "label": "Request rejected",
+                "description": "A request was rejected"
+            },
+            "request-validated": {
+                "label": "Request validated",
+                "description": "A request was validated"
+            },
+            "request-deleted": {
+                "label": "Request deleted",
+                "description": "A request was deleted"
+            },
+            "request-cancelled": {
+                "label": "Request cancelled",
+                "description": "A request was cancelled"
+            },
+            "request-document-removed": {
+                "label": "Document removed",
+                "description": "A document was removed from a request"
+            },
+            "request-linked-to-user": {
+                "label": "Request linked",
+                "description": "A request was linked to a user"
+            },
+            "request-assigned": {
+                "label": "Request assigned",
+                "description": "A request was assigned to a member"
+            },
+            "request-reassigned": {
+                "label": "Request reassigned",
+                "description": "A request was reassigned to another member"
+            },
+            "request-unassigned": {
+                "label": "Request unassigned",
+                "description": "A request was unassigned from a member"
+            },
+            "request-shared-to-team-chat": {
+                "label": "Request shared",
+                "description": "A request was shared to the team chat"
+            },
+            "quote-created": {
+                "label": "Quote created",
+                "description": "A new quote was created"
+            },
+            "quote-updated": {
+                "label": "Quote updated",
+                "description": "Quote details were updated"
+            },
+            "quote-accepted": {
+                "label": "Quote accepted",
+                "description": "A quote was accepted"
+            },
+            "quote-rejected": {
+                "label": "Quote rejected",
+                "description": "A quote was rejected"
+            },
+            "invoice-created": {
+                "label": "Invoice created",
+                "description": "A new invoice was created"
+            },
+            "invoice-sent": {
+                "label": "Invoice sent",
+                "description": "An invoice was sent"
+            },
+            "member-invited": {
+                "label": "Member invited",
+                "description": "A new member was invited to the organization"
+            },
+            "invitation-resent": {
+                "label": "Invitation resent",
+                "description": "An invitation email was resent"
+            },
+            "invitation-role-updated": {
+                "label": "Invitation role updated",
+                "description": "The role on a pending invitation was changed"
+            },
+            "invitation-cancelled": {
+                "label": "Invitation cancelled",
+                "description": "A pending invitation was cancelled"
+            },
+            "member-role-updated": {
+                "label": "Role updated",
+                "description": "A member's role was changed"
+            },
+            "member-removed": {
+                "label": "Member removed",
+                "description": "A member was removed from the organization"
+            },
+            "member-left": {
+                "label": "Member left",
+                "description": "A member left the organization"
+            },
+            "invitations-cancelled-bulk": {
+                "label": "Invitations cancelled",
+                "description": "Multiple invitations were cancelled at once"
+            },
+            "organization-updated": {
+                "label": "Organization updated",
+                "description": "Organization details were updated"
+            },
+            "organization-categories-updated": {
+                "label": "Categories updated",
+                "description": "Organization categories were updated"
+            },
+            "organization-services-updated": {
+                "label": "Services updated",
+                "description": "Organization services were updated"
+            },
+            "organization-tax-id-updated": {
+                "label": "Tax ID updated",
+                "description": "The organization tax identifier was updated"
+            },
+            "organization-logo-updated": {
+                "label": "Logo updated",
+                "description": "The organization logo was updated"
+            },
+            "organization-logo-removed": {
+                "label": "Logo removed",
+                "description": "The organization logo was removed"
+            },
+            "showcase-invitations-sent": {
+                "label": "Showcase invitations sent",
+                "description": "Showcase invitations were sent to prospects"
+            },
+            "email-intake-updated": {
+                "label": "Email intake updated",
+                "description": "Email intake settings were updated"
+            },
+            "service-pricing-updated": {
+                "label": "Service pricing updated",
+                "description": "Service pricing settings were updated"
+            },
+            "call-started": {
+                "label": "Call started",
+                "description": "A call was started"
+            },
+            "call-ended": {
+                "label": "Call ended",
+                "description": "A call was ended"
+            },
+            "subscription-created": {
+                "label": "Subscription created",
+                "description": "A subscription was created"
+            },
+            "subscription-confirmed": {
+                "label": "Subscription confirmed",
+                "description": "A subscription was confirmed"
+            },
+            "subscription-seats-reconciled": {
+                "label": "Subscription seats reconciled",
+                "description": "Subscription seats were reconciled with current membership"
+            },
+            "user-name-updated": {
+                "label": "Name updated",
+                "description": "A member updated their display name"
+            },
+            "two-factor-enabled": {
+                "label": "2FA enabled",
+                "description": "Two-factor authentication was enabled"
+            },
+            "two-factor-disabled": {
+                "label": "2FA disabled",
+                "description": "Two-factor authentication was disabled"
+            }
+        }
+    }
+}

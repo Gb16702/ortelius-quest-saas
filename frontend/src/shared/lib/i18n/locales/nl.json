@@ -1,0 +1,379 @@
+{
+    "nav": {
+        "home": "Home",
+        "pricing": "Prijzen",
+        "contact": "Contact",
+        "signUp": "Aanmelden",
+        "signIn": "Inloggen",
+        "tryForFree": "Gratis proberen",
+        "openApp": "App openen"
+    },
+    "footer": {
+        "tagline1": "Vrachtaanvraagbeheer",
+        "tagline2": "voor logistieke bedrijven",
+        "company": "Bedrijf",
+        "legal": "Juridisch",
+        "socials": "Socials",
+        "discoverMarketplace": "Ontdek Marketplace",
+        "termsOfService": "Servicevoorwaarden",
+        "privacyPolicy": "Privacybeleid",
+        "cookiePolicy": "Cookiebeleid",
+        "copyright": "© {{year}} Ortelius Quest. Alle rechten voorbehouden."
+    },
+    "home": {
+        "hero": {
+            "title": "Zet aanvragen om in omzet",
+            "subtitle": "Vang elke vrachtmogelijkheid in één branded portaal. Reageer sneller, sluit meer deals.",
+            "bookDemo": "Demo boeken",
+            "tryForFree": "Gratis proberen",
+            "heroImageAlt": "Ortelius Quest Dashboard - Inkomende aanvragen"
+        },
+        "howItWorks": {
+            "label": "Hoe het werkt",
+            "title": "De slimmere manier om vracht te beheren.",
+            "subtitle": "Drie eenvoudige stappen. Nul gemiste kansen.",
+            "step1": {
+                "number": "01",
+                "title": "Centraliseer aanvragen",
+                "description": "Klanten dienen aanvragen in via je branded portaal. Bekijk, sorteer en reageer op alles vanaf één plek met ingebouwde chat en bellen."
+            },
+            "step2": {
+                "number": "02",
+                "title": "Routeer & wijs toe",
+                "description": "Wijs aanvragen toe aan het juiste teamlid en werk samen met interne notities bij elke deal."
+            },
+            "step3": {
+                "number": "03",
+                "title": "Reageer sneller",
+                "description": "Volg en reageer op elke aanvraag vanuit één dashboard. Geen geschakeld meer tussen e-mail, telefoon en spreadsheets."
+            }
+        },
+        "features": {
+            "builtForBusiness": {
+                "label": "Gebouwd voor je bedrijf",
+                "title": "Configureer alles passend bij hoe je werkt",
+                "description": "Je logistieke bedrijf is uniek. Stel je portaal, aangepaste velden en workflows eenmalig in en laat het draaien op de automatische piloot.",
+                "portal": {
+                    "title": "Branded klantenportaal",
+                    "description": "Je klanten dienen aanvragen in op bedrijf.ortelius.app. Professioneel, branded, altijd beschikbaar."
+                },
+                "setup": {
+                    "title": "Bedrijfsconfiguratie",
+                    "description": "Configureer eenmaal, werk voor altijd op jouw manier. Het platform past zich aan je operaties aan, niet andersom."
+                }
+            },
+            "respondInstantly": {
+                "label": "Reageer direct",
+                "title": "Ingebouwde chat en bellen",
+                "description": "Stop met jongleren tussen e-mail, telefoon en spreadsheets. Communiceer met klanten rechtstreeks in het platform.",
+                "chat": {
+                    "title": "Realtime chat",
+                    "description": "Stuur direct berichten. Volledige gespreksgeschiedenis gekoppeld aan elke aanvraag, geen e-mailthreads meer."
+                },
+                "calling": {
+                    "title": "Bellen met één klik",
+                    "description": "Bel klanten rechtstreeks vanuit het platform. Alle gesprekken automatisch gelogd en gevolgd."
+                }
+            },
+            "trackEverything": {
+                "label": "Volg alles",
+                "title": "Van offerte tot factuur. Niets gemist",
+                "description": "Weet precies waar elke deal staat. Van eerste aanvraag tot uiteindelijke levering, volg alles op één plek.",
+                "pipeline": {
+                    "title": "Visuele pipeline",
+                    "description": "Zie precies waar elke deal staat in één oogopslag, van aanvraag tot levering."
+                },
+                "filters": {
+                    "title": "Slimme filters",
+                    "description": "Sorteer op status, klant, datum, route of urgentie. Vind elke aanvraag in seconden."
+                }
+            },
+            "tryForFree": "Gratis proberen"
+        }
+    },
+    "pricing": {
+        "title": "Prijzen die meegroeien met jou",
+        "subtitle": {
+            "currentPlan": "Je zit momenteel op het {{plan}} plan.",
+            "choosePlan": "Kies het plan dat bij je team past.",
+            "withTrial": "Alle plannen bevatten een 14-daagse gratis proefperiode. Kies degene die bij je team past. Probeer gratis, geen creditcard vereist."
+        },
+        "comparePlans": "Plannen vergelijken",
+        "plans": {
+            "starter": "Starter",
+            "professional": "Professioneel",
+            "enterprise": "Enterprise"
+        },
+        "perUserMonth": "per gebruiker / maand",
+        "contactUs": "Neem contact op",
+        "getPlan": "Kies {{plan}}",
+        "recommended": "Aanbevolen",
+        "billedYearly": "Jaarlijks gefactureerd",
+        "billedMonthly": "Maandelijks gefactureerd",
+        "savePerUser": "(bespaar {{amount}}€ per gebruiker)",
+        "everythingInStarterPlus": "Alles in Starter plus",
+        "everythingInProfessionalPlus": "Alles in Professioneel plus",
+        "manageSubscription": "Abonnement beheren",
+        "faq": {
+            "title": "Veelgestelde vragen",
+            "freeTrial": {
+                "question": "Is er een gratis proefperiode?",
+                "answer": "Ja! Alle plannen bevatten een 14-daagse gratis proefperiode. Geen creditcard vereist."
+            },
+            "changePlan": {
+                "question": "Kan ik later van plan veranderen?",
+                "answer": "Absoluut. Je kunt op elk moment upgraden of downgraden. Wijzigingen gaan direct in en we berekenen eventuele verschillen pro rata."
+            },
+            "paymentMethods": {
+                "question": "Welke betaalmethoden accepteren jullie?",
+                "answer": "We gebruiken Stripe voor veilige betalingen en accepteren Visa, Mastercard, American Express en SEPA-incasso."
+            },
+            "trialEnds": {
+                "question": "Wat gebeurt er als mijn proefperiode eindigt?",
+                "answer": "Je wordt op de hoogte gebracht voordat je proefperiode eindigt. Als je geen betaalmethode toevoegt, wordt je account gedegradeerd naar alleen-lezen modus totdat je je abonneert."
+            },
+            "annualDiscount": {
+                "question": "Bieden jullie kortingen voor jaarlijkse facturering?",
+                "answer": "Ja, we bieden 20% korting wanneer je kiest voor jaarlijkse facturering. Neem contact op met ons verkoopteam voor meer details over enterprise prijzen."
+            }
+        },
+        "comparison": {
+            "categories": {
+                "coreFeatures": "Kernfuncties",
+                "communication": "Communicatie",
+                "customization": "Aanpassing",
+                "analytics": "Analytics",
+                "intelligence": "Intelligentie"
+            },
+            "features": {
+                "unlimitedRequests": "Onbeperkte aanvragen",
+                "quoteManagement": "Offertes & facturen",
+                "clientChat": "Chat met klanten",
+                "teamChat": "Team chat",
+                "voipCalls": "Spraakoproepen",
+                "callTranscription": "Gesprekstranscriptie",
+                "branding": "Aangepaste branding",
+                "colorThemes": "Themapresets",
+                "basicDashboard": "Analytics dashboard",
+                "advancedAnalytics": "Geavanceerde analytics & rapporten",
+                "activityLog": "Activiteitenlogboek",
+                "pricingIntelligence": "Prijsintelligentie"
+            }
+        }
+    },
+    "contact": {
+        "title": "Praat met ons verkoopteam",
+        "subtitle": "We horen graag over de uitdagingen van je team en laten je zien hoe Ortelius Quest kan helpen.",
+        "features": {
+            "demo": "Krijg een gepersonaliseerde demo",
+            "trial": "Stel je Enterprise proefperiode in",
+            "onboarding": "Krijg onboarding hulp"
+        },
+        "form": {
+            "workEmail": "Werk e-mail",
+            "workEmailPlaceholder": "jij@bedrijf.com",
+            "fullName": "Volledige naam",
+            "fullNamePlaceholder": "Jan Jansen",
+            "country": "Land",
+            "selectCountry": "Selecteer je land",
+            "companyWebsite": "Bedrijfswebsite",
+            "companyWebsitePlaceholder": "https://bedrijf.com",
+            "companySize": "Bedrijfsgrootte",
+            "selectValue": "Selecteer een waarde",
+            "employees": "medewerkers",
+            "message": "Hoe kunnen we helpen?",
+            "messagePlaceholder": "Vertel ons over de behoeften van je bedrijf...",
+            "submit": "Bericht versturen",
+            "submitting": "Versturen...",
+            "defaultMessage": "Hallo, ik wil graag meer weten over uw product en een demo plannen.",
+            "optional": "Optioneel",
+            "validation": {
+                "emailRequired": "E-mail is verplicht",
+                "emailInvalid": "Voer een geldig e-mailadres in",
+                "fullNameRequired": "Volledige naam is verplicht",
+                "fullNameMin": "Volledige naam moet minimaal 2 tekens bevatten",
+                "countryRequired": "Selecteer een land",
+                "websiteInvalid": "Voer een geldige URL in",
+                "messageRequired": "Bericht is verplicht"
+            }
+        }
+    },
+    "cta": {
+        "startYour": "Start je",
+        "freeTrial": "gratis proefperiode vandaag."
+    },
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Alles wat je moet weten over Ortelius Quest.",
+        "questions": {
+            "freeTrial": {
+                "question": "Is er een gratis proefperiode?",
+                "answer": "Ja! Je krijgt 14 dagen om Ortelius Quest gratis te proberen."
+            },
+            "getStarted": {
+                "question": "Hoe lang duurt het om te starten?",
+                "answer": "Je organisatie kan volledig geconfigureerd en klaar zijn om klanten te verwelkomen in 5-10 minuten."
+            },
+            "customDomain": {
+                "question": "Kan ik mijn eigen domein gebruiken?",
+                "answer": "Je branded portaal wordt gehost op bedrijf.ortelius.app met je eigen logo en branding."
+            },
+            "closeDeals": {
+                "question": "Hoe helpt Ortelius Quest mij meer deals te sluiten?",
+                "answer": "Door alle vrachtaanvragen op één plek te centraliseren, mis je nooit een kans. Reageer 3x sneller met ingebouwde communicatietools en houd je hele team op één lijn met realtime samenwerkingsfuncties."
+            },
+            "teamUse": {
+                "question": "Kan mijn hele team Ortelius Quest gebruiken?",
+                "answer": "Ja! Voeg onbeperkt teamleden toe, wijs aanvragen toe aan specifieke mensen en werk samen met interne notities bij elke deal."
+            },
+            "security": {
+                "question": "Zijn mijn gegevens veilig?",
+                "answer": "Alle chatberichten zijn versleuteld om je communicatie veilig en privé te houden."
+            },
+            "onboarding": {
+                "question": "Bieden jullie onboarding-ondersteuning?",
+                "answer": "Ja! We bieden onboarding-video's tijdens de platformconfiguratie om je te helpen alles correct in te stellen."
+            }
+        }
+    },
+    "checkout": {
+        "stepLabel": "Stap {{current}} van {{total}}",
+        "step1Title": "Geef je organisatie een naam",
+        "step1Subtitle": "Dit wordt je werkruimtenaam en subdomein",
+        "step2Title": "Betaalmethode toevoegen",
+        "step2Subtitle": "Voltooi je abonnementsbetaling",
+        "step2SubtitleTrial": "Je kaart wordt bewaard voor toekomstige betalingen na afloop van de proefperiode",
+        "organizationName": "Organisatienaam",
+        "organizationNamePlaceholder": "Acme Inc",
+        "continue": "Doorgaan",
+        "skipStep": "Ik nodig mijn team later uit",
+        "back": "Terug",
+        "startTrial": "Start gratis proefperiode",
+        "tryForFree": "Probeer gratis, geen creditcard vereist.",
+        "subscribe": "Abonneren",
+        "trialCardInfo": "Je kaart wordt bewaard voor toekomstige betalingen na afloop van de proefperiode.",
+        "sessionExpired": "Je sessie is verlopen. Begin opnieuw.",
+        "startOver": "Opnieuw beginnen",
+        "plan": "plan",
+        "viewAllPlans": "Bekijk alle plannen",
+        "month": "ma",
+        "trialTimeline": {
+            "title": "Hoe je gratis proefperiode werkt",
+            "today": "Vandaag",
+            "todayDesc": "Volledige toegang tot alle functies",
+            "reminderDesc": "Ontvang een herinnering voordat de proefperiode eindigt",
+            "endDesc": "Je abonnement begint"
+        },
+        "recurringDisclaimer": "Door je proefperiode te starten, ga je ermee akkoord dat je automatisch wordt gefactureerd na de proefperiode, tenzij je voor het einde opzegt.",
+        "upgrade": "Upgraden",
+        "emailPlaceholder": "collega@bedrijf.com",
+        "rolePlaceholder": "Rol",
+        "addMore": "Lid toevoegen",
+        "inviteMoreLater": "Je kunt meer leden uitnodigen vanuit je dashboard na de setup.",
+        "roles": {
+            "member": "Lid",
+            "admin": "Admin"
+        },
+        "roleDescriptions": {
+            "member": "Beheer aanvragen, gesprekken en offertes",
+            "admin": "Volledige toegang tot organisatie-instellingen"
+        },
+        "invitationExpiry": "Uitnodigingen verlopen na 7 dagen. Je kunt ze altijd later opnieuw versturen.",
+        "validation": {
+            "organizationNameRequired": "Organisatienaam is verplicht",
+            "organizationNameMin": "Naam moet minimaal 2 tekens bevatten",
+            "organizationNameMax": "Naam mag maximaal 32 tekens bevatten",
+            "emailInvalid": "Voer een geldig e-mailadres in",
+            "emailDuplicate": "Dit e-mailadres staat al in de lijst",
+            "emailSelfInvite": "Je kunt jezelf niet uitnodigen",
+            "emailAlreadyHasOrganization": "Deze gebruiker maakt al deel uit van een organisatie"
+        },
+        "errors": {
+            "SUBDOMAIN_TAKEN": "Deze organisatienaam is al in gebruik.",
+            "SUBDOMAIN_RESERVED": "Deze naam is gereserveerd en kan niet worden gebruikt.",
+            "SUBDOMAIN_INVALID_LENGTH": "De naam moet tussen 3 en 50 tekens bevatten.",
+            "INVALID_FORMAT": "Deze organisatienaam is niet geldig.",
+            "fixEmailErrors": "Corrigeer de e-mailfouten voordat je doorgaat."
+        }
+    },
+    "common": {
+        "learnMore": "Meer info",
+        "getStarted": "Aan de slag",
+        "other": "Anders",
+        "optional": "Optioneel"
+    },
+    "auth": {
+        "footer": {
+            "support": "Ondersteuning",
+            "terms": "Voorwaarden",
+            "privacy": "Privacy"
+        },
+        "signIn": {
+            "title": "Welkom terug",
+            "email": "E-mail",
+            "password": "Wachtwoord",
+            "submit": "Inloggen",
+            "noAccount": "Heb je geen account?",
+            "signUp": "Aanmelden",
+            "error": {
+                "failed": "Inloggen mislukt"
+            }
+        },
+        "signUp": {
+            "title": "Maak je account aan",
+            "email": "E-mail",
+            "firstName": "Voornaam",
+            "lastName": "Achternaam",
+            "password": "Wachtwoord",
+            "passwordHint": "Moet minimaal 8 tekens bevatten",
+            "continue": "Doorgaan",
+            "submit": "Account aanmaken",
+            "hasAccount": "Heb je al een account?",
+            "signIn": "Inloggen",
+            "error": {
+                "checkEmail": "Kon e-mail niet verifiëren. Probeer het opnieuw.",
+                "failed": "Aanmelden mislukt"
+            },
+            "validation": {
+                "emailRequired": "E-mail is verplicht",
+                "emailInvalid": "Voer een geldig e-mailadres in",
+                "firstNameRequired": "Voornaam is verplicht",
+                "lastNameRequired": "Achternaam is verplicht",
+                "passwordMin": "Wachtwoord moet minimaal 8 tekens bevatten"
+            }
+        }
+    },
+    "meta": {
+        "organizationDescription": "Ortelius Quest helpt logistieke bedrijven om vrachtaanvragen om te zetten in omzet. Centraliseer aanvragen, route ze slim en reageer sneller via één gebrand portaal.",
+        "generic": {
+            "title": "Ortelius Quest",
+            "description": "De slimme hub voor het beheer van vrachtaanvragen. Centraliseer, route en reageer sneller."
+        },
+        "home": {
+            "title": "Ortelius Quest — Vrachtaanvraagbeheer voor logistieke bedrijven",
+            "description": "Vang elke vrachtkans op in één gebrand portaal. Reageer sneller, sluit meer deals."
+        },
+        "pricing": {
+            "title": "Prijzen — Ortelius Quest",
+            "description": "Eenvoudige, transparante prijzen voor logistieke bedrijven van elke grootte. Start gratis."
+        },
+        "contact": {
+            "title": "Contact — Ortelius Quest",
+            "description": "Praat met ons team of boek een demo. We laten zien hoe Ortelius Quest in jouw vrachtworkflow past."
+        },
+        "legals": {
+            "privacy": {
+                "title": "Privacybeleid — Ortelius Quest",
+                "description": "Hoe Ortelius Quest persoonsgegevens verzamelt, gebruikt en beschermt, conform AVG, CCPA en LGPD."
+            },
+            "terms": {
+                "title": "Servicevoorwaarden — Ortelius Quest",
+                "description": "De voorwaarden die je gebruik van Ortelius Quest beheersen, waaronder account, facturatie en aanvaardbaar gebruik."
+            },
+            "cookies": {
+                "title": "Cookiebeleid — Ortelius Quest",
+                "description": "Hoe en waarom Ortelius Quest cookies en vergelijkbare technologieën gebruikt, en hoe je jouw voorkeuren beheert."
+            }
+        }
+    }
+}

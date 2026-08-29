@@ -1,0 +1,259 @@
+{
+    "page": {
+        "title": "Gesprek",
+        "subtitle": "Beheer gesprekken in je werkruimte"
+    },
+    "empty": {
+        "noConversations": "Nog geen gesprekken.",
+        "noUnread": "Geen ongelezen gesprekken.",
+        "noResults": "Geen gesprekken gevonden.",
+        "viewRequests": "Bekijk aanvragen",
+        "sendRequest": "Aanvraag versturen",
+        "clearSearch": "Zoekopdracht wissen",
+        "clearFilters": "Filters wissen"
+    },
+    "search": {
+        "placeholder": "Gesprekken zoeken",
+        "filter": "Filter",
+        "sort": "Sorteren",
+        "type": "Type",
+        "status": "Status",
+        "typeFilter": "Gesprekstype",
+        "statusFilter": "Gespreksstatus",
+        "allConversationTypes": "Alle gesprekken",
+        "allStatuses": "Alle statussen",
+        "filterUnread": "Ongelezen gesprekken filteren",
+        "isUnread": "Ongelezen"
+    },
+    "sort": {
+        "newest": "Nieuwste eerst",
+        "oldest": "Oudste eerst"
+    },
+    "section": {
+        "pinned": "Favorieten",
+        "unpinned": "Andere gesprekken"
+    },
+    "card": {
+        "teamChat": "Teamgesprek",
+        "pin": "Gesprek vastmaken",
+        "unpin": "Gesprek losmaken",
+        "addFavorite": "Toevoegen aan favorieten",
+        "removeFavorite": "Verwijderen uit favorieten",
+        "oneMessage": "1 bericht",
+        "manyMessages": "{{count}} berichten",
+        "messagesSentSuffix": "{{label}} verstuurd in dit gesprek",
+        "typingOne": "{{name}} is aan het typen",
+        "typingTwo": "{{name1}} en {{name2}} zijn aan het typen",
+        "typingMany": "{{count}} mensen zijn aan het typen",
+        "sharedAFile": "deelde een bestand",
+        "sharedFiles": "deelde {{count}} bestanden",
+        "senderPrefix": "~ {{name}}"
+    },
+    "conversation": {
+        "forbidden": {
+            "title": "Gesprek niet beschikbaar",
+            "description": "Je hebt geen toegang tot dit gesprek."
+        },
+        "notFound": {
+            "title": "Gesprek niet gevonden",
+            "description": "Dit gesprek is mogelijk verwijderd of verplaatst."
+        },
+        "error": {
+            "title": "Dit gesprek kon niet worden geladen",
+            "description": "Probeer het opnieuw of ga terug naar je gesprekken."
+        },
+        "tryAgain": "Opnieuw proberen",
+        "backToChats": "Terug naar gesprekken",
+        "loading": "Laden...",
+        "fallbackTitle": "Gesprek"
+    },
+    "header": {
+        "search": "Zoeken",
+        "viewParticipants": "Deelnemers bekijken",
+        "exportCsv": "Exporteren als CSV",
+        "exporting": "Exporteren..."
+    },
+    "messageList": {
+        "loadingEarlier": "Eerdere berichten laden",
+        "loadEarlier": "Eerdere berichten laden"
+    },
+    "input": {
+        "placeholder": "Stuur een bericht",
+        "placeholderTo": "Stuur een bericht naar {{name}}",
+        "typePlaceholder": "Typ een bericht...",
+        "replyingTo": "Antwoorden aan {{name}}",
+        "cancelReply": "Antwoord annuleren",
+        "attachFile": "Bestand toevoegen",
+        "addPhotosOrFiles": "Foto's of bestanden toevoegen",
+        "sending": "Bericht versturen",
+        "send": "Bericht versturen",
+        "removeAttachment": "Bijlage verwijderen"
+    },
+    "searchDialog": {
+        "title": "Berichten zoeken",
+        "placeholder": "Zoeken in gesprek...",
+        "empty": "Typ om berichten te zoeken.",
+        "noResults": "Geen berichten gevonden.",
+        "loading": "Resultaten laden",
+        "more": "Meer resultaten",
+        "activityEvent": "Activiteitsgebeurtenis",
+        "fallbackUser": "Gebruiker",
+        "loadError": "Berichten zoeken mislukt"
+    },
+    "participants": {
+        "title": "Deelnemers",
+        "description": "Alle deelnemers aan dit gesprek.",
+        "searchPlaceholder": "Gebruikers zoeken",
+        "noResults": "Geen gebruikers gevonden.",
+        "empty": "Geen gebruikers in dit gesprek."
+    },
+    "delete": {
+        "title": "Bericht verwijderen",
+        "description": "Weet je zeker dat je dit bericht wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+        "cancel": "Annuleren",
+        "confirm": "Verwijderen"
+    },
+    "message": {
+        "deleted": "Dit bericht is verwijderd",
+        "edited": "(bewerkt)",
+        "you": "Jij",
+        "someone": "Iemand",
+        "editEscape": "esc om te",
+        "editEnter": "enter om te",
+        "editCancel": "annuleren",
+        "editSave": "opslaan",
+        "viewProfile": "Profiel bekijken",
+        "partOfOrg": "Deze gebruiker is onderdeel van de organisatie {{organization}}."
+    },
+    "toolbar": {
+        "reply": "Antwoorden",
+        "pin": "Vastmaken",
+        "unpin": "Losmaken",
+        "edit": "Bewerken",
+        "delete": "Verwijderen",
+        "ariaReply": "Antwoord op bericht",
+        "ariaPin": "Bericht vastmaken",
+        "ariaUnpin": "Bericht losmaken",
+        "ariaEdit": "Bericht bewerken",
+        "ariaDelete": "Bericht verwijderen"
+    },
+    "pinned": {
+        "empty": "Geen vastgemaakte berichten",
+        "goTo": "Ga naar",
+        "viewAll": "Vastgemaakte berichten",
+        "pinnedByPrefix": "maakte",
+        "aMessage": "een bericht",
+        "toThisChannel": "vast aan dit kanaal."
+    },
+    "systemMessage": {
+        "openRequest": "Aanvraag openen",
+        "downloadPdf": "PDF downloaden"
+    },
+    "attachmentUpload": {
+        "uploadFailed": "Bestanden uploaden mislukt",
+        "invalidFileType": "Ongeldig bestandstype. Alleen {{formats}}-bestanden zijn toegestaan.",
+        "maxFiles": "Maximaal {{count}} bestanden toegestaan per bericht.",
+        "fileTooLarge": "Bestand {{filename}} overschrijdt de maximale grootte van {{size}}."
+    },
+    "toast": {
+        "tryAgain": "Opnieuw proberen",
+        "loadMoreFailed": "Meer gesprekken laden mislukt.",
+        "loadConversationsFailed": "Gesprekken laden mislukt.",
+        "refreshConversationsFailed": "Gesprekken vernieuwen mislukt.",
+        "loadConversationFailed": "Gesprek laden mislukt.",
+        "loadEarlierFailed": "Eerdere berichten laden mislukt.",
+        "messageNotLoaded": "Bericht niet geladen.",
+        "sendMessageFailed": "Bericht versturen mislukt",
+        "messageDeleted": "Bericht verwijderd",
+        "messageUpdated": "Bericht bijgewerkt",
+        "deleteMessageFailedWindow": "Bericht verwijderen mislukt. Controleer of u binnen het venster van 15 minuten zit.",
+        "updateMessageFailedWindow": "Bericht bijwerken mislukt. Controleer of u binnen het venster van 15 minuten zit.",
+        "messagePinned": "Bericht vastgemaakt",
+        "messageUnpinned": "Bericht losgemaakt",
+        "pinMessageFailed": "Bericht vastmaken mislukt",
+        "unpinMessageFailed": "Bericht losmaken mislukt",
+        "addingFavorite": "Favoriet toevoegen",
+        "removingFavorite": "Favoriet verwijderen",
+        "favoriteAdded": "Favoriet toegevoegd",
+        "favoriteRemoved": "Favoriet verwijderd",
+        "addFavoriteFailed": "Toevoegen aan favorieten mislukt",
+        "removeFavoriteFailed": "Verwijderen uit favorieten mislukt",
+        "undo": "Ongedaan maken",
+        "noMessagesToExport": "Geen berichten om te exporteren",
+        "exportTeamAdminsOnly": "Alleen beheerders en eigenaars kunnen teamgesprekken exporteren",
+        "exported_one": "{{count}} bericht geëxporteerd",
+        "exported_other": "{{count}} berichten geëxporteerd",
+        "exportFailed": "Gesprek exporteren mislukt"
+    },
+    "export": {
+        "system": "Systeem",
+        "unknown": "Onbekend",
+        "organization": "Organisatie",
+        "user": "Gebruiker",
+        "notAvailable": "N.v.t.",
+        "deleted": "[Verwijderd]",
+        "none": "Geen",
+        "yes": "Ja",
+        "no": "Nee"
+    },
+    "attachment": {
+        "download": "Downloaden",
+        "openNewWindow": "Openen in nieuw venster",
+        "openNewTab": "Openen in nieuw tabblad",
+        "close": "Sluiten",
+        "zoomIn": "Inzoomen",
+        "zoomOut": "Uitzoomen",
+        "previous": "Vorige",
+        "next": "Volgende",
+        "previousAria": "Vorige bijlage",
+        "nextAria": "Volgende bijlage",
+        "downloadPdfLabel": "PDF downloaden",
+        "downloadFileLabel": "Bestand downloaden",
+        "remove": "Bijlage verwijderen",
+        "you": "Jij"
+    },
+    "scrollToBottom": {
+        "aria": "Scrol naar beneden"
+    },
+    "mention": {
+        "membersMatching": "Leden die overeenkomen met @{{query}}",
+        "members": "Leden",
+        "rolesMatching": "Rollen die overeenkomen met @{{query}}",
+        "roles": "Rollen",
+        "roleDescription": {
+            "owner": "De eigenaar op de hoogte brengen",
+            "admin": "Alle beheerders op de hoogte brengen",
+            "member": "Alle leden op de hoogte brengen"
+        }
+    },
+    "readReceipts": {
+        "seenBy": "Gezien door {{name}}"
+    },
+    "systemEvent": {
+        "requests": {
+            "event": {
+                "submitted": "Aanvraag #{{requestNumber}} ingediend door {{requesterName}}",
+                "rejected": "Aanvraag #{{requestNumber}} geweigerd{{reason}}",
+                "canceled": "Aanvraag #{{requestNumber}} geannuleerd door {{requesterName}}",
+                "assigned": "Aanvraag #{{requestNumber}} toegewezen aan {{memberName}}",
+                "reassigned": "Aanvraag #{{requestNumber}} opnieuw toegewezen aan {{memberName}}",
+                "unassigned": "Aanvraag #{{requestNumber}} niet meer toegewezen aan {{memberName}}",
+                "linkedToAccount": "Aanvraag #{{requestNumber}} gekoppeld aan account van {{userName}}",
+                "accountCreated": "Account aangemaakt voor {{userName}}",
+                "accountCreatedAndLinked": "Account aangemaakt en gekoppeld voor {{userName}}",
+                "newSubmittedToOrg": "Nieuwe aanvraag {{requestNumber}} ingediend door {{requesterName}} bij {{organizationName}}"
+            }
+        },
+        "settings": {
+            "emailIntake": {
+                "enabledBy": "{{userName}} heeft e-mailontvangst ingeschakeld",
+                "disabledBy": "{{userName}} heeft e-mailontvangst uitgeschakeld"
+            }
+        },
+        "quotes": {
+            "event": {
+                "sentBy": "Offerte {{quoteNumber}} is verzonden door {{organizationName}}"
+            }
+        }
+    }
+}

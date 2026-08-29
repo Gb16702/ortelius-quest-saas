@@ -1,0 +1,158 @@
+{
+    "page": {
+        "breadcrumb": "Aanvragen",
+        "incomingTitle": "Inkomende aanvragen",
+        "outgoingTitle": "Uitgaande aanvragen",
+        "incomingSubtitle": "Beheer aanvragen die uw organisatie heeft ontvangen.",
+        "outgoingSubtitle": "Bekijk en beheer uw verzonden aanvragen."
+    },
+    "table": {
+        "searchPlaceholder": "Aanvragen zoeken",
+        "pageInfoLabel": "aanvragen",
+        "column": {
+            "request": "Aanvraag",
+            "requester": "Aanvrager",
+            "organization": "Organisatie",
+            "assignedTo": "Toegewezen aan",
+            "status": "Status",
+            "period": "Periode",
+            "priority": "Prioriteit"
+        },
+        "actions": {
+            "tableActions": "Tabelacties",
+            "openMenu": "Menu openen",
+            "openRequest": "Aanvraag openen",
+            "openQuote": "Offerte openen",
+            "assignRequest": "Aanvraag toewijzen",
+            "reassignRequest": "Aanvraag opnieuw toewijzen",
+            "chatWith": "Chatten met {{name}}",
+            "shareToTeamChat": "Delen in teamchat",
+            "download": "Downloaden",
+            "exportCsv": "Exporteren als CSV",
+            "exporting": "Exporteren..."
+        },
+        "empty": {
+            "errorTitle": "Aanvragen kunnen niet worden geladen.",
+            "filteredTitle": "Geen aanvragen voldoen aan de huidige filters.",
+            "clearFilters": "Filters wissen",
+            "incomingTitle": "Geen aanvragen ontvangen.",
+            "outgoingTitle": "Geen aanvragen verzonden."
+        }
+    },
+    "filters": {
+        "datePlaceholder": "Periode selecteren",
+        "assigneePlaceholder": "Alle toegewezenen",
+        "priorityPlaceholder": "Alle prioriteiten",
+        "statusLabel": "Status",
+        "searchMember": "Lid zoeken...",
+        "selectedCount": "{{count}} geselecteerd",
+        "noPrioritiesFound": "Geen prioriteiten gevonden.",
+        "noMembersFound": "Geen leden gevonden."
+    },
+    "status": {
+        "draft": "Concept",
+        "open": "Open",
+        "closed": "Gesloten",
+        "pending": "In afwachting",
+        "quoted": "Geoffreerd",
+        "rejected": "Geweigerd",
+        "canceled": "Geannuleerd",
+        "cancelled": "Geannuleerd",
+        "quote_rejected": "Offerte geweigerd",
+        "invoiced": "Gefactureerd",
+        "expired": "Verlopen"
+    },
+    "priority": {
+        "high": "Hoog",
+        "medium": "Gemiddeld",
+        "low": "Laag",
+        "none": "—"
+    },
+    "assign": {
+        "titleAssign": "Aanvraag toewijzen",
+        "titleReassign": "Aanvraag opnieuw toewijzen",
+        "descriptionAssign": "Kies een gebruiker om deze aanvraag aan toe te wijzen.",
+        "descriptionReassign": "Kies een gebruiker om deze aanvraag opnieuw aan toe te wijzen.",
+        "searchPlaceholder": "Gebruiker zoeken",
+        "noMembersFound": "Geen leden gevonden.",
+        "noMembersAvailable": "Geen leden beschikbaar.",
+        "assigneeLegend": "Toegewezene",
+        "youBadge": "Jij",
+        "validationRequired": "Selecteer een lid om aan toe te wijzen.",
+        "assign": "Toewijzen",
+        "reassign": "Opnieuw toewijzen",
+        "unassign": "Toewijzing opheffen",
+        "assigning": "Toewijzen...",
+        "unassigning": "Toewijzing opheffen..."
+    },
+    "cancelDialog": {
+        "cancel": {
+            "trigger": "Aanvraag annuleren",
+            "title": "Aanvraag annuleren",
+            "verb": "annuleren",
+            "action": "Ja, aanvraag annuleren",
+            "loading": "Annuleren..."
+        },
+        "reject": {
+            "trigger": "Aanvraag weigeren",
+            "title": "Aanvraag weigeren",
+            "verb": "weigeren",
+            "action": "Weigering bevestigen",
+            "loading": "Weigeren..."
+        },
+        "discard": {
+            "trigger": "Concept verwijderen",
+            "title": "Concept verwijderen",
+            "verb": "verwijderen",
+            "action": "Ja, concept verwijderen",
+            "loading": "Verwijderen..."
+        },
+        "description": "Weet u zeker dat u <strong>{{requestNumber}}</strong> wilt {{verb}}? Deze actie kan niet ongedaan worden gemaakt."
+    },
+    "rejectionDialog": {
+        "title": "Aanvraag weigeren",
+        "description": "Geef een reden op voor het weigeren van deze aanvraag. De aanvrager wordt op de hoogte gebracht van uw beslissing.",
+        "requestNumberLabel": "Aanvraagnummer",
+        "reasonLabel": "Reden voor weigering",
+        "reasonPlaceholder": "Leg uit waarom u deze aanvraag weigert",
+        "reasonRequired": "Geef een reden op voor de weigering.",
+        "submit": "Aanvraag weigeren",
+        "submitting": "Weigeren..."
+    },
+    "modalFooter": {
+        "submitQuote": "Offerte versturen",
+        "submittingQuote": "Versturen...",
+        "cancelEdit": "Bewerking annuleren",
+        "answerWithQuote": "Antwoord met offerte",
+        "legalsRequired": "Upload ten minste één juridisch document voordat u een offerte verstuurt.",
+        "goToLegals": "Ga naar juridische documenten",
+        "validateDraft": "Concept valideren",
+        "validatingDraft": "Valideren..."
+    },
+    "toast": {
+        "requestCanceled": "Aanvraag geannuleerd",
+        "failedToCancel": "Aanvraag annuleren mislukt",
+        "requestRejected": "Aanvraag geweigerd",
+        "failedToReject": "Aanvraag weigeren mislukt",
+        "draftValidated": "Concept gevalideerd",
+        "failedToValidate": "Concept valideren mislukt",
+        "draftDiscarded": "Concept verwijderd",
+        "failedToDiscard": "Concept verwijderen mislukt",
+        "failedToLoadRequests": "Aanvragen laden mislukt"
+    },
+    "sharedRequest": {
+        "dateRange": "{{from}} tot {{to}}",
+        "notFound": "Aanvraag niet gevonden"
+    },
+    "error": {
+        "notFound": "Aanvraag niet gevonden",
+        "cancelForbidden": "U heeft geen toestemming om deze aanvraag te annuleren",
+        "organizationForbidden": "U heeft geen toestemming om aanvragen van deze organisatie te bekijken",
+        "shareForbidden": "U heeft geen toestemming om deze aanvraag te delen",
+        "invalidAssignment": "Ongeldige toewijzing",
+        "invalidState": "Aanvraag bevindt zich in een ongeldige status voor deze actie",
+        "teamChatNotFound": "Teamchat niet gevonden",
+        "loadFailed": "Aanvragen laden mislukt.",
+        "responseShape": "Het API-antwoord voor aanvragen kwam niet overeen met de verwachte structuur."
+    }
+}

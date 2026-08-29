@@ -1,0 +1,39 @@
+{
+    "loading": "Cargando invitación...",
+    "expired": {
+        "title": "Invitación caducada",
+        "description": "Esta invitación ha caducado y ya no es válida.",
+        "details": "Ponte en contacto con el administrador de tu organización para obtener una nueva invitación."
+    },
+    "invalid": {
+        "title": "Invitación no encontrada",
+        "description": "Esta invitación no es válida o ha sido eliminada."
+    },
+    "card": {
+        "logoAlt": "Logotipo de {{organizationName}}",
+        "joinTitle": "Unirse a {{organizationName}}",
+        "inviterDescription_admin": "<inviter>{{inviterName}}</inviter> te ha invitado a unirte al equipo. Comienza a gestionar solicitudes juntos como <role>{{roleLabel}}</role>.",
+        "inviterDescription_member": "<inviter>{{inviterName}}</inviter> te ha invitado a unirte al equipo. Comienza a gestionar solicitudes juntos como <role>{{roleLabel}}</role>.",
+        "anonymousDescription_admin": "Únete al equipo y comienza a gestionar solicitudes juntos. Haz clic abajo para unirte como <role>{{roleLabel}}</role>.",
+        "anonymousDescription_member": "Únete al equipo y comienza a gestionar solicitudes juntos. Haz clic abajo para unirte como <role>{{roleLabel}}</role>.",
+        "signInToAccept": "Inicia sesión para aceptar",
+        "useDifferentAccount": "Usar otra cuenta",
+        "alreadyHaveAccount": "¿Ya tienes una cuenta? Inicia sesión",
+        "joinAction": "Unirse a {{organizationName}}"
+    },
+    "status": {
+        "pending": "Pendiente",
+        "accepted": "Aceptada",
+        "canceled": "Cancelada"
+    },
+    "error": {
+        "notFound": "Invitación no encontrada.",
+        "wrongEmail": "Esta invitación se envió a otra dirección de correo. Inicia sesión con la cuenta correcta para aceptarla.",
+        "alreadyMember": "Ya eres miembro de esta organización.",
+        "notPending": "Esta invitación ya no se puede aceptar.",
+        "expired": "Esta invitación ha caducado.",
+        "acceptFailed": "No se pudo aceptar la invitación.",
+        "invalidLink": "Enlace de invitación no válido",
+        "unexpected": "Se produjo un error inesperado"
+    }
+}

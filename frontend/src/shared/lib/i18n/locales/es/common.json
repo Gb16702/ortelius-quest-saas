@@ -1,0 +1,58 @@
+{
+    "action": {
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "save": "Guardar",
+        "delete": "Eliminar",
+        "next": "Siguiente",
+        "back": "Atrás",
+        "retry": "Reintentar",
+        "tryAgain": "Reintentar",
+        "undo": "Deshacer",
+        "copy": "Copiar",
+        "openNavigation": "Abrir barra lateral",
+        "closeNavigation": "Cerrar barra lateral"
+    },
+    "state": {
+        "loading": "Cargando...",
+        "empty": "Nada que mostrar",
+        "error": "Algo salió mal"
+    },
+    "role": {
+        "owner": "Propietario",
+        "admin": "Administrador",
+        "member": "Miembro"
+    },
+    "errorBoundary": {
+        "title": "No se pudo cargar este bloque",
+        "copySuccess": "Detalles del error copiados al portapapeles",
+        "copyError": "No se pudo copiar al portapapeles"
+    },
+    "error": {
+        "BAD_REQUEST": "Solicitud incorrecta",
+        "VALIDATION_ERROR": "Error de validación",
+        "UNAUTHORIZED": "Autenticación requerida",
+        "FORBIDDEN": "Permisos insuficientes",
+        "NOT_FOUND": "Recurso no encontrado",
+        "METHOD_NOT_ALLOWED": "Método no permitido",
+        "CONFLICT": "Conflicto de recurso",
+        "PAYLOAD_TOO_LARGE": "Carga útil demasiado grande",
+        "RATE_LIMITED": "Demasiadas solicitudes",
+        "INTERNAL_SERVER_ERROR": "Se produjo un error interno del servidor",
+        "UPSTREAM_UNAVAILABLE": "API ascendente no disponible",
+        "unknown": "Algo salió mal"
+    },
+    "date": {
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "never": "Nunca"
+    },
+    "guestBadge": {
+        "label": "Invitado",
+        "tooltip": {
+            "account": "Este usuario aún no ha creado una cuenta.",
+            "notifications": "Las notificaciones se enviarán por correo electrónico."
+        }
+    }
+}

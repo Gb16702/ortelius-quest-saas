@@ -1,0 +1,5 @@
+export { LegalDocumentsProvider } from "./model/legal-documents.provider"
+export { LegalDocumentDeleteDialog } from "./ui/legal-document-delete-dialog"
+export { LegalDocumentRenameDialog } from "./ui/legal-document-rename-dialog"
+export { LegalDocumentsTable } from "./ui/legal-documents-table"
+export { LegalDocumentsUploadZone } from "./ui/legal-documents-upload-zone"

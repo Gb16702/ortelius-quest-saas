@@ -1,0 +1,49 @@
+{
+    "header": {
+        "contactSupport": "Liên hệ hỗ trợ",
+        "sendRequest": "Gửi yêu cầu",
+        "share": "Chia sẻ",
+        "copySuccess": "Đã sao chép liên kết trang. Hãy chia sẻ với khách hàng tiềm năng.",
+        "copyError": "Không thể sao chép liên kết",
+        "noTagline": "Chưa có khẩu hiệu.",
+        "addTagline": "Thêm khẩu hiệu"
+    },
+    "overview": {
+        "title": "Tổng quan",
+        "emptyTitle": "Chưa có phần tổng quan.",
+        "addOverview": "Thêm tổng quan"
+    },
+    "services": {
+        "title": "Dịch vụ cung cấp"
+    },
+    "cargoTypes": {
+        "title": "Loại hàng xử lý"
+    },
+    "details": {
+        "title": "Chi tiết",
+        "organization": "Tổ chức",
+        "members": "Thành viên",
+        "activeSince": "Hoạt động từ",
+        "website": "Trang web"
+    },
+    "sheet": {
+        "title": "Gửi yêu cầu",
+        "subtitle": "Điền thông tin bên dưới để gửi yêu cầu vận chuyển.",
+        "close": "Đóng",
+        "steps": {
+            "contactInformation": "Thông tin liên hệ",
+            "cargoType": "Loại hàng",
+            "services": "Dịch vụ",
+            "details": "Chi tiết"
+        }
+    },
+    "error": {
+        "notFoundTitle": "Không tìm thấy trang công ty",
+        "notFoundMessage": "Không có trang công ty công khai tại địa chỉ này. Liên kết có thể đã cũ hoặc trang chưa được xuất bản.",
+        "unavailableTitle": "Trang công ty tạm thời không khả dụng",
+        "unavailableMessage": "Trang này có thể vẫn tồn tại, nhưng không tải được thông tin. Vui lòng thử lại sau giây lát.",
+        "retry": "Thử lại",
+        "returnHome": "Về trang chủ",
+        "headNotFound": "Không tìm thấy tổ chức — Ortelius Quest"
+    }
+}

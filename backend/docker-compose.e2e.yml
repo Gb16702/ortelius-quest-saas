@@ -1,0 +1,66 @@
+name: ortelius-e2e
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: ortelius-e2e-postgres
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "${POSTGRES_PORT:-5110}:5432"
+    volumes:
+      - postgres_e2e_data:/var/lib/postgresql/data
+    networks:
+      - ortelius-e2e-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: ortelius-e2e-api
+    ports:
+      - "${API_PORT:-4100}:${PORT:-4100}"
+    env_file:
+      - .env.e2e
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - ortelius-e2e-network
+    volumes:
+      - type: bind
+        source: .
+        target: /app
+      - type: volume
+        target: /app/node_modules
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: ortelius-e2e-redis
+    command: redis-server --appendonly no
+    ports:
+      - "${REDIS_PORT_HOST:-6380}:6379"
+    networks:
+      - ortelius-e2e-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  postgres_e2e_data:
+
+networks:
+  ortelius-e2e-network:
+    driver: bridge

@@ -1,0 +1,132 @@
+{
+    "breadcrumb": "Tableau de bord",
+    "page": {
+        "title": "Tableau de bord",
+        "subtitle": {
+            "admin": "Suivez vos contributions et les performances de l'organisation.",
+            "member": "Suivez vos performances personnelles."
+        }
+    },
+    "sections": {
+        "myContributions": {
+            "title": "Mon activité",
+            "subtitle": "Suivez vos performances personnelles."
+        },
+        "organizationOverview": {
+            "title": "Aperçu de l'organisation",
+            "subtitle": "Suivez les indicateurs de votre organisation."
+        }
+    },
+    "timePeriod": {
+        "last7Days": "7 derniers jours",
+        "last14Days": "14 derniers jours",
+        "last30Days": "30 derniers jours",
+        "last3Months": "3 derniers mois",
+        "last12Months": "12 derniers mois"
+    },
+    "comparison": {
+        "previous7Days": "Par rapport aux 7 jours précédents",
+        "previous14Days": "Par rapport aux 14 jours précédents",
+        "previous30Days": "Par rapport aux 30 jours précédents",
+        "previous3Months": "Par rapport aux 3 mois précédents",
+        "previous12Months": "Par rapport aux 12 mois précédents",
+        "previousDays": "Par rapport aux {{count}} jours précédents",
+        "previousPeriod": "Par rapport à la période précédente"
+    },
+    "personalMetrics": {
+        "requestsHandled": {
+            "title": "Demandes traitées",
+            "chartLabel": "demandes traitées"
+        },
+        "quotesCreated": {
+            "title": "Devis créés",
+            "chartLabel": "devis créés"
+        },
+        "revenueGenerated": {
+            "title": "Revenus générés",
+            "chartLabel": "revenus"
+        },
+        "messagesSent": {
+            "title": "Messages envoyés",
+            "chartLabel": "messages"
+        },
+        "activityScore": {
+            "title": "Score d'activité"
+        }
+    },
+    "organizationMetrics": {
+        "totalRequests": {
+            "title": "Demandes totales",
+            "chartLabel": "demandes"
+        },
+        "newVisitors": {
+            "title": "Nouveaux visiteurs",
+            "chartLabel": "nouveaux visiteurs"
+        },
+        "viewToRequestConversion": {
+            "title": "Conversion vues-demandes",
+            "chartLabel": "conversion"
+        },
+        "acceptedQuotes": {
+            "title": "Devis acceptés",
+            "chartLabel": "devis acceptés"
+        },
+        "totalRevenue": {
+            "title": "Revenus totaux",
+            "chartLabel": "revenus"
+        }
+    },
+    "recentActivity": {
+        "title": "Activité récente",
+        "rightLabel": "HEURE",
+        "empty": "Aucune activité pour le moment.",
+        "systemActor": "Système"
+    },
+    "requestPipeline": {
+        "title": "Pipeline des demandes",
+        "empty": "Aucune demande pour le moment.",
+        "error": "Impossible de charger les demandes.",
+        "table": {
+            "status": "Statut",
+            "share": "Part",
+            "total": "Total"
+        }
+    },
+    "recentRequests": {
+        "title": "Demandes récentes",
+        "rightLabel": "RÉCENTES",
+        "empty": "Aucune demande récente.",
+        "error": "Impossible de charger les demandes."
+    },
+    "topMembers": {
+        "title": "Demandes traitées par membre",
+        "rightLabel": "TRAITÉES",
+        "empty": "Aucune demande traitée sur cette période.",
+        "error": "Impossible de charger les contributeurs.",
+        "handledCount": "{{count}} demandes traitées",
+        "revenueSuffix": "traitées"
+    },
+    "servicesCargo": {
+        "tabs": {
+            "cargo": "Types de cargaison",
+            "services": "Services"
+        },
+        "rightLabel": "DEMANDES",
+        "emptyServices": "Aucune donnée de service disponible.",
+        "emptyCargo": "Aucune donnée de type de cargaison disponible.",
+        "error": "Impossible de charger les données des services et types de cargaison."
+    },
+    "metricsError": {
+        "loadFailed": "Impossible de charger les indicateurs."
+    },
+    "toasts": {
+        "organizationJoined": "Organisation rejointe"
+    },
+    "actions": {
+        "viewAll": "Tout afficher",
+        "moreOptions": "Plus d'options"
+    },
+    "common": {
+        "retry": "Réessayer"
+    }
+}

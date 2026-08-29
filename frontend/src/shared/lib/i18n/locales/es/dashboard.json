@@ -1,0 +1,132 @@
+{
+    "breadcrumb": "Panel",
+    "page": {
+        "title": "Panel",
+        "subtitle": {
+            "admin": "Sigue tus contribuciones y el rendimiento de la organización.",
+            "member": "Sigue tu rendimiento personal."
+        }
+    },
+    "sections": {
+        "myContributions": {
+            "title": "Mi actividad",
+            "subtitle": "Sigue tu rendimiento personal."
+        },
+        "organizationOverview": {
+            "title": "Resumen de la organización",
+            "subtitle": "Sigue las métricas de tu organización."
+        }
+    },
+    "timePeriod": {
+        "last7Days": "Últimos 7 días",
+        "last14Days": "Últimos 14 días",
+        "last30Days": "Últimos 30 días",
+        "last3Months": "Últimos 3 meses",
+        "last12Months": "Últimos 12 meses"
+    },
+    "comparison": {
+        "previous7Days": "Comparado con los 7 días anteriores",
+        "previous14Days": "Comparado con los 14 días anteriores",
+        "previous30Days": "Comparado con los 30 días anteriores",
+        "previous3Months": "Comparado con los 3 meses anteriores",
+        "previous12Months": "Comparado con los 12 meses anteriores",
+        "previousDays": "Comparado con los {{count}} días anteriores",
+        "previousPeriod": "Comparado con el período anterior"
+    },
+    "personalMetrics": {
+        "requestsHandled": {
+            "title": "Solicitudes gestionadas",
+            "chartLabel": "solicitudes gestionadas"
+        },
+        "quotesCreated": {
+            "title": "Cotizaciones creadas",
+            "chartLabel": "cotizaciones creadas"
+        },
+        "revenueGenerated": {
+            "title": "Ingresos generados",
+            "chartLabel": "ingresos"
+        },
+        "messagesSent": {
+            "title": "Mensajes enviados",
+            "chartLabel": "mensajes"
+        },
+        "activityScore": {
+            "title": "Puntuación de actividad"
+        }
+    },
+    "organizationMetrics": {
+        "totalRequests": {
+            "title": "Solicitudes totales",
+            "chartLabel": "solicitudes"
+        },
+        "newVisitors": {
+            "title": "Nuevos visitantes",
+            "chartLabel": "nuevos visitantes"
+        },
+        "viewToRequestConversion": {
+            "title": "Conversión vistas-solicitudes",
+            "chartLabel": "conversión"
+        },
+        "acceptedQuotes": {
+            "title": "Cotizaciones aceptadas",
+            "chartLabel": "cotizaciones aceptadas"
+        },
+        "totalRevenue": {
+            "title": "Ingresos totales",
+            "chartLabel": "ingresos"
+        }
+    },
+    "recentActivity": {
+        "title": "Actividad reciente",
+        "rightLabel": "HORA",
+        "empty": "Aún no hay actividad.",
+        "systemActor": "Sistema"
+    },
+    "requestPipeline": {
+        "title": "Pipeline de solicitudes",
+        "empty": "Aún no hay solicitudes.",
+        "error": "No se pudieron cargar las solicitudes.",
+        "table": {
+            "status": "Estado",
+            "share": "Cuota",
+            "total": "Total"
+        }
+    },
+    "recentRequests": {
+        "title": "Solicitudes recientes",
+        "rightLabel": "RECIENTES",
+        "empty": "Aún no hay solicitudes recientes.",
+        "error": "No se pudieron cargar las solicitudes."
+    },
+    "topMembers": {
+        "title": "Solicitudes gestionadas por miembro",
+        "rightLabel": "GESTIONADAS",
+        "empty": "Aún no hay solicitudes gestionadas.",
+        "error": "No se pudieron cargar los colaboradores.",
+        "handledCount": "{{count}} solicitudes gestionadas",
+        "revenueSuffix": "gestionadas"
+    },
+    "servicesCargo": {
+        "tabs": {
+            "cargo": "Tipos de carga",
+            "services": "Servicios"
+        },
+        "rightLabel": "SOLICITUDES",
+        "emptyServices": "No hay datos de servicios disponibles.",
+        "emptyCargo": "No hay datos de tipos de carga disponibles.",
+        "error": "No se pudieron cargar los datos de servicios y tipos de carga."
+    },
+    "metricsError": {
+        "loadFailed": "No se pudieron cargar las métricas."
+    },
+    "toasts": {
+        "organizationJoined": "Organización unida"
+    },
+    "actions": {
+        "viewAll": "Ver todo",
+        "moreOptions": "Más opciones"
+    },
+    "common": {
+        "retry": "Reintentar"
+    }
+}

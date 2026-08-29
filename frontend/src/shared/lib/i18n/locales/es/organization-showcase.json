@@ -1,0 +1,49 @@
+{
+    "header": {
+        "contactSupport": "Contactar con soporte",
+        "sendRequest": "Enviar solicitud",
+        "share": "Compartir",
+        "copySuccess": "Enlace de la página copiado. Compártelo con tus prospectos.",
+        "copyError": "No se pudo copiar el enlace",
+        "noTagline": "Aún no hay eslogan.",
+        "addTagline": "Añadir uno"
+    },
+    "overview": {
+        "title": "Resumen",
+        "emptyTitle": "Aún no hay resumen.",
+        "addOverview": "Añadir un resumen"
+    },
+    "services": {
+        "title": "Lo que ofrecemos"
+    },
+    "cargoTypes": {
+        "title": "Lo que transportamos"
+    },
+    "details": {
+        "title": "Detalles",
+        "organization": "Organización",
+        "members": "Miembros",
+        "activeSince": "Activo desde",
+        "website": "Sitio web"
+    },
+    "sheet": {
+        "title": "Enviar una solicitud",
+        "subtitle": "Completa la información siguiente para enviar tu solicitud de transporte.",
+        "close": "Cerrar",
+        "steps": {
+            "contactInformation": "Información de contacto",
+            "cargoType": "Tipo de carga",
+            "services": "Servicios",
+            "details": "Detalles"
+        }
+    },
+    "error": {
+        "notFoundTitle": "Página de empresa no encontrada",
+        "notFoundMessage": "No hay ninguna página pública de empresa disponible en esta dirección. El enlace puede estar desactualizado o la página aún no se ha publicado.",
+        "unavailableTitle": "Página de empresa temporalmente no disponible",
+        "unavailableMessage": "Es posible que esta página aún exista, pero no se pudieron cargar sus datos. Inténtalo de nuevo en un momento.",
+        "retry": "Reintentar",
+        "returnHome": "Volver al inicio",
+        "headNotFound": "Organización no encontrada — Ortelius Quest"
+    }
+}

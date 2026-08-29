@@ -1,0 +1,259 @@
+{
+    "page": {
+        "title": "Trò chuyện",
+        "subtitle": "Quản lý cuộc trò chuyện trong không gian làm việc"
+    },
+    "empty": {
+        "noConversations": "Chưa có cuộc trò chuyện nào.",
+        "noUnread": "Không có cuộc trò chuyện chưa đọc.",
+        "noResults": "Không tìm thấy cuộc trò chuyện nào.",
+        "viewRequests": "Xem yêu cầu",
+        "sendRequest": "Gửi yêu cầu",
+        "clearSearch": "Xóa tìm kiếm",
+        "clearFilters": "Xóa bộ lọc"
+    },
+    "search": {
+        "placeholder": "Tìm kiếm cuộc trò chuyện",
+        "filter": "Lọc",
+        "sort": "Sắp xếp",
+        "type": "Loại",
+        "status": "Trạng thái",
+        "typeFilter": "Loại cuộc trò chuyện",
+        "statusFilter": "Trạng thái cuộc trò chuyện",
+        "allConversationTypes": "Tất cả cuộc trò chuyện",
+        "allStatuses": "Tất cả trạng thái",
+        "filterUnread": "Lọc cuộc trò chuyện chưa đọc",
+        "isUnread": "Chưa đọc"
+    },
+    "sort": {
+        "newest": "Mới nhất trước",
+        "oldest": "Cũ nhất trước"
+    },
+    "section": {
+        "pinned": "Mục yêu thích",
+        "unpinned": "Cuộc trò chuyện khác"
+    },
+    "card": {
+        "teamChat": "Trò chuyện nhóm",
+        "pin": "Ghim cuộc trò chuyện",
+        "unpin": "Bỏ ghim cuộc trò chuyện",
+        "addFavorite": "Thêm vào yêu thích",
+        "removeFavorite": "Xóa khỏi yêu thích",
+        "oneMessage": "1 tin nhắn",
+        "manyMessages": "{{count}} tin nhắn",
+        "messagesSentSuffix": "{{label}} đã gửi trong cuộc trò chuyện này",
+        "typingOne": "{{name}} đang nhập",
+        "typingTwo": "{{name1}} và {{name2}} đang nhập",
+        "typingMany": "{{count}} người đang nhập",
+        "sharedAFile": "đã chia sẻ một tệp",
+        "sharedFiles": "đã chia sẻ {{count}} tệp",
+        "senderPrefix": "~ {{name}}"
+    },
+    "conversation": {
+        "forbidden": {
+            "title": "Cuộc trò chuyện không khả dụng",
+            "description": "Bạn không có quyền truy cập cuộc trò chuyện này."
+        },
+        "notFound": {
+            "title": "Không tìm thấy cuộc trò chuyện",
+            "description": "Cuộc trò chuyện này có thể đã bị xóa hoặc di chuyển."
+        },
+        "error": {
+            "title": "Không thể tải cuộc trò chuyện này",
+            "description": "Hãy thử lại hoặc quay lại các cuộc trò chuyện của bạn."
+        },
+        "tryAgain": "Thử lại",
+        "backToChats": "Quay lại danh sách trò chuyện",
+        "loading": "Đang tải...",
+        "fallbackTitle": "Cuộc trò chuyện"
+    },
+    "header": {
+        "search": "Tìm kiếm",
+        "viewParticipants": "Xem người tham gia",
+        "exportCsv": "Xuất ra CSV",
+        "exporting": "Đang xuất..."
+    },
+    "messageList": {
+        "loadingEarlier": "Đang tải tin nhắn trước đó",
+        "loadEarlier": "Tải tin nhắn trước đó"
+    },
+    "input": {
+        "placeholder": "Gửi tin nhắn",
+        "placeholderTo": "Gửi tin nhắn cho {{name}}",
+        "typePlaceholder": "Nhập tin nhắn...",
+        "replyingTo": "Trả lời {{name}}",
+        "cancelReply": "Hủy trả lời",
+        "attachFile": "Đính kèm tệp",
+        "addPhotosOrFiles": "Thêm ảnh hoặc tệp",
+        "sending": "Đang gửi tin nhắn",
+        "send": "Gửi tin nhắn",
+        "removeAttachment": "Xóa tệp đính kèm"
+    },
+    "searchDialog": {
+        "title": "Tìm kiếm tin nhắn",
+        "placeholder": "Tìm kiếm trong cuộc trò chuyện...",
+        "empty": "Nhập để tìm tin nhắn.",
+        "noResults": "Không tìm thấy tin nhắn nào.",
+        "loading": "Đang tải kết quả",
+        "more": "Thêm kết quả",
+        "activityEvent": "Sự kiện hoạt động",
+        "fallbackUser": "Người dùng",
+        "loadError": "Không thể tìm kiếm tin nhắn"
+    },
+    "participants": {
+        "title": "Người tham gia",
+        "description": "Tất cả những người tham gia cuộc trò chuyện này.",
+        "searchPlaceholder": "Tìm kiếm người dùng",
+        "noResults": "Không tìm thấy người dùng nào.",
+        "empty": "Không có người dùng nào trong cuộc trò chuyện này."
+    },
+    "delete": {
+        "title": "Xóa tin nhắn",
+        "description": "Bạn có chắc muốn xóa tin nhắn này không? Hành động này không thể hoàn tác.",
+        "cancel": "Hủy",
+        "confirm": "Xóa"
+    },
+    "message": {
+        "deleted": "Tin nhắn này đã bị xóa",
+        "edited": "(đã chỉnh sửa)",
+        "you": "Bạn",
+        "someone": "Ai đó",
+        "editEscape": "esc để",
+        "editEnter": "enter để",
+        "editCancel": "hủy",
+        "editSave": "lưu",
+        "viewProfile": "Xem hồ sơ",
+        "partOfOrg": "Người dùng này thuộc tổ chức {{organization}}."
+    },
+    "toolbar": {
+        "reply": "Trả lời",
+        "pin": "Ghim",
+        "unpin": "Bỏ ghim",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "ariaReply": "Trả lời tin nhắn",
+        "ariaPin": "Ghim tin nhắn",
+        "ariaUnpin": "Bỏ ghim tin nhắn",
+        "ariaEdit": "Chỉnh sửa tin nhắn",
+        "ariaDelete": "Xóa tin nhắn"
+    },
+    "pinned": {
+        "empty": "Không có tin nhắn đã ghim",
+        "goTo": "Đi tới",
+        "viewAll": "Tin nhắn đã ghim",
+        "pinnedByPrefix": "đã ghim",
+        "aMessage": "một tin nhắn",
+        "toThisChannel": "vào kênh này."
+    },
+    "systemMessage": {
+        "openRequest": "Mở yêu cầu",
+        "downloadPdf": "Tải PDF"
+    },
+    "attachmentUpload": {
+        "uploadFailed": "Không thể tải tệp lên",
+        "invalidFileType": "Loại tệp không hợp lệ. Chỉ cho phép tệp {{formats}}.",
+        "maxFiles": "Tối đa {{count}} tệp cho mỗi tin nhắn.",
+        "fileTooLarge": "Tệp {{filename}} vượt quá kích thước tối đa {{size}}."
+    },
+    "toast": {
+        "tryAgain": "Thử lại",
+        "loadMoreFailed": "Không thể tải thêm cuộc trò chuyện.",
+        "loadConversationsFailed": "Không thể tải cuộc trò chuyện.",
+        "refreshConversationsFailed": "Không thể làm mới cuộc trò chuyện.",
+        "loadConversationFailed": "Không thể tải cuộc trò chuyện.",
+        "loadEarlierFailed": "Không thể tải tin nhắn trước đó.",
+        "messageNotLoaded": "Tin nhắn chưa được tải.",
+        "sendMessageFailed": "Không thể gửi tin nhắn",
+        "messageDeleted": "Đã xóa tin nhắn",
+        "messageUpdated": "Đã cập nhật tin nhắn",
+        "deleteMessageFailedWindow": "Không thể xóa tin nhắn. Hãy kiểm tra bạn còn trong khoảng 15 phút.",
+        "updateMessageFailedWindow": "Không thể cập nhật tin nhắn. Hãy kiểm tra bạn còn trong khoảng 15 phút.",
+        "messagePinned": "Đã ghim tin nhắn",
+        "messageUnpinned": "Đã bỏ ghim tin nhắn",
+        "pinMessageFailed": "Không thể ghim tin nhắn",
+        "unpinMessageFailed": "Không thể bỏ ghim tin nhắn",
+        "addingFavorite": "Đang thêm vào yêu thích",
+        "removingFavorite": "Đang xóa khỏi yêu thích",
+        "favoriteAdded": "Đã thêm vào yêu thích",
+        "favoriteRemoved": "Đã xóa khỏi yêu thích",
+        "addFavoriteFailed": "Không thể thêm vào yêu thích",
+        "removeFavoriteFailed": "Không thể xóa khỏi yêu thích",
+        "undo": "Hoàn tác",
+        "noMessagesToExport": "Không có tin nhắn để xuất",
+        "exportTeamAdminsOnly": "Chỉ quản trị viên và chủ sở hữu có thể xuất trò chuyện nhóm",
+        "exported_one": "Đã xuất {{count}} tin nhắn",
+        "exported_other": "Đã xuất {{count}} tin nhắn",
+        "exportFailed": "Không thể xuất cuộc trò chuyện"
+    },
+    "export": {
+        "system": "Hệ thống",
+        "unknown": "Không xác định",
+        "organization": "Tổ chức",
+        "user": "Người dùng",
+        "notAvailable": "Không có",
+        "deleted": "[Đã xóa]",
+        "none": "Không có",
+        "yes": "Có",
+        "no": "Không"
+    },
+    "attachment": {
+        "download": "Tải xuống",
+        "openNewWindow": "Mở trong cửa sổ mới",
+        "openNewTab": "Mở trong tab mới",
+        "close": "Đóng",
+        "zoomIn": "Phóng to",
+        "zoomOut": "Thu nhỏ",
+        "previous": "Trước",
+        "next": "Sau",
+        "previousAria": "Tệp đính kèm trước",
+        "nextAria": "Tệp đính kèm sau",
+        "downloadPdfLabel": "Tải PDF",
+        "downloadFileLabel": "Tải tệp",
+        "remove": "Xóa tệp đính kèm",
+        "you": "Bạn"
+    },
+    "scrollToBottom": {
+        "aria": "Cuộn xuống dưới"
+    },
+    "mention": {
+        "membersMatching": "Thành viên khớp với @{{query}}",
+        "members": "Thành viên",
+        "rolesMatching": "Vai trò khớp với @{{query}}",
+        "roles": "Vai trò",
+        "roleDescription": {
+            "owner": "Thông báo cho chủ sở hữu",
+            "admin": "Thông báo cho tất cả quản trị viên",
+            "member": "Thông báo cho tất cả thành viên"
+        }
+    },
+    "readReceipts": {
+        "seenBy": "Đã được {{name}} xem"
+    },
+    "systemEvent": {
+        "requests": {
+            "event": {
+                "submitted": "Yêu cầu #{{requestNumber}} đã được gửi bởi {{requesterName}}",
+                "rejected": "Yêu cầu #{{requestNumber}} đã bị từ chối{{reason}}",
+                "canceled": "Yêu cầu #{{requestNumber}} đã bị hủy bởi {{requesterName}}",
+                "assigned": "Yêu cầu #{{requestNumber}} đã được giao cho {{memberName}}",
+                "reassigned": "Yêu cầu #{{requestNumber}} đã được giao lại cho {{memberName}}",
+                "unassigned": "Yêu cầu #{{requestNumber}} đã bỏ phân công khỏi {{memberName}}",
+                "linkedToAccount": "Yêu cầu #{{requestNumber}} đã được liên kết với tài khoản của {{userName}}",
+                "accountCreated": "Đã tạo tài khoản cho {{userName}}",
+                "accountCreatedAndLinked": "Đã tạo và liên kết tài khoản cho {{userName}}",
+                "newSubmittedToOrg": "Yêu cầu mới {{requestNumber}} do {{requesterName}} gửi đến {{organizationName}}"
+            }
+        },
+        "settings": {
+            "emailIntake": {
+                "enabledBy": "{{userName}} đã bật tiếp nhận qua email",
+                "disabledBy": "{{userName}} đã tắt tiếp nhận qua email"
+            }
+        },
+        "quotes": {
+            "event": {
+                "sentBy": "Báo giá {{quoteNumber}} đã được gửi bởi {{organizationName}}"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "breadcrumb": "Paramètres du compte",
+    "head": {
+        "title": "Paramètres du compte",
+        "subtitle": "Gérez vos préférences personnelles."
+    },
+    "profile": {
+        "title": "Profil",
+        "description": "Votre nom et votre avatar sont partagés entre tous les produits Ortelius. Modifiez-les une seule fois dans le portail de compte central et les changements se propagent partout.",
+        "openPortal": "Ouvrir le portail de compte"
+    },
+    "leaveOrganization": {
+        "title": "Quitter l'organisation",
+        "description": "Quitter {{organizationName}} révoquera votre accès à ses données, membres et messages. Toute demande qui vous est assignée sera désassignée. Cette action est irréversible.",
+        "action": "Quitter l'organisation",
+        "dialog": {
+            "title": "Quitter {{organizationName}} ?",
+            "description": "Vous perdrez l'accès à cette organisation, à ses membres, à ses demandes et à ses messages. Toute demande qui vous est actuellement assignée sera désassignée. Cette action est irréversible.",
+            "confirmLabelPrefix": "Pour confirmer, tapez",
+            "confirmLabelSuffix": "ci-dessous :",
+            "cancel": "Annuler",
+            "submitting": "Sortie en cours...",
+            "confirm": "Quitter l'organisation"
+        },
+        "toast": {
+            "success": "Vous avez quitté {{organizationName}}",
+            "error": "Échec de la sortie de l'organisation"
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "page": {
+        "breadcrumb": "Solicitudes",
+        "incomingTitle": "Solicitudes recibidas",
+        "outgoingTitle": "Solicitudes enviadas",
+        "incomingSubtitle": "Gestiona las solicitudes recibidas por tu organización.",
+        "outgoingSubtitle": "Consulta y gestiona tus solicitudes enviadas."
+    },
+    "table": {
+        "searchPlaceholder": "Buscar solicitudes",
+        "pageInfoLabel": "solicitudes",
+        "column": {
+            "request": "Solicitud",
+            "requester": "Solicitante",
+            "organization": "Organización",
+            "assignedTo": "Asignada a",
+            "status": "Estado",
+            "period": "Período",
+            "priority": "Prioridad"
+        },
+        "actions": {
+            "tableActions": "Acciones de la tabla",
+            "openMenu": "Abrir menú",
+            "openRequest": "Abrir solicitud",
+            "openQuote": "Abrir cotización",
+            "assignRequest": "Asignar solicitud",
+            "reassignRequest": "Reasignar solicitud",
+            "chatWith": "Chatear con {{name}}",
+            "shareToTeamChat": "Compartir en el chat del equipo",
+            "download": "Descargar",
+            "exportCsv": "Exportar como CSV",
+            "exporting": "Exportando..."
+        },
+        "empty": {
+            "errorTitle": "No se pueden cargar las solicitudes.",
+            "filteredTitle": "Ninguna solicitud coincide con los filtros actuales.",
+            "clearFilters": "Borrar filtros",
+            "incomingTitle": "No hay solicitudes recibidas.",
+            "outgoingTitle": "No hay solicitudes enviadas."
+        }
+    },
+    "filters": {
+        "datePlaceholder": "Seleccionar período",
+        "assigneePlaceholder": "Todos los asignados",
+        "priorityPlaceholder": "Todas las prioridades",
+        "statusLabel": "Estado",
+        "searchMember": "Buscar miembro...",
+        "selectedCount": "{{count}} seleccionados",
+        "noPrioritiesFound": "No se encontraron prioridades.",
+        "noMembersFound": "No se encontraron miembros."
+    },
+    "status": {
+        "draft": "Borrador",
+        "open": "Abierta",
+        "closed": "Cerrada",
+        "pending": "Pendiente",
+        "quoted": "Cotizada",
+        "rejected": "Rechazada",
+        "canceled": "Cancelada",
+        "cancelled": "Cancelada",
+        "quote_rejected": "Cotización rechazada",
+        "invoiced": "Facturada",
+        "expired": "Caducada"
+    },
+    "priority": {
+        "high": "Alta",
+        "medium": "Media",
+        "low": "Baja",
+        "none": "—"
+    },
+    "assign": {
+        "titleAssign": "Asignar solicitud",
+        "titleReassign": "Reasignar solicitud",
+        "descriptionAssign": "Elige un usuario al que asignar esta solicitud.",
+        "descriptionReassign": "Elige un usuario al que reasignar esta solicitud.",
+        "searchPlaceholder": "Buscar usuario",
+        "noMembersFound": "No se encontraron miembros.",
+        "noMembersAvailable": "No hay miembros disponibles.",
+        "assigneeLegend": "Asignado",
+        "youBadge": "Tú",
+        "validationRequired": "Por favor selecciona un miembro para asignar.",
+        "assign": "Asignar",
+        "reassign": "Reasignar",
+        "unassign": "Quitar asignación",
+        "assigning": "Asignando...",
+        "unassigning": "Quitando asignación..."
+    },
+    "cancelDialog": {
+        "cancel": {
+            "trigger": "Cancelar solicitud",
+            "title": "Cancelar solicitud",
+            "verb": "cancelar",
+            "action": "Sí, cancelar solicitud",
+            "loading": "Cancelando..."
+        },
+        "reject": {
+            "trigger": "Rechazar solicitud",
+            "title": "Rechazar solicitud",
+            "verb": "rechazar",
+            "action": "Confirmar rechazo",
+            "loading": "Rechazando..."
+        },
+        "discard": {
+            "trigger": "Descartar borrador",
+            "title": "Descartar borrador",
+            "verb": "descartar",
+            "action": "Sí, descartar borrador",
+            "loading": "Descartando..."
+        },
+        "description": "¿Seguro que quieres {{verb}} <strong>{{requestNumber}}</strong>? Esta acción no se puede deshacer."
+    },
+    "rejectionDialog": {
+        "title": "Rechazar solicitud",
+        "description": "Indica el motivo del rechazo de esta solicitud. El solicitante será notificado de tu decisión.",
+        "requestNumberLabel": "Número de solicitud",
+        "reasonLabel": "Motivo del rechazo",
+        "reasonPlaceholder": "Por favor explica por qué rechazas esta solicitud",
+        "reasonRequired": "Por favor proporciona un motivo para el rechazo.",
+        "submit": "Rechazar solicitud",
+        "submitting": "Rechazando..."
+    },
+    "modalFooter": {
+        "submitQuote": "Enviar cotización",
+        "submittingQuote": "Enviando...",
+        "cancelEdit": "Cancelar edición",
+        "answerWithQuote": "Responder con cotización",
+        "legalsRequired": "Sube al menos un documento legal antes de enviar una cotización.",
+        "goToLegals": "Ir a documentos legales",
+        "validateDraft": "Validar borrador",
+        "validatingDraft": "Validando..."
+    },
+    "toast": {
+        "requestCanceled": "Solicitud cancelada",
+        "failedToCancel": "No se pudo cancelar la solicitud",
+        "requestRejected": "Solicitud rechazada",
+        "failedToReject": "No se pudo rechazar la solicitud",
+        "draftValidated": "Borrador validado",
+        "failedToValidate": "No se pudo validar el borrador",
+        "draftDiscarded": "Borrador descartado",
+        "failedToDiscard": "No se pudo descartar el borrador",
+        "failedToLoadRequests": "No se pudieron cargar las solicitudes"
+    },
+    "sharedRequest": {
+        "dateRange": "{{from}} a {{to}}",
+        "notFound": "Solicitud no encontrada"
+    },
+    "error": {
+        "notFound": "Solicitud no encontrada",
+        "cancelForbidden": "No tienes permiso para cancelar esta solicitud",
+        "organizationForbidden": "No tienes permiso para acceder a las solicitudes de esta organización",
+        "shareForbidden": "No tienes permiso para compartir esta solicitud",
+        "invalidAssignment": "Asignación no válida",
+        "invalidState": "La solicitud está en un estado no válido para esta acción",
+        "teamChatNotFound": "Chat del equipo no encontrado",
+        "loadFailed": "No se pudieron cargar las solicitudes.",
+        "responseShape": "La respuesta de la API de solicitudes no coincide con la estructura esperada."
+    }
+}

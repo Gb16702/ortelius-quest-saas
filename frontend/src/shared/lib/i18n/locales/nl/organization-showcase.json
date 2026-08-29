@@ -1,0 +1,49 @@
+{
+    "header": {
+        "contactSupport": "Contact opnemen met support",
+        "sendRequest": "Aanvraag versturen",
+        "share": "Delen",
+        "copySuccess": "Paginalink gekopieerd. Deel hem met je prospects.",
+        "copyError": "Link kopiëren mislukt",
+        "noTagline": "Nog geen slogan.",
+        "addTagline": "Voeg er een toe"
+    },
+    "overview": {
+        "title": "Overzicht",
+        "emptyTitle": "Nog geen overzicht.",
+        "addOverview": "Overzicht toevoegen"
+    },
+    "services": {
+        "title": "Wat we aanbieden"
+    },
+    "cargoTypes": {
+        "title": "Wat we vervoeren"
+    },
+    "details": {
+        "title": "Details",
+        "organization": "Organisatie",
+        "members": "Leden",
+        "activeSince": "Actief sinds",
+        "website": "Website"
+    },
+    "sheet": {
+        "title": "Aanvraag versturen",
+        "subtitle": "Vul de gegevens hieronder in om je transportaanvraag te versturen.",
+        "close": "Sluiten",
+        "steps": {
+            "contactInformation": "Contactgegevens",
+            "cargoType": "Ladingtype",
+            "services": "Diensten",
+            "details": "Details"
+        }
+    },
+    "error": {
+        "notFoundTitle": "Bedrijfspagina niet gevonden",
+        "notFoundMessage": "Er is geen openbare bedrijfspagina beschikbaar op dit adres. De link is mogelijk verouderd of de pagina is nog niet gepubliceerd.",
+        "unavailableTitle": "Bedrijfspagina tijdelijk niet beschikbaar",
+        "unavailableMessage": "Deze pagina bestaat mogelijk nog, maar de gegevens konden niet worden geladen. Probeer het zo opnieuw.",
+        "retry": "Opnieuw proberen",
+        "returnHome": "Terug naar home",
+        "headNotFound": "Organisatie niet gevonden — Ortelius Quest"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "sidebar": {
+        "searchPlaceholder": "Rechercher...",
+        "searchEmpty": "Aucun résultat.",
+        "subtitlePage": "Page",
+        "subtitleAction": "Action",
+        "subtitleNavigation": "Navigation",
+        "requests": "Demandes",
+        "chats": "Discussions",
+        "chat": "Discussion",
+        "account": "Compte",
+        "accountSettings": "Paramètres du compte",
+        "dashboard": "Tableau de bord",
+        "team": "Équipe",
+        "members": "Membres",
+        "membersSection": "Membres de l'équipe",
+        "favoriteRequesterChat": "Discussion de demande avec {{name}}",
+        "favoriteRequesterChatWithRequest": "Discussion demande #{{requestNumber}} avec {{name}}",
+        "invitations": "Invitations",
+        "activity": "Activité",
+        "settings": "Paramètres",
+        "branding": "Identité visuelle",
+        "business": "Entreprise",
+        "billing": "Facturation",
+        "invoices": "Factures",
+        "legals": "Mentions légales",
+        "try": "À essayer",
+        "shareCompanyPage": "Partager la page entreprise",
+        "inviteMembers": "Inviter des membres",
+        "setupChecklist": {
+            "title": "Getting started",
+            "open": "Ouvrir la checklist de démarrage",
+            "close": "Fermer la checklist de démarrage",
+            "progress": "{{percent}} % terminé",
+            "stepsCompleted": "{{completed}}/{{total}} étapes terminées",
+            "continue": "Continuer le setup"
+        },
+        "openNotifications": "Ouvrir les notifications",
+        "memberCount_one": "{{count}} membre",
+        "memberCount_other": "{{count}} membres",
+        "homePage": "Accueil",
+        "signOut": "Se déconnecter",
+        "backToOrg": "Retour à {{org}}"
+    },
+    "topbar": {
+        "openNotifications": "Ouvrir les notifications",
+        "openAccountMenu": "Ouvrir le menu du compte",
+        "viewProfile": "Voir le profil",
+        "homePage": "Accueil",
+        "accountSettings": "Paramètres du compte",
+        "signOut": "Se déconnecter",
+        "unknownUser": "Utilisateur"
+    },
+    "userMenu": {
+        "language": "Langue"
+    },
+    "header": {
+        "signIn": "Se connecter",
+        "getStarted": "Commencer",
+        "unknownUser": "Utilisateur inconnu",
+        "dashboard": "Tableau de bord",
+        "requests": "Demandes",
+        "chat": "Discussion",
+        "members": "Membres",
+        "accountSettings": "Paramètres du compte",
+        "signOut": "Se déconnecter"
+    }
+}

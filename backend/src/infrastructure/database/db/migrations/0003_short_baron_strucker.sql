@@ -1,0 +1,2 @@
+ALTER TABLE "request" ADD COLUMN "receiver_organization_id" text;--> statement-breakpoint
+ALTER TABLE "request" ADD CONSTRAINT "request_receiver_organization_id_organization_id_fk" FOREIGN KEY ("receiver_organization_id") REFERENCES "public"."organization"("id") ON DELETE cascade ON UPDATE no action;

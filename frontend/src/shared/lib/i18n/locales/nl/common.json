@@ -1,0 +1,58 @@
+{
+    "action": {
+        "confirm": "Bevestigen",
+        "cancel": "Annuleren",
+        "close": "Sluiten",
+        "save": "Opslaan",
+        "delete": "Verwijderen",
+        "next": "Volgende",
+        "back": "Terug",
+        "retry": "Opnieuw",
+        "tryAgain": "Opnieuw proberen",
+        "undo": "Ongedaan maken",
+        "copy": "Kopiëren",
+        "openNavigation": "Zijbalk openen",
+        "closeNavigation": "Zijbalk sluiten"
+    },
+    "state": {
+        "loading": "Laden...",
+        "empty": "Niets te tonen",
+        "error": "Er is iets misgegaan"
+    },
+    "role": {
+        "owner": "Eigenaar",
+        "admin": "Beheerder",
+        "member": "Lid"
+    },
+    "errorBoundary": {
+        "title": "Dit blok kon niet worden geladen",
+        "copySuccess": "Foutdetails gekopieerd naar klembord",
+        "copyError": "Kopiëren naar klembord mislukt"
+    },
+    "error": {
+        "BAD_REQUEST": "Ongeldige aanvraag",
+        "VALIDATION_ERROR": "Validatie mislukt",
+        "UNAUTHORIZED": "Authenticatie vereist",
+        "FORBIDDEN": "Onvoldoende rechten",
+        "NOT_FOUND": "Bron niet gevonden",
+        "METHOD_NOT_ALLOWED": "Methode niet toegestaan",
+        "CONFLICT": "Bronconflict",
+        "PAYLOAD_TOO_LARGE": "Payload te groot",
+        "RATE_LIMITED": "Te veel aanvragen",
+        "INTERNAL_SERVER_ERROR": "Er is een interne serverfout opgetreden",
+        "UPSTREAM_UNAVAILABLE": "Upstream-API niet beschikbaar",
+        "unknown": "Er is iets misgegaan"
+    },
+    "date": {
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "never": "Nooit"
+    },
+    "guestBadge": {
+        "label": "Gast",
+        "tooltip": {
+            "account": "Deze gebruiker heeft nog geen account aangemaakt.",
+            "notifications": "Meldingen worden per e-mail verzonden."
+        }
+    }
+}

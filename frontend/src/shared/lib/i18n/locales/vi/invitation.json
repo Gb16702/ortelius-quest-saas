@@ -1,0 +1,39 @@
+{
+    "loading": "Đang tải lời mời...",
+    "expired": {
+        "title": "Lời mời đã hết hạn",
+        "description": "Lời mời này đã hết hạn và không còn hiệu lực.",
+        "details": "Vui lòng liên hệ với quản trị viên tổ chức của bạn để nhận lời mời mới."
+    },
+    "invalid": {
+        "title": "Không tìm thấy lời mời",
+        "description": "Lời mời này không hợp lệ hoặc đã bị xóa."
+    },
+    "card": {
+        "logoAlt": "Biểu trưng của {{organizationName}}",
+        "joinTitle": "Tham gia {{organizationName}}",
+        "inviterDescription_admin": "<inviter>{{inviterName}}</inviter> đã mời bạn tham gia nhóm. Cùng nhau quản lý các yêu cầu với vai trò <role>{{roleLabel}}</role>.",
+        "inviterDescription_member": "<inviter>{{inviterName}}</inviter> đã mời bạn tham gia nhóm. Cùng nhau quản lý các yêu cầu với vai trò <role>{{roleLabel}}</role>.",
+        "anonymousDescription_admin": "Tham gia nhóm và bắt đầu cùng nhau quản lý các yêu cầu. Nhấn bên dưới để tham gia với vai trò <role>{{roleLabel}}</role>.",
+        "anonymousDescription_member": "Tham gia nhóm và bắt đầu cùng nhau quản lý các yêu cầu. Nhấn bên dưới để tham gia với vai trò <role>{{roleLabel}}</role>.",
+        "signInToAccept": "Đăng nhập để chấp nhận",
+        "useDifferentAccount": "Dùng tài khoản khác",
+        "alreadyHaveAccount": "Đã có tài khoản? Đăng nhập",
+        "joinAction": "Tham gia {{organizationName}}"
+    },
+    "status": {
+        "pending": "Đang chờ",
+        "accepted": "Đã chấp nhận",
+        "canceled": "Đã hủy"
+    },
+    "error": {
+        "notFound": "Không tìm thấy lời mời.",
+        "wrongEmail": "Lời mời này được gửi đến một địa chỉ email khác. Hãy đăng nhập bằng tài khoản đúng để chấp nhận.",
+        "alreadyMember": "Bạn đã là thành viên của tổ chức này.",
+        "notPending": "Lời mời này không thể được chấp nhận nữa.",
+        "expired": "Lời mời này đã hết hạn.",
+        "acceptFailed": "Không thể chấp nhận lời mời.",
+        "invalidLink": "Liên kết lời mời không hợp lệ",
+        "unexpected": "Đã xảy ra lỗi không mong đợi"
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "breadcrumb": {
+        "team": "Nhóm",
+        "members": "Thành viên",
+        "invitations": "Lời mời",
+        "activity": "Hoạt động"
+    },
+    "members": {
+        "title": "Thành viên",
+        "subtitleAdmin": "Quản lý các thành viên trong tổ chức và vai trò của họ.",
+        "subtitleMember": "Xem các thành viên trong tổ chức của bạn.",
+        "inviteAction": "Mời thành viên",
+        "table": {
+            "memberHeader": "Thành viên",
+            "roleHeader": "Vai trò",
+            "twoFactorHeader": "2FA",
+            "joinedOnHeader": "Tham gia ngày",
+            "lastSeenHeader": "Lần cuối truy cập",
+            "youBadge": "Bạn",
+            "online": "Trực tuyến",
+            "twoFactorEnabled": "Đã bật",
+            "twoFactorDisabled": "Đã tắt",
+            "tableActionsLabel": "Thao tác bảng",
+            "openMenuLabel": "Mở menu",
+            "viewProfile": "Xem hồ sơ",
+            "messageMember": "Nhắn tin thành viên",
+            "chatWithMember": "Trò chuyện với {{name}}",
+            "editRole": "Chỉnh sửa vai trò",
+            "removeMember": "Xóa thành viên",
+            "exportCsv": "Xuất ra CSV",
+            "exporting": "Đang xuất...",
+            "pageInfoLabel": "thành viên",
+            "emptyTitle": "Không có thành viên nào khớp với bộ lọc hiện tại.",
+            "clearFilters": "Xóa bộ lọc"
+        },
+        "toast": {
+            "loadFailed": "Không thể tải dữ liệu thành viên",
+            "removeSuccess": "Đã xóa thành viên",
+            "removeFailed": "Không thể xóa thành viên",
+            "startChatFailed": "Không thể bắt đầu cuộc trò chuyện với thành viên",
+            "roleUpdated": "Đã cập nhật vai trò",
+            "roleUpdateFailed": "Không thể cập nhật vai trò"
+        }
+    },
+    "invitations": {
+        "title": "Lời mời",
+        "subtitle": "Theo dõi và quản lý các lời mời đã gửi.",
+        "table": {
+            "emailHeader": "Email",
+            "roleHeader": "Vai trò",
+            "statusHeader": "Trạng thái",
+            "invitedByHeader": "Người mời",
+            "expiresAtHeader": "Hết hạn vào",
+            "selectAllAriaLabel": "Chọn tất cả",
+            "selectRowAriaLabel": "Chọn dòng",
+            "openMenuLabel": "Mở menu",
+            "tableActionsLabel": "Thao tác bảng",
+            "resend": "Gửi lại lời mời",
+            "editRole": "Chỉnh sửa vai trò",
+            "cancel": "Hủy lời mời",
+            "addToArchive": "Thêm vào lưu trữ",
+            "removeFromArchive": "Bỏ khỏi lưu trữ",
+            "addingToArchive": "Đang thêm vào lưu trữ...",
+            "removingFromArchive": "Đang bỏ khỏi lưu trữ...",
+            "exportCsv": "Xuất ra CSV",
+            "exporting": "Đang xuất...",
+            "pageInfoLabel": "lời mời",
+            "emptyTitle": "Không có lời mời nào khớp với bộ lọc hiện tại.",
+            "clearFilters": "Xóa bộ lọc"
+        },
+        "toast": {
+            "loadFailed": "Không thể tải dữ liệu lời mời"
+        }
+    },
+    "invitationStatus": {
+        "pending": "Đang chờ",
+        "accepted": "Đã chấp nhận",
+        "canceled": "Đã hủy",
+        "expired": "Đã hết hạn",
+        "archived": "Đã lưu trữ"
+    },
+    "memberStatus": {
+        "accepted": "Đang hoạt động",
+        "pending": "Đang chờ",
+        "canceled": "Đã hủy"
+    },
+    "filters": {
+        "rolesLabel": "Vai trò",
+        "invitationsLabel": "Lời mời",
+        "searchMembersPlaceholder": "Tìm theo tên hoặc email",
+        "searchEmailPlaceholder": "Tìm theo email"
+    },
+    "inviteDialog": {
+        "title": "Mời thành viên",
+        "description": "Mời đồng nghiệp cùng hợp tác trong tổ chức của bạn.",
+        "emailPlaceholder": "dongnghiep@congty.com",
+        "rolePlaceholder": "Vai trò",
+        "validationHint": "Nhấn Enter hoặc Tab để xác nhận.",
+        "seatPricingNote": "Mỗi thành viên mới phát sinh {{price}} €/tháng, tính theo tỷ lệ.",
+        "send": "Gửi lời mời",
+        "sending": "Đang gửi...",
+        "close": "Đóng",
+        "errors": {
+            "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ",
+            "cannotInviteSelf": "Bạn không thể tự mời mình",
+            "duplicateEmail": "Email này đã có trong danh sách",
+            "atLeastOneEmail": "Vui lòng nhập ít nhất một địa chỉ email"
+        }
+    },
+    "inviteBreadcrumb": {
+        "ariaLabel": "Mời thành viên",
+        "tooltip": "Mời thành viên"
+    },
+    "editRoleDialog": {
+        "title": "Chỉnh sửa vai trò",
+        "description": "Thay đổi vai trò của <strong>{{name}}</strong>",
+        "update": "Cập nhật vai trò",
+        "updating": "Đang cập nhật...",
+        "close": "Đóng",
+        "legend": "Vai trò"
+    },
+    "editInvitationRoleDialog": {
+        "title": "Chỉnh sửa vai trò lời mời",
+        "description": "Thay đổi vai trò lời mời cho <strong>{{email}}</strong>",
+        "update": "Cập nhật vai trò",
+        "updating": "Đang cập nhật...",
+        "close": "Đóng",
+        "errors": {
+            "selectRole": "Vui lòng chọn một vai trò."
+        }
+    },
+    "removeMemberDialog": {
+        "title": "Xóa thành viên",
+        "description": "Bạn có chắc muốn xóa <strong>{{name}}</strong> khỏi tổ chức? Hành động này không thể hoàn tác.",
+        "seatReleaseNote": "Việc xóa một thành viên sẽ hoàn lại {{price}} €/tháng, tính theo tỷ lệ.",
+        "confirm": "Xác nhận xóa",
+        "removing": "Đang xóa...",
+        "close": "Đóng"
+    },
+    "cancelInvitationDialog": {
+        "titleOne": "Hủy lời mời",
+        "titleMany": "Hủy các lời mời",
+        "descriptionOne": "Bạn có chắc muốn hủy lời mời cho <strong>{{email}}</strong>? Hành động này không thể hoàn tác.",
+        "descriptionMany_one": "Bạn có chắc muốn hủy <strong>{{count}} lời mời</strong>? Chỉ các lời mời đang chờ sẽ bị hủy. Hành động này không thể hoàn tác.",
+        "descriptionMany_other": "Bạn có chắc muốn hủy <strong>{{count}} lời mời</strong>? Chỉ các lời mời đang chờ sẽ bị hủy. Hành động này không thể hoàn tác.",
+        "confirmOne": "Hủy lời mời",
+        "confirmMany": "Hủy các lời mời",
+        "canceling": "Đang hủy...",
+        "close": "Đóng"
+    },
+    "profile": {
+        "dialogTitle": "Hồ sơ thành viên",
+        "memberActionsLabel": "Thao tác thành viên",
+        "addFavorite": "Thêm vào mục yêu thích",
+        "removeFavorite": "Xóa khỏi yêu thích",
+        "chatWithMember": "Trò chuyện với {{name}}",
+        "editRole": "Chỉnh sửa vai trò",
+        "removeMember": "Xóa thành viên",
+        "loadFailedTitle": "Không thể tải hồ sơ",
+        "loadFailedDescription": "Đã xảy ra lỗi khi tải hồ sơ thành viên.",
+        "joinedAgo": "Đã tham gia {{duration}} trước",
+        "recentActivity": "Hoạt động gần đây",
+        "viewDetails": "Xem chi tiết",
+        "noRecentActivity": "Không có hoạt động gần đây.",
+        "assignedRequests": "Yêu cầu được giao",
+        "noAssignedRequests": "Không có yêu cầu được giao.",
+        "requestCreated": "Tạo {{distance}}"
+    },
+    "activity": {
+        "title": "Hoạt động",
+        "actorAll": "Tất cả người dùng",
+        "actorSelected": "Người dùng đã chọn",
+        "actorSearchPlaceholder": "Tìm thành viên...",
+        "actorEmpty": "Không tìm thấy thành viên.",
+        "datePresetSelectLabel": "Khoảng thời gian",
+        "emptyTitle": "Chưa có hoạt động nào.",
+        "emptyFilteredTitle": "Không có hoạt động nào khớp với bộ lọc của bạn.",
+        "clearFilters": "Xóa bộ lọc",
+        "loadMore": "Tải thêm",
+        "actorYou": "Bạn",
+        "actorSystem": "Hệ thống",
+        "filterSheetTitle": "Lọc theo sự kiện",
+        "filterTrigger": {
+            "ariaLabel": "Lọc theo sự kiện",
+            "tooltip": "Lọc theo sự kiện"
+        },
+        "eventFilter": {
+            "searchPlaceholder": "Tìm sự kiện...",
+            "selectAll": "Chọn tất cả",
+            "clearAll": "Bỏ chọn tất cả",
+            "selectedCount": "Đã chọn {{selected}} trên {{total}}",
+            "noMatch": "Không có sự kiện phù hợp"
+        },
+        "event": {
+            "request-created": {
+                "label": "Đã tạo yêu cầu",
+                "description": "Một yêu cầu mới đã được tạo"
+            },
+            "request-updated": {
+                "label": "Đã cập nhật yêu cầu",
+                "description": "Chi tiết yêu cầu đã được cập nhật"
+            },
+            "request-rejected": {
+                "label": "Đã từ chối yêu cầu",
+                "description": "Một yêu cầu đã bị từ chối"
+            },
+            "request-validated": {
+                "label": "Đã xác thực yêu cầu",
+                "description": "Một yêu cầu đã được xác thực"
+            },
+            "request-deleted": {
+                "label": "Đã xóa yêu cầu",
+                "description": "Một yêu cầu đã bị xóa"
+            },
+            "request-cancelled": {
+                "label": "Đã hủy yêu cầu",
+                "description": "Một yêu cầu đã bị hủy"
+            },
+            "request-document-removed": {
+                "label": "Đã xóa tài liệu",
+                "description": "Một tài liệu đã được gỡ khỏi yêu cầu"
+            },
+            "request-linked-to-user": {
+                "label": "Đã liên kết yêu cầu",
+                "description": "Một yêu cầu đã được liên kết với người dùng"
+            },
+            "request-assigned": {
+                "label": "Đã giao yêu cầu",
+                "description": "Một yêu cầu đã được giao cho thành viên"
+            },
+            "request-reassigned": {
+                "label": "Đã giao lại yêu cầu",
+                "description": "Một yêu cầu đã được giao lại cho thành viên khác"
+            },
+            "request-unassigned": {
+                "label": "Đã bỏ giao yêu cầu",
+                "description": "Yêu cầu đã được bỏ giao khỏi thành viên"
+            },
+            "request-shared-to-team-chat": {
+                "label": "Đã chia sẻ yêu cầu",
+                "description": "Một yêu cầu đã được chia sẻ vào chat nhóm"
+            },
+            "quote-created": {
+                "label": "Đã tạo báo giá",
+                "description": "Một báo giá mới đã được tạo"
+            },
+            "quote-updated": {
+                "label": "Đã cập nhật báo giá",
+                "description": "Chi tiết báo giá đã được cập nhật"
+            },
+            "quote-accepted": {
+                "label": "Đã chấp nhận báo giá",
+                "description": "Một báo giá đã được chấp nhận"
+            },
+            "quote-rejected": {
+                "label": "Đã từ chối báo giá",
+                "description": "Một báo giá đã bị từ chối"
+            },
+            "invoice-created": {
+                "label": "Đã tạo hóa đơn",
+                "description": "Một hóa đơn mới đã được tạo"
+            },
+            "invoice-sent": { "label": "Đã gửi hóa đơn", "description": "Một hóa đơn đã được gửi" },
+            "member-invited": {
+                "label": "Đã mời thành viên",
+                "description": "Một thành viên mới đã được mời vào tổ chức"
+            },
+            "invitation-resent": {
+                "label": "Đã gửi lại lời mời",
+                "description": "Một email lời mời đã được gửi lại"
+            },
+            "invitation-role-updated": {
+                "label": "Đã cập nhật vai trò lời mời",
+                "description": "Vai trò trên lời mời đang chờ đã được thay đổi"
+            },
+            "invitation-cancelled": {
+                "label": "Đã hủy lời mời",
+                "description": "Một lời mời đang chờ đã bị hủy"
+            },
+            "member-role-updated": {
+                "label": "Đã cập nhật vai trò",
+                "description": "Vai trò của một thành viên đã được thay đổi"
+            },
+            "member-removed": {
+                "label": "Đã xóa thành viên",
+                "description": "Một thành viên đã bị xóa khỏi tổ chức"
+            },
+            "member-left": {
+                "label": "Thành viên đã rời",
+                "description": "Một thành viên đã rời khỏi tổ chức"
+            },
+            "invitations-cancelled-bulk": {
+                "label": "Đã hủy lời mời",
+                "description": "Nhiều lời mời đã bị hủy cùng lúc"
+            },
+            "organization-updated": {
+                "label": "Đã cập nhật tổ chức",
+                "description": "Chi tiết tổ chức đã được cập nhật"
+            },
+            "organization-categories-updated": {
+                "label": "Đã cập nhật danh mục",
+                "description": "Các danh mục của tổ chức đã được cập nhật"
+            },
+            "organization-services-updated": {
+                "label": "Đã cập nhật dịch vụ",
+                "description": "Các dịch vụ của tổ chức đã được cập nhật"
+            },
+            "organization-tax-id-updated": {
+                "label": "Đã cập nhật mã số thuế",
+                "description": "Mã số thuế của tổ chức đã được cập nhật"
+            },
+            "organization-logo-updated": {
+                "label": "Đã cập nhật logo",
+                "description": "Logo của tổ chức đã được cập nhật"
+            },
+            "organization-logo-removed": {
+                "label": "Đã gỡ logo",
+                "description": "Logo của tổ chức đã được gỡ"
+            },
+            "showcase-invitations-sent": {
+                "label": "Đã gửi lời mời trưng bày",
+                "description": "Các lời mời trưng bày đã được gửi tới khách hàng tiềm năng"
+            },
+            "email-intake-updated": {
+                "label": "Đã cập nhật tiếp nhận email",
+                "description": "Cài đặt tiếp nhận email đã được cập nhật"
+            },
+            "service-pricing-updated": {
+                "label": "Đã cập nhật giá dịch vụ",
+                "description": "Cài đặt giá dịch vụ đã được cập nhật"
+            },
+            "call-started": {
+                "label": "Đã bắt đầu cuộc gọi",
+                "description": "Một cuộc gọi đã được bắt đầu"
+            },
+            "call-ended": {
+                "label": "Đã kết thúc cuộc gọi",
+                "description": "Một cuộc gọi đã được kết thúc"
+            },
+            "subscription-created": {
+                "label": "Đã tạo gói đăng ký",
+                "description": "Một gói đăng ký đã được tạo"
+            },
+            "subscription-confirmed": {
+                "label": "Đã xác nhận gói đăng ký",
+                "description": "Một gói đăng ký đã được xác nhận"
+            },
+            "subscription-seats-reconciled": {
+                "label": "Đã đối soát chỗ ngồi đăng ký",
+                "description": "Chỗ ngồi đăng ký đã được đối soát với số lượng thành viên hiện tại"
+            },
+            "user-name-updated": {
+                "label": "Đã cập nhật tên",
+                "description": "Một thành viên đã cập nhật tên hiển thị"
+            },
+            "two-factor-enabled": {
+                "label": "Đã bật 2FA",
+                "description": "Xác thực hai yếu tố đã được bật"
+            },
+            "two-factor-disabled": {
+                "label": "Đã tắt 2FA",
+                "description": "Xác thực hai yếu tố đã được tắt"
+            }
+        }
+    }
+}

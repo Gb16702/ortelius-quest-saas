@@ -1,0 +1,379 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "pricing": "Bảng giá",
+        "contact": "Liên hệ",
+        "signUp": "Đăng ký",
+        "signIn": "Đăng nhập",
+        "tryForFree": "Dùng thử miễn phí",
+        "openApp": "Mở ứng dụng"
+    },
+    "footer": {
+        "tagline1": "Quản lý yêu cầu vận chuyển",
+        "tagline2": "cho các công ty logistics",
+        "company": "Công ty",
+        "legal": "Pháp lý",
+        "socials": "Mạng xã hội",
+        "discoverMarketplace": "Khám phá Marketplace",
+        "termsOfService": "Điều khoản dịch vụ",
+        "privacyPolicy": "Chính sách bảo mật",
+        "cookiePolicy": "Chính sách cookie",
+        "copyright": "© {{year}} Ortelius Quest. Bảo lưu mọi quyền."
+    },
+    "home": {
+        "hero": {
+            "title": "Biến yêu cầu thành doanh thu",
+            "subtitle": "Nắm bắt mọi cơ hội vận chuyển trong một cổng thông tin thương hiệu. Phản hồi nhanh hơn, chốt nhiều đơn hơn.",
+            "bookDemo": "Đặt lịch Demo",
+            "tryForFree": "Dùng thử miễn phí",
+            "heroImageAlt": "Bảng điều khiển Ortelius Quest - Yêu cầu đến"
+        },
+        "howItWorks": {
+            "label": "Cách hoạt động",
+            "title": "Cách thông minh hơn để quản lý vận chuyển.",
+            "subtitle": "Ba bước đơn giản. Không bỏ lỡ cơ hội nào.",
+            "step1": {
+                "number": "01",
+                "title": "Tập trung yêu cầu",
+                "description": "Khách hàng gửi yêu cầu qua cổng thông tin thương hiệu của bạn. Xem, sắp xếp và phản hồi mọi thứ tại một nơi với chat và gọi điện tích hợp."
+            },
+            "step2": {
+                "number": "02",
+                "title": "Phân công & định tuyến",
+                "description": "Phân công yêu cầu cho đúng thành viên trong nhóm và cộng tác với ghi chú nội bộ trên mỗi giao dịch."
+            },
+            "step3": {
+                "number": "03",
+                "title": "Phản hồi nhanh hơn",
+                "description": "Theo dõi và phản hồi mọi yêu cầu từ một bảng điều khiển duy nhất. Không còn phải chuyển đổi giữa email, điện thoại và bảng tính."
+            }
+        },
+        "features": {
+            "builtForBusiness": {
+                "label": "Xây dựng cho doanh nghiệp",
+                "title": "Cấu hình mọi thứ phù hợp với cách bạn làm việc",
+                "description": "Doanh nghiệp logistics của bạn là độc nhất. Thiết lập cổng thông tin, các trường tùy chỉnh và quy trình làm việc một lần, sau đó để nó chạy tự động.",
+                "portal": {
+                    "title": "Cổng khách hàng thương hiệu",
+                    "description": "Khách hàng gửi yêu cầu tại congty.ortelius.app. Chuyên nghiệp, có thương hiệu, luôn hoạt động."
+                },
+                "setup": {
+                    "title": "Thiết lập doanh nghiệp",
+                    "description": "Cấu hình một lần, làm việc theo cách của bạn mãi mãi. Nền tảng thích ứng với hoạt động của bạn, không phải ngược lại."
+                }
+            },
+            "respondInstantly": {
+                "label": "Phản hồi ngay lập tức",
+                "title": "Chat và gọi thoại tích hợp",
+                "description": "Ngừng phải xoay sở giữa email, điện thoại và bảng tính. Giao tiếp với khách hàng trực tiếp trong nền tảng.",
+                "chat": {
+                    "title": "Chat thời gian thực",
+                    "description": "Nhắn tin ngay lập tức. Lịch sử hội thoại đầy đủ đính kèm với mọi yêu cầu, không còn chuỗi email nữa."
+                },
+                "calling": {
+                    "title": "Gọi điện một chạm",
+                    "description": "Gọi khách hàng trực tiếp từ nền tảng. Tất cả cuộc gọi được ghi lại và theo dõi tự động."
+                }
+            },
+            "trackEverything": {
+                "label": "Theo dõi mọi thứ",
+                "title": "Từ báo giá đến hóa đơn. Không bỏ sót gì",
+                "description": "Biết chính xác mỗi giao dịch đang ở đâu. Từ yêu cầu đầu tiên đến giao hàng cuối cùng, theo dõi tất cả tại một nơi.",
+                "pipeline": {
+                    "title": "Pipeline trực quan",
+                    "description": "Xem chính xác mỗi giao dịch đang ở đâu trong nháy mắt, từ yêu cầu đến giao hàng."
+                },
+                "filters": {
+                    "title": "Bộ lọc thông minh",
+                    "description": "Sắp xếp theo trạng thái, khách hàng, ngày, tuyến đường hoặc mức độ khẩn cấp. Tìm bất kỳ yêu cầu nào trong vài giây."
+                }
+            },
+            "tryForFree": "Dùng thử miễn phí"
+        }
+    },
+    "pricing": {
+        "title": "Bảng giá phát triển cùng bạn",
+        "subtitle": {
+            "currentPlan": "Bạn đang sử dụng gói {{plan}}.",
+            "choosePlan": "Chọn gói phù hợp với đội ngũ của bạn.",
+            "withTrial": "Tất cả các gói đều bao gồm 14 ngày dùng thử miễn phí. Chọn gói phù hợp với đội ngũ của bạn. Dùng thử miễn phí, không cần thẻ tín dụng."
+        },
+        "comparePlans": "So sánh các gói",
+        "plans": {
+            "starter": "Cơ bản",
+            "professional": "Chuyên nghiệp",
+            "enterprise": "Doanh nghiệp"
+        },
+        "perUserMonth": "mỗi người dùng / tháng",
+        "contactUs": "Liên hệ",
+        "getPlan": "Chọn {{plan}}",
+        "recommended": "Đề xuất",
+        "billedYearly": "Thanh toán hàng năm",
+        "billedMonthly": "Thanh toán hàng tháng",
+        "savePerUser": "(tiết kiệm {{amount}}€ mỗi người dùng)",
+        "everythingInStarterPlus": "Tất cả trong Cơ bản cộng thêm",
+        "everythingInProfessionalPlus": "Tất cả trong Chuyên nghiệp cộng thêm",
+        "manageSubscription": "Quản lý đăng ký",
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "freeTrial": {
+                "question": "Có dùng thử miễn phí không?",
+                "answer": "Có! Tất cả các gói đều bao gồm 14 ngày dùng thử miễn phí. Không cần thẻ tín dụng."
+            },
+            "changePlan": {
+                "question": "Tôi có thể thay đổi gói sau không?",
+                "answer": "Hoàn toàn có thể. Bạn có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào. Thay đổi có hiệu lực ngay lập tức và chúng tôi sẽ tính toán theo tỷ lệ mọi khoản chênh lệch."
+            },
+            "paymentMethods": {
+                "question": "Bạn chấp nhận những phương thức thanh toán nào?",
+                "answer": "Chúng tôi sử dụng Stripe để thanh toán an toàn và chấp nhận Visa, Mastercard, American Express và ghi nợ trực tiếp SEPA."
+            },
+            "trialEnds": {
+                "question": "Điều gì xảy ra khi thời gian dùng thử kết thúc?",
+                "answer": "Bạn sẽ được thông báo trước khi dùng thử kết thúc. Nếu bạn không thêm phương thức thanh toán, tài khoản của bạn sẽ chuyển sang chế độ chỉ đọc cho đến khi bạn đăng ký."
+            },
+            "annualDiscount": {
+                "question": "Bạn có giảm giá cho thanh toán hàng năm không?",
+                "answer": "Có, chúng tôi giảm 20% khi bạn chọn thanh toán hàng năm. Liên hệ đội ngũ bán hàng để biết thêm chi tiết về giá doanh nghiệp."
+            }
+        },
+        "comparison": {
+            "categories": {
+                "coreFeatures": "Tính năng cốt lõi",
+                "communication": "Giao tiếp",
+                "customization": "Tùy chỉnh",
+                "analytics": "Phân tích",
+                "intelligence": "Trí tuệ"
+            },
+            "features": {
+                "unlimitedRequests": "Yêu cầu không giới hạn",
+                "quoteManagement": "Báo giá & hóa đơn",
+                "clientChat": "Chat với khách hàng",
+                "teamChat": "Chat nhóm",
+                "voipCalls": "Cuộc gọi thoại",
+                "callTranscription": "Phiên âm cuộc gọi",
+                "branding": "Thương hiệu tùy chỉnh",
+                "colorThemes": "Giao diện mẫu",
+                "basicDashboard": "Bảng điều khiển phân tích",
+                "advancedAnalytics": "Phân tích nâng cao & báo cáo",
+                "activityLog": "Nhật ký hoạt động",
+                "pricingIntelligence": "Trí tuệ về giá"
+            }
+        }
+    },
+    "contact": {
+        "title": "Liên hệ đội ngũ bán hàng",
+        "subtitle": "Chúng tôi rất muốn tìm hiểu về những thách thức của đội ngũ bạn và cho bạn thấy Ortelius Quest có thể giúp như thế nào.",
+        "features": {
+            "demo": "Nhận demo tùy chỉnh",
+            "trial": "Thiết lập bản dùng thử Enterprise",
+            "onboarding": "Nhận hỗ trợ onboarding"
+        },
+        "form": {
+            "workEmail": "Email công việc",
+            "workEmailPlaceholder": "ban@congty.com",
+            "fullName": "Họ và tên",
+            "fullNamePlaceholder": "Nguyễn Văn A",
+            "country": "Quốc gia",
+            "selectCountry": "Chọn quốc gia của bạn",
+            "companyWebsite": "Website công ty",
+            "companyWebsitePlaceholder": "https://congty.com",
+            "companySize": "Quy mô công ty",
+            "selectValue": "Chọn một giá trị",
+            "employees": "nhân viên",
+            "message": "Chúng tôi có thể giúp gì?",
+            "messagePlaceholder": "Cho chúng tôi biết về nhu cầu của công ty bạn...",
+            "submit": "Gửi tin nhắn",
+            "submitting": "Đang gửi...",
+            "defaultMessage": "Xin chào, tôi muốn tìm hiểu thêm về sản phẩm của bạn và đặt lịch demo.",
+            "optional": "Tùy chọn",
+            "validation": {
+                "emailRequired": "Email là bắt buộc",
+                "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+                "fullNameRequired": "Họ và tên là bắt buộc",
+                "fullNameMin": "Họ và tên phải có ít nhất 2 ký tự",
+                "countryRequired": "Vui lòng chọn quốc gia",
+                "websiteInvalid": "Vui lòng nhập URL hợp lệ",
+                "messageRequired": "Tin nhắn là bắt buộc"
+            }
+        }
+    },
+    "cta": {
+        "startYour": "Bắt đầu",
+        "freeTrial": "dùng thử miễn phí hôm nay."
+    },
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Mọi điều bạn cần biết về Ortelius Quest.",
+        "questions": {
+            "freeTrial": {
+                "question": "Có dùng thử miễn phí không?",
+                "answer": "Có! Bạn có 14 ngày để dùng thử Ortelius Quest miễn phí."
+            },
+            "getStarted": {
+                "question": "Mất bao lâu để bắt đầu?",
+                "answer": "Tổ chức của bạn có thể được cấu hình đầy đủ và sẵn sàng đón khách hàng trong 5-10 phút."
+            },
+            "customDomain": {
+                "question": "Tôi có thể sử dụng tên miền riêng không?",
+                "answer": "Cổng thông tin thương hiệu của bạn được lưu trữ tại congty.ortelius.app với logo và thương hiệu tùy chỉnh của bạn."
+            },
+            "closeDeals": {
+                "question": "Ortelius Quest giúp tôi chốt nhiều giao dịch hơn như thế nào?",
+                "answer": "Bằng cách tập trung tất cả yêu cầu vận chuyển tại một nơi, bạn không bao giờ bỏ lỡ cơ hội. Phản hồi nhanh gấp 3 lần với công cụ giao tiếp tích hợp và giữ toàn bộ đội ngũ đồng bộ với tính năng cộng tác thời gian thực."
+            },
+            "teamUse": {
+                "question": "Cả đội của tôi có thể sử dụng Ortelius Quest không?",
+                "answer": "Có! Thêm không giới hạn thành viên, phân công yêu cầu cho người cụ thể và cộng tác với ghi chú nội bộ trên mỗi giao dịch."
+            },
+            "security": {
+                "question": "Dữ liệu của tôi có an toàn không?",
+                "answer": "Tất cả tin nhắn chat được mã hóa để giữ cho giao tiếp của bạn an toàn và riêng tư."
+            },
+            "onboarding": {
+                "question": "Bạn có cung cấp hỗ trợ onboarding không?",
+                "answer": "Có! Chúng tôi cung cấp video hướng dẫn trong quá trình thiết lập nền tảng để giúp bạn cấu hình mọi thứ đúng cách."
+            }
+        }
+    },
+    "checkout": {
+        "stepLabel": "Bước {{current}} trên {{total}}",
+        "step1Title": "Đặt tên tổ chức của bạn",
+        "step1Subtitle": "Đây sẽ là tên không gian làm việc và tên miền phụ của bạn",
+        "step2Title": "Thêm phương thức thanh toán",
+        "step2Subtitle": "Hoàn tất thanh toán đăng ký",
+        "step2SubtitleTrial": "Thẻ của bạn sẽ được lưu cho các thanh toán trong tương lai sau khi kết thúc dùng thử",
+        "organizationName": "Tên tổ chức",
+        "organizationNamePlaceholder": "Acme Inc",
+        "continue": "Tiếp tục",
+        "skipStep": "Tôi sẽ mời đội sau",
+        "back": "Quay lại",
+        "startTrial": "Bắt đầu dùng thử",
+        "tryForFree": "Dùng thử miễn phí, không cần thẻ tín dụng.",
+        "subscribe": "Đăng ký",
+        "trialCardInfo": "Thẻ của bạn sẽ được lưu cho các thanh toán trong tương lai sau khi kết thúc dùng thử.",
+        "sessionExpired": "Phiên của bạn đã hết hạn. Vui lòng bắt đầu lại.",
+        "startOver": "Bắt đầu lại",
+        "plan": "gói",
+        "viewAllPlans": "Xem tất cả gói",
+        "month": "tháng",
+        "trialTimeline": {
+            "title": "Cách dùng thử miễn phí hoạt động",
+            "today": "Hôm nay",
+            "todayDesc": "Truy cập đầy đủ tất cả tính năng",
+            "reminderDesc": "Nhận nhắc nhở trước khi kết thúc dùng thử",
+            "endDesc": "Đăng ký của bạn bắt đầu"
+        },
+        "recurringDisclaimer": "Bằng việc bắt đầu dùng thử, bạn đồng ý bị tính phí tự động sau thời gian dùng thử trừ khi bạn hủy trước khi kết thúc.",
+        "upgrade": "Nâng cấp",
+        "emailPlaceholder": "dongNghiep@congty.com",
+        "rolePlaceholder": "Vai trò",
+        "addMore": "Thêm thành viên",
+        "inviteMoreLater": "Bạn có thể mời thêm thành viên từ bảng điều khiển sau khi thiết lập.",
+        "roles": {
+            "member": "Thành viên",
+            "admin": "Quản trị"
+        },
+        "roleDescriptions": {
+            "member": "Quản lý yêu cầu, cuộc trò chuyện và báo giá",
+            "admin": "Toàn quyền truy cập cài đặt tổ chức"
+        },
+        "invitationExpiry": "Lời mời hết hạn sau 7 ngày. Bạn vẫn có thể gửi lại sau.",
+        "validation": {
+            "organizationNameRequired": "Tên tổ chức là bắt buộc",
+            "organizationNameMin": "Tên phải có ít nhất 2 ký tự",
+            "organizationNameMax": "Tên phải có tối đa 32 ký tự",
+            "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+            "emailDuplicate": "Email này đã có trong danh sách",
+            "emailSelfInvite": "Bạn không thể tự mời chính mình",
+            "emailAlreadyHasOrganization": "Người dùng này đã thuộc một tổ chức"
+        },
+        "errors": {
+            "SUBDOMAIN_TAKEN": "Tên tổ chức này đã được sử dụng.",
+            "SUBDOMAIN_RESERVED": "Tên này đã được đặt trước và không thể sử dụng.",
+            "SUBDOMAIN_INVALID_LENGTH": "Tên phải có từ 3 đến 50 ký tự.",
+            "INVALID_FORMAT": "Tên tổ chức này không hợp lệ.",
+            "fixEmailErrors": "Vui lòng sửa lỗi email trước khi tiếp tục."
+        }
+    },
+    "common": {
+        "learnMore": "Tìm hiểu thêm",
+        "getStarted": "Bắt đầu",
+        "other": "Khác",
+        "optional": "Tùy chọn"
+    },
+    "auth": {
+        "footer": {
+            "support": "Hỗ trợ",
+            "terms": "Điều khoản",
+            "privacy": "Quyền riêng tư"
+        },
+        "signIn": {
+            "title": "Chào mừng trở lại",
+            "email": "Email",
+            "password": "Mật khẩu",
+            "submit": "Đăng nhập",
+            "noAccount": "Chưa có tài khoản?",
+            "signUp": "Đăng ký",
+            "error": {
+                "failed": "Đăng nhập thất bại"
+            }
+        },
+        "signUp": {
+            "title": "Tạo tài khoản của bạn",
+            "email": "Email",
+            "firstName": "Tên",
+            "lastName": "Họ",
+            "password": "Mật khẩu",
+            "passwordHint": "Phải có ít nhất 8 ký tự",
+            "continue": "Tiếp tục",
+            "submit": "Tạo tài khoản",
+            "hasAccount": "Đã có tài khoản?",
+            "signIn": "Đăng nhập",
+            "error": {
+                "checkEmail": "Không thể xác minh email. Vui lòng thử lại.",
+                "failed": "Đăng ký thất bại"
+            },
+            "validation": {
+                "emailRequired": "Email là bắt buộc",
+                "emailInvalid": "Vui lòng nhập email hợp lệ",
+                "firstNameRequired": "Tên là bắt buộc",
+                "lastNameRequired": "Họ là bắt buộc",
+                "passwordMin": "Mật khẩu phải có ít nhất 8 ký tự"
+            }
+        }
+    },
+    "meta": {
+        "organizationDescription": "Ortelius Quest giúp các công ty logistics biến yêu cầu vận chuyển thành doanh thu. Tập trung yêu cầu, định tuyến thông minh và phản hồi nhanh hơn từ một cổng thương hiệu duy nhất.",
+        "generic": {
+            "title": "Ortelius Quest",
+            "description": "Trung tâm thông minh để quản lý yêu cầu vận chuyển. Tập trung, định tuyến và phản hồi nhanh hơn."
+        },
+        "home": {
+            "title": "Ortelius Quest — Quản lý yêu cầu vận chuyển cho công ty logistics",
+            "description": "Nắm bắt mọi cơ hội vận chuyển trong một cổng thương hiệu. Phản hồi nhanh hơn, chốt nhiều giao dịch hơn."
+        },
+        "pricing": {
+            "title": "Bảng giá — Ortelius Quest",
+            "description": "Bảng giá đơn giản, minh bạch dành cho công ty logistics mọi quy mô. Bắt đầu miễn phí."
+        },
+        "contact": {
+            "title": "Liên hệ — Ortelius Quest",
+            "description": "Trao đổi với đội ngũ của chúng tôi hoặc đặt lịch demo. Xem cách Ortelius Quest phù hợp với quy trình vận chuyển của bạn."
+        },
+        "legals": {
+            "privacy": {
+                "title": "Chính sách bảo mật — Ortelius Quest",
+                "description": "Cách Ortelius Quest thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn, tuân thủ GDPR, CCPA và LGPD."
+            },
+            "terms": {
+                "title": "Điều khoản dịch vụ — Ortelius Quest",
+                "description": "Các điều khoản chi phối việc bạn sử dụng Ortelius Quest, bao gồm tài khoản, thanh toán và sử dụng hợp lệ."
+            },
+            "cookies": {
+                "title": "Chính sách cookie — Ortelius Quest",
+                "description": "Cách thức và lý do Ortelius Quest sử dụng cookie và các công nghệ tương tự, cùng cách quản lý tùy chọn của bạn."
+            }
+        }
+    }
+}

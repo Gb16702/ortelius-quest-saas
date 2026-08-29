@@ -1,0 +1,1 @@
+ALTER TABLE "request" ALTER COLUMN "req_number" SET NOT NULL;
